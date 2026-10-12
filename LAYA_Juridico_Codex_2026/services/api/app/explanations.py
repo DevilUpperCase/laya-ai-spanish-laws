@@ -22,11 +22,11 @@ def build_reasons(query: str, candidate: Candidate) -> list[Reason]:
 
     reasons = []
 
-    labels={"semantic":"Similitud sem?ntica de la consulta completa (no prueba de aplicabilidad jur?dica)","exact_reference":"Referencia exacta de la consulta", "lexical":"Recuperaci?n textual", "lexical_broad":"Recuperaci?n textual ampliada", "title_similarity":"Similitud del t?tulo", "bulletin_hybrid":"Recuperaci?n de una publicaci?n del bolet?n oficial"}
+    labels={"semantic":"Similitud semántica de la consulta completa (no prueba de aplicabilidad jurídica)","exact_reference":"Referencia exacta de la consulta", "lexical":"Recuperación textual", "lexical_broad":"Recuperación textual ampliada", "title_similarity":"Similitud del título", "bulletin_hybrid":"Recuperación de una publicación del boletín oficial"}
 
     for signal in candidate.retrieval_evidence:
 
-        reasons.append(Reason(kind="retrieval_signal",message=labels.get(signal["engine"],signal["engine"])+" ? posici?n "+str(signal["rank"]),evidence={"engine":signal["engine"],"rank":signal["rank"],"section_version_id":candidate.section_version_id}))
+        reasons.append(Reason(kind="retrieval_signal",message=labels.get(signal["engine"],signal["engine"])+" · posición "+str(signal["rank"]),evidence={"engine":signal["engine"],"rank":signal["rank"],"section_version_id":candidate.section_version_id}))
 
     for match in re.finditer(r"\w+",candidate.passage):
 
