@@ -1,0 +1,65 @@
+{
+  "specification_date": "2026-10-11",
+  "generated_at_utc": "2026-10-12T13:59:48.634842+00:00",
+  "selected_scope": "release",
+  "offline_status": "passed",
+  "checks": [
+    {
+      "name": "Package files, JSON and Python syntax",
+      "status": "passed"
+    },
+    {
+      "name": "R01..R24 task/gate traceability",
+      "status": "passed"
+    },
+    {
+      "name": "Planned API contract invariants (not live routes)",
+      "status": "passed"
+    },
+    {
+      "name": "Example and verifier unittest suite",
+      "status": "passed",
+      "command": "python -m unittest discover -s tests -v",
+      "output": "test_calls_real_batch_shape_without_weights (test_adapter.AdapterTests.test_calls_real_batch_shape_without_weights) ... ok\ntest_empty (test_adapter.AdapterTests.test_empty) ... ok\ntest_rrf_dedupe (test_adapter.AdapterTests.test_rrf_dedupe) ... ok\ntest_rrf_union_and_sort (test_adapter.AdapterTests.test_rrf_union_and_sort) ... ok\ntest_no_invented_match (test_explanations.ExplanationTests.test_no_invented_match) ... ok\ntest_only_grounded_reasons (test_explanations.ExplanationTests.test_only_grounded_reasons) ... ok\ntest_artifact_cannot_escape_evidence_directory (test_verification.EvidenceTests.test_artifact_cannot_escape_evidence_directory) ... ok\ntest_bad_review_dataset_types_fail_closed (test_verification.EvidenceTests.test_bad_review_dataset_types_fail_closed) ... ok\ntest_duplicate_and_nonfinite_json_are_rejected (test_verification.EvidenceTests.test_duplicate_and_nonfinite_json_are_rejected) ... ok\ntest_empty_or_malformed_inventory_cannot_verify_coverage (test_verification.EvidenceTests.test_empty_or_malformed_inventory_cannot_verify_coverage) ... ok\ntest_failed_and_unknown_extra_gates_block (test_verification.EvidenceTests.test_failed_and_unknown_extra_gates_block) ... ok\ntest_marking_pass_without_evidence_cannot_pass (test_verification.EvidenceTests.test_marking_pass_without_evidence_cannot_pass) ... ok\ntest_missing_gate_and_missing_reviewer_block (test_verification.EvidenceTests.test_missing_gate_and_missing_reviewer_block) ... ok\ntest_missing_municipality_mapping_blocks_even_with_verified_flag (test_verification.EvidenceTests.test_missing_municipality_mapping_blocks_even_with_verified_flag) ... ok\ntest_retention_and_review_minimums_cannot_be_boolean_shortcuts (test_verification.EvidenceTests.test_retention_and_review_minimums_cannot_be_boolean_shortcuts) ... ok\ntest_reviewed_hash_is_only_an_integrity_pass (test_verification.EvidenceTests.test_reviewed_hash_is_only_an_integrity_pass) ... ok\ntest_source_verified_flag_cannot_replace_terms_or_fixtures (test_verification.EvidenceTests.test_source_verified_flag_cannot_replace_terms_or_fixtures) ... ok\ntest_tampered_artifact_blocks (test_verification.EvidenceTests.test_tampered_artifact_blocks) ... ok\ntest_unexecuted_gate_blocks_release (test_verification.EvidenceTests.test_unexecuted_gate_blocks_release) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.115s\n\nOK\n"
+    }
+  ],
+  "release": {
+    "status": "blocked",
+    "blockers": [
+      "G01: not passed (unexecuted/failed/missing)",
+      "G02: not passed (unexecuted/failed/missing)",
+      "G03: not passed (unexecuted/failed/missing)",
+      "G04: not passed (unexecuted/failed/missing)",
+      "G05: not passed (unexecuted/failed/missing)",
+      "G06: not passed (unexecuted/failed/missing)",
+      "G07: not passed (unexecuted/failed/missing)",
+      "G08: not passed (unexecuted/failed/missing)",
+      "G09: not passed (unexecuted/failed/missing)",
+      "G10: not passed (unexecuted/failed/missing)",
+      "G11: not passed (unexecuted/failed/missing)",
+      "G12: not passed (unexecuted/failed/missing)",
+      "G13: not passed (unexecuted/failed/missing)",
+      "G14: not passed (unexecuted/failed/missing)",
+      "G15: not passed (unexecuted/failed/missing)",
+      "G16: not passed (unexecuted/failed/missing)",
+      "G17: not passed (unexecuted/failed/missing)",
+      "G18: not passed (unexecuted/failed/missing)",
+      "G19: not passed (unexecuted/failed/missing)",
+      "G20: not passed (unexecuted/failed/missing)",
+      "G21: not passed (unexecuted/failed/missing)",
+      "G22: not passed (unexecuted/failed/missing)"
+    ],
+    "limitation": "Integrity and attestations only; not proof of legal completeness, reviewer authenticity or deployment state."
+  },
+  "not_executed_by_this_command": [
+    "Running FastAPI/LangChain/LangGraph product",
+    "Live database auth RLS and storage",
+    "Real local LAYA/BGE-M3 inference",
+    "Official source ingestion and nationwide historical coverage",
+    "Professional multilingual review and load pilot",
+    "Document OCR/UI workflows",
+    "Deletion backups and restore rehearsal",
+    "Dependency/model/source license approval",
+    "Application deployment"
+  ]
+}

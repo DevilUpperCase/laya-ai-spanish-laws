@@ -1,0 +1,547 @@
+{
+  "generated_at": "2026-10-12T13:14:21.799986+00:00",
+  "status": "blocked",
+  "required_jurisdictions": 8213,
+  "levels": {
+    "state": 1,
+    "autonomous_community": 17,
+    "autonomous_city": 2,
+    "island": 11,
+    "municipality": 8132,
+    "province": 50
+  },
+  "approved_jurisdictions": 0,
+  "publishers": [
+    {
+      "id": "BOE_CONSOLIDATED",
+      "name": "BOE · Legislación consolidada",
+      "url": "https://www.boe.es/datosabiertos/api/api.php",
+      "adapter": "boe",
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_0481c6fb5922ef6d",
+      "name": "Lleida",
+      "url": "https://ebop.diputaciolleida.cat/bop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_0a1fe1c02444db2c",
+      "name": "Málaga",
+      "url": "http://www.bopmalaga.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_0f78a65bd20badc8",
+      "name": "Sevilla",
+      "url": "http://www.dipusevilla.es/bop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_10f099ea15c23049",
+      "name": "León",
+      "url": "https://bop.dipuleon.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_1425956905c358e5",
+      "name": "Valladolid",
+      "url": "https://bop.sede.diputaciondevalladolid.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_1517615603272b75",
+      "name": "Huelva",
+      "url": "https://sede.diphuelva.es/servicios/bop",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_151dae35ffe09b7c",
+      "name": "Boletín Oficial de Aragón (BOA) y base de datos de legislación",
+      "url": "https://www.boa.aragon.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_165a12b8164f5f61",
+      "name": "Boletín Oficial del País Vasco (BOPV)",
+      "url": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/Ultimo.shtml",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_18f1cbe3fecb9cdb",
+      "name": "Pontevedra",
+      "url": "https://boppo.depo.gal/es",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_1acb2b11b626b1d6",
+      "name": "Boletín Oficial de Cantabria (BOC) y base de datos de legislación",
+      "url": "https://boc.cantabria.es/boces/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_1f48f912609e14eb",
+      "name": "Barcelona",
+      "url": "http://bop.diba.cat",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_24cd0f4732d16342",
+      "name": "Bizkaia",
+      "url": "https://www.bizkaia.eus/es/bob",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_283e56fe47622361",
+      "name": "Alicante",
+      "url": "http://sede.diputacionalicante.es/consultas-bop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_2c1255c18cb567c9",
+      "name": "Soria",
+      "url": "http://bop.dipsoria.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_3214384060605237",
+      "name": "Diario Oficial de Castilla-La Mancha (DOCM) y base de datos de legislación",
+      "url": "http://docm.castillalamancha.es/portaldocm/sumario.do",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_322a79c5b6ab0546",
+      "name": "Base de datos de legislación",
+      "url": "http://www.lexnavarra.navarra.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_333b88d2b8582a0a",
+      "name": "Base de datos de legislación",
+      "url": "http://www.larioja.org/normativa-autonomica/es",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_3770271f53626db8",
+      "name": "Guadalajara",
+      "url": "http://boletin.dguadalajara.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_3d869bb174398f44",
+      "name": "Tarragona",
+      "url": "http://www.diputaciodetarragona.cat/ebop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_40f50f115789e064",
+      "name": "Boletín Oficial de Castilla y León (BOCYL)",
+      "url": "https://bocyl.jcyl.es/portada.do",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_45e91ebb37bb073d",
+      "name": "Ávila",
+      "url": "https://www.diputacionavila.es/boletin-oficial/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_46d098e0075bc6fe",
+      "name": "Cuenca",
+      "url": "https://www.dipucuenca.es/boletin-oficial-de-la-provincia",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_4d9364bbf1e102a5",
+      "name": "Cádiz",
+      "url": "http://www.bopcadiz.org",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_507ab94c440920d6",
+      "name": "Teruel",
+      "url": "http://www.dpteruel.es/boletines.htm",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_554d1789dec8e99e",
+      "name": "Boletín Oficial de la Ciudad Autónoma de Ceuta (BOCCE)",
+      "url": "http://www.ceuta.es/ceuta/documentos/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_5b981a790f1935f2",
+      "name": "Castellón",
+      "url": "http://bop.dipcas.es/PortalBOP/boletin.do",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_5dca4cc93926aefb",
+      "name": "Boletín Oficial de las Illes Balears (BOIB)",
+      "url": "http://www.caib.es/eboibfront/?lang=es",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_5f4d1777470fd182",
+      "name": "Granada",
+      "url": "https://www.dipgra.es/bop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_627a7f8a1103411b",
+      "name": "Córdoba",
+      "url": "https://bop.dipucordoba.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_6bed9e4ed60cc608",
+      "name": "Huesca",
+      "url": "http://bop.dphuesca.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_6d885344adf7f544",
+      "name": "Boletín Oficial de Canarias (BOC)",
+      "url": "http://www.gobiernodecanarias.org/boc/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_6fa198f4829becdb",
+      "name": "Segovia",
+      "url": "http://www.dipsegovia.es/bop",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_714b4cb95536875c",
+      "name": "Gipuzkoa",
+      "url": "https://egoitza.gipuzkoa.eus/es/bog",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_735a4f9fbef1801f",
+      "name": "Albacete",
+      "url": "https://bop.dipualba.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7580281b24efbf79",
+      "name": "Badajoz",
+      "url": "http://www.dip-badajoz.es/bop/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7aec100b2acd0675",
+      "name": "Boletín Oficial de la Región de Murcia (BORM)",
+      "url": "https://www.borm.es/#/home/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7af6f6b9698caf29",
+      "name": "Base de datos de legislación",
+      "url": "http://portaljuridic.gencat.cat/ca/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7c5bce5dd5f51e02",
+      "name": "Boletín Oficial de la Ciudad Autónoma de Melilla (BOME)",
+      "url": "https://bomemelilla.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7ceadd884b824fa2",
+      "name": "Las Palmas",
+      "url": "http://www.boplaspalmas.com",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_7ed5b128e8985f38",
+      "name": "Burgos",
+      "url": "http://bopbur.diputaciondeburgos.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_8088dc4f146fce5f",
+      "name": "Base de datos de legislación",
+      "url": "https://gestiona.comunidad.madrid/wleg_pub/secure/busquedaAvanzada/buscador.jsf",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_81dca214cabdb95c",
+      "name": "Ourense",
+      "url": "https://bop.depourense.es/portal/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_83c9df7706715b29",
+      "name": "Zaragoza",
+      "url": "http://bop.dpz.es/BOPZ/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_8d509b8d2f7b36ea",
+      "name": "Base de datos de legislación",
+      "url": "http://www.legegunea.euskadi.eus/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_8f283e8b1d223067",
+      "name": "Diario Oficial de Galicia (DOG)",
+      "url": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?lang=es",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_92168a185f829b97",
+      "name": "A Coruña",
+      "url": "https://bop.dacoruna.gal/bopportal/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_9474ffa06c5ba807",
+      "name": "Ciudad Real",
+      "url": "https://bop.dipucr.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_988e526aa8cc8da4",
+      "name": "Base de datos de legislación",
+      "url": "https://www.caib.es/sites/institutestudisautonomics/es/repositorio_normativo_autonomico_de_1983-2016-60823/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_9916beb683ef0e7f",
+      "name": "Toledo",
+      "url": "http://bop.diputoledo.es/webEbop/inicio.jsp",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_a07db92e08ecf6d0",
+      "name": "Boletín Oficial de la Junta de Andalucía (BOJA) y base de datos de legislación",
+      "url": "https://www.juntadeandalucia.es/eboja",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_aacb8192f86a23cf",
+      "name": "Boletín Oficial del Principado de Asturias (BOPA) y base de datos de legislación",
+      "url": "https://sede.asturias.es/servicios-del-bopa",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_ac866939833e1fd2",
+      "name": "Boletín Oficial de la Comunidad de Madrid (BOCM)",
+      "url": "http://www.bocm.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_b09bb9195a773ce1",
+      "name": "Almería",
+      "url": "http://www.dipalme.org/Servicios/cmsdipro/index.nsf/bop_view.xsp?p=dipalme",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_b543b17103728ebd",
+      "name": "Araba/Álava",
+      "url": "http://www.araba.eus/botha/Inicio/SGBO5001.aspx",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_b967707769da4a40",
+      "name": "Santa Cruz de Tenerife",
+      "url": "http://www.bopsantacruzdetenerife.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_be84628af2cdace7",
+      "name": "Diario Oficial de Extremadura (DOE) y base de datos de legislación",
+      "url": "http://doe.juntaex.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_bef2b03e41bdcaed",
+      "name": "Salamanca",
+      "url": "https://sede.diputaciondesalamanca.gob.es/BOP/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_c22a92a855874dff",
+      "name": "Boletín Oficial de la Rioja (BOR)",
+      "url": "http://www.larioja.org/bor/es",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_c714b21d4a96ccf2",
+      "name": "Cáceres",
+      "url": "https://bop.dip-caceres.es/bop/index.html",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_c8532c24c1b2948f",
+      "name": "Lugo",
+      "url": "http://www.deputacionlugo.gal/boletin-oficial-da-provincia-de-lugo",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_c9996f123366f6ec",
+      "name": "Jaén",
+      "url": "http://bop.dipujaen.es/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_cbe20f289ecd0e7a",
+      "name": "Base de datos de legislación",
+      "url": "http://www.jcyl.es/web/jcyl/AdministracionPublica/es/Plantilla66y33/1246993004605/_/_/_",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_cd24ce6294409020",
+      "name": "Boletín Oficial de Navarra (BON)",
+      "url": "http://www.navarra.es/home_es/Actualidad/BON/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_d0cdf4c5725f2dd3",
+      "name": "Valencia",
+      "url": "https://bop.dival.es/bop/drvisapi.dll",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_d0e10ea37b79134c",
+      "name": "Base de datos de legislación",
+      "url": "https://transparencia--carm--es.insuit.net/web/transparencia/legislacion-regional",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_da8b109fc0e685cb",
+      "name": "Girona",
+      "url": "http://www.ddgi.cat/",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_dfa23524002d2868",
+      "name": "Diari Oficial de la Generalitat Valenciana (DOGV) y base de datos de legislación",
+      "url": "https://dogv.gva.es/es/inici",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_e0f4d1e2c6fbecdd",
+      "name": "Base de datos de legislación",
+      "url": "http://www.lex.gal/portada",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_ef1b125550bee54e",
+      "name": "Palencia",
+      "url": "https://www.diputaciondepalencia.es/servicios/boletin-oficial-provincia",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_efe27ee529061e06",
+      "name": "Diari Oficial de la Generalitat de Catalunya (DOGC)",
+      "url": "https://dogc.gencat.cat/es/index.html?newLang=es_ES&language=es_ES",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_f1260b826423e8cf",
+      "name": "Base de datos de legislación",
+      "url": "https://www3.gobiernodecanarias.org/libroazul/index.jsp",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DIRECTORY_f9817956af74f366",
+      "name": "Zamora",
+      "url": "https://www.diputaciondezamora.es/opencms/servicios/BOP/bop/index.html",
+      "adapter": null,
+      "audit_status": "pending"
+    },
+    {
+      "id": "DOGC_NORMATIVE",
+      "name": "DOGC / Portal Jurídic · normative catalogue",
+      "url": "https://dogc.gencat.cat/es/serveis/Dades_obertes/",
+      "adapter": "dogc",
+      "audit_status": "pending"
+    },
+    {
+      "id": "DOG_GENERAL",
+      "name": "DOG · disposiciones generales RSS",
+      "url": "https://www.xunta.gal/diario-oficial-galicia/suscricionsRSS.do?lang=es",
+      "adapter": "dog",
+      "audit_status": "pending"
+    }
+  ],
+  "queue": "sources\\nationwide-review-queue.csv",
+  "limitations": [
+    "Observed instrument counts do not prove jurisdiction coverage.",
+    "All current/history source audits, reuse terms and institutional inventory review remain mandatory.",
+    "Foral institutional supplement and island workbook date mismatch remain unresolved."
+  ]
+}

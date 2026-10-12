@@ -1,0 +1,1041 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='es' lang='es'>
+	<head>
+		<title>
+			Diputación Foral de Alava - Boletín Oficial del Territorio Histórico de Álava
+		</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR" />
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE" />
+		<meta content="JavaScript" name="vs_defaultClientScript" />
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" />
+		<link href="../css/comun.css" rel="stylesheet" type="text/css" />
+		<link href="../css/inicio.css" rel="stylesheet" type="text/css" />
+		<link href="../css/tres_columnas.css" rel="stylesheet" type="text/css" />
+		<link href="../css/imprimir.css" rel="stylesheet" type="text/css" media="print" />
+		<style>
+            #grdAnuncios tbody tr td {
+                width:50%;
+            }
+            
+            table#grdAnuncios 
+            {
+                margin-left:15px;
+            }
+            #grdAnuncios_2 tbody tr td {
+                width:50%;
+            }
+            
+            table#grdAnuncios_2 
+            {
+                margin-left:15px;
+            }
+        </style>			
+	</head>
+	<script type="text/javascript">
+	    
+//	    function llamarServidor() {
+
+//	        __doPostBack("MiFuncion", "");
+
+//	    }
+	    
+	    function setIdioma() {
+	        var tableReg = document.getElementById('tabla_cabeceras_tablas');			
+			var cellsOfRow="";
+			var indiceIdioma = 0; //('ES' == "ES") ? 0 : 1;
+	        // Recorremos todas las filas y ocultamos la columna que no corresponde con el idioma.
+			for (var i = 0; i < tableReg.rows.length; i++)
+			{
+				cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+				cellsOfRow[indiceIdioma].style.display = "none";
+            }
+
+            
+            //Ahora la segunda tabla, la de los boletines
+            tableReg = document.getElementById('grdAnuncios');
+            if (tableReg != null) {
+                for (var i = 0; i < tableReg.rows.length; i++) {
+                    cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+                    cellsOfRow[indiceIdioma].style.display = "none";
+                }
+            }
+
+            var tagBoletines = document.getElementById('boletines');
+            if (tagBoletines != null) {
+                tagBoletines.style.visibility = "visible";
+            }
+
+            //Boletin2
+            if ('N' != "N") {
+                var tableReg_2 = document.getElementById('tabla_cabeceras_tablas_2');
+                var cellsOfRow_2 = "";
+                var indiceIdioma_2 = 0; //('ES' == "ES") ? 0 : 1;
+                // Recorremos todas las filas y ocultamos la columna que no corresponde con el idioma.
+                for (var i = 0; i < tableReg_2.rows.length; i++) {
+                    cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                    cellsOfRow_2[indiceIdioma_2].style.display = "none";
+                }
+
+
+                //Ahora la segunda tabla, la de los boletines
+                tableReg_2 = document.getElementById('grdAnuncios_2');
+                if (tableReg_2 != null) {
+                    for (var i = 0; i < tableReg_2.rows.length; i++) {
+                        cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                        cellsOfRow_2[indiceIdioma_2].style.display = "none";
+                    }
+                }
+
+                var tagBoletines_2 = document.getElementById('boletines_2');
+                if (tagBoletines_2 != null) {
+                    tagBoletines_2.style.visibility = "visible";
+                }
+                var tagAnuncios_2 = document.getElementById('anuncios_2');
+                if (tagAnuncios_2 != null) {
+                    tagAnuncios_2.style.visibility = "visible";
+                }
+            }
+            else {
+                var tagBoletines_2 = document.getElementById('boletines_2');
+                if (tagBoletines_2 != null) {
+                    tagBoletines_2.style.visibility = "hidden";
+                }
+                var tagAnuncios_2 = document.getElementById('anuncios_2');
+                if (tagAnuncios_2 != null) {
+                    tagAnuncios_2.style.visibility = "hidden";
+                }
+            }    
+        }
+
+        function setIdiomaBilingue() {
+            var tableReg = document.getElementById('tabla_cabeceras_tablas');
+            var cellsOfRow = "";
+            var indiceIdioma = ('ES' == "ES") ? 0 : 1;
+            // Recorremos todas las filas y ocultamos la columna que no corresponde con el idioma.
+            for (var i = 0; i < tableReg.rows.length; i++) {
+                cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+                cellsOfRow[indiceIdioma].style.display = "table-cell";
+                cellsOfRow[1 - indiceIdioma].style.display = "table-cell";
+            }
+
+            //Ahora la segunda tabla, la de los boletines
+            tableReg = document.getElementById('grdAnuncios');
+            if (tableReg != null) {
+                for (var i = 0; i < tableReg.rows.length; i++) {
+                    cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+                    cellsOfRow[indiceIdioma].style.display = "table-cell";
+                    cellsOfRow[indiceIdioma].style.verticalAlign = "baseline";
+                    cellsOfRow[1 - indiceIdioma].style.display = "table-cell";
+                    cellsOfRow[1 - indiceIdioma].style.verticalAlign = "baseline";
+                }
+            }
+            // Hay que ocultar la celda de bilinguismo.
+            var bilingue = document.getElementById('columnaBilin');
+            bilingue.style.display = "none";
+            bilingue = document.getElementById('columnaBilin2');
+            bilingue.style.display = "none";
+            
+            //Si venimos de idioma euskera, invertir la columna, puesto que la de castellano estará primero y debe estar la de euskera siempre.
+            if (indiceIdioma == 1) {
+                tableReg = document.getElementById('tabla_cabeceras_tablas');
+                for (var i = 0; i < tableReg.rows.length - 1; i++) {
+                    cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+                    var textAux = cellsOfRow[0].innerHTML;
+                    cellsOfRow[0].innerHTML = cellsOfRow[1].innerHTML;
+                    cellsOfRow[1].innerHTML = textAux;
+                }
+                //Fila de la celda de sumario, bilingue, imprimir
+
+                tableReg = document.getElementById('tabla_cabeceras_tablas');
+
+                var celda1 = document.getElementById('celdaBilingue');
+                var celda2 = document.getElementById('celdaBilingue2');
+                textAux = celda2.innerHTML;
+                celda2.innerHTML = celda1.innerHTML;
+                celda1.innerHTML = textAux;
+
+                tableReg = document.getElementById('grdAnuncios');
+                if (tableReg != null) {
+                    for (var i = 0; i < tableReg.rows.length; i++) {
+                        cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+                        var textAux = cellsOfRow[0].innerHTML;
+                        cellsOfRow[0].innerHTML = cellsOfRow[1].innerHTML;
+                        cellsOfRow[1].innerHTML = textAux;
+                    }
+                }
+           }
+
+           var col1 = document.getElementById('menubilingueCol1');
+           col1.style.width = "90%";
+           col1 = document.getElementById('menubilingue2Col1');
+           col1.style.width = "90%";
+           
+            //Boletin2
+           if ('N' != "N") {
+               var tableReg_2 = document.getElementById('tabla_cabeceras_tablas_2');
+               var cellsOfRow_2 = "";
+               var indiceIdioma_2 = ('ES' == "ES") ? 0 : 1;
+               // Recorremos todas las filas y ocultamos la columna que no corresponde con el idioma.
+               for (var i = 0; i < tableReg_2.rows.length; i++) {
+                   cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                   cellsOfRow_2[indiceIdioma_2].style.display = "table-cell";
+                   cellsOfRow_2[1 - indiceIdioma_2].style.display = "table-cell";
+               }
+
+               //Ahora la segunda tabla, la de los boletines
+               tableReg_2 = document.getElementById('grdAnuncios_2');
+               if (tableReg_2 != null) {
+                   for (var i = 0; i < tableReg_2.rows.length; i++) {
+                       cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                       cellsOfRow_2[indiceIdioma_2].style.display = "table-cell";
+                       cellsOfRow_2[indiceIdioma_2].style.verticalAlign = "baseline";
+                       cellsOfRow_2[1 - indiceIdioma_2].style.display = "table-cell";
+                       cellsOfRow_2[1 - indiceIdioma_2].style.verticalAlign = "baseline";
+                   }
+               }
+               // Hay que ocultar la celda de bilinguismo.
+               var bilingue_2 = document.getElementById('columnaBilin_2');
+               bilingue_2.style.display = "none";
+               bilingue_2 = document.getElementById('columnaBilin2_2');
+               bilingue_2.style.display = "none";
+
+               //Si venimos de idioma euskera, invertir la columna, puesto que la de castellano estará primero y debe estar la de euskera siempre.
+               if (indiceIdioma_2 == 1) {
+                   tableReg_2 = document.getElementById('tabla_cabeceras_tablas_2');
+                   for (var i = 0; i < tableReg_2.rows.length - 1; i++) {
+                       cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                       var textAux_2 = cellsOfRow_2[0].innerHTML;
+                       cellsOfRow_2[0].innerHTML = cellsOfRow_2[1].innerHTML;
+                       cellsOfRow_2[1].innerHTML = textAux_2;
+                   }
+                   //Fila de la celda de sumario, bilingue, imprimir
+
+                   tableReg_2 = document.getElementById('tabla_cabeceras_tablas_2');
+
+                   var celda1_2 = document.getElementById('celdaBilingue_2');
+                   var celda2_2 = document.getElementById('celdaBilingue2_2');
+                   textAux_2 = celda2_2.innerHTML;
+                   celda2_2.innerHTML = celda1_2.innerHTML;
+                   celda1_2.innerHTML = textAux_2;
+
+                   tableReg_2 = document.getElementById('grdAnuncios_2');
+                   if (tableReg_2 != null) {
+                       for (var i = 0; i < tableReg_2.rows.length; i++) {
+                           cellsOfRow_2 = tableReg_2.rows[i].getElementsByTagName('td');
+                           var textAux_2 = cellsOfRow_2[0].innerHTML;
+                           cellsOfRow_2[0].innerHTML = cellsOfRow_2[1].innerHTML;
+                           cellsOfRow_2[1].innerHTML = textAux_2;
+                       }
+                   }
+               }
+
+               var col1_2 = document.getElementById('menubilingueCol1_2');
+               col1_2.style.width = "90%";
+               col1_2 = document.getElementById('menubilingue2Col1_2');
+               col1_2.style.width = "90%";
+           }
+           else {
+               var tagBoletines_2 = document.getElementById('boletines_2');
+               if (tagBoletines_2 != null) {
+                   tagBoletines_2.style.visibility = "hidden";
+               }
+               var tagAnuncios_2 = document.getElementById('anuncios_2');
+               if (tagAnuncios_2 != null) {
+                   tagAnuncios_2.style.visibility = "hidden";
+               }
+           }
+        }										
+    </script>
+	<body onload="javascrit:setIdioma()">
+
+		<form name="Form1" method="post" action="SGBO5001.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjg5NzM5MTI5DxYcHghGZWNCb3RoYQYAAEnC8yffCB4JUGFnQWN0dWFsAgEeDVRvdGFsQW51bmNpb3MCAx4ITnVtVG90YWwCAx4KVENPRFNFTjJfMmYeDERvc0JvbGV0aW5lcwUBTh4NTnVtUmVzdWx0YWRvcwKsAh4MVG90YWxTZWNjaW9uZh4ITnVtQm90aGECdR4KUGFnTGxhbWFkYQUCMDEeCUFuaW9Cb3RoYQHqBx4IVENPRFNFTjFmHghUQ09EU0VOMmYeClRDT0RTRU4xXzJmFgJmD2QWZAIBD2QWAgIBD2QWEmYPDxYCHgtOYXZpZ2F0ZVVybAUXLi4vSW5pY2lvL1NHQk81MDAxLmFzcHhkFgRmDxYCHgRUZXh0BQVCT1RIQWQCAQ8WAh8PBTRCb2xldMOtbiBPZmljaWFsIGRlbCBUZXJyaXRvcmlvIEhpc3TDs3JpY28gZGUgw4FsYXZhZAIBDw8WBB8OBRcuLi9JbmljaW8vU0dCTzUwMDEuYXNweB8PBQRIb21lZGQCBg8WAh8PBRxsdW5lcywgMTIgZGUgb2N0dWJyZSBkZSAyMDI2ZAIHDw8WAh4HVmlzaWJsZWhkZAIJDw8WAh8PBQ5RdWnDqW5lcyBzb21vc2RkAgoPDxYCHw8FDVN1c2NyaXBjaW9uZXNkZAILDw8WAh8PBQhNYXBhIHdlYmRkAgwPDxYCHw8FEkLDunNxdWVkYSBBdmFuemFkYWRkAg0PDxYEHw4FN2h0dHBzOi8vZWdvaXR6YS5hcmFiYS5ldXMvaXphcGlkZXR1L2F0LzAxL2VzLzAxMzU1MDA0MDEfDwUQWm9uYSBBbnVuY2lhbnRlc2RkAgMPDxYCHw8FCENvbnN1bHRhZGQCBQ8PFgQeB2ludEFuaW9mHgZpbnRNZXMC/////w9kFgwCAQ8PFgIfDwUEQcOxb2RkAgMPEGQQFR0EMjAyNgQyMDI1BDIwMjQEMjAyMwQyMDIyBDIwMjEEMjAyMAQyMDE5BDIwMTgEMjAxNwQyMDE2BDIwMTUEMjAxNAQyMDEzBDIwMTIEMjAxMQQyMDEwBDIwMDkEMjAwOAQyMDA3BDIwMDYEMjAwNQQyMDA0BDIwMDMEMjAwMgQyMDAxBDIwMDAEMTk5OQQxOTk4FR0EMjAyNgQyMDI1BDIwMjQEMjAyMwQyMDIyBDIwMjEEMjAyMAQyMDE5BDIwMTgEMjAxNwQyMDE2BDIwMTUEMjAxNAQyMDEzBDIwMTIEMjAxMQQyMDEwBDIwMDkEMjAwOAQyMDA3BDIwMDYEMjAwNQQyMDA0BDIwMDMEMjAwMgQyMDAxBDIwMDAEMTk5OQQxOTk4FCsDHWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCBQ8PFgIfDwUDTWVzZGQCBw8QZBAVDAVlbmVybwdmZWJyZXJvBW1hcnpvBWFicmlsBG1heW8FanVuaW8FanVsaW8GYWdvc3RvCnNlcHRpZW1icmUHb2N0dWJyZQlub3ZpZW1icmUJZGljaWVtYnJlFQwFZW5lcm8HZmVicmVybwVtYXJ6bwVhYnJpbARtYXlvBWp1bmlvBWp1bGlvBmFnb3N0bwpzZXB0aWVtYnJlB29jdHVicmUJbm92aWVtYnJlCWRpY2llbWJyZRQrAwxnZ2dnZ2dnZ2dnZ2dkZAIJDw8WAh4NQWx0ZXJuYXRlVGV4dAUISXIgYSBNZXNkZAILDxYCHw8FuBM8ZGl2IGlkPSdjYWxlbmRhcmlvX2NvbXBsZXRvJz4NCjxkaXYgaWQ9J3RpdF9tZXMnPg0KPHNwYW4gY2xhc3M9J2NhbF9mbGVjaGFfaXpxJz48ZGl2IGNsYXNzPSdmbGVjaGFfdGl0X21lcyc+PGEgY2xhc3M9J2ZsZWNoYXNfYWdlbmRhJyBocmVmPScuLi9JbmljaW8vU0dCTzUwMDEuYXNweD9BZ2VfQ29kaWdvPTIwMjYvMDkvMTInPg0KPGltZyBzcmM9Ii4uL2ltYWdlcy9mbGVjaGFfbWVzYW50ZXJpb3IuZ2lmIiAgIGFsdD0nc2VwdGllbWJyZScgdGl0bGU9J3NlcHRpZW1icmUnIC8+PC9hPg0KPC9kaXY+PC9zcGFuPg0KPHNwYW4gY2xhc3M9J2NhbF9tZXMnPjxkaXYgY2xhc3M9J21lc19hY3Rpdm8nPm9jdHVicmUgMjAyNjwvZGl2Pjwvc3Bhbj4NCjxzcGFuIGNsYXNzPSdjYWxfZmxlY2hhX2Rlcic+PGRpdiBjbGFzcz0nZmxlY2hhX3RpdF9tZXMnPjxhIGNsYXNzPSdmbGVjaGFzX2FnZW5kYScgaHJlZj0nLi4vSW5pY2lvL1NHQk81MDAxLmFzcHg/QWdlX0NvZGlnbz0yMDI2LzExLzEyJz4NCjxpbWcgc3JjPSIuLi9pbWFnZXMvZmxlY2hhX21lc3NpZ3VpZW50ZS5naWYiICAgYWx0PSdub3ZpZW1icmUnIHRpdGxlPSdub3ZpZW1icmUnIC8+PC9hPg0KPC9kaXY+PC9zcGFuPg0KPGRpdiBjbGFzcz0nc2VwYXJhZG9yJz4mbmJzcDs8L2Rpdj4NCjwvZGl2PiA8IS0tIHRpdF9tZXMgLS0+DQo8ZGl2ID48dGFibGUgc3VtbWFyeT0nJyA+PHRoZWFkPg0KPHRyIGNsYXNzPSdkaWFfc2VtYW5hJz48dGggc2NvcGU9J2NvbCc+bHU8L3RoPjx0aCBzY29wZT0nY29sdW1uJz5tYTwvdGg+PHRoIHNjb3BlPSdjb2x1bW4nPm1pPC90aD48dGggc2NvcGU9J2NvbHVtbic+anU8L3RoPjx0aCBzY29wZT0nY29sdW1uJz52aTwvdGg+PHRoIHNjb3BlPSdjb2x1bW4nPnPDoTwvdGg+PHRoIHNjb3BlPSdjb2x1bW4nPmRvPC90aD48L3RyPjwvdGhlYWQ+DQo8dGJvZHk+DQo8dHI+DQo8dGQgY2xhc3M9J2RpYV9vdHJvX21lcyc+Mjg8L3RkPg0KPHRkIGNsYXNzPSdkaWFfb3Ryb19tZXMnPjI5PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX290cm9fbWVzJz4zMDwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjE8L3RkPg0KPHRkIGNsYXNzPSdkaWFfY29uJz48YSB0aXRsZT0nQm9sZXTDrW4gTsK6MTEzJyBocmVmPScuLi9JbmljaW8vU0dCTzUwMDEuYXNweD9GZWNoYUJvdGhhPTAyLzEwLzIwMjYnPjI8L2E+PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MzwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjQ8L3RkPg0KPC90cj4NCg0KPHRyPg0KPHRkIGNsYXNzPSdkaWFfY29uJz48YSB0aXRsZT0nQm9sZXTDrW4gTsK6MTE0JyBocmVmPScuLi9JbmljaW8vU0dCTzUwMDEuYXNweD9GZWNoYUJvdGhhPTA1LzEwLzIwMjYnPjU8L2E+PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+NjwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9jb24nPjxhIHRpdGxlPSdCb2xldMOtbiBOwroxMTUnIGhyZWY9Jy4uL0luaWNpby9TR0JPNTAwMS5hc3B4P0ZlY2hhQm90aGE9MDcvMTAvMjAyNic+NzwvYT48L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz44PC90ZD4NCjx0ZCBpZD0ndWx0aW1vX25vX2hveSc+PGEgdGl0bGU9J0JvbGV0w61uIE7CujExNicgaHJlZj0nLi4vSW5pY2lvL1NHQk81MDAxLmFzcHg/RmVjaGFCb3RoYT0wOS8xMC8yMDI2Jz45PC9hPjwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjEwPC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MTE8L3RkPg0KPC90cj4NCg0KPHRyPg0KPHRkIGlkPSdob3lfY29uJz48YSBocmVmPScuLi9JbmljaW8vU0dCTzUwMDEuYXNweD9GZWNoYUJvdGhhPTEyLzEwLzIwMjYnPjEyPC9hPjwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjEzPC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MTQ8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4xNTwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjE2PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MTc8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4xODwvdGQ+DQo8L3RyPg0KDQo8dHI+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjE5PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MjA8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4yMTwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjIyPC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MjM8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4yNDwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjI1PC90ZD4NCjwvdHI+DQoNCjx0cj4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+MjY8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4yNzwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjI4PC90ZD4NCjx0ZCBjbGFzcz0nZGlhX3Npbic+Mjk8L3RkPg0KPHRkIGNsYXNzPSdkaWFfc2luJz4zMDwvdGQ+DQo8dGQgY2xhc3M9J2RpYV9zaW4nPjMxPC90ZD4NCjx0ZCBjbGFzcz0nZGlhX290cm9fbWVzJz4xPC90ZD4NCjwvdHI+DQoNCjwvdGJvZHk+PC90YWJsZT4NCjwvZGl2PjwvZGl2PiA8IS0tIGNhbGVuZGFyaW9fY29tcGxldG8gLS0+ZAIHDw8WAh8PBQ9Db25zdWx0YSBzaW1wbGVkZAIJDw8WAh4HVG9vbFRpcAUqQsO6c3F1ZWRhIGVuIGxvcyByZXN1bWVuZXMgZGUgbG9zIGFudW5jaW9zZGQCCw8PFgIfFAUqQsO6c3F1ZWRhIGVuIGxvcyByZXN1bWVuZXMgZGUgbG9zIGFudW5jaW9zZGQCDQ8PFgIfDwUJU2VydmljaW9zZGQCDw8PFgIfDwUSQsO6c3F1ZWRhIEF2YW56YWRhZGQCEQ8PFgIfDwUmRGlmdXNpw7NuIHNlbGVjdGl2YSBkZSBsYSBpbmZvcm1hY2nDs25kZAITDw8WBB8OBTdodHRwczovL2Vnb2l0emEuYXJhYmEuZXVzL2l6YXBpZGV0dS9hdC8wMS9lcy8wMTM1NTAwNDAxHw8FGkFjY2VzbyB6b25hIGRlIGFudW5jaWFudGVzZGQCFQ8PFgQfDwUvMiBib2xldGluZXMgcHVibGljYWRvcyBlbiBsYSBmZWNoYSBzZWxlY2Npb25hZGEfEGhkZAIbDxYCHgVzdHlsZQVJYmFja2dyb3VuZDp0cmFuc3BhcmVudCB1cmwoLi4vaW1hZ2VzL2ZvbmRvX2luaWNpby5wbmcpIG5vLXJlcGVhdCBjZW50ZXI7O2QCHQ8PFgIfDwVLTGFidXJwZW5hIDExNyB6ZW5iYWtpa28gYWxkaXprYXJpYSwgYXN0ZWxlaGVuYSwgMjAyNi5la28gdXJyaWFrIDEyIGVndW5la29hZGQCHw8PFgIfDwU8U3VtYXJpbyBkZWwgQm9sZXRpbiBuwrogMTE3IGRlbCBsdW5lcywgMTIgZGUgb2N0dWJyZSBkZSAyMDI2ZGQCIQ8PFgIfEGdkZAIjDw8WAh8QZ2RkAiUPDxYCHw8FGUJlc3RlbGFrbyBmb3JtYXR1YWs6IFBERiBkZAInDw8WAh8OBSYuLi9Cb2xldGluZXMvMjAyNi8xMTcvMjAyNl8xMTdfU19FLnBkZmRkAikPFgIeCWlubmVyaHRtbAUTVGV4dG8gYmlsaW5nJiMyNTI7ZWQCKw8PFgIfDwUUT3Ryb3MgZm9ybWF0b3M6IFBERiBkZAItDw8WAh8OBSYuLi9Cb2xldGluZXMvMjAyNi8xMTcvMjAyNl8xMTdfU19DLnBkZmRkAi8PFgIfFgUTVGV4dG8gYmlsaW5nJiMyNTI7ZWQCMQ9kFgICAw88KwALAQAPFggeC18hSXRlbUNvdW50AgMeCERhdGFLZXlzFgAeCVBhZ2VDb3VudAIBHhVfIURhdGFTb3VyY2VJdGVtQ291bnQCA2QWAmYPZBYGAgIPZBYEZg9kFhICAQ8WAh8PBZcDPGRpdiBjbGFzcz0ndGl0dWxvX2Jsb3F1ZV9yZXN1bHRhZG9zJyBpZD0nVGl0U2VjY2lvbjEnPjxhIG5hbWU9J2FuY2xhU2VjY2lvbjMnPjwvYT5CZXN0ZSBBZG1pbmlzdHJhemlvIEJhdHp1azwvZGl2PjwvbGl0ZXJhbD48bGl0ZXJhbD48ZGl2IGNsYXNzPSd0aXR1bG9fYmxvcXVlX3Jlc3VsdGFkb3MnIGlkPSdUaXRTZWNjaW9uMic+PGEgbmFtZT0nYW5jbGFTZWNjaW9uM18xMCc+PC9hPkVzdGF0dWtvIEFkbWluaXN0cmF6aW9hPC9kaXY+PC9saXRlcmFsPjxsaXRlcmFsPjxkaXYgY2xhc3M9J3RpdHVsb19ibG9xdWVfcmVzdWx0YWRvcycgaWQ9J1RpdFNlY2Npb24zJz5IYXV0ZXNrdW5kZSBBZG1pbmlzdHJhemlvYSAoSGF1dGVzbGUgRXJyb2xkYXJlbiBCdWxlZ29rbyBBcmFiYWtvIE9yZGV6a2FyaXR6YSk8L2Rpdj5kAgMPZBYEZg8VAU1Lb25ncmVzdSBldGEgU2VuYXR1a28gaGF1dGVza3VuZGVldGFyYWtvIGF0YWwsIG1haGFpIGV0YSBsb2thbGFrIGFyZ2l0YXJhdHplYWQCAQ8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyODcwX0UueG1sJmhsPWQWAmYPFQFNS29uZ3Jlc3UgZXRhIFNlbmF0dWtvIGhhdXRlc2t1bmRlZXRhcmFrbyBhdGFsLCBtYWhhaSBldGEgbG9rYWxhayBhcmdpdGFyYXR6ZWFkAgUPDxYCHxBoZBYEAgEPZBYCZg8VAQpMaXppdGF6aW9hZAIDDw8WAh8PBQMwLzBkZAIHDw8WAh8QaGQWBAIBD2QWAmYPFQEJRXNsZWlwZW5hZAIDDw8WAh8PBQMwLzBkZAIJDw8WAh8QaGQWBAIBD2QWAmYPFQEIWnV6ZW5kdWFkAgMPDxYCHw8FAzAvMGRkAgsPDxYCHw4FTC4uL0J1c3F1ZWRhcy9SZXN1bHRhZG8uYXNweD9GaWxlPUJvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjg3MF9FLnhtbCZobD1kFgJmDxUBT0VubGFjZSBhbCBkb2N1bWVudG8gSFRNTCBkZWwgYW51bmNpbyAyMDI2LzI4NzAsIHNlIGFicmlyw6EgZW4gdW5hIG51ZXZhIHZlbnRhbmFkAg0PDxYEHw5lHxBoZBYCZg8VAU5FbmxhY2UgYWwgZG9jdW1lbnRvIERPQyBkZWwgYW51bmNpbyAyMDI2LzI4NzAsIHNlIGFicmlyw6EgZW4gdW5hIG51ZXZhIHZlbnRhbmFkAg8PDxYCHw4FKi4uL0JvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjg3MF9FLnBkZmQWAmYPFQFORW5sYWNlIGFsIGRvY3VtZW50byBQREYgZGVsIGFudW5jaW8gMjAyNi8yODcwLCBzZSBhYnJpcsOhIGVuIHVuYSBudWV2YSB2ZW50YW5hZAIRDw8WAh8PBQQyODcwZGQCAQ9kFhQCAQ8WAh8PBa0DPGRpdiBjbGFzcz0ndGl0dWxvX2Jsb3F1ZV9yZXN1bHRhZG9zJyBpZD0nVGl0U2VjY2lvbjEnPjxhIG5hbWU9J2FuY2xhU2VjY2lvbjMnPjwvYT5PdHJhcyBBZG1pbmlzdHJhY2lvbmVzIFDDumJsaWNhczwvZGl2PjwvbGl0ZXJhbD48bGl0ZXJhbD48ZGl2IGNsYXNzPSd0aXR1bG9fYmxvcXVlX3Jlc3VsdGFkb3MnIGlkPSdUaXRTZWNjaW9uMic+PGEgbmFtZT0nYW5jbGFTZWNjaW9uM18xMCc+PC9hPkFkbWluaXN0cmFjacOzbiBkZWwgRXN0YWRvPC9kaXY+PC9saXRlcmFsPjxsaXRlcmFsPjxkaXYgY2xhc3M9J3RpdHVsb19ibG9xdWVfcmVzdWx0YWRvcycgaWQ9J1RpdFNlY2Npb24zJz5BZG1pbmlzdHJhY2lvbiBFbGVjdG9yYWwgKERlbGVnYWNpb24gUHJvdmluY2lhbCBkZSBsYSBPZmljaW5hIGRlbCBDZW5zbyBFbGVjdG9yYWwgZW4gQWxhdmEpPC9kaXY+ZAIDD2QWBGYPFQFNS29uZ3Jlc3UgZXRhIFNlbmF0dWtvIGhhdXRlc2t1bmRlZXRhcmFrbyBhdGFsLCBtYWhhaSBldGEgbG9rYWxhayBhcmdpdGFyYXR6ZWFkAgEPDxYCHw4FTC4uL0J1c3F1ZWRhcy9SZXN1bHRhZG8uYXNweD9GaWxlPUJvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjg3MF9DLnhtbCZobD1kFgJmDxUBclB1YmxpY2FjacOzbiBkZSBzZWNjaW9uZXMsIG1lc2FzIHkgbG9jYWxlcyBlbGVjdG9yYWxlcyBwYXJhIGxhIGNlbGVicmFjacOzbiBkZSBsYXMgRWxlY2Npb25lcyBhbCBDb25ncmVzbyB5IFNlbmFkb2QCBQ8PFgIfEGhkFgQCAQ9kFgJmDxUBC0xpY2l0YWNpw7NuZAIDDw8WAh8PBQMwLzBkZAIHDw8WAh8QaGQWBAIBD2QWAmYPFQENQWRqdWRpY2FjacOzbmQCAw8PFgIfDwUDMC8wZGQCCQ8PFgIfEGhkFgQCAQ9kFgJmDxUBCUNvcnJpZ2UgYWQCAw8PFgIfDwUDMC8wZGQCCw8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyODcwX0MueG1sJmhsPWQWAmYPFQFPRW5sYWNlIGFsIGRvY3VtZW50byBIVE1MIGRlbCBhbnVuY2lvIDIwMjYvMjg3MCwgc2UgYWJyaXLDoSBlbiB1bmEgbnVldmEgdmVudGFuYWQCDQ8PFgQfDgUDLi4vHxBoZBYCZg8VAU5FbmxhY2UgYWwgZG9jdW1lbnRvIERPQyBkZWwgYW51bmNpbyAyMDI2LzI4NzAsIHNlIGFicmlyw6EgZW4gdW5hIG51ZXZhIHZlbnRhbmFkAg8PDxYCHw4FKi4uL0JvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjg3MF9DLnBkZmQWAmYPFQFORW5sYWNlIGFsIGRvY3VtZW50byBQREYgZGVsIGFudW5jaW8gMjAyNi8yODcwLCBzZSBhYnJpcsOhIGVuIHVuYSBudWV2YSB2ZW50YW5hZAIRDw8WAh8PBQQyODcwZGQCEw8PFgIfEGhkFgQCAQ9kFgJmDxUBDUNvcnJlZ2lkbyBwb3JkAgMPDxYCHw4FMS4uL0J1c3F1ZWRhcy9TR0JPNTAxNS5hc3B4P0Fnbm89MCZOdW09MCZpZGlvbWE9RVNkFgJmDxUBAzAvMGQCAw9kFgRmD2QWEgIBDxYCHw8FigE8L2xpdGVyYWw+PGxpdGVyYWw+PGRpdiBjbGFzcz0ndGl0dWxvX2Jsb3F1ZV9yZXN1bHRhZG9zJyBpZD0nVGl0U2VjY2lvbjMnPkhhdXRlc2t1bmRlIEFkbWluaXN0cmF6aW9hIChBcmFiYWtvIEhhdXRlc2t1bmRlIEJhdHpvcmRlYSk8L2Rpdj5kAgMPZBYEZg8VAaQBQXJhYmFrbyBQcm9iaW50emlha28gSGF1dGVza3VuZGUgQmF0em9yZGVhIGVyYXR6ZWEsIERpcHV0YXR1ZW4gS29uZ3Jlc3VrbyBldGEgU2VuYXR1a28gZ2FuYmVyZXRhcmFrbyBoYXV0ZXNrdW5kZWV0YXJha28sIHplaW5hayAyMDI2a28gYXphcm9hcmVuIDI5YW4gZWdpbmdvIGJhaXRpcmFkAgEPDxYCHw4FTC4uL0J1c3F1ZWRhcy9SZXN1bHRhZG8uYXNweD9GaWxlPUJvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjkxNV9FLnhtbCZobD1kFgJmDxUBpAFBcmFiYWtvIFByb2JpbnR6aWFrbyBIYXV0ZXNrdW5kZSBCYXR6b3JkZWEgZXJhdHplYSwgRGlwdXRhdHVlbiBLb25ncmVzdWtvIGV0YSBTZW5hdHVrbyBnYW5iZXJldGFyYWtvIGhhdXRlc2t1bmRlZXRhcmFrbywgemVpbmFrIDIwMjZrbyBhemFyb2FyZW4gMjlhbiBlZ2luZ28gYmFpdGlyYWQCBQ8PFgIfEGhkFgQCAQ9kFgJmDxUBCkxpeml0YXppb2FkAgMPDxYCHw8FAzAvMGRkAgcPDxYCHxBoZBYEAgEPZBYCZg8VAQlFc2xlaXBlbmFkAgMPDxYCHw8FAzAvMGRkAgkPDxYCHxBoZBYEAgEPZBYCZg8VAQhadXplbmR1YWQCAw8PFgIfDwUDMC8wZGQCCw8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyOTE1X0UueG1sJmhsPWQWAmYPFQFPRW5sYWNlIGFsIGRvY3VtZW50byBIVE1MIGRlbCBhbnVuY2lvIDIwMjYvMjkxNSwgc2UgYWJyaXLDoSBlbiB1bmEgbnVldmEgdmVudGFuYWQCDQ8PFgQfDmUfEGhkFgJmDxUBTkVubGFjZSBhbCBkb2N1bWVudG8gRE9DIGRlbCBhbnVuY2lvIDIwMjYvMjkxNSwgc2UgYWJyaXLDoSBlbiB1bmEgbnVldmEgdmVudGFuYWQCDw8PFgIfDgUqLi4vQm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyOTE1X0UucGRmZBYCZg8VAU5FbmxhY2UgYWwgZG9jdW1lbnRvIFBERiBkZWwgYW51bmNpbyAyMDI2LzI5MTUsIHNlIGFicmlyw6EgZW4gdW5hIG51ZXZhIHZlbnRhbmFkAhEPDxYCHw8FBDI5MTVkZAIBD2QWFAIBDxYCHw8FjwE8L2xpdGVyYWw+PGxpdGVyYWw+PGRpdiBjbGFzcz0ndGl0dWxvX2Jsb3F1ZV9yZXN1bHRhZG9zJyBpZD0nVGl0U2VjY2lvbjMnPkFkbWluaXN0cmFjaW9uIEVsZWN0b3JhbCAoSnVudGEgRWxlY3RvcmFsIFByb3ZpbmNpYWwgZGUgw4FsYXZhKTwvZGl2PmQCAw9kFgRmDxUBpAFBcmFiYWtvIFByb2JpbnR6aWFrbyBIYXV0ZXNrdW5kZSBCYXR6b3JkZWEgZXJhdHplYSwgRGlwdXRhdHVlbiBLb25ncmVzdWtvIGV0YSBTZW5hdHVrbyBnYW5iZXJldGFyYWtvIGhhdXRlc2t1bmRlZXRhcmFrbywgemVpbmFrIDIwMjZrbyBhemFyb2FyZW4gMjlhbiBlZ2luZ28gYmFpdGlyYWQCAQ8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyOTE1X0MueG1sJmhsPWQWAmYPFQG6AUNvbnN0aXR1Y2nDs24gZGUgbGEgSnVudGEgRWxlY3RvcmFsIFByb3ZpbmNpYWwgZGUgw4FsYXZhLCBwYXJhIGxhcyBlbGVjY2lvbmVzIGEgbGFzIEPDoW1hcmFzIGRlbCBDb25ncmVzbyBkZSBsb3MgRGlwdXRhZG9zIHkgZGVsIFNlbmFkbyBxdWUgc2UgY2VsZWJyYXLDoW4gZWwgZMOtYSAyOSBkZSBub3ZpZW1icmUgZGUgMjAyNmQCBQ8PFgIfEGhkFgQCAQ9kFgJmDxUBC0xpY2l0YWNpw7NuZAIDDw8WAh8PBQMwLzBkZAIHDw8WAh8QaGQWBAIBD2QWAmYPFQENQWRqdWRpY2FjacOzbmQCAw8PFgIfDwUDMC8wZGQCCQ8PFgIfEGhkFgQCAQ9kFgJmDxUBCUNvcnJpZ2UgYWQCAw8PFgIfDwUDMC8wZGQCCw8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyOTE1X0MueG1sJmhsPWQWAmYPFQFPRW5sYWNlIGFsIGRvY3VtZW50byBIVE1MIGRlbCBhbnVuY2lvIDIwMjYvMjkxNSwgc2UgYWJyaXLDoSBlbiB1bmEgbnVldmEgdmVudGFuYWQCDQ8PFgQfDgUDLi4vHxBoZBYCZg8VAU5FbmxhY2UgYWwgZG9jdW1lbnRvIERPQyBkZWwgYW51bmNpbyAyMDI2LzI5MTUsIHNlIGFicmlyw6EgZW4gdW5hIG51ZXZhIHZlbnRhbmFkAg8PDxYCHw4FKi4uL0JvbGV0aW5lcy8yMDI2LzExNy8yMDI2XzExN18wMjkxNV9DLnBkZmQWAmYPFQFORW5sYWNlIGFsIGRvY3VtZW50byBQREYgZGVsIGFudW5jaW8gMjAyNi8yOTE1LCBzZSBhYnJpcsOhIGVuIHVuYSBudWV2YSB2ZW50YW5hZAIRDw8WAh8PBQQyOTE1ZGQCEw8PFgIfEGhkFgQCAQ9kFgJmDxUBDUNvcnJlZ2lkbyBwb3JkAgMPDxYCHw4FMS4uL0J1c3F1ZWRhcy9TR0JPNTAxNS5hc3B4P0Fnbm89MCZOdW09MCZpZGlvbWE9RVNkFgJmDxUBAzAvMGQCBA9kFgRmD2QWEgIBDxYCHw8FnwE8L2xpdGVyYWw+PGxpdGVyYWw+PGRpdiBjbGFzcz0ndGl0dWxvX2Jsb3F1ZV9yZXN1bHRhZG9zJyBpZD0nVGl0U2VjY2lvbjMnPkhhdXRlc2t1bmRlIEFkbWluaXN0cmF6aW9hIChWaXRvcmlhLUdhc3RlaXprbyBFc2t1YWxkZWtvIEhhdXRlc2t1bmRlIEJhdHpvcmRlYSk8L2Rpdj5kAgMPZBYEZg8VAZkBVml0b3JpYS1HYXN0ZWl6a28gZXNrdWFsZGVrbyBIYXV0ZXNrdW5kZSBCYXR6b3JkZWEgZXJhdHplYSwgRGlwdXRhdHVlbiBLb25ncmVzdXJha28gZXRhIFNlbmF0dXJha28gMjAyNmtvIGF6YXJvYXJlbiAyOWVhbiBlZ2luZ28gZGlyZW4gaGF1dGVza3VuZGVldGFyYWtvZAIBDw8WAh8OBUwuLi9CdXNxdWVkYXMvUmVzdWx0YWRvLmFzcHg/RmlsZT1Cb2xldGluZXMvMjAyNi8xMTcvMjAyNl8xMTdfMDI5MTZfRS54bWwmaGw9ZBYCZg8VAZkBVml0b3JpYS1HYXN0ZWl6a28gZXNrdWFsZGVrbyBIYXV0ZXNrdW5kZSBCYXR6b3JkZWEgZXJhdHplYSwgRGlwdXRhdHVlbiBLb25ncmVzdXJha28gZXRhIFNlbmF0dXJha28gMjAyNmtvIGF6YXJvYXJlbiAyOWVhbiBlZ2luZ28gZGlyZW4gaGF1dGVza3VuZGVldGFyYWtvZAIFDw8WAh8QaGQWBAIBD2QWAmYPFQEKTGl6aXRhemlvYWQCAw8PFgIfDwUDMC8wZGQCBw8PFgIfEGhkFgQCAQ9kFgJmDxUBCUVzbGVpcGVuYWQCAw8PFgIfDwUDMC8wZGQCCQ8PFgIfEGhkFgQCAQ9kFgJmDxUBCFp1emVuZHVhZAIDDw8WAh8PBQMwLzBkZAILDw8WAh8OBUwuLi9CdXNxdWVkYXMvUmVzdWx0YWRvLmFzcHg/RmlsZT1Cb2xldGluZXMvMjAyNi8xMTcvMjAyNl8xMTdfMDI5MTZfRS54bWwmaGw9ZBYCZg8VAU9FbmxhY2UgYWwgZG9jdW1lbnRvIEhUTUwgZGVsIGFudW5jaW8gMjAyNi8yOTE2LCBzZSBhYnJpcsOhIGVuIHVuYSBudWV2YSB2ZW50YW5hZAINDw8WBB8OZR8QaGQWAmYPFQFORW5sYWNlIGFsIGRvY3VtZW50byBET0MgZGVsIGFudW5jaW8gMjAyNi8yOTE2LCBzZSBhYnJpcsOhIGVuIHVuYSBudWV2YSB2ZW50YW5hZAIPDw8WAh8OBSouLi9Cb2xldGluZXMvMjAyNi8xMTcvMjAyNl8xMTdfMDI5MTZfRS5wZGZkFgJmDxUBTkVubGFjZSBhbCBkb2N1bWVudG8gUERGIGRlbCBhbnVuY2lvIDIwMjYvMjkxNiwgc2UgYWJyaXLDoSBlbiB1bmEgbnVldmEgdmVudGFuYWQCEQ8PFgIfDwUEMjkxNmRkAgEPZBYUAgEPFgIfDwWVATwvbGl0ZXJhbD48bGl0ZXJhbD48ZGl2IGNsYXNzPSd0aXR1bG9fYmxvcXVlX3Jlc3VsdGFkb3MnIGlkPSdUaXRTZWNjaW9uMyc+QWRtaW5pc3RyYWNpb24gRWxlY3RvcmFsIChKdW50YSBFbGVjdG9yYWwgZGUgWm9uYSBkZSBWaXRvcmlhLUdhc3RlaXopPC9kaXY+ZAIDD2QWBGYPFQGZAVZpdG9yaWEtR2FzdGVpemtvIGVza3VhbGRla28gSGF1dGVza3VuZGUgQmF0em9yZGVhIGVyYXR6ZWEsIERpcHV0YXR1ZW4gS29uZ3Jlc3VyYWtvIGV0YSBTZW5hdHVyYWtvIDIwMjZrbyBhemFyb2FyZW4gMjllYW4gZWdpbmdvIGRpcmVuIGhhdXRlc2t1bmRlZXRhcmFrb2QCAQ8PFgIfDgVMLi4vQnVzcXVlZGFzL1Jlc3VsdGFkby5hc3B4P0ZpbGU9Qm9sZXRpbmVzLzIwMjYvMTE3LzIwMjZfMTE3XzAyOTE2X0MueG1sJmhsPWQWAmYPFQHAAUNvbnN0aXR1Y2nDs24gZGUgbGEgSnVudGEgRWxlY3RvcmFsIGRlIFpvbmEgZGUgVml0b3JpYS1HYXN0ZWl6LCBwYXJhIGxhcyBlbGVjY2lvbmVzIGEgbGFzIEPDoW1hcmFzIGRlbCBDb25ncmVzbyBkZSBsb3MgRGlwdXRh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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7EC5B41F" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLgKrjYN3AvTg+LwLAoqOgdMEAoqOtbYMAoqOqZkFAoqO3fwOAoqO8acGAoqO5YoPAoqOmW4Cl5nnxgMCl5mbqgsCl5nPwgkCl5njpQECl5mXiQoCl5mL7AMCl5m/1wQCl5nTugwCl5nHnQUCl5n7wA4C/KDJ2QkC/KD9vAEC/KDR1QcC/KDFuA8C/KD5YwL8oO3GCQL8oIGqAQL8oLWNCgL8oKnwAwL8oN3bBAK4w7StAQK4w6iQCgKij7z2DwK1td1/Avvb2rsKAprZipwJAuP94bsEAtrp9O8DAqC/qIIHAvOGp9MBAqGciY8CAtv8iYcLAtiE6IkNAqfjg5wLArnUhpUPAof56bYBArrvj+kM/q/AcLSrsJOsRte64jGD6jw/Bzk=" />
+			
+<script type="text/javascript" src="/inc/tagGoogleAnalytics.js"></script> 
+            
+<script language='JavaScript'>
+document.onkeydown=function (evt) {return (evt ? evt.which : event.keyCode) != 13;}
+</script>
+
+	<DIV id="cabecera">
+	<a id="Cabecera1_HyperLink6" href="SGBO5001.aspx" style="text-decoration:none!important;font-family: Century Gothic, Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 1em; font-stretch: wider;">
+	    <SPAN id="tit_general">
+			<H1><ACRONYM title="Boletín Oficial del Territorio Histórico de Álava">
+					BOTHA</ACRONYM></H1>
+			</SPAN><SPAN id="subtit_general">
+			Boletín Oficial del Territorio Histórico de Álava</SPAN>
+	</a>
+		    
+	
+		<DIV id="fondo_ruta">&nbsp;</DIV>
+		<A id="logo_dfa_cabecera" href="http://www.araba.eus"><IMG title="Logo de la Diputación Foral de Álava. Enlace a la home" alt="Logo de la Diputación Foral de Álava. Enlace a la home" 
+src="../images/logo_dfa_cabecera.gif"> </A>
+		<DIV id="ruta">
+			<a id="Cabecera1_HyperLink1" href="SGBO5001.aspx">Home</a><a id="Cabecera1_Hyperlink2"></a><a id="Cabecera1_Hyperlink3"></a><a id="Cabecera1_Hyperlink4"></a><a id="Cabecera1_Hyperlink5"></a></DIV>
+		<SPAN id="fecha">
+			lunes, 12 de octubre de 2026</SPAN>
+		&nbsp;&nbsp;
+		<input type="submit" name="Cabecera1:lkbEuskera" value="Euskera" id="Cabecera1_lkbEuskera" tabindex="346" class="boton_idiomas" />
+		<DIV id="menu">
+			<UL id="lista_menu">
+				<LI class="item1">
+					<a id="Cabecera1_lnkMenu1" accesskey="1" href="../DFA/SGBO5006.aspx">Quiénes somos</a>
+				<LI>
+					<a id="Cabecera1_lnkMenu2" accesskey="2" href="../suscriptores/SGBO5021.aspx">Suscripciones</a>
+				<LI>
+					<a id="Cabecera1_lnkMenu3" accesskey="3" href="../DFA/SGBO5007.aspx">Mapa web</a>
+				<LI>
+					<a id="Cabecera1_lnkMenu4" accesskey="4" href="../Busquedas/SGBO5016.aspx">Búsqueda Avanzada</a>
+				<LI>
+					<a id="Cabecera1_lnkMenu5" accesskey="5" href="https://egoitza.araba.eus/izapidetu/at/01/es/0135500401">Zona Anunciantes</a></LI></UL> <!-- lista_menu --></DIV> <!-- menu --></DIV> <!-- cabecera -->
+
+  
+
+			<div id="principal" style="overflow: visible; background-color:White;">
+			<table style="width:100%">
+			<tbody>
+			<tr>
+			<td id="contenedorbusqueda" style="vertical-align:top">
+				<div id="busquedas">
+			        <div id="zona_consulta">
+						<h2 class="titular_fondo_azul"><span id="lblTitConsulta">Consulta</span></h2>
+						<div id="contenido_consulta">
+				        <!-- Aqui va el calendario -->
+						<div id="tabla_calendario" style="padding:'1em 3em'; margin:'1em 5%';">
+							
+<div id="mesAnio">
+    <label for="Calendario_ddlAgno" id="Calendario_lblAgno"><font size="1">Año</font></label>
+    <select name="Calendario:ddlAgno" id="Calendario_ddlAgno">
+	<option selected="selected" value="2026">2026</option>
+	<option value="2025">2025</option>
+	<option value="2024">2024</option>
+	<option value="2023">2023</option>
+	<option value="2022">2022</option>
+	<option value="2021">2021</option>
+	<option value="2020">2020</option>
+	<option value="2019">2019</option>
+	<option value="2018">2018</option>
+	<option value="2017">2017</option>
+	<option value="2016">2016</option>
+	<option value="2015">2015</option>
+	<option value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+
+</select>
+    <label for="Calendario_ddlMes" id="Calendario_lblMes"><font size="1">Mes</font></label>
+    <select name="Calendario:ddlMes" id="Calendario_ddlMes">
+	<option value="enero">enero</option>
+	<option value="febrero">febrero</option>
+	<option value="marzo">marzo</option>
+	<option value="abril">abril</option>
+	<option value="mayo">mayo</option>
+	<option value="junio">junio</option>
+	<option value="julio">julio</option>
+	<option value="agosto">agosto</option>
+	<option value="septiembre">septiembre</option>
+	<option selected="selected" value="octubre">octubre</option>
+	<option value="noviembre">noviembre</option>
+	<option value="diciembre">diciembre</option>
+
+</select>
+    <input type="image" name="Calendario:btnIrA" id="Calendario_btnIrA" src="../images/Ir_a.gif" alt="Ir a Mes" align="absmiddle" border="0" />
+</div>    
+<br />
+<div id='calendario_completo'>
+<div id='tit_mes'>
+<span class='cal_flecha_izq'><div class='flecha_tit_mes'><a class='flechas_agenda' href='../Inicio/SGBO5001.aspx?Age_Codigo=2026/09/12'>
+<img src="../images/flecha_mesanterior.gif"   alt='septiembre' title='septiembre' /></a>
+</div></span>
+<span class='cal_mes'><div class='mes_activo'>octubre 2026</div></span>
+<span class='cal_flecha_der'><div class='flecha_tit_mes'><a class='flechas_agenda' href='../Inicio/SGBO5001.aspx?Age_Codigo=2026/11/12'>
+<img src="../images/flecha_messiguiente.gif"   alt='noviembre' title='noviembre' /></a>
+</div></span>
+<div class='separador'>&nbsp;</div>
+</div> <!-- tit_mes -->
+<div ><table summary='' ><thead>
+<tr class='dia_semana'><th scope='col'>lu</th><th scope='column'>ma</th><th scope='column'>mi</th><th scope='column'>ju</th><th scope='column'>vi</th><th scope='column'>sá</th><th scope='column'>do</th></tr></thead>
+<tbody>
+<tr>
+<td class='dia_otro_mes'>28</td>
+<td class='dia_otro_mes'>29</td>
+<td class='dia_otro_mes'>30</td>
+<td class='dia_sin'>1</td>
+<td class='dia_con'><a title='Boletín Nº113' href='../Inicio/SGBO5001.aspx?FechaBotha=02/10/2026'>2</a></td>
+<td class='dia_sin'>3</td>
+<td class='dia_sin'>4</td>
+</tr>
+
+<tr>
+<td class='dia_con'><a title='Boletín Nº114' href='../Inicio/SGBO5001.aspx?FechaBotha=05/10/2026'>5</a></td>
+<td class='dia_sin'>6</td>
+<td class='dia_con'><a title='Boletín Nº115' href='../Inicio/SGBO5001.aspx?FechaBotha=07/10/2026'>7</a></td>
+<td class='dia_sin'>8</td>
+<td id='ultimo_no_hoy'><a title='Boletín Nº116' href='../Inicio/SGBO5001.aspx?FechaBotha=09/10/2026'>9</a></td>
+<td class='dia_sin'>10</td>
+<td class='dia_sin'>11</td>
+</tr>
+
+<tr>
+<td id='hoy_con'><a href='../Inicio/SGBO5001.aspx?FechaBotha=12/10/2026'>12</a></td>
+<td class='dia_sin'>13</td>
+<td class='dia_sin'>14</td>
+<td class='dia_sin'>15</td>
+<td class='dia_sin'>16</td>
+<td class='dia_sin'>17</td>
+<td class='dia_sin'>18</td>
+</tr>
+
+<tr>
+<td class='dia_sin'>19</td>
+<td class='dia_sin'>20</td>
+<td class='dia_sin'>21</td>
+<td class='dia_sin'>22</td>
+<td class='dia_sin'>23</td>
+<td class='dia_sin'>24</td>
+<td class='dia_sin'>25</td>
+</tr>
+
+<tr>
+<td class='dia_sin'>26</td>
+<td class='dia_sin'>27</td>
+<td class='dia_sin'>28</td>
+<td class='dia_sin'>29</td>
+<td class='dia_sin'>30</td>
+<td class='dia_sin'>31</td>
+<td class='dia_otro_mes'>1</td>
+</tr>
+
+</tbody></table>
+</div></div> <!-- calendario_completo -->
+
+
+						</div> <!-- tabla_calendario -->
+						<!-- Fin del calendario -->						
+						</div>
+					</div> <!-- Consulta -->				
+					<div id="consulta_simple">
+						<h2 class="titular_fondo_azul"><span id="lblTitConsultaSimple">Consulta simple</span></h2>
+    					<div class="contenido_fieldset" >
+				            <input name="tbResumen" type="text" maxlength="50" id="tbResumen" title="Búsqueda en los resumenes de los anuncios" class="input_texto_inicio" />
+				            <input type="submit" name="btnBuscar" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnBuscar&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" language="javascript" id="btnBuscar" title="Búsqueda en los resumenes de los anuncios" class="boton_input_busqueda" />
+						</div>
+					</div> <!-- Consulta Simple -->
+					<div id="zona_servicios">
+						<h2 class="titular_fondo_azul"><span id="lblTitServicios">Servicios</span></h2>
+						<div id="contenido_servicios">
+						    <ul id="lista_servicios" class="lista_normal_azul">
+						        <li>
+						            <a id="lnkBusAvanzada" accesskey="b" href="../Busquedas/SGBO5016.aspx">Búsqueda Avanzada</a></li>     
+						        <li>
+ 							        <a id="lnkDifuSelInfo" accesskey="d" href="../Suscriptores/SGBO5021.aspx">Difusión selectiva de la información</a></li>
+ 							    <li class="ultimo">
+ 							        <a id="lnkAccZonaAnun" accesskey="z" href="https://egoitza.araba.eus/izapidetu/at/01/es/0135500401">Acceso zona de anunciantes</a></li>
+						    </ul>
+						</div>
+					</div> <!-- Servicios -->
+				</div> <!-- busquedas -->
+			</td>		
+			<td style="vertical-align:top">
+			    <!-- P-2022-5715-->
+			    <div id="mensajeDosBoletines" style="visibility:visible; padding-top:20px">
+                    
+			    </div>
+			    <!-- FIN P-2022-5717-->
+			    
+				<div id="boletines" style="visibility:hidden">
+					<div class="validador" id="validador">
+						
+					</div>
+					
+					
+					<div id="cabecera_detalle" style="background:transparent url(../images/fondo_inicio.png) no-repeat center;;"> 
+					    
+					    
+					    <!--<img id="Image1" src="../images/fondo_inicio.bmp" border="0" style="width:100%;height:100%;" />-->
+					</div> <!-- Cabecera Detalle -->
+
+					
+				
+					
+					<div id="contenedor">
+					    <div id="detalle_eus_cas" style="float:left;width:100%">
+					        <table id="tabla_cabeceras_tablas">
+					            <tr>
+					                <td style="width:50%">
+					                    <h2 class="titular_fondo_azul"><span id="lblTitBOTHA2">Laburpena 117 zenbakiko aldizkaria, astelehena, 2026.eko urriak 12 egunekoa</span></h2>
+					                </td>
+					                <td style="width:50%">
+					                    <h2 class="titular_fondo_azul"><span id="lblTitBOTHA">Sumario del Boletin nº 117 del lunes, 12 de octubre de 2026</span></h2>					        
+					                </td>
+					            </tr>
+					            <tr>
+					                <td style="width:50%">
+					                	<div id="panSumario2" style="margin-left:40px; margin-bottom:14px; ">
+	
+						                    <p>
+						                        <span id="lblRotuloAutenticidad2" style="color:#ac1153; font-size:0.8em;">Hemen ikusgai dauden gainerako formatuen edukia PDF dokumentu elektroniko ofizial eta jatorrizkoa eraldatuz lortu da</span>
+						                    </p>
+				                        
+</div>
+					                </td>
+					                <td style="width:50%">
+					                	<div id="panSumario" style="margin-left:40px; margin-bottom:14px; ">
+	
+						                    <p>
+						                        <span id="lblRotuloAutenticidad" style="color:#ac1153; font-size:0.8em;">El contenido de los otros formatos que aquí se muestran, se ha obtenido mediante una transformación del documento electrónico PDF oficial y auténtico</span>
+						                    </p>            						        
+				                        
+</div>
+					                </td>
+					            </tr>
+					            <tr>
+					                <td id="celdaBilingue2" style="width:50%">
+                                        <table id="menubilingue2" style="width:95%; margin-left: 23px; border-collapse: collapse">
+	                                        <tr style="height:40px">
+		                                        <td id="menubilingue2Col1" style="width:60%; border-bottom: 1pt solid #ac1153">
+		                                            <div style="padding-top: 1px;">
+			                                            <strong>
+				                                            <span id="lblSumario2" class="txt_azul_grande">Bestelako formatuak: PDF </span>
+				                                            <a id="hypSumario2" href="../Boletines/2026/117/2026_117_S_E.pdf" target="_blank"><img id="imgSumario2" src="../images/icono-pdf.gif" border="0" /></a>
+			                                            </strong>
+			                                        </div>
+		                                        </td>
+		                                        
+		                                        <td id="columnaBilin2" style="width:40%; border-bottom: 1pt solid #ac1153">
+		                                            <div id="textobiling" style="height:auto;">
+		                                                <div>
+		                                                    <strong>		                                                    
+				                                                <a href="javascript:setIdiomaBilingue()" id="abilingue2">Texto biling&#252;e</a>
+					                                        </strong>                                                            
+					                                        <img style="height: 16px;" src="../images/bilingue.png" alt="" onclick="setIdiomaBilingue()"></img>
+					                                    </div>
+				                                    </div>
+		                                        </td>		                                        					                                        
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>	                                       
+	                                        </tr>
+	                                        <tr style="height:30px">
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:20%" >
+			                                         <div id="impresora_inicio2" style="height:auto; padding-top: 1px">
+				                                        <div>
+					                                        <img style="height: 16px;" src="../images/printer-.png" alt="" onclick="print()"></img>
+				                                        </div>
+			                                        </div>
+		                                        </td>
+	                                        </tr>
+                                        </table>					                
+					                </td>
+					                <td id="celdaBilingue" style="width:50%">
+				                        <table id="menubilingue" style="width:95%; margin-left: 23px; border-collapse: collapse">
+	                                        <tr style="height:40px">
+		                                        <td id="menubilingueCol1" style="width:60%; border-bottom: 1pt solid #ac1153">
+		                                            <div style="padding-top: 1px;">
+			                                            <strong>
+							                                <span id="lblSumario" class="txt_azul_grande">Otros formatos: PDF </span>
+							                                <a id="hypSumario" href="../Boletines/2026/117/2026_117_S_C.pdf" target="_blank"><img id="imgSumario" src="../images/icono-pdf.gif" border="0" /></a>
+							                            </strong>
+							                        </div>
+		                                        </td>	
+		                                        <td id="columnaBilin" style="width:40%; border-bottom: 1pt solid #ac1153">
+		                                            <div id="textobiling" style="height:auto;">
+		                                                <div>
+		                                                    <strong>		                                                    
+				                                                <a href="javascript:setIdiomaBilingue()" id="abilingue1">Texto biling&#252;e</a>
+					                                        </strong>                                                            
+					                                        <img style="height: 16px;" src="../images/bilingue.png" alt="" onclick="setIdiomaBilingue()"></img>
+					                                    </div>
+				                                    </div>
+		                                        </td>                                        				                                        
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+	                                        </tr>
+	                                        <tr style="height:30px">
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:20%" >
+			                                        <div id="impresora_inicio" style="height:auto; padding-top: 1px;">
+			                                            <div>			                                                
+			                                                <img style="height: 16px;" src="../images/printer-.png" alt="" onclick="print()"></img>
+			                                            </div>
+			                                        </div>
+		                                        </td>
+		                                    </tr>
+                                        </table>					                
+					                </td>
+					            </tr>				           
+					        </table>						    
+						    <div class="contenido_detalle">
+				                <div id="panAnuncios">
+	
+				                    
+        						    				            
+					                <table cellspacing="0" border="0" id="grdAnuncios" width="98%">
+		<tr>
+			<td>
+								                   
+									                <div class="bloque_resultados">	                      
+										               <div class='titulo_bloque_resultados' id='TitSeccion1'><a name='anclaSeccion3'></a>Beste Administrazio Batzuk</div></literal><literal><div class='titulo_bloque_resultados' id='TitSeccion2'><a name='anclaSeccion3_10'></a>Estatuko Administrazioa</div></literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Hauteskunde Administrazioa (Hautesle Erroldaren Bulegoko Arabako Ordezkaritza)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl3_lblAnuResumen2">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Kongresu eta Senatuko hauteskundeetarako atal, mahai eta lokalak argitaratzea-->
+												                
+												                   <!--marta-->
+												                     <a id="grdAnuncios__ctl3_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02870_E.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Kongresu eta Senatuko hauteskundeetarako atal, mahai eta lokalak argitaratzea</a>
+
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											              <!--falta-->
+											                 
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->		
+									              		
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl3_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02870_E.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2870, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                            
+										                <a id="grdAnuncios__ctl3_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02870_E.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2870, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl3_btnAnuncio" class="boton_anuncio_inicio">2870</span><br /><br />
+									                </div>									            			            
+								                </td><td>
+									                <div class="bloque_resultados">
+										                  <div class='titulo_bloque_resultados' id='TitSeccion1'><a name='anclaSeccion3'></a>Otras Administraciones Públicas</div></literal><literal><div class='titulo_bloque_resultados' id='TitSeccion2'><a name='anclaSeccion3_10'></a>Administración del Estado</div></literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Administracion Electoral (Delegacion Provincial de la Oficina del Censo Electoral en Alava)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl3_lblAnuResumen">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Kongresu eta Senatuko hauteskundeetarako atal, mahai eta lokalak argitaratzea-->
+												                <a id="grdAnuncios__ctl3_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02870_C.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Publicación de secciones, mesas y locales electorales para la celebración de las Elecciones al Congreso y Senado</a>
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											            
+											                
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->						
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl3_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02870_C.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2870, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                
+										                <a id="grdAnuncios__ctl3_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02870_C.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2870, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl3_btnAnuncio" class="boton_anuncio_inicio">2870</span><br /><br />
+									                </div>	
+									                <div class="bloque_resultados correcion">
+									                 
+									                 </div>								            			            
+								                </td>
+		</tr><tr>
+			<td>
+								                   
+									                <div class="bloque_resultados">	                      
+										               </literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Hauteskunde Administrazioa (Arabako Hauteskunde Batzordea)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl4_lblAnuResumen2">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Arabako Probintziako Hauteskunde Batzordea eratzea, Diputatuen Kongresuko eta Senatuko ganberetarako hauteskundeetarako, zeinak 2026ko azaroaren 29an egingo baitira-->
+												                
+												                   <!--marta-->
+												                     <a id="grdAnuncios__ctl4_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02915_E.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Arabako Probintziako Hauteskunde Batzordea eratzea, Diputatuen Kongresuko eta Senatuko ganberetarako hauteskundeetarako, zeinak 2026ko azaroaren 29an egingo baitira</a>
+
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											              <!--falta-->
+											                 
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->		
+									              		
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl4_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02915_E.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2915, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                            
+										                <a id="grdAnuncios__ctl4_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02915_E.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2915, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl4_btnAnuncio" class="boton_anuncio_inicio">2915</span><br /><br />
+									                </div>									            			            
+								                </td><td>
+									                <div class="bloque_resultados">
+										                  </literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Administracion Electoral (Junta Electoral Provincial de Álava)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl4_lblAnuResumen">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Arabako Probintziako Hauteskunde Batzordea eratzea, Diputatuen Kongresuko eta Senatuko ganberetarako hauteskundeetarako, zeinak 2026ko azaroaren 29an egingo baitira-->
+												                <a id="grdAnuncios__ctl4_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02915_C.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Constitución de la Junta Electoral Provincial de Álava, para las elecciones a las Cámaras del Congreso de los Diputados y del Senado que se celebrarán el día 29 de noviembre de 2026</a>
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											            
+											                
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->						
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl4_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02915_C.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2915, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                
+										                <a id="grdAnuncios__ctl4_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02915_C.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2915, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl4_btnAnuncio" class="boton_anuncio_inicio">2915</span><br /><br />
+									                </div>	
+									                <div class="bloque_resultados correcion">
+									                 
+									                 </div>								            			            
+								                </td>
+		</tr><tr>
+			<td>
+								                   
+									                <div class="bloque_resultados">	                      
+										               </literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Hauteskunde Administrazioa (Vitoria-Gasteizko Eskualdeko Hauteskunde Batzordea)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl5_lblAnuResumen2">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Vitoria-Gasteizko eskualdeko Hauteskunde Batzordea eratzea, Diputatuen Kongresurako eta Senaturako 2026ko azaroaren 29ean egingo diren hauteskundeetarako-->
+												                
+												                   <!--marta-->
+												                     <a id="grdAnuncios__ctl5_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02916_E.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Vitoria-Gasteizko eskualdeko Hauteskunde Batzordea eratzea, Diputatuen Kongresurako eta Senaturako 2026ko azaroaren 29ean egingo diren hauteskundeetarako</a>
+
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											              <!--falta-->
+											                 
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->		
+									              		
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl5_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02916_E.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2916, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                            
+										                <a id="grdAnuncios__ctl5_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02916_E.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2916, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl5_btnAnuncio" class="boton_anuncio_inicio">2916</span><br /><br />
+									                </div>									            			            
+								                </td><td>
+									                <div class="bloque_resultados">
+										                  </literal><literal><div class='titulo_bloque_resultados' id='TitSeccion3'>Administracion Electoral (Junta Electoral de Zona de Vitoria-Gasteiz)</div>
+										                <div class="datos_anuncio">
+											                <span id="grdAnuncios__ctl5_lblAnuResumen">
+											                    <!--ilc convertimos el resumen en un link-->
+												                <!--Vitoria-Gasteizko eskualdeko Hauteskunde Batzordea eratzea, Diputatuen Kongresurako eta Senaturako 2026ko azaroaren 29ean egingo diren hauteskundeetarako-->
+												                <a id="grdAnuncios__ctl5_Hyperlink1" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02916_C.xml&amp;hl=" target="_blank" style="text-decoration:none; color:Black;">Constitución de la Junta Electoral de Zona de Vitoria-Gasteiz, para las elecciones a las Cámaras del Congreso de los Diputados y del Senado que se celebrarán el día 29 de noviembre de 2026</a>
+												                <!--fin ilc convertimos el resumen en un link-->
+											                </span><br />
+    											            
+											                
+											                
+											                
+										                </div>
+									                </div> <!-- Bloque resultados -->						
+									                <div class="contenedor_iconos">
+										                <a id="grdAnuncios__ctl5_lnkHtml" class="icono" href="../Busquedas/Resultado.aspx?File=Boletines/2026/117/2026_117_02916_C.xml&amp;hl=" target="_blank">
+											                <img alt='Enlace al documento HTML del anuncio 2026/2916, se abrirá en una nueva ventana' src='../images/ico_html.gif' /></a>
+										                
+										                <a id="grdAnuncios__ctl5_panPdf" class="icono" href="../Boletines/2026/117/2026_117_02916_C.pdf" target="_blank">
+											                <img alt='Enlace al documento PDF del anuncio 2026/2916, se abrirá en una nueva ventana' src='../images/ico_pdf.gif' /></a>										                									            
+										                <span id="grdAnuncios__ctl5_btnAnuncio" class="boton_anuncio_inicio">2916</span><br /><br />
+									                </div>	
+									                <div class="bloque_resultados correcion">
+									                 
+									                 </div>								            			            
+								                </td>
+		</tr>
+	</table>
+						        
+</div>
+						    </div>
+					    </div> <!-- Contenido Detalle eus_cas -->
+					    <div id="detalle_cas" style="visibility:hidden;display:none;float:right;width:48%">						    
+						    <div class="contenido_detalle">
+				                <div id="panAnuncios2">
+					                   		
+				                      		       						 			            
+					                
+						        
+</div>
+						    </div>
+					    </div> <!-- Contenido Detalle eusk.-->
+					</div>
+					<div class="separador"></div>
+				</div> <!-- boletines -->
+				<div id="boletines_2" >
+					<div class="validador" id="validador_2">
+						
+					</div>
+					
+					<div id="cabecera_detalle_2"> 
+					</div> <!-- Cabecera Detalle -->
+					
+					<div id="contenedor_2">
+					    <div id="detalle_eus_cas_2" style="float:left;width:100%">
+					        <table id="tabla_cabeceras_tablas_2">
+					            <tr>
+					                <td style="width:50%">
+					                    <h2 class="titular_fondo_azul"><span id="lblTitBOTHA2_2">Boletin...</span></h2>
+					                </td>
+					                <td style="width:50%">
+					                    <h2 class="titular_fondo_azul"><span id="lblTitBOTHA_2">Boletin...</span></h2>					        
+					                </td>
+					            </tr>
+					            <tr>
+					                <td style="width:50%">
+					                	
+					                </td>
+					                <td style="width:50%">
+					                	
+					                </td>
+					            </tr>
+					            <tr>
+					                <td id="celdaBilingue2_2" style="width:50%">
+                                        <table id="menubilingue2_2" style="width:95%; margin-left: 23px; border-collapse: collapse">
+	                                        <tr style="height:40px">
+		                                        <td id="menubilingue2Col1_2" style="width:60%; border-bottom: 1pt solid #ac1153">
+		                                            <div style="padding-top: 1px;">
+			                                            <strong>
+				                                            <span id="lblSumario2_2" class="txt_azul_grande">Bestelako formatuak: PDF </span>
+				                                            <a id="hypSumario2_2" target="_blank"><img id="imgSumario2_2" src="../images/icono-pdf.gif" border="0" /></a>
+			                                            </strong>
+			                                        </div>
+		                                        </td>
+		                                        
+		                                        <td id="columnaBilin2_2" style="width:40%; border-bottom: 1pt solid #ac1153">
+		                                            <div id="textobiling_2" style="height:auto;">
+		                                                <div>
+		                                                    <strong>		                                                    
+				                                                <a href="javascript:setIdiomaBilingue()" id="abilingue2_2">Texto biling&#252;e</a>
+					                                        </strong>                                                            
+					                                        <img style="height: 16px;" src="../images/bilingue.png" alt="" onclick="setIdiomaBilingue()"></img>
+					                                    </div>
+				                                    </div>
+		                                        </td>		                                        					                                        
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>	                                       
+	                                        </tr>
+	                                        <tr style="height:30px">
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:20%" >
+			                                         <div id="impresora_inicio2_2" style="height:auto; padding-top: 1px">
+				                                        <div>
+					                                        <img style="height: 16px;" src="../images/printer-.png" alt="" onclick="print()"></img>
+				                                        </div>
+			                                        </div>
+		                                        </td>
+	                                        </tr>
+                                        </table>					                
+					                </td>
+					                <td id="celdaBilingue_2" style="width:50%">
+				                        <table id="menubilingue_2" style="width:95%; margin-left: 23px; border-collapse: collapse">
+	                                        <tr style="height:40px">
+		                                        <td id="menubilingueCol1_2" style="width:60%; border-bottom: 1pt solid #ac1153">
+		                                            <div style="padding-top: 1px;">
+			                                            <strong>
+							                                <span id="lblSumario_2" class="txt_azul_grande">Otros formatos: PDF </span>
+							                                <a id="hypSumario_2" target="_blank"><img id="imgSumario_2" src="../images/icono-pdf.gif" border="0" /></a>
+							                            </strong>
+							                        </div>
+		                                        </td>	
+		                                        <td id="columnaBilin_2" style="width:40%; border-bottom: 1pt solid #ac1153">
+		                                            <div id="textobiling_2" style="height:auto;">
+		                                                <div>
+		                                                    <strong>		                                                    
+				                                                <a href="javascript:setIdiomaBilingue()" id="abilingue1_2">Texto biling&#252;e</a>
+					                                        </strong>                                                            
+					                                        <img style="height: 16px;" src="../images/bilingue.png" alt="" onclick="setIdiomaBilingue()"/>
+					                                    </div>
+				                                    </div>
+		                                        </td>                                        				                                        
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+		                                        <td style="border-bottom: 1pt solid #ac1153"></td>
+	                                        </tr>
+	                                        <tr style="height:30px">
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:40%"></td>
+	                                            <td style="width:20%" >
+			                                        <div id="impresora_inicio_2" style="height:auto; padding-top: 1px;">
+			                                            <div>			                                                
+			                                                <img style="height: 16px;" src="../images/printer-.png" alt="" onclick="print()"/>
+			                                            </div>
+			                                        </div>
+		                                        </td>
+		                                    </tr>
+                                        </table>					                
+					                </td>
+					            </tr>				           
+					        </table>						    
+						    <div class="contenido_detalle">
+				                <div id="panAnuncios_2">
+	
+				                    
+        						    				            
+					                
+						        
+</div>
+						    </div>
+					    </div> <!-- Contenido Detalle eus_cas -->
+					    <div id="detalle_cas_2" style="visibility:hidden;display:none;float:right;width:48%">						    
+						    <div class="contenido_detalle">
+				                <div id="panAnuncios2_2">
+					                   		
+				                      		       						 			            
+					                
+						        
+</div>
+						    </div>
+					    </div> <!-- Contenido Detalle eusk.-->
+					</div>
+					<div class="separador"></div>
+				</div> <!-- boletines_2 -->				
+			</td>		
+			<td id="contenedoranuncios"style="vertical-align:top">
+				<div id="mensajeDosBoletines_Anun" style="visibility:visible; padding-top:20px">
+                    
+			    </div>
+				<div id="anuncios">
+			        <div id="zona_sumario">
+						<h2 class="titular_fondo_azul"><span id="lblTitSumario">Sumario</span></h2>
+			            <div id="secciones">
+				            
+						            <ul id="lista_secciones">
+					            
+						            
+						            <li><span class='tit_seccion_inicio'><a href='#anclaSeccion3'>
+						            
+						            Otras Administraciones Públicas
+						            
+						            </a></span><ul class='sublista_secciones' id='subseccion_0' style='display: block'>
+						            
+					            
+						            
+						            
+						            <li>
+						            
+						            <span id="repSecciones__ctl2_btnSeccion2" class="boton_resultados_inicio"><span><a href='#anclaSeccion3_10'>Administración del Estado</a></span></span>
+						            
+						            </li>
+					            
+						            <!--</ul> </li> </ul>-->
+						            </ul> 
+					            
+			            </div> <!-- secciones -->															
+					</div> <!-- Sumario -->				
+					<div id="info_general">
+						<h2 class="titular_fondo_azul"><span id="lblTitInfoGeneral">Información General</span></h2>
+						<div id="contenido_info_general" style="padding-left: 10px">
+							<ul id="lista_info_general">
+							    <li>
+								    <a id="lnkNormaBOTHA" accesskey="n" href="../Documentacion/SGBO5002.aspx">Normativa BOTHA</a></li>
+							    <li>
+								    <a id="lnklOtrosBoletines" accesskey="t" href="../DFA/SGBO5010.aspx">Enlaces a otros boletines</a></li>
+							    <li>
+								    <a id="lnkSiosElec" accesskey="e" href="../Documentacion/SGBO5011.aspx">Servicios electrónicos del BOTHA</a></li>																    
+							    <li>
+								    <a id="lnkQuienesSomos" accesskey="q" href="../DFA/SGBO5006.aspx">Quiénes somos</a></li> 								    
+							    <li>
+								    <a id="lnkSugerencias" accesskey="s" href="../DFA/SGBO5008.aspx">Sugerencias</a></li>								    
+							    <li>
+								    <a id="lnkMapaWeb" accesskey="m" href="../DFA/SGBO5007.aspx">Mapa web</a></li>								    								    
+                            </ul>
+						</div>
+					</div> <!-- Información General -->
+				</div> <!-- anuncios -->
+				<div class="separador"></div>
+				<div id="mensajeDosBoletines_Anun_2" style="visibility:visible">
+                    
+			    </div>
+
+				<div id="anuncios_2">
+			        <div id="zona_sumario_2">
+						<h2 class="titular_fondo_azul"><span id="lblTitSumario_2">Sumario</span></h2>
+			            <div id="secciones_2">
+				            
+			            </div> <!-- secciones -->															
+					</div> <!-- Sumario -->				
+					<div id="info_general_2">
+						<h2 class="titular_fondo_azul"><span id="lblTitInfoGeneral_2">Información General</span></h2>
+						<div id="contenido_info_general_2" style="padding-left: 10px">
+							<ul id="lista_info_general_2">
+							    <li>
+								    <a id="lnkNormaBOTHA_2" accesskey="n" href="../Documentacion/SGBO5002.aspx">Normativa BOTHA</a></li>
+							    <li>
+								    <a id="lnklOtrosBoletines_2" accesskey="t" href="../DFA/SGBO5010.aspx">Enlaces a otros boletines</a></li>
+							    <li>
+								    <a id="lnkSiosElec_2" accesskey="e" href="../Documentacion/SGBO5011.aspx">Servicios electrónicos del BOTHA</a></li>																    
+							    <li>
+								    <a id="lnkQuienesSomos_2" accesskey="q" href="../DFA/SGBO5006.aspx">Quiénes somos</a></li> 								    
+							    <li>
+								    <a id="lnkSugerencias_2" accesskey="s" href="../DFA/SGBO5008.aspx">Sugerencias</a></li>								    
+							    <li>
+								    <a id="lnkMapaWeb_2" accesskey="m" href="../DFA/SGBO5007.aspx">Mapa web</a></li>								    								    
+                            </ul>
+						</div>
+					</div> <!-- Información General -->
+				</div> <!-- anuncios_2 -->
+			</td>
+			</tr>			
+			</tbody>
+			</table>
+			</div> <!-- principal -->
+			
+<div id="pie">
+	<div id="contacto">
+		<img style="width:16px;height:16px;vertical-align:-2px;" src="../images/escudo_pie.gif" alt="enlace a la página de inicio de la Diputación"
+			title=""><strong>Diputación Foral de Alava</strong>&nbsp;&nbsp;
+		Plaza de la Provincia, 5 bajo&nbsp;&nbsp;Telf&nbsp;945 18 18 18 (Extensiones 2262 y 2269)&nbsp;&nbsp;Fax&nbsp;945 18 17 54&nbsp;&nbsp;<a href="mailto:anunbotha@araba.eus">anunbotha@araba.eus</a>&nbsp;&nbsp;<a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Explicación del Nivel Doble-A de Conformidad"><img src="../images/wai.gif" alt="Icono de conformidad con el Nivel Doble-A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI"></a>
+	</div> <!-- contacto -->
+	<div id="legal">
+		<ul id="lista_legal">
+			<li class="item1">
+				<a id="Pie1_lnkAvisoLegal" href="../DFA/SGBO5004.aspx">Aviso legal</a>
+			<li>
+				<a id="Pie1_lnkAccesibilidad" href="../DFA/SGBO5003.aspx">Accesibilidad</a>
+			</li>
+		</ul>
+		<span></span>
+	</div> <!-- legal -->
+</div> <!-- pie -->
+				
+		
+		</form>
+		<script type="text/javascript">
+
+		    var vPageName = "/BOTHA_HOME";
+		    if ('ES' == "EU") {
+		        vPageName = "/BOTHA_HOME_EU";
+		    }		   
+		 </script> 	
+		<script type="text/javascript">fpageTracker(vPageName);</script>		
+	</body>
+	
+	
+	
+</html>
+
+
+

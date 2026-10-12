@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-12T14:00:41.621387+00:00",
+  "scope": "local_development",
+  "counts": {
+    "jurisdictions": 8213,
+    "sources": 75,
+    "instruments": 12480,
+    "publications": 12480,
+    "section_versions": 694585,
+    "chunks": 1397070,
+    "embedded_chunks": 11744,
+    "current_observed_chunks": 1005030,
+    "current_embedded_chunks": 11744,
+    "current_cache_as_of": "2026-10-12"
+  },
+  "recent_imports": [
+    {
+      "status": "complete",
+      "discovered": 128,
+      "integrated": 128
+    },
+    {
+      "status": "running",
+      "discovered": 27,
+      "integrated": 27
+    },
+    {
+      "status": "complete",
+      "discovered": 128,
+      "integrated": 128
+    }
+  ],
+  "liveness": 200,
+  "readiness": {
+    "status": "blocked",
+    "runtime_ready": true,
+    "release_ready": false,
+    "dependencies": {
+      "database": true,
+      "laya": true,
+      "embeddings": true,
+      "corpus": true
+    },
+    "blockers": [
+      "NATIONAL_AUDIT_PENDING",
+      "PROFESSIONAL_EVALUATION_PENDING",
+      "OPERATIONS_REHEARSAL_PENDING"
+    ]
+  },
+  "local_ocr": {
+    "enabled": true,
+    "revision": "87416418657359cb625c412a48b6e1d6d41c29bd",
+    "languages": "spa+cat+eus+glg"
+  },
+  "limitations": [
+    "Vector indexing is partial until every required chunk has the pinned revision.",
+    "BOE catalogue and targeted recovery plus partial DOGC/DOG imports; publisher/national coverage audits remain incomplete.",
+    "Normal local password login and private restore rehearsal passed; professional evaluation, elapsed backup-expiry proof, independent replication and production deployment remain pending."
+  ]
+}

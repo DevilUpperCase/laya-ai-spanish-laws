@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.next/
+private-data/
+uploads/
+model-cache/
+*.log
+.uv-cache/
+.pytest_cache/
+.superpowers/
+test-results/
+playwright-report/
+# Reviewed/redacted reports and source fixtures must be added deliberately.

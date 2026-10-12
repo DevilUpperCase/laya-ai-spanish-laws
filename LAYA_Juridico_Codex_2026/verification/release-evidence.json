@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "specification_date": "2026-10-11",
+  "status": "not_run",
+  "limitations": "Local application, real models/database/auth/scanner/browser flow and private encrypted restore have been executed. No release gate is passed without its required reviewed evidence; nationwide coverage, professional evaluation, licensing and production evidence remain absent.",
+  "gates": {
+    "G01": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G02": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G03": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G04": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G05": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G06": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G07": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G08": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G09": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G10": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G11": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G12": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G13": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G14": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G15": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G16": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G17": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G18": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G19": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G20": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G21": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    },
+    "G22": {
+      "status": "not_run",
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "evidence": [],
+      "assessment": {}
+    }
+  }
+}

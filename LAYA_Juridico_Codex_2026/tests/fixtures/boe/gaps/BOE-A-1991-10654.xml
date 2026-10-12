@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T190217Z</fecha_actualizacion>
+      <identificador>BOE-A-1991-10654</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19910320</fecha_disposicion>
+      <numero_oficial>6/1991</numero_oficial>
+      <titulo>Ley 6/1991, de 20 de marzo, de protección de los árboles singulares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19910502</fecha_publicacion>
+      <diario_numero>105</diario_numero>
+      <fecha_vigencia>19910503</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1991/03/20/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1991-10654</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="4918">Medio ambiente</materia>
+        <materia codigo="5612">Plantas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 47, de 13 de abril de 1991.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 27.2 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-10654</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-03-20</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5612"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-10654</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-03-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5612"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1991, de 20 de marzo, de protección de los árboles singulares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-05-02</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-10654</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-03-20</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5612"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-04-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1991, de 20 de marzo, de protección de los árboles singulares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/03/20/6/con/19910413/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTONOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICION DE MOTIVOS</p>
+          <p class="parrafo_2">Determinados individuos vegetales arbóreos tienen un valor patrimonial o un significado cultural de una trascendencia notable. Se trata de individuos de corte o edad extraordinarios, o que por su ubicación u otras características han sido conocidos y apreciados por el pueblo de manera tradicional. Es prueba fehaciente el nombre propio con que algunos se conocen.</p>
+          <p class="parrafo">Estos árboles forman parte de manera señalada del Patrimonio Natural del país. Algunos son apoyo real de cultura colectiva, están relacionados con hechos históricos o constituyen parte de la mítica a la tradición popular, o incluso del patrimonio artístico, como inspiradores de obras plásticas o literarias. Desgraciadamente, el respeto y el aprecio social de que gozan estos árboles no ha resultado siempre suficiente para su conservación real: La «Encina de Mossa» hace algunos lustros fue convertida en carbón, más recientemente, el («Pino de Sant Miquel» ha sido amputado de manera grotesca para dejar espacio a una construcción. Es, por tanto, necesario que la Comunidad Autónoma, como representante de la personalidad colectiva de las Baleares, ampare y garantice la conservación de estos auténticos monumentos vivos, de, manera que el pueblo de las Baleares pueda disfrutar de ellos tantos altos coma su ciclo biológico lo permita.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se crea el Catálogo de Árboles Singulares de la Comunidad Autónoma de las Islas Baleares, integrado por los individuos vegetales arbóreos de corte, edad o características extraordinarios.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">El Catálogo estará formado y mantenido por la Consejería de Agricultura y Pesca, de acuerdo con los siguientes puntos:</p>
+          <p class="parrafo_2">1. Se incluirán en el Catálogo todos aquellos árboles de características físicas extraordinarias, interés científico relevante o que sean apoyo de valores culturales señalados.</p>
+          <p class="parrafo">2. La obertura del expediente de inclusión se realizara de oficio o por iniciativa de particulares, de otras Administraciones o de personas jurídicas.</p>
+          <p class="parrafo">3. La inclusión o exclusión de un árbol en el Catálogo se acordará por el Consejero de Agricultura. Esta última sólo será posible por la muerte biológica del vegetal.</p>
+          <p class="parrafo">4. La catalogación de un árbol singular será publicada en el «Boletín Oficial de la Comunidad Autónoma de las Islas Baleares», con detalle del punto geográfico donde se encuentra. Los árboles catalogados serán identificados mediante una placa inamovible ubicada en su entono.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Los árboles incluidos en el Catálogo no pueden ser talados ni perjudicados en ninguna vía, ni se podrá alterar su entorno inmediato, excepto por motivos de conservación del propio árbol. El documento de inclusión en el Catálogo definirá este entorno protegido que, como mínimo, incluirá un círculo alrededor de la base del árbol, de radio igual a la altura del mismo. El radio solamente podrá ser reducido en el caso de árboles situados en entornos urbanos, siempre que quede garantizada su buena salud y conservación.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo_2">Las podas, las alteraciones y los tratamientos fitosanitarios de los árboles singulares solamente podrán llevarse a efecto previa autorización de la Consejería de Agricultura, que velara para que éstos sean favorables a la buena salud y apariencia estética del árbol.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">1. Los propietarios de los árboles singulares podrán disfrutar de sus frutos y producciones, con la excepción de la madera, de acuerdo con los artículos anteriores.</p>
+          <p class="parrafo">2. Los propietarios que deseen desprenderse de estos árboles, podrán ofertarlos a la Comunidad Autónoma, que satisfizará su valor comercial de la madera. En este caso no será de aplicación el punto anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">La Consejería de Agricultura y Pesca velará por el buen estado vegetativo y estético de los árboles singulares, asesorara técnicamente a los propietarios de las medidas convenientes y asumirá los gastos que su conservación pueda suponer. A la] efecto, el proyecto de, Ley de Presupuestos de la Comunidad Autónoma preverá anualmente las partidas necesarias.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo_2">La destrucción, alteración o perjuicio a un Arbol Singular será penada de acuerdo con la legislación vigente, y se considerará indemnizable en favor de la Comunidad Autónoma el valor ornamental perdido, de acuerdo con el peritaje técnico que se efectúe en cada caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">El acceso del público a los árboles singulares será determinado, en su caso, de común acuerdo entre el propietario de la finca afectada y la Consejería de Agricultura y Pesca, mediante un convenio en el cual se regularán los días de visita y el área afectada por la declaración de la singularidad del árbol. Todos los gastos, tanto de vigilancia como de acondicionamiento del acceso al área, correrán a cargo de la Consejería de Agricultura y Pesca.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">La Consejería de Agricultura y Pesca publicarán, periódicamente actualizado, el Catálogo de Árboles Singulares de la Comunidad Autónoma con la información detallada de cada uno de los que estén catalogados.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Una vez abierto el expediente de catalogación de un árbol, éste gozará preventivamente de la protección señalada en los artículos 3, 4, 6 y 7.</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1991-10654" fecha_publicacion="19910413" fecha_vigencia="19910503">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a las que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">Palma de Mallorca, 20 de marzo de 1991.</p>
+          <table class="sinbordes">
+            <colgroup>
+              <col width="40%"/>
+              <col/>
+              <col width="40%"/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td class="cuerpo_tabla_centro">PEDRO J. MOREY BALLESTER,</td>
+                <td class="cuerpo_tabla_centro"> </td>
+                <td class="cuerpo_tabla_centro">GABRIEL CAÑELLAS FONS,</td>
+              </tr>
+              <tr>
+                <td class="cuerpo_tabla_centro">Consejero de Agricultura y Pesca</td>
+                <td class="cuerpo_tabla_centro"> </td>
+                <td class="cuerpo_tabla_centro">Presidente</td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

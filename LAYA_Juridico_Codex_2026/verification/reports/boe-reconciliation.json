@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-10-12T12:02:02.550891+00:00",
+  "scope": "targeted_gap_recovery",
+  "status": "resolved",
+  "resolved": 45,
+  "remaining": [],
+  "outcomes": [
+    {
+      "id": "BOE-A-1990-18519",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-18197",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1992-14038",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1964-7544",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1990-29990",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-2004-18911",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-2023-26631",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-2019-18749",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-2010-8228",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1998-28819",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1998-26353",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1998-10998",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1998-1685",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-28066",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-18196",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-16031",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-3983",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1997-3984",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1995-11842",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1995-9734",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1994-28045",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1994-5710",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1994-5714",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1994-5709",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1994-5713",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1993-21447",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1993-12235",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1993-4684",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1992-21159",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1992-1470",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1991-10602",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1991-10654",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1991-9291",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1991-352",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1990-19872",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1990-11173",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1988-18674",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1987-2903",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1986-19091",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1985-18351",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1985-3563",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1985-3564",
+      "status": "integrated"
+    },
+    {
+      "id": "BOE-A-1985-3565",
+      "status": "integrated"
+    },
+    {
+      "id": "BOIB-i-1990-90001",
+      "status": "integrated"
+    },
+    {
+      "id": "BOIB-i-1984-90002",
+      "status": "integrated"
+    }
+  ],
+  "counts": {
+    "instruments": 12429,
+    "section_versions": 694355,
+    "chunks": 1396072
+  },
+  "limitations": [
+    "Targeted retries do not certify a fresh whole-catalogue reconciliation or nationwide coverage."
+  ]
+}

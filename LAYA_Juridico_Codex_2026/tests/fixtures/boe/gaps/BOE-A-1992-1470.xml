@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T193316Z</fecha_actualizacion>
+      <identificador>BOE-A-1992-1470</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19911127</fecha_disposicion>
+      <numero_oficial>9/1991</numero_oficial>
+      <titulo>Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19920123</fecha_publicacion>
+      <diario_numero>20</diario_numero>
+      <fecha_vigencia>19920101</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20160508</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1991/11/27/9</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1992-1470</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="173">Aguas</materia>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="1631">Contaminación de las aguas</materia>
+        <materia codigo="4918">Medio ambiente</materia>
+        <materia codigo="6275">Saneamiento</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 160, de 24 de diciembre de 1991.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 54 y 56 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1980-21166</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 2 y 6 de la Ley Orgánica 8/1980, de 22 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-17563</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>plan aprobado por Orden de 17 de julio de 1990</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-9254</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 11/1989, de 22 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1988-29623</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 39/1988, de 28 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1986-15205</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 1/1986, de 5 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1963-22706</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 230/1963, de 28 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1885-6627</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Código de Comercio, publicado por Decreto de 22 de agosto de 1885 (Gazeta)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-4956</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Decreto Legislativo 1/2016, de 6 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-4331</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 13.4, por Ley 3/2015, de 23 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2015-1059</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 8.1, por Ley 13/2014, de 29 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2014-656</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 7.3, 8.2, 9, 12 y 13, por Ley 8/2013, de 23 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2013-631</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 2, 8, 9, disposición adicional 2, por Ley 15/2012, de 27 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2012-7445</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>arts. 11, 13.3 y la disposición adicional 5, por Ley 3/2012, de 30 de abril</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOIB-i-2011-90085</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 11, 13 y la disposición adicional 5, por Decreto-ley 6/2011, de 2 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2006-1526</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 2, por Ley 13/2005, de 27 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2005-953</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 3, por Ley 8/2004, de 23 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1995-9893</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la disposición transitoria segunda, por Ley 4/1994, de 29 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1993-5142</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 8.3 por Ley 6/1992, de 22 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-01-23</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-05-07</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20160507/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20150328/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20141230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20131231/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20121229/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-12</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20120512/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-06</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20111206/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20051231/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/20041230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-12-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19941217/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-12-31</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19921231/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1992-1470</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-11-27</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/173"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1631"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6275"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-12-24</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 9/1991, de 27 de noviembre, reguladora del canon de saneamiento de aguas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/11/27/9/con/19911224/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2016-4956" fecha_publicacion="20160507" fecha_vigencia="20160508">
+          <p class="siempreSeVe">Norma derogada por la disposición derogatoria única del Decreto Legislativo 1/2016, de 6 de mayo. <a class="refPost">Ref. BOE-A-2016-4956#ddunica</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">I. El artículo 45 de la Constitución recoge el derecho de todos a disfrutar de un medio ambiente adecuado, así como el deber de conservarlo y, paralelamente, la obligación de los poderes públicos de velar por la utilización racional de todos los recursos naturales, con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio ambiente, apoyándose en la indispensable solidaridad colectiva.</p>
+          <p class="parrafo">En materia de obras hidráulicas, y con la finalidad de mejorar y preservar la calidad de nuestras aguas y el medio ambiente, la Comunidad Autónoma de las Islas Baleares estableció, por decreto 42/1984, de 28 de mayo, un régimen de ayudas a las Corporaciones Locales en materia de abastecimiento de agua y saneamiento de núcleos urbanos y, posteriormente, por decreto 27/1989, de 9 de marzo («Boletín Oficial de la Comunidad Autónoma de las Islas Baleares», número 40, de 1 de abril), creó el «Instituto Balear de Saneamiento (IBASAN), con la finalidad de promover, construir y explotar estaciones depuradoras de aguas residuales.</p>
+          <p class="parrafo">Asimismo, por ley 11/1989, de 22 de diciembre, de Presupuestos Generales de la Comunidad Autónoma de las Islas Baleares para 1990, se crea una «Entidad Autónoma de carácter administrativo cuya finalidad institucional es el ejercicio de todas las competencias que la comunidad autónoma de las Islas Baleares tenga asumidas en materia de aguas, tanto públicas como privadas, y de aprovechamientos hidráulicos y, en general, en todo lo que se refiere al dominio público hidráulico y a otras materias relacionadas con el tema», (disposición adicional undécima A), habiéndose regulado por Decreto 106/1990, de 13 de diciembre («Boletín Oficial de la Comunidad Autónoma de las Islas Baleares» número 5, de 10 de enero de 1991), la organización y régimen jurídico de la «Junta de Aguas».</p>
+          <p class="parrafo">El objeto de la presente Ley es dotar a la Comunidad Autónoma de los adecuados mecanismos de financiación de sus actuaciones hidráulicas, garantizando la efectiva implantación de los servicios de depuración de aguas residuales y de abastecimiento de los núcleos urbanos, con la finalidad de lograr una adecuada defensa y restauración del medio ambiente de las Islas Baleares, en el marco constitucional y estatutario.</p>
+          <p class="parrafo">En efecto, la Constitución reconoce y garantiza (artículo 2.º) el derecho a la autonomía de las nacionalidades y regiones que integran la Nación española, que no sería efectiva sin la oportuna autonomía financiera garantizada por el artículo 156 de la misma Constitución.</p>
+          <p class="parrafo">Esa autonomía financiera tiene como principios básicos, recogidos en los artículos 2.º y 6.º de la Ley Orgánica 8/1980, de 22 de septiembre, sobre Financiación de las Comunidades Autónomas, el de la posibilidad jurídica de establecer tributos propios y el de disponer de medios suficientes para hacer frente a las funciones que forman el ámbito de sus propias competencias.</p>
+          <p class="parrafo">El Estatuto de Autonomía de las Islas Baleares, aprobado por Ley Orgánica 2/1983, de 25 de febrero, reconoce expresamente (artículo 54), la autonomía financiera de la Comunidad Autónoma para el desarrollo y ejecución de sus funciones, de acuerdo con la Constitución, las leyes Orgánicas reguladoras de la materia y el mismo Estatuto.</p>
+          <p class="parrafo">Así, por un lado, el Estatuto de Autonomía (artículo 10, apartados 3, 4, 6 y 9), atribuye a la Comunidad Autónoma competencia exclusiva en materia de ordenación del territorio, obras públicas que no sean de interés general del Estado, régimen de aguas y aprovechamientos hidráulicos, canales y regadíos, así como el fomento y promoción del turismo, estableciendo en su artículo 11, apartado 5, la competencia de desarrollo legislativo y de ejecución de la Comunidad Autónoma para establecer normas adicionales de protección de medio ambiente, en el marco de la legislación básica del Estado y, en su caso, en los términos que la misma establezca.</p>
+          <p class="parrafo">Por otro lado, el artículo 56 del Estatuto de Autonomía dispone que la Hacienda de la Comunidad está integrada, entre otros recursos, por los tributos propios, que la Comunidad podrá establecer y exigir, de acuerdo con la Constitución y las leyes, siempre que no recaigan sobre hechos imponibles gravados por el Estado (artículo 57).</p>
+          <p class="parrafo">II. Con la finalidad de lograr la adecuada financiación de las actuaciones de la Junta de Aguas, por medio de la presente Ley se establece un canon de saneamiento de aguas que, partiendo del dato esencial de que el agua es un bien escaso y de primera necesidad, permita afrontar financieramente el tratamiento unitario de todo el ciclo de ésta: Captación, distribución en alta, utilización, recogida de residuales, saneamiento y posterior reutilización.</p>
+          <p class="parrafo">Así, el canon se configura como un tributo destinado a la financiación de las actuaciones de saneamiento del agua en los núcleos urbanos, incluyendo la evacuación, tratamiento y reutilización de las aguas residuales, y, en general, de toda la política hidráulica de la Comunidad Autónoma de las islas Baleares, la recaudación del cual debe destinarse íntegramente a esa finalidad.</p>
+          <p class="parrafo">Existe una gran diversidad en cuanto a la dotación de infraestructuras para la depuración de aguas residuales entre los diversos municipios de la Comunidad Autónoma de las islas Baleares.</p>
+          <p class="parrafo">También existen grandes diferencias entre las necesidades de los diversos municipios en esta materia. Se considera, no obstante, que el problema de la degradación de la calidad de las aguas es un problema social que afecta a todos por igual y que exige la adopción de medidas eficaces que hagan frente al peligro que recae sobre los escasos recursos hidráulicos existentes, al daño ecológico derivado de estos y a los consiguientes riesgos sanitarios. Por ello, el canon creado se inspira en los principios constitucionales de igualdad, capacidad económica, generalidad, solidaridad y suficiencia financiera.</p>
+          <p class="parrafo">Debido a la peculiar configuración de las islas Baleares, al hecho de que su economía esté basada en el turismo y a la práctica inexistencia de industrias muy contaminantes, se puede considerar que todos los vertidos de aguas residuales tienen similares características técnicas, por lo que son, en lo fundamental, susceptibles de un mismo tratamiento jurídico tributario.</p>
+          <p class="parrafo">El canon de saneamiento se aplica pues, a los vertidos de aguas residuales, tanto a los efectuados a redes de alcantarillado públicas o privadas, como a los que se efectúan directamente al medio receptor natural. Puesto que la medida más directa de los vertidos está representada por el consumo de agua, el presente canon se aplicará a todos los consumos de agua suministrados por las empresas o por los servicios municipales, así como a los consumos captados de aguas superficiales o subterráneas que realicen los propios usuarios.</p>
+          <p class="parrafo">Ahora bien, las características poblacionales de las islas que hacen que estas aumenten extraordinariamente su población en determinadas épocas del año, obligan a la inversión en infraestructuras muy superiores a las que serían necesarias en condiciones normales. Sería injusto que inversiones especialmente costosas en las depuradoras necesarias por la existencia de esta población flotante fueran financiadas fundamentalmente por los habitantes de las islas. En base a esta idea de justicia, que exige tener en cuenta las diferentes situaciones, junto a la cuota variable se establece una cuota fija con la finalidad de equilibrar la contribución de la población flotante, de las industrias y de los habitantes de las islas a la financiación de obras y servicios igualmente necesarios para todos.</p>
+          <p class="parrafo">Por otra parte, y para atender al principio de capacidad económica consagrado en el artículo 31 de nuestra Constitución, se establece una bonificación del 75 por 100 de la cuota fija en favor del suministro destinado a consumo domestico, cuando la unidad familiar no disponga de ingresos anuales superiores al salario mínimo interprofesional multiplicado por el coeficiente 1,25.</p>
+          <p class="parrafo">También por razones de carácter económico, así como de carácter social, se establece en la Ley una exención respecto del agua consumida en explotaciones agrícolas y, por otra parte, un régimen transitorio de bonificaciones, a fin de evitar una carga excesiva sobre los usuarios que consuman el agua en aquellas zonas que no disfruten de un sistema de depuración.</p>
+          <p class="parrafo">III. La ley consta de 17 artículos, ordenados en tres títulos, así como de seis disposiciones adicionales, tres disposiciones transitorias y una disposición final. Bajo la rúbrica de «Disposiciones Generales» se ocupa el título I de la creación del canon, así como de fijar su hecho imponible, las exenciones, devengo del tributo, sujetos pasivos, base imponible, cuota, bonificación y compatibilidad con otros tributos.</p>
+          <p class="parrafo">Después de crear (artículo 1) el canon como tributo que grava el vertido de aguas residuales (artículo 2), ante las dificultades técnicas que supondría gravar directamente el vertido, y que harían su aplicación prácticamente inviable, el hecho imponible se conecta con el consumo de agua en el entendimiento de que éste representa el mejor índice de la cantidad de agua vertida por cada usuario.</p>
+          <p class="parrafo">El definir así el hecho imponible permite, además, con excepción de los supuestos de captación directa de las aguas superficiales o subterráneas, considerar como sustituto del contribuyente (artículos 5 y 6) a las Entidades suministradoras, con lo que queda enormemente reducido el ámbito subjetivo del canon, facilitando su gestión, en aras de una mayor eficacia y, en consecuencia, asegurar los objetivos que esta Ley persigue.</p>
+          <p class="parrafo">La técnica de la repercusión obligatoria garantiza que el coste de este canon no recaiga, sin embargo, sobre las Entidades suministradoras, sino que éstas deben trasladar la carga sobre los contribuyentes, verdaderos sujetos pasivos económicos, que son los usuarios del agua, al incidir en el objeto del tributo, esto es, en el vertido de aguas residuales. Para asegurar el buen funcionamiento del canon se prevé que los transportistas que no puedan justificar haber satisfecho el canon a la Entidad suministradora en el momento de adquirir el agua, se conviertan en auténticos sujetos pasivos sustitutos del contribuyente junto con el sujeto pasivo sustituto inicialmente previsto (artículo 6.2).</p>
+          <p class="parrafo">Con carácter general, la base imponible se determinará en régimen de estimación directa (artículo 7), y únicamente para aquellos supuestos en los que, por inexistencia de contador o por no intervención de Entidad suministradora, pueda resultar difícil la determinación de la base en régimen de estimación directa, se prevé un sistema de estimación objetiva singular, basado en los principios de igualdad, realidad, eficacia y simplicidad.</p>
+          <p class="parrafo">Según el artículo 55 de la Ley General Tributaria, la cuota tributaria podrá determinarse en función del tipo de gravamen aplicable, según cantidad fija señalada al efecto en los pertinentes textos legales o bien conjuntamente por ambos procedimientos. Esta última, por los argumentos de justicia anteriormente expuestos, es la opción seguida por la presente Ley, de manera que la estructura del canon resulta extremadamente elemental, constando de dos cuotas (artículo 8), una fija, que se calcula por aplicación de las tarifas previstas por la Ley a los correspondientes elementos tributarios (artículo 8.3), y otra, proporcional, que se obtendrá aplicando a la base imponible (el agua medida en metros cúbicos, articulo 7), una determinada cantidad de pesetas (artículo 8.2). En defensa de los principios de igualdad y solidaridad en el sostenimiento de los gastos públicos, por un lado, el articulo 10 regula la incompatibilidad del canon con contribuciones especiales, tasas o precios públicos destinados a la financiación de las inversiones necesarias para la implantación y posterior explotación de los sistemas generales, comprendiéndose en este concepto la conducción de las aguas residuales desde las redes de alcantarillado locales hasta su vertido final, una vez que hayan sido tratadas.</p>
+          <p class="parrafo">Con idénticos fines de generalidad, así como de simplificación administrativa, se prevé una exención por el agua destinada a explotaciones agrícolas, ganaderas, forestales o mixtas (artículo 3), dadas las especiales características de este sector, a la vez que, para facilitar el cumplimiento de sus obligaciones a las Entidades suministradoras, se traslada al usuario del agua la responsabilidad de acreditar la exención mediante la oportuna solicitud (artículo 6.3).</p>
+          <p class="parrafo">En el título II, y bajo la rúbrica de «Normas de gestión», se regulan la liquidación e ingresos, las obligaciones formales, la gestión e inspección, así como el régimen de sanciones y recursos.</p>
+          <p class="parrafo">Por lo que se refiere a la liquidación e ingresos, se opta por la fórmula de la declaración-liquidación o autoliquidación por el sujeto pasivo en los términos que reglamentariamente se determinen (artículos 11 y 12).</p>
+          <p class="parrafo">En cuanto a las obligaciones formales, la Ley se remite a la normativa reguladora del Impuesto sobre el Valor Añadido, al Plan General de Cuentas para las Entidades Locales y al Código de comercio (artículo 13), sin perjuicio de destacar que la contabilidad de las entidades suministradoras debe ser suficientemente expresiva para precisar, en cualquier momento, el importe del canon repercutido o repercutible.</p>
+          <p class="parrafo">La gestión, comprobación e inspección del canon, así como la imposición de las correspondientes sanciones, se encomiendan, en armonía con la Ley 1/1986, de 5 de febrero, de Finanzas de la Comunidad Autónoma de las Islas Baleares, a la Consejería de Economía y Hacienda (artículo 14), rigiendo en materia de sanciones y recursos lo dispuesto en la Ley General Tributaria y demás disposiciones reguladoras de la potestad sancionadora de la Administración y de los recursos y reclamaciones ante los órganos económico-administrativos de la Comunidad Autónoma de las Islas Baleares (artículos 15 y 16).</p>
+          <p class="parrafo">El título III de la Ley se ocupa del «Destino y Transferencia» del canon, reiterando, por su importancia y transcendencia, que el canon de saneamiento se crea para financiar las actuaciones de política hidráulica de la Junta de Aguas de Baleares y, en consecuencia, las cantidades líquidas recaudadas por este concepto serán transferidas en su totalidad al presupuesto de dicha entidad, con una periodicidad mensual, en los plazos y forma que reglamentariamente se determinen.</p>
+          <p class="parrafo">En el ámbito de las disposiciones adicionales, merece especial atención la segunda, relativa al derecho de los Ayuntamientos y las Entidades públicas que presten el servicio de depuración de aguas residuales, a ser indemnizados o compensados por los costes de conservación, mantenimiento y explotación que soporten, en los términos que reglamentariamente se determinen.</p>
+          <p class="parrafo">Por último, las disposiciones transitorias establecen un régimen de bonificaciones para las zonas que no cuenten con depuradora, con la finalidad de evitar una carga excesiva sobre los usuarios residentes en las mismas.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 1. Creación del canon de saneamiento de aguas.</p>
+          <p class="parrafo">Se establece un canon de saneamiento de aguas como exacción de derecho público exigible en todo el territorio de la Comunidad Autónoma de las Islas Baleares para la financiación de las actuaciones de política hidráulica que realice la Junta de Aguas de Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 2. Hecho imponible.</p>
+          <p class="parrafo">El hecho imponible está constituido por el vertido de aguas residuales manifestado a través del consumo real, potencial o estimado de aguas de cualquier procedencia, exceptuando las aguas pluviales recogidas en algibes o cisternas.</p>
+        </version>
+        <version id_norma="BOE-A-2006-1526" fecha_publicacion="20051231" fecha_vigencia="20060101">
+          <p class="articulo">Artículo 2. Hecho imponible.</p>
+          <p class="parrafo">El hecho imponible está constituido por el vertido de aguas residuales manifestado a través del consumo real, potencial o estimado de aguas de cualquier procedencia, exceptuando las aguas pluviales recogidas en algibes o cisternas.</p>
+          <p class="parrafo">No está sujeto al canon de saneamiento de aguas el vertido de aguas residuales que se pone de manifiesto por la reutilización de agua depurada.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el párrafo segundo por el art. 37 de la Ley 13/2005, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2006-1526</a>.</p>
+          </blockquote>
+          <p class="parrafo"> </p>
+        </version>
+        <version id_norma="BOE-A-2013-631" fecha_publicacion="20121229" fecha_vigencia="20130101">
+          <p class="articulo">Artículo 2. Hecho imponible.</p>
+          <p class="parrafo">El hecho imponible está constituido por el vertido de aguas residuales manifestado a través del consumo real, potencial o estimado de aguas de cualquier procedencia, exceptuando las aguas pluviales recogidas en algibes o cisternas.</p>
+          <blockquote>
+            <p class="nota_pie">Se suprime el párrafo segundo por la disposición final 4.1 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+            <p class="nota_pie">Se añade el párrafo segundo por el art. 37 de la Ley 13/2005, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2006-1526</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 3. Exención.</p>
+          <p class="parrafo">1. Estará exento el vertido de aguas residuales realizado por las explotaciones agrícolas, ganaderas, forestales o mixtas, y también el agua destinada a los servicios públicos de extinción de incendios.</p>
+          <p class="parrafo">2. Reglamentariamente, oída la Consejería de Agricultura y Pesca, se determinará que debe entenderse por explotación agrícola, ganadera, forestal o mixta, a efectos de aplicación de esta exención, así como el procedimiento para el reconocimiento de la misma, por la Consejería de Economía y Hacienda a solicitud del contribuyente.</p>
+        </version>
+        <version id_norma="BOE-A-2005-953" fecha_publicacion="20041230" fecha_vigencia="20050101">
+          <p class="articulo">Artículo 3. Exención.</p>
+          <p class="parrafo">1. Estará exento el vertido de aguas residuales realizado por las explotaciones agrícolas, ganaderas, forestales o mixtas, y también el agua destinada a los servicios públicos de extinción de incendios.</p>
+          <p class="parrafo">2. Reglamentariamente, oída la Consejería de Agricultura y Pesca, se determinará que debe entenderse por explotación agrícola, ganadera, forestal o mixta, a efectos de aplicación de esta exención, así como el procedimiento para el reconocimiento de la misma, por la Consejería de Economía y Hacienda a solicitud del contribuyente.</p>
+          <p class="parrafo">3. El vertido de aguas residuales manifestado a través del consumo por captación directa de aguas superficiales o subterráneas de los propios usuarios estará exento, siempre que se utilice para regadío para usos agrícolas.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 26 de la Ley 8/2004, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2005-953</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta para su aplicación la disposición transitoria única de la citada Ley.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 4. Devengo.</p>
+          <p class="parrafo">El devengo se produce en el momento del suministro del agua o en el de la obtención de la misma en los supuestos de captación directa para consumo propio.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 5. Contribuyente.</p>
+          <p class="parrafo">El contribuyente es el consumidor del agua. Se considera como tal al titular del contrato de suministro o a quien por cualquier otro medio adquiera el agua para consumo directo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 6. Sustituto del contribuyente.</p>
+          <p class="parrafo">1. Están obligados al ingreso del canon de saneamiento, en concepto de sustitutos del contribuyente, las personas o Entidades que suministren el agua. A estos efectos, éstas quedan obligadas a cobrar de los usuarios el canon de saneamiento mediante su repercusión en factura separadamente con respecto a cualquier otro concepto. La obligación de ingreso del canon de saneamiento nace en el momento de la facturación del agua al cliente.</p>
+          <p class="parrafo">2. La obligación establecida en el apartado anterior recaerá sobre los transportistas del agua que no hayan satisfecho el canon de saneamiento a la entidad suministradora de la misma. La satisfacción por parte de los transportistas del canon de saneamiento a la entidad suministradora del agua se acreditará mediante la correspondiente factura, en la que conste la repercusión expresa.</p>
+          <p class="parrafo">3. En el caso de exención previsto en el artículo 3 de esta Ley, el sustituto del contribuyente queda exonerado de la obligación de repercutir siempre que el usuario le acredite, en la forma que reglamentariamente se determine, la procedencia de la aplicación de alguna exención.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 7. Base imponible.</p>
+          <p class="parrafo_2">1. La base imponible para la determinación de la cuota variable está constituida por el agua consumida medida en metros cúbicos.</p>
+          <p class="parrafo">2. La base imponible se determinará en régimen de estimación directa.</p>
+          <p class="parrafo">3. En los supuestos de captación directa, la base imponible podrá determinarse en régimen de estimación objetiva singular mediante la utilización de los signos, índices o módulos que se determinen reglamentariamente.</p>
+        </version>
+        <version id_norma="BOE-A-2014-656" fecha_publicacion="20131231" fecha_vigencia="20131231">
+          <p class="articulo">Artículo 7. Base imponible.</p>
+          <p class="parrafo_2">1. La base imponible para la determinación de la cuota variable está constituida por el agua consumida medida en metros cúbicos.</p>
+          <p class="parrafo">2. La base imponible se determinará en régimen de estimación directa.</p>
+          <p class="parrafo">3. En los casos de captación directa del agua o de consumo de agua depurada destinada, en este último caso, exclusivamente a la actividad de explotación de campos de golf, la base imponible se podrá determinar en régimen de estimación objetiva mediante la utilización de los signos, índices y módulos que se fije legal o reglamentariamente.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 3 por la disposición final 3.1 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 8. Cuota.</p>
+          <p class="parrafo">1. La cuota del canon de saneamiento está constituida por la suma de la cuota variable, y la cuota fija.</p>
+          <p class="parrafo">2. La cuota variable será de 24,50 pesetas el metro cúbico.</p>
+          <p class="parrafo">3. La cuota fija se determinará mediante la aplicación de los correspondientes elementos tributarios, de acuerdo con las siguientes tarifas mensuales:</p>
+          <p class="parrafo_2">A. Tarifa doméstica:</p>
+          <p class="parrafo_2">Por cada vivienda: 320 pesetas.</p>
+          <p class="parrafo_2">B. Tarifa industrial:</p>
+          <p class="parrafo_2">B.1 Tarifa hotelera:</p>
+          <p class="parrafo_2">B.1.1 Por cada plaza en establecimiento hotelero o similar de 5 estrellas o categoría equiparable: 320 pesetas.</p>
+          <p class="parrafo">B.1.2 Por cada plaza en establecimiento hotelero o similar de 4 estrellas o categoría equiparable: 240 pesetas.</p>
+          <p class="parrafo">B.1.3 Por cada plaza en establecimiento hotelero o similar de 3 estrellas o categoría equiparable: 160 pesetas.</p>
+          <p class="parrafo">B.1.4 Por cada plaza en establecimiento hotelero o similar de 2 estrellas o categoría equiparable: 120 pesetas.</p>
+          <p class="parrafo">B.1.5 Por cada plaza en establecimiento hotelero o similar de 1 estrella o categoría equiparable: 80 pesetas.</p>
+          <p class="parrafo_2">B.2 Restaurantes, cafeterías y bares:</p>
+          <p class="parrafo_2">B.2.1 Por cada establecimiento donde se desarrolle industria de restaurante: 2.400 pesetas.</p>
+          <p class="parrafo">B.2.2 Por cada establecimiento donde se desarrolle industria de cafetería: 1.600 pesetas.</p>
+          <p class="parrafo">B.2.3 Por cada establecimiento donde se desarrolle industria de café, o de bar, con y sin servir comidas: 1.000 pesetas.</p>
+          <p class="parrafo_2">Las cuotas de esta tarifa tienen carácter de tarifa mínima, siendo aplicables nada más cuando la cuota que corresponda a estas industrias, según los diferentes calibres de contadores de agua de la tarifa B.3, sean inferiores. En caso contrario, se les aplicará la tarifa B.3.</p>
+          <p class="parrafo_2">B.3 Otras actividades comerciales, industriales, profesionales o económicas en general, no comprendidas en las tarifas anteriores:</p>
+          <p class="parrafo_2">B.3.1 Con contador de calibre no superior a 10 milímetros: 400 pesetas.</p>
+          <p class="parrafo">B.3.2 Con contador de calibre superior a 10 milímetros y que no exceda de 13 milímetros: 1000 pesetas.</p>
+          <p class="parrafo">B.3.3 Con contador de calibre superior a 13 milímetros y que no exceda de 20 milímetros: 1.600 pesetas.</p>
+          <p class="parrafo">B.3.4 Con contador de calibre superior a 20 milímetros y que no exceda de 25 milímetros: 4.800 pesetas.</p>
+          <p class="parrafo">B.3.5 Con contador de calibre superior a 25 milímetros y que no exceda de 30 milímetros: 8.000 pesetas.</p>
+          <p class="parrafo">B.3.6 Con contador de calibre superior a 30 milímetros y que no exceda de 40 milímetros: 12.000 pesetas.</p>
+          <p class="parrafo">B.3.7 Con contador de calibre superior a 40 milímetros y que no exceda de 50 milímetros: 24.000 pesetas.</p>
+          <p class="parrafo">B.3.8 Con contador de calibre superior a 50 milímetros y que no exceda de 80 milímetros: 60.000 pesetas.</p>
+          <p class="parrafo">B.3.9 Con contador de calibre superior a 80 milímetros: 70.000 pesetas.</p>
+          <p class="parrafo_2">C. Cuando en un mismo local coincidan distintas actividades, se aplicará para todas ellas la tarifa más elevada.</p>
+          <p class="parrafo_2">4. Las cuotas especificadas en los apartados anteriores son incompatibles entre sí.</p>
+          <p class="parrafo">5. Tanto la cuota variable regulada en el número 2 de este artículo, como las tarifas establecidas en el número 3, podrán ser modificadas por las leyes de presupuestos generales de la Comunidad Autónoma de las Islas Baleares.</p>
+        </version>
+        <version id_norma="BOE-A-1993-5142" fecha_publicacion="19921231" fecha_vigencia="19930101">
+          <p class="articulo">Artículo 8. Cuota.</p>
+          <p class="parrafo">1. La cuota del canon de saneamiento está constituida por la suma de la cuota variable, y la cuota fija.</p>
+          <p class="parrafo">2. La cuota variable será de 24,50 pesetas el metro cúbico.</p>
+          <p class="parrafo">3. La cuota fija se determinará mediante la aplicación de los correspondientes elementos tributarios, de acuerdo con las siguientes tarifas mensuales:</p>
+          <p class="parrafo_2">A. Tarifa doméstica:</p>
+          <p class="parrafo_2">Por cada vivienda: 320 pesetas.</p>
+          <p class="parrafo_2">B. Tarifa industrial:</p>
+          <p class="parrafo_2">B.1 Tarifa hotelera:</p>
+          <p class="parrafo_2">B.1.1 Por cada plaza en establecimiento hotelero o similar de 5 estrellas o categoría equiparable: 320 pesetas.</p>
+          <p class="parrafo">B.1.2 Por cada plaza en establecimiento hotelero o similar de 4 estrellas o categoría equiparable: 240 pesetas.</p>
+          <p class="parrafo">B.1.3 Por cada plaza en establecimiento hotelero o similar de 3 estrellas o categoría equiparable: 160 pesetas.</p>
+          <p class="parrafo">B.1.4 Por cada plaza en establecimiento hotelero o similar de 2 estrellas o categoría equiparable: 120 pesetas.</p>
+          <p class="parrafo">B.1.5 Por cada plaza en establecimiento hotelero o similar de 1 estrella o categoría equiparable: 80 pesetas.</p>
+          <p class="parrafo_2">B.2 Restaurantes, cafeterías y bares:</p>
+          <p class="parrafo_2">B.2.1 Por cada establecimiento donde se desarrolle industria de restaurante: 2.400 pesetas.</p>
+          <p class="parrafo">B.2.2 Por cada establecimiento donde se desarrolle industria de cafetería: 1.600 pesetas.</p>
+          <p class="parrafo">B.2.3 Por cada establecimiento donde se desarrolle industria de café, o de bar, con y sin servir comidas: 1.000 pesetas.</p>
+          <p class="parrafo_2">Las cuotas de esta tarifa tienen carácter de tarifa mínima, siendo aplicables nada más cuando la cuota que corresponda a estas industrias, según los diferentes calibres de contadores de agua de la tarifa B.3, sean inferiores. En caso contrario, se les aplicará la tarifa B.3.</p>
+          <p class="parrafo_2">B.3 Otras actividades comerciales, industriales, profesionales o económicas en general, no comprendidas en las tarifas anteriores:</p>
+          <p class="parrafo_2">B.3.1 Con contador de calibre no superior a 13 milímetros: 600 pesetas.</p>
+          <p class="parrafo">B.3.2 Con contador de calibre superior a 13 milímetros y que no exceda de 15 milímetros: 1.200 pesetas.</p>
+          <p class="parrafo">B.3.3 con contador de calibre superior a 15 milímetros y que no exceda de 20 milímetros: 1.600 pesetas.</p>
+          <p class="parrafo">B.3.4 Con contador de calibre superior a 20 milímetros y que no exceda de 25 milímetros: 4.800 pesetas.</p>
+          <p class="parrafo">B.3.5 Con contador de calibre superior a 25 milímetros y que no exceda de 30 milímetros: 8.000 pesetas.</p>
+          <p class="parrafo">B.3.6 Con contador de calibre superior a 30 milímetros y que no exceda de 40 milímetros: 12.000 pesetas.</p>
+          <p class="parrafo">B.3.7 Con contador de calibre superior a 40 milímetros y que no exceda de 50 milímetros: 24.000 pesetas.</p>
+          <p class="parrafo">B.3.8 Con contador de calibre superior a 50 milímetros y que no exceda de 80 milímetros: 60.000 pesetas.</p>
+          <p class="parrafo">B.3.9 Con contador de calibre superior a 80 milímetros: 70.000 pesetas.</p>
+          <p class="parrafo_2">C. Cuando en un mismo local coincidan distintas actividades, se aplicará para todas ellas la tarifa más elevada.</p>
+          <p class="parrafo_2">4. Las cuotas especificadas en los apartados anteriores son incompatibles entre sí.</p>
+          <p class="parrafo">5. Tanto la cuota variable regulada en el número 2 de este artículo, como las tarifas establecidas en el número 3, podrán ser modificadas por las leyes de presupuestos generales de la Comunidad Autónoma de las Islas Baleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 3 por el art. 20.3 de la Ley 6/1992, de 22 de diciembre. <a class="refPost">Ref. BOE-A-1993-5142</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2013-631" fecha_publicacion="20121229" fecha_vigencia="20130101">
+          <p class="articulo">Artículo 8. Cuota.</p>
+          <p class="parrafo">1. La cuota del canon de saneamiento está constituida por la suma de la cuota variable, en función del consumo, y la cuota fija.</p>
+          <p class="parrafo">2. La cuota variable será:</p>
+          <p class="parrafo_2">a) Con carácter general, de 0,286479 euros por cada metro cúbico.</p>
+          <p class="parrafo">b) En el caso de consumos domésticos relativos a viviendas y de consumos relativos a establecimientos hoteleros, o categorías equiparables, se establecen las siguientes cuotas variables por metro cúbico, en función de la escala por bloques de consumo mensuales que se indica, por cada vivienda o plaza de establecimiento:</p>
+          <table class="tabla" border="0" summary="Tabla de datos">
+            <tbody>
+              <tr>
+                <th>
+                  <p class="cabeza_tabla">Bloque</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Consumo m<sup>3</sup>/mes</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Cuota variable /m<sup>3</sup></p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 1</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Entre 0 y 6</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,277866</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 2</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 6 y hasta 10</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,416749</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 10 y hasta 20</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,555732</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 4</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 20 y hasta 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,111464</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 5</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,666196</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Por lo que respecta al consumo doméstico de viviendas, en los casos en que el suministro de agua se realice y se facture a comunidades de propietarios u otras entidades análogas integradas por una pluralidad de propietarios de viviendas o establecimientos, tendrán la condición de abonados, a los efectos de la determinación de la cuota variable que establece este apartado, cada una de las viviendas o establecimientos que la integran, además de la propia comunidad o entidad si esta dispone de, al menos, un punto de suministro. En estos casos, a efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes a la comunidad o entidad entre el número de viviendas o establecimientos que la integran, además de la propia comunidad si esta dispone de, al menos, un punto de suministro.</p>
+          <p class="parrafo">Por lo que respecta al consumo en establecimientos hoteleros, la escala ha de aplicarse en función de las plazas del establecimiento, de manera que, a los efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes al establecimiento hotelero, entre el número de plazas del establecimiento.</p>
+          <p class="parrafo_2">3. La cuota fija ha de determinarse mediante la aplicación de los elementos tributarios correspondientes, de acuerdo con las siguientes tarifas mensuales:</p>
+          <p class="parrafo_2">A. Tarifa doméstica:</p>
+          <p class="parrafo_2">Por cada vivienda: 3,886145 euros.</p>
+          <p class="parrafo_2">B. Tarifa industrial:</p>
+          <p class="parrafo_2">B.1. Tarifa hotelera:</p>
+          <p class="parrafo_2">B.1.1 Por cada plaza en establecimiento hotelero o similar de 5 estrellas o categoría equiparable: 3,886145 euros.</p>
+          <p class="parrafo">B.1.2 Por cada plaza en establecimiento hotelero o similar de 4 estrellas o categoría equiparable: 2,908056 euros.</p>
+          <p class="parrafo">B.1.3 Por cada plaza en establecimiento hotelero o similar de 3 estrellas o categoría equiparable: 1,947440 euros.</p>
+          <p class="parrafo">B.1.4 Por cada plaza en establecimiento hotelero o similar de 2 estrellas o categoría equiparable: 1,458398 euros.</p>
+          <p class="parrafo">B.1.5 Por cada plaza en establecimiento hotelero o similar de 1 estrella o categoría equiparable: 0,969351 euros.</p>
+          <p class="parrafo">B.1.6 Por cada plaza en establecimiento de alojamiento de turismo de interior: 1,947440 euros.</p>
+          <p class="parrafo">B.1.7 Por cada plaza en establecimiento hotelero rural o agroturismo: 1,947440 euros.</p>
+          <p class="parrafo_2">B.2. Restaurantes, cafeterías y bares:</p>
+          <p class="parrafo_2">B.2.1 Por cada establecimiento donde se desarrolle industria de restaurante: 29,185386 euros.</p>
+          <p class="parrafo">B.2.2 Por cada establecimiento donde se desarrolle industria de cafetería: 19,439456 euros.</p>
+          <p class="parrafo">B.2.3 Por cada establecimiento donde se desarrolle industria de café, o de bar, con servicio de comidas o sin él: 12,138744 euros.</p>
+          <p class="parrafo_2">Las cuotas de esta tarifa tienen carácter de tarifa mínima, y sólo son aplicables cuando la cuota que corresponda a estas industrias, según los diferentes calibres de contadores de agua de la tarifa B.3, sea inferior. En caso contrario se les aplica la tarifa B.3.</p>
+          <p class="parrafo_2">B.3. Otras actividades comerciales, industriales, profesionales o económicas en general, no comprendidas en las tarifas anteriores:</p>
+          <p class="parrafo_2">B.3.1 Con contador de calibre no superior a 13 mm: 7,291980 euros.</p>
+          <p class="parrafo">B.3.2 Con contador de calibre superior a 13 mm y que no exceda de 15 mm: 14,575227 euros.</p>
+          <p class="parrafo">B.3.3 Con contador de calibre superior a 15 mm y que no exceda de 20 mm: 19,439456 euros.</p>
+          <p class="parrafo">B.3.4 Con contador de calibre superior a 20 mm y que no exceda de 25 mm: 58,318370 euros.</p>
+          <p class="parrafo">B.3.5 Con contador de calibre superior a 25 mm y que no exceda de 30 mm: 99,936482 euros.</p>
+          <p class="parrafo">B.3.6 Con contador de calibre superior a 30 mm y que no exceda de 40 mm: 149,922681 euros.</p>
+          <p class="parrafo">B.3.7 Con contador de calibre superior a 40 mm y que no exceda de 50 mm: 299,818427 euros.</p>
+          <p class="parrafo">B.3.8 Con contador de calibre superior a 50 mm y que no exceda de 80 mm: 749,568509 euros.</p>
+          <p class="parrafo">B.3.9 Con contador de calibre superior a 80 mm: 874,502582 euros.</p>
+          <p class="parrafo_2">C. Cuando en un mismo local coincidan distintas actividades, se aplicará para todas ellas la tarifa más elevada.</p>
+          <p class="parrafo_2">4. Las cuotas especificadas en los apartados anteriores son incompatibles entre sí.</p>
+          <p class="parrafo">5. Tanto la cuota variable regulada en el número 2 de este artículo, como las tarifas establecidas en el número 3, podrán ser modificadas por las leyes de presupuestos generales de la Comunidad Autónoma de las Islas Baleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 a 3 por la disposición final 4.2 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 3 por el art. 20.3 de la Ley 6/1992, de 22 de diciembre. <a class="refPost">Ref. BOE-A-1993-5142</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2014-656" fecha_publicacion="20131231" fecha_vigencia="20131231">
+          <p class="articulo">Artículo 8. Cuota.</p>
+          <p class="parrafo">1. La cuota del canon de saneamiento está constituida por la suma de la cuota variable, en función del consumo, y la cuota fija.</p>
+          <p class="parrafo">2. La cuota variable será:</p>
+          <p class="parrafo_2">a) Con carácter general, de 0,286479 euros por cada metro cúbico.</p>
+          <p class="parrafo">b) En el caso de consumos domésticos relativos a viviendas y de consumos relativos a establecimientos hoteleros, o categorías equiparables, se establecen las siguientes cuotas variables por metro cúbico, en función de la escala por bloques de consumo mensuales que se indica, por cada vivienda o plaza de establecimiento:</p>
+          <table class="tabla" border="0" summary="Tabla de datos">
+            <tbody>
+              <tr>
+                <th>
+                  <p class="cabeza_tabla">Bloque</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Consumo m<sup>3</sup>/mes</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Cuota variable /m<sup>3</sup></p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 1</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Entre 0 y 6</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,277866</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 2</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 6 y hasta 10</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,416749</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 10 y hasta 20</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,555732</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 4</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 20 y hasta 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,111464</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 5</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,666196</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Por lo que respecta al consumo doméstico de viviendas, en los casos en que el suministro de agua se realice y se facture a comunidades de propietarios u otras entidades análogas integradas por una pluralidad de propietarios de viviendas o establecimientos, tendrán la condición de abonados, a los efectos de la determinación de la cuota variable que establece este apartado, cada una de las viviendas o establecimientos que la integran, además de la propia comunidad o entidad si esta dispone de, al menos, un punto de suministro. En estos casos, a efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes a la comunidad o entidad entre el número de viviendas o establecimientos que la integran, además de la propia comunidad si esta dispone de, al menos, un punto de suministro.</p>
+          <p class="parrafo">Por lo que respecta al consumo en establecimientos hoteleros, la escala ha de aplicarse en función de las plazas del establecimiento, de manera que, a los efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes al establecimiento hotelero, entre el número de plazas del establecimiento.</p>
+          <p class="parrafo">Excepcionalmente, en el caso de fugas de agua, el consumo a tener en cuenta a efectos de la aplicación de la escala regulada en la presente letra b) será la media del consumo correspondiente a los doce meses inmediatamente anteriores, de manera que la diferencia entre el consumo efectivo y dicha media quedará sometida a la cuota variable general regulada en la letra a) anterior.</p>
+          <p class="parrafo_2">c) En el caso de consumo de agua depurada destinada exclusivamente a la actividad de explotación de campos de golf, la cuota variable será la que resulte de aplicar el siguiente régimen:</p>
+          <p class="parrafo_2">Como regla general, la cuota se estimará de manera objetiva en una cantidad fija anual, en función del tipo de campo de golf, el día 31 de diciembre de cada año, según las siguientes tarifas:</p>
+          <p class="parrafo_2">c.1) Campos de golf de 18 o más agujeros: 20.000 euros/año.</p>
+          <p class="parrafo">c.2) Campos de golf de 9 o más agujeros: 10.000 euros/año.</p>
+          <p class="parrafo">c.3) Campos de golf <em>pitch and putt</em> homologados federativamente: 5.000 euros/año.</p>
+          <p class="parrafo_2">Excepcionalmente, en caso de renuncia por parte de los contribuyentes, la cuota variable se determinará de acuerdo con las reglas generales del impuesto.</p>
+          <p class="parrafo_2">3. La cuota fija ha de determinarse mediante la aplicación de los elementos tributarios correspondientes, de acuerdo con las siguientes tarifas mensuales:</p>
+          <p class="parrafo_2">A. Tarifa doméstica:</p>
+          <p class="parrafo_2">Por cada vivienda: 3,886145 euros.</p>
+          <p class="parrafo_2">B. Tarifa industrial:</p>
+          <p class="parrafo_2">B.1. Tarifa hotelera:</p>
+          <p class="parrafo_2">B.1.1 Por cada plaza en establecimiento hotelero o similar de 5 estrellas o categoría equiparable: 3,886145 euros.</p>
+          <p class="parrafo">B.1.2 Por cada plaza en establecimiento hotelero o similar de 4 estrellas o categoría equiparable: 2,908056 euros.</p>
+          <p class="parrafo">B.1.3 Por cada plaza en establecimiento hotelero o similar de 3 estrellas o categoría equiparable: 1,947440 euros.</p>
+          <p class="parrafo">B.1.4 Por cada plaza en establecimiento hotelero o similar de 2 estrellas o categoría equiparable: 1,458398 euros.</p>
+          <p class="parrafo">B.1.5 Por cada plaza en establecimiento hotelero o similar de 1 estrella o categoría equiparable: 0,969351 euros.</p>
+          <p class="parrafo">B.1.6 Por cada plaza en establecimiento de alojamiento de turismo de interior: 1,947440 euros.</p>
+          <p class="parrafo">B.1.7 Por cada plaza en establecimiento hotelero rural o agroturismo: 1,947440 euros.</p>
+          <p class="parrafo_2">B.2. Restaurantes, cafeterías y bares:</p>
+          <p class="parrafo_2">B.2.1 Por cada establecimiento donde se desarrolle industria de restaurante: 29,185386 euros.</p>
+          <p class="parrafo">B.2.2 Por cada establecimiento donde se desarrolle industria de cafetería: 19,439456 euros.</p>
+          <p class="parrafo">B.2.3 Por cada establecimiento donde se desarrolle industria de café, o de bar, con servicio de comidas o sin él: 12,138744 euros.</p>
+          <p class="parrafo_2">Las cuotas de esta tarifa tienen carácter de tarifa mínima, y sólo son aplicables cuando la cuota que corresponda a estas industrias, según los diferentes calibres de contadores de agua de la tarifa B.3, sea inferior. En caso contrario se les aplica la tarifa B.3.</p>
+          <p class="parrafo_2">B.3. Otras actividades comerciales, industriales, profesionales o económicas en general, no comprendidas en las tarifas anteriores:</p>
+          <p class="parrafo_2">B.3.1 Con contador de calibre no superior a 13 mm: 7,291980 euros.</p>
+          <p class="parrafo">B.3.2 Con contador de calibre superior a 13 mm y que no exceda de 15 mm: 14,575227 euros.</p>
+          <p class="parrafo">B.3.3 Con contador de calibre superior a 15 mm y que no exceda de 20 mm: 19,439456 euros.</p>
+          <p class="parrafo">B.3.4 Con contador de calibre superior a 20 mm y que no exceda de 25 mm: 58,318370 euros.</p>
+          <p class="parrafo">B.3.5 Con contador de calibre superior a 25 mm y que no exceda de 30 mm: 99,936482 euros.</p>
+          <p class="parrafo">B.3.6 Con contador de calibre superior a 30 mm y que no exceda de 40 mm: 149,922681 euros.</p>
+          <p class="parrafo">B.3.7 Con contador de calibre superior a 40 mm y que no exceda de 50 mm: 299,818427 euros.</p>
+          <p class="parrafo">B.3.8 Con contador de calibre superior a 50 mm y que no exceda de 80 mm: 749,568509 euros.</p>
+          <p class="parrafo">B.3.9 Con contador de calibre superior a 80 mm: 874,502582 euros.</p>
+          <p class="parrafo_2">C. Cuando en un mismo local coincidan distintas actividades, se aplicará para todas ellas la tarifa más elevada.</p>
+          <p class="parrafo_2">4. Las cuotas especificadas en los apartados anteriores son incompatibles entre sí.</p>
+          <p class="parrafo">5. Tanto la cuota variable regulada en el número 2 de este artículo, como las tarifas establecidas en el número 3, podrán ser modificadas por las leyes de presupuestos generales de la Comunidad Autónoma de las Islas Baleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el párrafo final a la letra b) y la letra c) al apartado 2 por la disposición final 3.2 y 3 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie">Se modifican los apartados 1 a 3 por la disposición final 4.2 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 3 por el art. 20.3 de la Ley 6/1992, de 22 de diciembre. <a class="refPost">Ref. BOE-A-1993-5142</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2015-1059" fecha_publicacion="20141230" fecha_vigencia="20150101">
+          <p class="articulo">Artículo 8. Cuota.</p>
+          <p class="parrafo">1. La cuota del canon de saneamiento estará constituida por la suma de la cuota variable, en función del consumo, y la cuota fija, excepto en los supuestos de estimación objetiva de la cuota variable previstos en la letra c) del siguiente apartado, supuestos en los que la cuota del canon comprenderá únicamente la cuota variable resultante de las tarifas contenidas en dicha letra.</p>
+          <p class="parrafo">2. La cuota variable será:</p>
+          <p class="parrafo_2">a) Con carácter general, de 0,286479 euros por cada metro cúbico.</p>
+          <p class="parrafo">b) En el caso de consumos domésticos relativos a viviendas y de consumos relativos a establecimientos hoteleros, o categorías equiparables, se establecen las siguientes cuotas variables por metro cúbico, en función de la escala por bloques de consumo mensuales que se indica, por cada vivienda o plaza de establecimiento:</p>
+          <table class="tabla" border="0" summary="Tabla de datos">
+            <tbody>
+              <tr>
+                <th>
+                  <p class="cabeza_tabla">Bloque</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Consumo m<sup>3</sup>/mes</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Cuota variable /m<sup>3</sup></p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 1</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Entre 0 y 6</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,277866</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 2</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 6 y hasta 10</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,416749</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 3</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 10 y hasta 20</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">0,555732</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 4</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 20 y hasta 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,111464</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Bloque 5</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_izq">Más de 40</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1,666196</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Por lo que respecta al consumo doméstico de viviendas, en los casos en que el suministro de agua se realice y se facture a comunidades de propietarios u otras entidades análogas integradas por una pluralidad de propietarios de viviendas o establecimientos, tendrán la condición de abonados, a los efectos de la determinación de la cuota variable que establece este apartado, cada una de las viviendas o establecimientos que la integran, además de la propia comunidad o entidad si esta dispone de, al menos, un punto de suministro. En estos casos, a efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes a la comunidad o entidad entre el número de viviendas o establecimientos que la integran, además de la propia comunidad si esta dispone de, al menos, un punto de suministro.</p>
+          <p class="parrafo">Por lo que respecta al consumo en establecimientos hoteleros, la escala ha de aplicarse en función de las plazas del establecimiento, de manera que, a los efectos de la determinación de la cuota variable aplicable, ha de tenerse en cuenta el consumo mensual que resulte de dividir la cantidad total de agua suministrada cada mes al establecimiento hotelero, entre el número de plazas del establecimiento.</p>
+          <p class="parrafo">Excepcionalmente, en el caso de fugas de agua, el consumo a tener en cuenta a efectos de la aplicación de la escala regulada en la presente letra b) será la media del consumo correspondiente a los doce meses inmediatamente anteriores, de manera que la diferencia entre el consumo efectivo y dicha media quedará sometida a la cuota variable general regulada en la letra a) anterior.</p>
+          <p class="parrafo_2">c) En el caso de consumo de agua depurada destinada exclusivamente a la actividad de explotación de campos de golf, la cuota variable será la que resulte de aplicar el siguiente régimen:</p>
+          <p class="parrafo_2">Como regla general, la cuota se estimará de manera objetiva en una cantidad fija anual, en función del tipo de campo de golf, el día 31 de diciembre de cada año, según las siguientes tarifas:</p>
+          <p class="parrafo_2">c.1) Campos de golf de 18 o más agujeros: 20.000 euros/año.</p>
+          <p class="parrafo">c.2) Campos de golf de 9 o más agujeros: 10.000 euros/año.</p>
+          <p class="parrafo">c.3) Campos de golf <em>pitch and putt</em> homologados federativamente: 5.000 euros/año.</p>
+          <p class="parrafo_2">Excepcionalmente, en caso de renuncia por parte de los contribuyentes, la cuota variable se determinará de acuerdo con las reglas generales del impuesto.</p>
+          <p class="parrafo_2">3. La cuota fija ha de determinarse mediante la aplicación de los elementos tributarios correspondientes, de acuerdo con las siguientes tarifas mensuales:</p>
+          <p class="parrafo_2">A. Tarifa doméstica:</p>
+          <p class="parrafo_2">Por cada vivienda: 3,886145 euros.</p>
+          <p class="parrafo_2">B. Tarifa industrial:</p>
+          <p class="parrafo_2">B.1. Tarifa hotelera:</p>
+          <p class="parrafo_2">B.1.1 Por cada plaza en establecimiento hotelero o similar de 5 estrellas o categoría equiparable: 3,886145 euros.</p>
+          <p class="parrafo">B.1.2 Por cada plaza en establecimiento hotelero o similar de 4 estrellas o categoría equiparable: 2,908056 euros.</p>
+          <p class="parrafo">B.1.3 Por cada plaza en establecimiento hotelero o similar de 3 estrellas o categoría equiparable: 1,947440 euros.</p>
+          <p class="parrafo">B.1.4 Por cada plaza en establecimiento hotelero o similar de 2 estrellas o categoría equiparable: 1,458398 euros.</p>
+          <p class="parrafo">B.1.5 Por cada plaza en establecimiento hotelero o similar de 1 estrella o categoría equiparable: 0,969351 euros.</p>
+          <p class="parrafo">B.1.6 Por cada plaza en establecimiento de alojamiento de turismo de interior: 1,947440 euros.</p>
+          <p class="parrafo">B.1.7 Por cada plaza en establecimiento hotelero rural o agroturismo: 1,947440 euros.</p>
+          <p class="parrafo_2">B.2. Restaurantes, cafeterías y bares:</p>
+          <p class="parrafo_2">B.2.1 Por cada establecimiento donde se desarrolle industria de restaurante: 29,185386 euros.</p>
+          <p class="parrafo">B.2.2 Por cada establecimiento donde se desarrolle industria de cafetería: 19,439456 euros.</p>
+          <p class="parrafo">B.2.3 Por cada establecimiento donde se desarrolle industria de café, o de bar, con servicio de comidas o sin él: 12,138744 euros.</p>
+          <p class="parrafo_2">Las cuotas de esta tarifa tienen carácter de tarifa mínima, y sólo son aplicables cuando la cuota que corresponda a estas industrias, según los diferentes calibres de contadores de agua de la tarifa B.3, sea inferior. En caso contrario se les aplica la tarifa B.3.</p>
+          <p class="parrafo_2">B.3. Otras actividades comerciales, industriales, profesionales o económicas en general, no comprendidas en las tarifas anteriores:</p>
+          <p class="parrafo_2">B.3.1 Con contador de calibre no superior a 13 mm: 7,291980 euros.</p>
+          <p class="parrafo">B.3.2 Con contador de calibre superior a 13 mm y que no exceda de 15 mm: 14,575227 euros.</p>
+          <p class="parrafo">B.3.3 Con contador de calibre superior a 15 mm y que no exceda de 20 mm: 19,439456 euros.</p>
+          <p class="parrafo">B.3.4 Con contador de calibre superior a 20 mm y que no exceda de 25 mm: 58,318370 euros.</p>
+          <p class="parrafo">B.3.5 Con contador de calibre superior a 25 mm y que no exceda de 30 mm: 99,936482 euros.</p>
+          <p class="parrafo">B.3.6 Con contador de calibre superior a 30 mm y que no exceda de 40 mm: 149,922681 euros.</p>
+          <p class="parrafo">B.3.7 Con contador de calibre superior a 40 mm y que no exceda de 50 mm: 299,818427 euros.</p>
+          <p class="parrafo">B.3.8 Con contador de calibre superior a 50 mm y que no exceda de 80 mm: 749,568509 euros.</p>
+          <p class="parrafo">B.3.9 Con contador de calibre superior a 80 mm: 874,502582 euros.</p>
+          <p class="parrafo_2">C. Cuando en un mismo local coincidan distintas actividades, se aplicará para todas ellas la tarifa más elevada.</p>
+          <p class="parrafo_2">4. Las cuotas especificadas en los apartados anteriores son incompatibles entre sí.</p>
+          <p class="parrafo">5. Tanto la cuota variable regulada en el número 2 de este artículo, como las tarifas establecidas en el número 3, podrán ser modificadas por las leyes de presupuestos generales de la Comunidad Autónoma de las Islas Baleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por la disposición final 3 de la Ley 13/2014, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2015-1059</a>.</p>
+            <p class="nota_pie">Se añade el párrafo final a la letra b) y la letra c) al apartado 2 por la disposición final 3.2 y 3 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie">Se modifican los apartados 1 a 3 por la disposición final 4.2 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 3 por el art. 20.3 de la Ley 6/1992, de 22 de diciembre. <a class="refPost">Ref. BOE-A-1993-5142</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 9. Bonificación.</p>
+          <p class="parrafo">1. Se establece una bonificación del 75 por 100 de la cuota fija correspondiente a viviendas cuando el contribuyente no disponga de ingresos anuales atribuibles a la unidad familiar superior al salario mínimo interprofesional multiplicado por el coeficiente 1,25.</p>
+          <p class="parrafo">A los efectos de la aplicación de la citada bonificación, cuando en una unidad familiar se reúna más de un ingreso, el más elevado se computara por su valor integro, y los restantes ingresos de la unidad familiar, por el 50 por 100 de su valor.</p>
+          <p class="parrafo">2. La bonificación se hará efectiva mediante el descuento en cada recibo de las cantidades que sean procedentes.</p>
+          <p class="parrafo">3. Reglamentariamente se establecerán los requisitos para la justificación de los ingresos anuales de la unidad familiar.</p>
+        </version>
+        <version id_norma="BOE-A-2013-631" fecha_publicacion="20121229" fecha_vigencia="20130101">
+          <p class="articulo">Artículo 9. Bonificación.</p>
+          <p class="parrafo">1. Se establece una bonificación del 75 por 100 de la cuota fija correspondiente a viviendas cuando el contribuyente no disponga de ingresos anuales atribuibles a la unidad familiar superior al salario mínimo interprofesional multiplicado por el coeficiente 1,25.</p>
+          <p class="parrafo">A los efectos de la aplicación de la citada bonificación, cuando en una unidad familiar se reúna más de un ingreso, el más elevado se computara por su valor integro, y los restantes ingresos de la unidad familiar, por el 50 por 100 de su valor.</p>
+          <p class="parrafo">2. La bonificación se hará efectiva mediante el descuento en cada recibo de las cantidades que sean procedentes.</p>
+          <p class="parrafo">3. Reglamentariamente se establecerán los requisitos para la justificación de los ingresos anuales de la unidad familiar.</p>
+          <p class="parrafo">4. Asimismo, se establece una bonificación del 50% sobre las cuotas mensuales del canon devengadas por el sujeto pasivo, siempre que el 60% o más del agua consumida provenga de la reutilización de agua depurada.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 4 por la disposición final 4.3 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2014-656" fecha_publicacion="20131231" fecha_vigencia="20131231">
+          <p class="articulo">Artículo 9. Bonificación.</p>
+          <p class="parrafo">1. Se establece una bonificación del 75 por 100 de la cuota fija correspondiente a viviendas cuando el contribuyente no disponga de ingresos anuales atribuibles a la unidad familiar superior al salario mínimo interprofesional multiplicado por el coeficiente 1,25.</p>
+          <p class="parrafo">A los efectos de la aplicación de la citada bonificación, cuando en una unidad familiar se reúna más de un ingreso, el más elevado se computara por su valor integro, y los restantes ingresos de la unidad familiar, por el 50 por 100 de su valor.</p>
+          <p class="parrafo">2. La bonificación se hará efectiva mediante el descuento en cada recibo de las cantidades que sean procedentes.</p>
+          <p class="parrafo">3. Reglamentariamente se establecerán los requisitos para la justificación de los ingresos anuales de la unidad familiar.</p>
+          <p class="parrafo">4. Asimismo, se establece una bonificación del 50% sobre las cuotas mensuales del canon devengadas por el sujeto pasivo, siempre que el 60% o más del agua consumida provenga de la reutilización de agua depurada.</p>
+          <p class="parrafo">Esta bonificación no será aplicable a los sujetos pasivos que determinen la cuota variable del impuesto con el sistema de estimación objetiva que prevén los artículos 8.2.c) y 12.2 de la presente ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el párrafo segundo al apartado 4 por la disposición final 3.4 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie">Se añade el apartado 4 por la disposición final 4.3 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 10. Compatibilidad e incompatibilidad con otras exacciones.</p>
+          <p class="parrafo">1. El canon de saneamiento es compatible con cualquier otra exacción que pueda recaer sobre el agua, siempre que no grave el mismo hecho imponible. En particular es compatible con la tasa de alcantarillado.</p>
+          <p class="parrafo">2. No obstante lo dispuesto en el apartado anterior, el canon será incompatible con la imposición de contribuciones especiales autonómicas destinadas a financiar instalaciones y obras de depuración —comprendiendo dentro de éstas las de trasvase de aguas residuales desde la red de alcantarillado hasta la estación depuradora—, así como con cualquier tasa o precio público autonómico destinados a costear la explotación, conservación y mantenimiento de las referidas instalaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Normas de gestión</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 11. Liquidación e ingresos.</p>
+          <p class="parrafo">1. El canon se ingresará mediante el sistema de declaración-liquidación formulada por el sustituto del contribuyente en los plazos y formas que se determinen reglamentariamente.</p>
+        </version>
+        <version id_norma="BOE-A-2011-90085" fecha_publicacion="20111206" fecha_vigencia="20111207">
+          <p class="articulo">Artículo 11. Liquidación e ingresos.</p>
+          <p class="parrafo">1. El sustituto del contribuyente debe ingresar las cuotas correspondientes al canon mediante el sistema de declaración-liquidación, formulada en los plazos y de la manera que se determinen por reglamento, el cual deberá prever, en todo caso, una declaración-liquidación resumen anual que deberá presentar el sustituto del contribuyente antes del 28 de febrero del año siguiente.</p>
+          <p class="parrafo">En todo caso, las cuotas repercutidas por el sustituto del contribuyente se ingresarán por el 100% del importe facturado dentro de la declaración-liquidación correspondiente a cada periodo, según se trate del régimen general o especial de liquidación.</p>
+          <p class="parrafo">2. En la declaración-liquidación resumen anual se podrán incluir los importes correspondientes a los saldos de dudoso cobro que, de acuerdo con lo establecido en el apartado 3 siguiente, hayan adquirido dicha condición en el ejercicio a que se refiera la declaración-liquidación resumen anual, así como los declarados en ejercicios anteriores y cobrados en este último ejercicio, en los casos y con los requisitos establecidos en la presente ley y en sus disposiciones de desarrollo.</p>
+          <p class="parrafo">3. A los efectos de este tributo, se entienden por saldos de dudoso cobro los créditos derivados de las cuotas del canon de saneamiento de aguas no pagadas por los contribuyentes a los sustitutos cuando concurra alguna de las siguientes circunstancias:</p>
+          <p class="parrafo_2">a) Que, con posterioridad al devengo de las cuotas repercutidas, el deudor sea declarado en situación de concurso.</p>
+          <p class="parrafo">b) Que hayan transcurrido seis meses desde el devengo de las cuotas repercutidas sin que éstas se hayan podido cobrar total o parcialmente.</p>
+          <p class="parrafo">c) Que los créditos correspondientes a las cuotas repercutidas se hayan reclamado judicialmente o sean objeto de un litigio judicial o procedimiento arbitral de cuya solución dependa su cobro.</p>
+          <p class="parrafo_2">No obstante lo anterior, no se podrán incluir las cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni las relativas a créditos debidos o garantizados por entidades públicas.</p>
+          <p class="parrafo">Las cuotas correspondientes a los saldos de dudoso cobro declaradas y que se cobren posteriormente se incluirán en la declaración-liquidación resumen anual correspondiente al ejercicio de cobro, siempre que la Agencia Tributaria de las Illes Balears no haya notificado al sustituto el acto por el que resuelva exigir directamente al contribuyente tales cuotas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 21 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-7445" fecha_publicacion="20120512" fecha_vigencia="20120513">
+          <p class="articulo">Artículo 11. Liquidación e ingresos.</p>
+          <p class="parrafo">1. El sustituto del contribuyente debe ingresar las cuotas correspondientes al canon mediante el sistema de declaración-liquidación, formulada en los plazos y de la manera que se determinen por reglamento, el cual deberá prever, en todo caso, una declaración-liquidación resumen anual que deberá presentar el sustituto del contribuyente antes del 28 de febrero del año siguiente.</p>
+          <p class="parrafo">En todo caso, las cuotas repercutidas por el sustituto del contribuyente se ingresarán por el cien por cien del importe facturado dentro de la declaración-liquidación correspondiente a cada período, según se trate del régimen general o especial de liquidación.</p>
+          <p class="parrafo">2. En la declaración-liquidación resumen anual se podrán incluir los importes correspondientes a los saldos de dudoso cobro que, de acuerdo con lo establecido en el apartado 3 siguiente, hayan adquirido dicha condición en el ejercicio a que se refiera la declaración-liquidación resumen anual, así como los declarados en ejercicios anteriores y cobrados en este último ejercicio, en los casos y con los requisitos establecidos en la presente ley y en sus disposiciones de desarrollo.</p>
+          <p class="parrafo">3. A los efectos de este tributo, se entienden por saldos de dudoso cobro los créditos derivados de las cuotas del canon de saneamiento de aguas no pagadas por los contribuyentes a los sustitutos cuando concurra alguna de las siguientes circunstancias:</p>
+          <p class="parrafo_2">a) Que, con posterioridad al devengo de las cuotas repercutidas, el deudor sea declarado en situación de concurso.</p>
+          <p class="parrafo">b) Que hayan transcurrido seis meses desde el devengo de las cuotas repercutidas sin que éstas se hayan podido cobrar total o parcialmente.</p>
+          <p class="parrafo">c) Que los créditos correspondientes a las cuotas repercutidas se hayan reclamado judicialmente o sean objeto de un litigio judicial o procedimiento arbitral de cuya solución dependa su cobro.</p>
+          <p class="parrafo_2">No obstante lo anterior, no se podrán incluir las cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni las relativas a créditos debidos o garantizados por entidades públicas.</p>
+          <p class="parrafo">Las cuotas correspondientes a los saldos de dudoso cobro declaradas y que se cobren posteriormente se incluirán en la declaración-liquidación resumen anual correspondiente al ejercicio de cobro, siempre que la Agencia Tributaria de las Illes Balears no haya notificado al sustituto el acto por el que resuelva exigir directamente al contribuyente tales cuotas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 21 de la Ley 3/2012, de 30 de abril. <a class="refPost">Ref. BOE-A-2012-7445</a>.</p>
+            <p class="nota_pie">Se modifica por el art. 21 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 12. Ingreso directo por el consumidor.</p>
+          <p class="parrafo">Reglamentariamente se determinará el procedimiento para el ingreso directo por el consumidor del canon de saneamiento en los casos en que este no obtenga el agua de ninguna empresa suministradora o transportista.</p>
+          <p class="parrafo">Se entenderá que sucede así cuando el consumidor no esté conectado a la red de abastecimiento de aguas y no aporte las facturas con la correspondiente repercusión del canon de saneamiento, si afirma recibirla de algún particular o transportista.</p>
+          <p class="parrafo">En estos casos, la base imponible se determinará por el procedimiento de estimación objetiva singular, con la aplicación de los signos, índices o módulos que se determinen legal o reglamentariamente, en base a los principios de realidad, eficacia y simplicidad, de manera que se garantice la igualdad entre todos los contribuyentes.</p>
+          <p class="parrafo">Reglamentariamente se podrá establecer que en estos supuestos se realice conjuntamente el ingreso del canon correspondiente a un período de hasta un año natural.</p>
+        </version>
+        <version id_norma="BOE-A-2014-656" fecha_publicacion="20131231" fecha_vigencia="20131231">
+          <p class="articulo">Artículo 12. Ingreso directo por el consumidor.</p>
+          <p class="parrafo">1. Reglamentariamente se determinará el procedimiento para el ingreso directo por el consumidor del canon de saneamiento en los casos en que este no obtenga el agua de ninguna empresa suministradora o transportista.</p>
+          <p class="parrafo">Se entenderá que así sucede cuando el consumidor no esté conectado a la red de abastecimiento de aguas y no aporte las facturas con la correspondiente repercusión del canon de saneamiento, si afirma recibirla de algún particular o transportista.</p>
+          <p class="parrafo">En estos casos, la base imponible se determinará por el procedimiento de estimación objetiva, con la aplicación de los signos, índices o módulos que se determinen legal o reglamentariamente, en base a los principios de realidad, eficacia y simplicidad, de manera que se garantice la igualdad entre todos los contribuyentes.</p>
+          <p class="parrafo">Reglamentariamente podrá establecerse que en estos supuestos se realice conjuntamente el ingreso del canon correspondiente a un período de hasta un año natural.</p>
+          <p class="parrafo">2. El régimen de estimación objetiva de la cuota variable prevista en el artículo 8.2.c) anterior será aplicable a todos los contribuyentes que exploten los campos de golf, a menos que renuncien de manera expresa mediante una declaración que se deberá presentar en el primer trimestre del año.</p>
+          <p class="parrafo">En caso de que sea aplicable el mencionado régimen de estimación objetiva, el contribuyente deberá presentar una declaración tributaria con todos los elementos necesarios para la liquidación del impuesto en el mes de abril de cada año.</p>
+          <p class="parrafo">En el mes de junio de cada año, la administración tributaria autonómica practicará una liquidación parcial a cuenta por el 60% de la cuota estimada en función de la tarifa aplicable al campo de golf, prevista en el artículo 8.2.c), el día 31 de diciembre anterior. Posteriormente, en el mes de enero de cada año, la administración practicará la liquidación que corresponda en función de la citada tarifa y las características del campo de golf el día 31 de diciembre anterior, con la correspondiente deducción de la liquidación parcial a cuenta.</p>
+          <p class="parrafo">Mediante una orden del consejero competente en materia de hacienda podrán desarrollarse las normas sobre la liquidación de la cuota variable en este régimen de estimación objetiva, y sobre la sujeción y la renuncia a este régimen.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición final 3.5 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta, para el ejercicio 2013, la disposición transitoria 2 de la citada ley.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 13. Obligaciones formales.</p>
+          <p class="parrafo">1. Sin perjuicio de lo establecido en el Código de Comercio y en la normativa del Impuesto sobre el Valor Añadido, la contabilidad de los sustitutos del contribuyente deberá permitir determinar, en todo momento, con precisión, el importe del canon de saneamiento procedente así como el cumplimiento de los mismos de su obligación de repercusión.</p>
+          <p class="parrafo">En general, serán aplicables a los sustitutos del contribuyente las obligaciones formales, registrales y de facturación, reguladas en la normativa del Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">2. Cuando la entidad suministradora sea la Administración Local, el canon repercutido a los usuarios, así como su ingreso a la Comunidad Autónoma, se contabilizaran en cuenta especifica de acuerdo con el Plan General de Cuentas para las Entidades Locales, aprobado por el Ministerio de Economía y Hacienda, en desarrollo del artículo 184.2 de la Ley 39/1988, de 28 de diciembre, sobre Haciendas Locales.</p>
+        </version>
+        <version id_norma="BOE-A-2011-90085" fecha_publicacion="20111206" fecha_vigencia="20111207">
+          <p class="articulo">Artículo 13. Obligaciones formales.</p>
+          <p class="parrafo">1. Sin perjuicio de lo establecido en el Código de Comercio y en la normativa del Impuesto sobre el Valor Añadido, la contabilidad de los sustitutos del contribuyente deberá permitir determinar, en todo momento, con precisión, el importe del canon de saneamiento procedente así como el cumplimiento de los mismos de su obligación de repercusión.</p>
+          <p class="parrafo">En general, serán aplicables a los sustitutos del contribuyente las obligaciones formales, registrales y de facturación, reguladas en la normativa del Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">2. Cuando la entidad suministradora sea la Administración Local, el canon repercutido a los usuarios, así como su ingreso a la Comunidad Autónoma, se contabilizaran en cuenta especifica de acuerdo con el Plan General de Cuentas para las Entidades Locales, aprobado por el Ministerio de Economía y Hacienda, en desarrollo del artículo 184.2 de la Ley 39/1988, de 28 de diciembre, sobre Haciendas Locales.</p>
+          <p class="parrafo">3. En todo caso, el ejercicio por parte de los sustitutos del contribuyente del derecho a la inclusión de los saldos de dudoso cobro a que se refieren los apartados 2 y 3 del artículo 11 estará condicionado al cumplimiento de todos y cada uno de los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que la condición del crédito como de dudoso cobro quede reflejada en los libros registros exigidos por la normativa regulador del impuesto sobre el valor añadido.</p>
+          <p class="parrafo">b) Que la contabilidad del sustituto permita la identificación de los saldos de dudoso cobro anotados en las cuentas específicas para créditos por repercusión de cánones o tributos, con el desglose que sea necesario en cada caso.</p>
+          <p class="parrafo">c) Que el sustituto haya expedido y remitido al contribuyente una nueva factura o documento sustitutivo en los que se rectifiquen o, en su caso, se anulen las cuotas repercutidas, cuando así lo exija la legislación reguladora del impuesto sobre el valor añadido.</p>
+          <p class="parrafo">d) Que el sustituto presente ante la Agencia Tributaria de las Illes Balears, junto con la declaración-liquidación resumen anual, una comunicación específica con el detalle de tales saldos, de forma que la Agencia Tributaria pueda exigir estas cuantías a los contribuyentes de acuerdo con la legislación tributaria. En esta comunicación se hará constar que los saldos no se refieren a cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni relativas a créditos debidos o garantizados por entidades públicas, y ha de adjuntarse la siguiente documentación justificativa:</p>
+          <p class="parrafo_2">1.º Una copia de las facturas o documentos sustitutivos en que se rectifiquen las cuotas impagadas, en los casos en que la legislación reguladora del impuesto sobre el valor añadido exija la rectificación de tales facturas o documentos sustitutivos, así como, en todo caso, una copia de las facturas o documentos sustitutivos iniciales.</p>
+          <p class="parrafo">2.º Una copia de la documentación justificativa del requerimiento judicial o extrajudicial que se haya practicado al contribuyente para la exigencia de la cuota o cuotas impagadas, en el supuesto a que se refiere el artículo 11.3.b). En el caso de requerimientos extrajudiciales, la documentación justificativa ha de hacer prueba del contenido del requerimiento y del hecho de la notificación efectuada o debidamente intentada.</p>
+          <p class="parrafo">3.º En el caso de concurso, la copia del auto judicial de declaración de concurso del contribuyente o la certificación del Registro Mercantil, en su caso, acreditativa de aquél.</p>
+          <p class="parrafo">4.º En el caso de créditos litigiosos, los documentos que acrediten que el acreedor ha instado el cobro del crédito mediante reclamación judicial o procedimiento arbitral.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-7445" fecha_publicacion="20120512" fecha_vigencia="20120513">
+          <p class="articulo">Artículo 13. Obligaciones formales.</p>
+          <p class="parrafo">1. Sin perjuicio de lo establecido en el Código de Comercio y en la normativa del Impuesto sobre el Valor Añadido, la contabilidad de los sustitutos del contribuyente deberá permitir determinar, en todo momento, con precisión, el importe del canon de saneamiento procedente así como el cumplimiento de los mismos de su obligación de repercusión.</p>
+          <p class="parrafo">En general, serán aplicables a los sustitutos del contribuyente las obligaciones formales, registrales y de facturación, reguladas en la normativa del Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">2. Cuando la entidad suministradora sea la Administración Local, el canon repercutido a los usuarios, así como su ingreso a la Comunidad Autónoma, se contabilizaran en cuenta especifica de acuerdo con el Plan General de Cuentas para las Entidades Locales, aprobado por el Ministerio de Economía y Hacienda, en desarrollo del artículo 184.2 de la Ley 39/1988, de 28 de diciembre, sobre Haciendas Locales.</p>
+          <p class="parrafo">3. En todo caso, el ejercicio por parte de los sustitutos del contribuyente del derecho a la inclusión de los saldos de dudoso cobro a que se refieren los apartados 2 y 3 del artículo 11 estará condicionado al cumplimiento de los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que la condición del crédito como de dudoso cobro quede reflejada en los libros registros exigidos por la normativa reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">b) Que la contabilidad del sustituto permita la identificación de los saldos de dudoso cobro anotados en las cuentas específicas para créditos por repercusión de cánones o tributos, con el desglose que sea necesario en cada caso.</p>
+          <p class="parrafo">c) Que el sustituto haya expedido y remitido al contribuyente una nueva factura o documento sustitutivo en los que se rectifiquen o, en su caso, se anulen las cuotas repercutidas, cuando así lo exija la legislación reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">d) Que el sustituto presente ante la Agencia Tributaria de las Illes Balears, junto con la declaración-liquidación resumen anual, una comunicación específica con el detalle de tales saldos, de forma que la Agencia Tributaria pueda exigir estas cuantías a los contribuyentes de acuerdo con la legislación tributaria. En esta comunicación se hará constar que los saldos no se refieren a cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni relativas a créditos debidos o garantizados por entidades públicas, y ha de adjuntarse la siguiente documentación justificativa:</p>
+          <p class="parrafo_2">1.º Una copia de las facturas o los documentos sustitutivos en que se rectifiquen las cuotas impagadas, en los casos en que la legislación reguladora del Impuesto sobre el valor añadido exija la rectificación de tales facturas o documentos sustitutivos, así como, en todo caso, una copia de las facturas o documentos sustitutivos iniciales.</p>
+          <p class="parrafo">2.º Una copia de la documentación justificativa del requerimiento judicial o extrajudicial que se haya practicado al contribuyente para exigirle la cuota o las cuotas impagadas, en el supuesto a que se refiere el artículo 11.3.b). En el caso de requerimientos extrajudiciales, la documentación justificativa ha de hacer prueba del contenido del requerimiento y del hecho de la notificación efectuada o debidamente intentada.</p>
+          <p class="parrafo">3.º En el caso de concurso, la copia del auto judicial de declaración de concurso del contribuyente o la certificación del Registro Mercantil, en su caso, acreditativa de aquél.</p>
+          <p class="parrafo">4.º En el caso de créditos litigiosos, los documentos que acrediten que el acreedor ha instado el cobro del crédito mediante una reclamación judicial o un procedimiento arbitral.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 de la Ley 3/2012, de 30 de abril. <a class="refPost">Ref. BOE-A-2012-7445</a>.</p>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2014-656" fecha_publicacion="20131231" fecha_vigencia="20131231">
+          <p class="articulo">Artículo 13. Obligaciones formales.</p>
+          <p class="parrafo">1. Sin perjuicio de lo establecido en el Código de Comercio y en la normativa del Impuesto sobre el Valor Añadido, la contabilidad de los sustitutos del contribuyente deberá permitir determinar, en todo momento, con precisión, el importe del canon de saneamiento procedente así como el cumplimiento de los mismos de su obligación de repercusión.</p>
+          <p class="parrafo">En general, serán aplicables a los sustitutos del contribuyente las obligaciones formales, registrales y de facturación, reguladas en la normativa del Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">2. Cuando la entidad suministradora sea la Administración Local, el canon repercutido a los usuarios, así como su ingreso a la Comunidad Autónoma, se contabilizaran en cuenta especifica de acuerdo con el Plan General de Cuentas para las Entidades Locales, aprobado por el Ministerio de Economía y Hacienda, en desarrollo del artículo 184.2 de la Ley 39/1988, de 28 de diciembre, sobre Haciendas Locales.</p>
+          <p class="parrafo">3. En todo caso, el ejercicio por parte de los sustitutos del contribuyente del derecho a la inclusión de los saldos de dudoso cobro a que se refieren los apartados 2 y 3 del artículo 11 estará condicionado al cumplimiento de los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que la condición del crédito como de dudoso cobro quede reflejada en los libros registros exigidos por la normativa reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">b) Que la contabilidad del sustituto permita la identificación de los saldos de dudoso cobro anotados en las cuentas específicas para créditos por repercusión de cánones o tributos, con el desglose que sea necesario en cada caso.</p>
+          <p class="parrafo">c) Que el sustituto haya expedido y remitido al contribuyente una nueva factura o documento sustitutivo en los que se rectifiquen o, en su caso, se anulen las cuotas repercutidas, cuando así lo exija la legislación reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">d) Que el sustituto presente ante la Agencia Tributaria de las Illes Balears, junto con la declaración-liquidación resumen anual, una comunicación específica con el detalle de tales saldos, de forma que la Agencia Tributaria pueda exigir estas cuantías a los contribuyentes de acuerdo con la legislación tributaria. En esta comunicación se hará constar que los saldos no se refieren a cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni relativas a créditos debidos o garantizados por entidades públicas, y ha de adjuntarse la siguiente documentación justificativa:</p>
+          <p class="parrafo_2">1.º Una copia de las facturas o los documentos sustitutivos en que se rectifiquen las cuotas impagadas, en los casos en que la legislación reguladora del Impuesto sobre el valor añadido exija la rectificación de tales facturas o documentos sustitutivos, así como, en todo caso, una copia de las facturas o documentos sustitutivos iniciales.</p>
+          <p class="parrafo">2.º Una copia de la documentación justificativa del requerimiento judicial o extrajudicial que se haya practicado al contribuyente para exigirle la cuota o las cuotas impagadas, en el supuesto a que se refiere el artículo 11.3.b). En el caso de requerimientos extrajudiciales, la documentación justificativa ha de hacer prueba del contenido del requerimiento y del hecho de la notificación efectuada o debidamente intentada.</p>
+          <p class="parrafo">3.º En el caso de concurso, la copia del auto judicial de declaración de concurso del contribuyente o la certificación del Registro Mercantil, en su caso, acreditativa de aquél.</p>
+          <p class="parrafo">4.º En el caso de créditos litigiosos, los documentos que acrediten que el acreedor ha instado el cobro del crédito mediante una reclamación judicial o un procedimiento arbitral.</p>
+          <p class="parrafo_2">4. No obstante, los sustitutos de los contribuyentes podrán optar por un régimen de estimación objetiva de los saldos de dudoso cobro, sin que resulten aplicables las normas establecidas en el apartado 3 anterior, excepto las previstas en las letras a) y b) del citado apartado, y tampoco las normas relativas a la inclusión de las cuotas cobradas posteriormente a que hacen referencia el inciso final del apartado 2 y el último párrafo del apartado 3 del artículo 11.</p>
+          <p class="parrafo">A este efecto, en la declaración-liquidación resumen anual se podrán imputar como saldos de dudoso cobro del ejercicio anterior las cuantías que resulten de la aplicación de los porcentajes que se indican a continuación, según el importe de las cuotas a ingresar en el ejercicio correspondiente:</p>
+          <table class="tabla" border="0" summary="Tabla de datos">
+            <tbody>
+              <tr>
+                <th>
+                  <p class="cabeza_tabla">Importe de las cuotas</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Porcentaje aplicable</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Hasta 450.000 euros.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">2</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Entre 450.000,01 y 1.200.000 euros.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">  1,5</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">A partir de 1.200.000,01 euros.</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">1</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Este régimen de estimación objetiva será aplicable a todos los sustitutos de los contribuyentes, salvo que renuncien de manera expresa mediante una declaración que ha de presentarse ante la administración tributaria autonómica en el mes de diciembre de cada año, con efectos sobre la declaración-liquidación resumen anual del año correspondiente.</p>
+          <p class="parrafo">Mediante una orden del consejero competente en materia de hacienda se podrán regular los aspectos formales de esta declaración.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 4 por la disposición final 3.6 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta, para el ejercicio 2013, la disposición transitoria 3 de la citada ley.</p>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 de la Ley 3/2012, de 30 de abril. <a class="refPost">Ref. BOE-A-2012-7445</a>.</p>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2015-4331" fecha_publicacion="20150328" fecha_vigencia="20150329">
+          <p class="articulo">Artículo 13. Obligaciones formales.</p>
+          <p class="parrafo">1. Sin perjuicio de lo establecido en el Código de Comercio y en la normativa del Impuesto sobre el Valor Añadido, la contabilidad de los sustitutos del contribuyente deberá permitir determinar, en todo momento, con precisión, el importe del canon de saneamiento procedente así como el cumplimiento de los mismos de su obligación de repercusión.</p>
+          <p class="parrafo">En general, serán aplicables a los sustitutos del contribuyente las obligaciones formales, registrales y de facturación, reguladas en la normativa del Impuesto sobre el Valor Añadido.</p>
+          <p class="parrafo">2. Cuando la entidad suministradora sea la Administración Local, el canon repercutido a los usuarios, así como su ingreso a la Comunidad Autónoma, se contabilizaran en cuenta especifica de acuerdo con el Plan General de Cuentas para las Entidades Locales, aprobado por el Ministerio de Economía y Hacienda, en desarrollo del artículo 184.2 de la Ley 39/1988, de 28 de diciembre, sobre Haciendas Locales.</p>
+          <p class="parrafo">3. En todo caso, el ejercicio por parte de los sustitutos del contribuyente del derecho a la inclusión de los saldos de dudoso cobro a que se refieren los apartados 2 y 3 del artículo 11 estará condicionado al cumplimiento de los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que la condición del crédito como de dudoso cobro quede reflejada en los libros registros exigidos por la normativa reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">b) Que la contabilidad del sustituto permita la identificación de los saldos de dudoso cobro anotados en las cuentas específicas para créditos por repercusión de cánones o tributos, con el desglose que sea necesario en cada caso.</p>
+          <p class="parrafo">c) Que el sustituto haya expedido y remitido al contribuyente una nueva factura o documento sustitutivo en los que se rectifiquen o, en su caso, se anulen las cuotas repercutidas, cuando así lo exija la legislación reguladora del Impuesto sobre el valor añadido.</p>
+          <p class="parrafo">d) Que el sustituto presente ante la Agencia Tributaria de las Illes Balears, junto con la declaración-liquidación resumen anual, una comunicación específica con el detalle de tales saldos, de forma que la Agencia Tributaria pueda exigir estas cuantías a los contribuyentes de acuerdo con la legislación tributaria. En esta comunicación se hará constar que los saldos no se refieren a cuotas del canon de saneamiento relativas a créditos que disfruten de garantía real o que estén garantizados con un contrato de seguro de crédito o de caución, ni relativas a créditos debidos o garantizados por entidades públicas, y ha de adjuntarse la siguiente documentación justificativa:</p>
+          <p class="parrafo_2">1.º Una copia de las facturas o los documentos sustitutivos en que se rectifiquen las cuotas impagadas, en los casos en que la legislación reguladora del Impuesto sobre el valor añadido exija la rectificación de tales facturas o documentos sustitutivos, así como, en todo caso, una copia de las facturas o documentos sustitutivos iniciales.</p>
+          <p class="parrafo">2.º Una copia de la documentación justificativa del requerimiento judicial o extrajudicial que se haya practicado al contribuyente para exigirle la cuota o las cuotas impagadas, en el supuesto a que se refiere el artículo 11.3.b). En el caso de requerimientos extrajudiciales, la documentación justificativa ha de hacer prueba del contenido del requerimiento y del hecho de la notificación efectuada o debidamente intentada.</p>
+          <p class="parrafo">3.º En el caso de concurso, la copia del auto judicial de declaración de concurso del contribuyente o la certificación del Registro Mercantil, en su caso, acreditativa de aquél.</p>
+          <p class="parrafo">4.º En el caso de créditos litigiosos, los documentos que acrediten que el acreedor ha instado el cobro del crédito mediante una reclamación judicial o un procedimiento arbitral.</p>
+          <p class="parrafo_2">4. No obstante, los sustitutos de los contribuyentes podrán optar por un régimen de estimación objetiva de los saldos de dudoso cobro, sin que resulten aplicables las normas establecidas en el apartado 3 anterior, excepto las previstas en las letras a) y b) del citado apartado, y tampoco las normas relativas a la inclusión de las cuotas cobradas posteriormente a que hacen referencia el inciso final del apartado 2 y el último párrafo del apartado 3 del artículo 11.</p>
+          <p class="parrafo">A este efecto, en la declaración-liquidación resumen anual se podrán imputar como saldos de dudoso cobro del ejercicio anterior las cuantías que resulten de la aplicación de los porcentajes que se indican a continuación, según el importe de las cuotas a ingresar en el ejercicio correspondiente:</p>
+          <table class="tabla" border="0" summary="Tabla de datos">
+            <tbody>
+              <tr>
+                <th>
+                  <p class="cabeza_tabla">Importe de las cuotas</p>
+                </th>
+                <th>
+                  <p class="cabeza_tabla">Porcentaje aplicable</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Hasta 750.000 euros</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">3,5 %</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">Entre 750.000,01 y 1.500.000 euros</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">3 %</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_izq">A partir de 1.500.000, 01 euros</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">2,5 %</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="parrafo_2">Este régimen de estimación objetiva será aplicable a todos los sustitutos de los contribuyentes, salvo que renuncien de manera expresa mediante una declaración que ha de presentarse ante la administración tributaria autonómica en el mes de diciembre de cada año, con efectos sobre la declaración-liquidación resumen anual del año correspondiente.</p>
+          <p class="parrafo">Mediante una orden del consejero competente en materia de hacienda se podrán regular los aspectos formales de esta declaración.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 4 por la disposición final 3 de la Ley 3/2015, de 23 de marzo. <a class="refPost">Ref. BOE-A-2015-4331#dftercera-2</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta, para el ejercicio 2015, la disposición final 4.2 de la citada ley.</p>
+            <p class="nota_pie">Se añade el apartado 4 por la disposición final 3.6 de la Ley 8/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-656</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta, para el ejercicio 2013, la disposición transitoria 3 de la citada ley.</p>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 de la Ley 3/2012, de 30 de abril. <a class="refPost">Ref. BOE-A-2012-7445</a>.</p>
+            <p class="nota_pie">Se añade el apartado 3 por el art. 22 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 14. Gestión e inspección.</p>
+          <p class="parrafo">La gestión, comprobación e inspección del cumplimiento de las obligaciones establecidas en esta Ley, así como la imposición de las sanciones procedentes, corresponde a la Consejería de Economía y Hacienda.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 15. Sanciones.</p>
+          <p class="parrafo">Las infracciones tributarias serán calificadas y sancionadas de acuerdo a lo dispuesto en la Ley General Tributaria y demás disposiciones complementarias o concordantes, que regulan la potestad sancionadora de la administración pública en materia tributaria.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 16. Recursos.</p>
+          <p class="parrafo">Contra los actos administrativos en esta materia se podrá interponer, con carácter potestativo, recurso de reposición o, directamente, reclamación ante los órganos económico-administrativos de la Comunidad Autónoma de las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Destino y transferencia</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Artículo 17.</p>
+          <p class="parrafo">1. El canon de saneamiento se destinará íntegramente a la financiación de las actuaciones de política hidráulica que realice la Junta de Aguas de Baleares.</p>
+          <p class="parrafo">2. Los ingresos presupuestados por canon de saneamiento serán transferidos en su totalidad, una vez deducidos los costes de gestión, al presupuesto de la Junta de Aguas de Baleares, con una periodicidad mensual, en los términos que reglamentariamente se determinen.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Se autoriza al Gobierno para que, a propuesta de los Consejeros de Economía y Hacienda y de Obras Públicas y Ordenación del Territorio, dicte las disposiciones necesarias para la aplicación y el desarrollo de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Los Ayuntamientos y restantes entidades públicas que presten el servicio de depuración de aguas residuales, tendrán derecho a ser indemnizados por los costes de conservación, mantenimiento, explotación e instalación que soporten, en la forma y bajo las condiciones que reglamentariamente apruebe el Gobierno de la Comunidad Autónoma. Esta Disposición general será dictada a propuesta del Consejero de Obras Públicas y Ordenación del Territorio y previo el informe de la Junta de Aguas de Baleares.</p>
+        </version>
+        <version id_norma="BOE-A-2013-631" fecha_publicacion="20121229" fecha_vigencia="20130101">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Los Ayuntamientos y restantes entidades públicas que presten el servicio de depuración de aguas residuales, tendrán derecho a ser indemnizados por los costes de conservación, mantenimiento, explotación e instalación que soporten, en la forma y bajo las condiciones que reglamentariamente apruebe el Gobierno de la Comunidad Autónoma. Esta Disposición general será dictada a propuesta del Consejero de Obras Públicas y Ordenación del Territorio y previo el informe de la Junta de Aguas de Baleares.</p>
+          <p class="parrafo">En todo caso, el derecho y la cuantía de las indemnizaciones quedan sometidos a las disponibilidades presupuestarias, así como, por lo que respecta a las indemnizaciones por obras e instalaciones, a la planificación que se establezca por la consejería competente en materia de medio ambiente.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el párrafo segundo por la disposición final 4.4 de la Ley 15/2012, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2013-631</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional tercera. Creación de puestos de trabajo.</p>
+          <p class="parrafo">1. Para la gestión, comprobación e inspección del tributo, afectos a la Dirección General de Hacienda, se aprueba la siguiente relación de puestos de trabajo:</p>
+          <p class="parrafo">A) Servicios centrales:</p>
+          <p class="parrafo_2">Un Jefe de Servicio: Grupo A.</p>
+          <p class="parrafo">Un Jefe de Negociado: Grupo B.</p>
+          <p class="parrafo">Un Administrativo: Grupo C.</p>
+          <p class="parrafo">Dos Auxiliares administrativos: Grupo D.</p>
+          <p class="parrafo_2">B) Servicio Territorial de Menorca:</p>
+          <p class="parrafo_2">Un Administrativo: Grupo C.</p>
+          <p class="parrafo_2">C) Servicio Territorial de Ibiza y Formentera:</p>
+          <p class="parrafo_2">Un Administrativo: Grupo C.</p>
+          <p class="parrafo_2">2. Para la inspección, vigilancia y control de los aprovechamientos hidráulicos sujetos al hecho imponible del canon de saneamiento y demás materias relacionadas, afectos a la Junta de Aguas de Baleares, se aprueba la siguiente relación de puestos de trabajo:</p>
+          <p class="parrafo_2">Un Jefe de Servicio: Grupo A.</p>
+          <p class="parrafo">Un Jefe de Sección: Grupo A o B.</p>
+          <p class="parrafo">Un Jefe de Negociado: Grupo B.</p>
+          <p class="parrafo">Un Administrativo: Grupo C.</p>
+          <p class="parrafo">Dos Auxiliares administrativos: Grupo D.</p>
+          <p class="parrafo">Tres Vigilantes, con residencia en Mallorca.</p>
+          <p class="parrafo">Un Vigilante, con residencia en Menorca.</p>
+          <p class="parrafo">Un Vigilante, con residencia en Ibiza.</p>
+        </version>
+      </bloque>
+      <bloque id="dacuaa" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional cuarta. Normas supletorias.</p>
+          <p class="parrafo">Tendrán carácter supletorio de las disposiciones contenidas en la presente Ley, la Ley General Tributaria y las disposiciones generales del Derecho Administrativo, así como los preceptos de Derecho común.</p>
+        </version>
+      </bloque>
+      <bloque id="daquinta" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional quinta. Premios de recaudación.</p>
+          <p class="parrafo">El Consejo de Gobierno podrá establecer premios de recaudación en favor de los Ayuntamientos o/y del sustituto del contribuyente.</p>
+        </version>
+        <version id_norma="BOE-A-2011-90085" fecha_publicacion="20111206" fecha_vigencia="20111207">
+          <p class="articulo">Disposición adicional quinta. Premios de recaudación.</p>
+          <p class="parrafo">No podrán establecerse premios de recaudación a favor de los sustitutos del contribuyente en concepto de indemnización por gastos de gestión y recaudación.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 23 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-7445" fecha_publicacion="20120512" fecha_vigencia="20120513">
+          <p class="articulo">Disposición adicional quinta. Premios de recaudación.</p>
+          <p class="parrafo">No podrán establecerse premios de recaudación a favor de los sustitutos del contribuyente en concepto de indemnización por gastos de gestión y recaudación.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 23 de la Ley 3/2012, de 30 de abril. <a class="refPost">Ref. BOE-A-2012-7445</a>.</p>
+            <p class="nota_pie">Se modifica por el art. 23 del Decreto-ley 6/2011, de 2 de diciembre. <a class="refPost">Ref. BOIB-i-2011-90085</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dasexta" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición adicional sexta.</p>
+          <p class="parrafo">Las inversiones realizadas por los Ayuntamientos en instalaciones depuradoras y en colectores, costeadas total o parcialmente por el propio Ayuntamiento, serán compensadas en función del valor de cada una de las inversiones, las tarifas pagadas por este concepto por los usuarios, las tasas, las contribuciones especiales u otras exacciones equivalentes. Se dará el mismo tratamiento a empresas y a particulares.</p>
+          <p class="parrafo">Para tener derecho a las compensaciones, los colectores y depuradoras tienen que mantenerse en un estado normal de conservación.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">Se establece una bonificación del 50 por 100 sobre las cuotas devengadas en el suelo urbano en aquellas zonas que no cuenten con depuradora en servicio.</p>
+          <p class="parrafo">En suelo no urbanizable, se aplicará una bonificación del 50 por 100 sobre las cuotas.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">En el plazo máximo de tres años, a contar desde la entrada en vigor de la presente Ley, el Gobierno de la Comunidad Autónoma presentará al Parlamento un Proyecto de Ley de modificación de la tarifa doméstica, artículo 8.3.A, en el que se tendrá en cuenta el valor catastral de las viviendas.</p>
+        </version>
+        <version id_norma="BOE-A-1995-9893" fecha_publicacion="19941217" fecha_vigencia="19950101">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">El Gobierno de la Comunidad Autónoma, tan pronto como cuente con los medios técnicos para establecer una correspondencia unívoca entre el valor catastral actualizado y el consumo de cada vivienda, remitirá al Parlamento un proyecto de Ley de modificación de la tarifa doméstica establecida en el artículo 8.3.A en la que se contemple dicho valor catastral.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 1 de la Ley 4/1994, de 29 de noviembre. <a class="refPost">Ref. BOE-A-1995-9893</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Los Ayuntamientos adecuarán sus ordenanzas fiscales inmediatamente después de la promulgación de la presente Ley, para hacer efectivo lo que dispone su artículo 10.1. A tal efecto, el Gobierno de la Comunidad Autónoma les prestará el asesoramiento técnico y jurídico correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">La presente ley entrará en vigor el día 1 de enero de 1992.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1992-1470" fecha_publicacion="19911224" fecha_vigencia="19920101">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos guarden esta Ley y que los Tribunales y las Autoridades a los que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">En Palma de Mallorca, a 27 de noviembre de 1991.</p>
+          <table class="sinbordes" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">JERÓNIMO SAIZ GOMILA,</p>
+                  <p class="cuerpo_tabla_centro">Consejero de Ordenación del Territorio y Obras Públicas</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">GABRIEL CAÑELLAS FONS,</p>
+                  <p class="cuerpo_tabla_centro">Presidente</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

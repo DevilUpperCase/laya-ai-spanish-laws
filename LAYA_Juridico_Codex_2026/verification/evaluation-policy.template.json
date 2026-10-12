@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "not_run",
+  "minimum_reviewed_queries": 200,
+  "languages": [
+    "es",
+    "ca",
+    "gl",
+    "eu"
+  ],
+  "territorial_tiers": [
+    "state",
+    "regional",
+    "provincial",
+    "municipal",
+    "island_foral"
+  ],
+  "required_cases": [
+    "exact_reference",
+    "open_query",
+    "document_selection",
+    "historical",
+    "unknown_effectiveness",
+    "negative",
+    "homonymous_municipalities"
+  ],
+  "calibration_cases_artifact": null,
+  "holdout_cases_artifact": null,
+  "professional_review_artifact": null,
+  "hardware_profile": null,
+  "workload_profile": null,
+  "stratum_minima": null,
+  "thresholds": {
+    "recall_at_20": null,
+    "mrr_at_10": null,
+    "ndcg_at_10": null,
+    "precision_at_5": null,
+    "p95_ms": null,
+    "error_rate": null,
+    "territorial_error_rate": null,
+    "temporal_error_rate": null
+  },
+  "frozen_at": null,
+  "frozen_by": null,
+  "thresholds_sha256": null,
+  "ranking_adoption": null
+}
+

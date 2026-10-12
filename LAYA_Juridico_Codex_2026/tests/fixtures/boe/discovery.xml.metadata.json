@@ -1,0 +1,7 @@
+{
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada?limit=10&offset=0",
+  "fetched_at": "2026-10-12T01:31:45.872863+00:00",
+  "sha256": "81a6a075c097cfe1ee57915717f77f8ae258b46ad0382fafd7d1ab8553f4f57c",
+  "content_type": "application/xml",
+  "notice": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado. Texto consolidado meramente informativo."
+}

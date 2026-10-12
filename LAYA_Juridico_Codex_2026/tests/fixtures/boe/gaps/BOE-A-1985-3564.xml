@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251216T205907Z</fecha_actualizacion>
+      <identificador>BOE-A-1985-3564</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19841115</fecha_disposicion>
+      <numero_oficial>6/1984</numero_oficial>
+      <titulo>Ley 6/1984, de 15 de noviembre, del Consejo Asesor de Radio-Televisión española en las Islas Baleares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19850304</fecha_publicacion>
+      <diario_numero>54</diario_numero>
+      <fecha_vigencia>19841210</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1984/11/15/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1985-3564</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="5827">Radiotelevisión Española</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 20, de 10 de diciembre de 1984.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1980-724</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 4/1980, de 10 de enero</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-1985-19177</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>art. 3.A) y G) por Ley de 22 de mayo de 1985</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1985-21106</id_norma>
+            <relacion codigo="470">SE DECLARA</relacion>
+            <texto>, en el Recurso 184/1985, su extinción por desistimiento del recurrente, en relación con los arts. 3.a, inciso 2) y 3.g), por Auto  de 26 de septiembre de 1985</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1985-5214</id_norma>
+            <relacion codigo="694">Recurso</relacion>
+            <texto>184/1985, planteado en relación con los arts. 3.a, inciso 2) y 3.g), con suspensión desde el 16 de marzo de 1985, de vigencia y aplicación de los preceptos impugnados</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3564</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5827"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3564</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1984, de 15 de noviembre, del Consejo Asesor de Radio-Televisión española en las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-03-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3564</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-06-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1984, de 15 de noviembre, del Consejo Asesor de Radio-Televisión española en las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850610/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3564</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-04-01</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1984, de 15 de noviembre, del Consejo Asesor de Radio-Televisión española en las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19850401/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3564</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5827"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-12-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 6/1984, de 15 de noviembre, del Consejo Asesor de Radio-Televisión española en las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/15/6/con/19841210/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="centro_redonda">
+            <strong>EL PRESIDENTE DE LA COMUNIDAD AUTONOMA DE LAS ISLAS BALEARES</strong>
+          </p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27, 2, del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICION DE MOTIVOS</p>
+          <p class="parrafo_2">El artículo 15, 1 del Estatuto de Autonomía de las Islas Baleares determina que «en el marco de las normas básicas del Estado, corresponde a la Comunidad Autónoma el desarrollo legislativo y la ejecución del Régimen de Radiodifusión y Televisión en los términos y casos establecidos en la Ley que regula el Estatuto Jurídico de la Radio y la Televisión». De acuerdo con este precepto estatutario y los artículos 14 y 15 del Estatuto Jurídico de la Radio y la Televisión, y en base a la necesidad de creación del órgano consultivo que establece la Ley 4/1980, de 10 de enero, sobre la existencia de un órgano asesor en cada Comunidad Autónoma, el Gobierno autónomo presenta la siguiente normativa sobre la creación de dicho Consejo Asesor y las funciones que le son propias en el marco de las competencias que en este sentido corresponden a la Comunidad Autónoma de las Islas Baleares:</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 1. </p>
+          <p class="parrafo">1. De acuerdo con el artículo 15. 1. del Estatuto de Autonomía de las Islas Baleares y el Estatuto de la Radio y la Televisión se crea el Consejo Asesor de RTVE en las Islas Baleares.</p>
+          <p class="parrafo">2. Para todos los efectos, su denominación oficial es la de Consejo Asesor de Radio y Televisión Española en las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">El ámbito territorial del Consejo Asesor es el de las islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El Consejo Asesor tiene las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ser oído en lo relativo al nombramiento de Delegado territorial de RTVE en Baleares, así como de los Directores de RNE, TVE y RCE en Baleares.</p>
+          <p class="parrafo">b) Ser oído en lo relativo a los nombramientos de los representantes que corresponden a la Comunidad Autónoma de las Islas Baleares en los Consejos Asesores Estatales de RNE, RCE y TVE y participar en estos nombramientos de acuerdo con lo establecido en el artículo 9.º del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">c) Elevar al Consejo de Administración de RTVE, a través del Delegado territorial en Baleares, las recomendaciones que estime oportunas acerca del funcionamiento de la RTVE en Baleares.</p>
+          <p class="parrafo">d) Ser oído en lo referente a las propuestas de programaciones, especialmente en materia de mensajes institucionales destinados a promocionar el mejor conocimiento por parte de la opinión pública de los contenidos del Estatuto de Autonomía y su desarrollo a los contenidos de aquellas propuestas y a los horarios de la radio y televisión en el ámbito balear, así como asesorar en dichas materias, de acuerdo con lo que establece el artículo 15 del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">e) Conocer con suficiente antelación los planes anuales de trabajo, los avances de proyectos y presupuesto, las Memorias y todo cuanto afecte a la Radiotelevisión Española en Baleares, así como también, en su caso, informar sobre ello.</p>
+          <p class="parrafo">f) Asesorar y asistir directamente al Delegado territorial en todas aquellas cuestiones que afecten a RTVE en la Comunidad Autónoma.</p>
+          <p class="parrafo">g) Proponer semestralmente el porcentaje de tiempo y espacios a disposición de los grupos sociales y políticos más significativos, teniendo en cuenta criterios objetivos como la representación parlamentaria, la implantación sindical, el ámbito territorial de actuación y otros similares, de acuerdo con lo que dispone el artículo 20 de la Constitución.</p>
+          <p class="parrafo">h) Estudiar las necesidades y las posibilidades de descentralización adecuadas de los servicios de radio y televisión en las islas Baleares, especialmente en lo que se refiere a la cadena estatal RCE.</p>
+          <p class="parrafo">i) Informar al Delegado territorial sobre el cumplimiento en la programación de los principios que inspiran la actividad de RTVE contemplados en el artículo 4.° de la Ley 4/1980, del Estatuto de la Radio y Televisión, y controlar la correcta ejecución de las resoluciones y de los acuerdos a que puede dar lugar la aplicación del apartado d) de este artículo.</p>
+          <p class="parrafo">j) Fomentar la formación de los profesionales de los medios de comunicación en las islas Baleares.</p>
+        </version>
+        <version id_norma="BOE-A-1985-5214" fecha_publicacion="19850401" fecha_vigencia="19850401">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El Consejo Asesor tiene las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ser oído en lo relativo al nombramiento de Delegado territorial de RTVE en Baleares, <strong>así como de los Directores de RNE, TVE y RCE en Baleares</strong>.</p>
+          <p class="parrafo">b) Ser oído en lo relativo a los nombramientos de los representantes que corresponden a la Comunidad Autónoma de las Islas Baleares en los Consejos Asesores Estatales de RNE, RCE y TVE y participar en estos nombramientos de acuerdo con lo establecido en el artículo 9.º del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">c) Elevar al Consejo de Administración de RTVE, a través del Delegado territorial en Baleares, las recomendaciones que estime oportunas acerca del funcionamiento de la RTVE en Baleares.</p>
+          <p class="parrafo">d) Ser oído en lo referente a las propuestas de programaciones, especialmente en materia de mensajes institucionales destinados a promocionar el mejor conocimiento por parte de la opinión pública de los contenidos del Estatuto de Autonomía y su desarrollo a los contenidos de aquellas propuestas y a los horarios de la radio y televisión en el ámbito balear, así como asesorar en dichas materias, de acuerdo con lo que establece el artículo 15 del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">e) Conocer con suficiente antelación los planes anuales de trabajo, los avances de proyectos y presupuesto, las Memorias y todo cuanto afecte a la Radiotelevisión Española en Baleares, así como también, en su caso, informar sobre ello.</p>
+          <p class="parrafo">f) Asesorar y asistir directamente al Delegado territorial en todas aquellas cuestiones que afecten a RTVE en la Comunidad Autónoma.</p>
+          <p class="parrafo">g) Proponer semestralmente el porcentaje de tiempo y espacios a disposición de los grupos sociales y políticos más significativos, teniendo en cuenta criterios objetivos como la representación parlamentaria, la implantación sindical, el ámbito territorial de actuación y otros similares, de acuerdo con lo que dispone el artículo 20 de la Constitución.</p>
+          <p class="parrafo">h) Estudiar las necesidades y las posibilidades de descentralización adecuadas de los servicios de radio y televisión en las islas Baleares, especialmente en lo que se refiere a la cadena estatal RCE.</p>
+          <p class="parrafo">i) Informar al Delegado territorial sobre el cumplimiento en la programación de los principios que inspiran la actividad de RTVE contemplados en el artículo 4.° de la Ley 4/1980, del Estatuto de la Radio y Televisión, y controlar la correcta ejecución de las resoluciones y de los acuerdos a que puede dar lugar la aplicación del apartado d) de este artículo.</p>
+          <p class="parrafo">j) Fomentar la formación de los profesionales de los medios de comunicación en las islas Baleares.</p>
+          <blockquote caduca="" class="soloTexto">
+            <p class="parrafo">Téngase en cuenta que se suspende la vigencia y aplicación del inciso destacado en el apartado 3.a) y del apartado 3.g), desde el 16 de marzo de 1985, por providencia del TC 13 de marzo que admite a trámite el recurso de inconstitucionalidad número 184/1985. <a class="refPost">Ref. BOE-A-1985-5214</a></p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se suspende la vigencia y aplicación del inciso destacado en el apartado 3.a) y del apartado 3.g), desde el 16 de marzo de 1985, por providencia del TC 13 de marzo que admite a trámite el recurso de inconstitucionalidad número 184/1985. <a class="refPost">Ref. BOE-A-1985-5214</a></p>
+            <p class="nota_pie_2">Téngase en cuenta la declaración de desistimiento por auto del TC de 26 de septiembre de 1985. <a class="refPost">Ref. BOE-A-1985-21006</a></p>
+          </blockquote>
+        </version>
+        <version fpub="19850906" id_norma="BOE-A-1985-19177" fecha_publicacion="19850610" fecha_vigencia="19850610">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El Consejo Asesor tiene las siguientes funciones:</p>
+          <p class="parrafo_2">a) Ser oído en lo relativo al nombramiento de Delegado territorial de RTVE en Baleares.</p>
+          <p class="parrafo">b) Ser oído en lo relativo a los nombramientos de los representantes que corresponden a la Comunidad Autónoma de las Islas Baleares en los Consejos Asesores Estatales de RNE, RCE y TVE y participar en estos nombramientos de acuerdo con lo establecido en el artículo 9.º del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">c) Elevar al Consejo de Administración de RTVE, a través del Delegado territorial en Baleares, las recomendaciones que estime oportunas acerca del funcionamiento de la RTVE en Baleares.</p>
+          <p class="parrafo">d) Ser oído en lo referente a las propuestas de programaciones, especialmente en materia de mensajes institucionales destinados a promocionar el mejor conocimiento por parte de la opinión pública de los contenidos del Estatuto de Autonomía y su desarrollo a los contenidos de aquellas propuestas y a los horarios de la radio y televisión en el ámbito balear, así como asesorar en dichas materias, de acuerdo con lo que establece el artículo 15 del Estatuto de la Radio y la Televisión.</p>
+          <p class="parrafo">e) Conocer con suficiente antelación los planes anuales de trabajo, los avances de proyectos y presupuesto, las Memorias y todo cuanto afecte a la Radiotelevisión Española en Baleares, así como también, en su caso, informar sobre ello.</p>
+          <p class="parrafo">f) Asesorar y asistir directamente al Delegado territorial en todas aquellas cuestiones que afecten a RTVE en la Comunidad Autónoma.</p>
+          <p class="parrafo">g) Asesorar semestralmente acerca del porcentaje de tiempo y espacios a disposición de los grupos sociales y políticos más significativos, teniendo en cuenta criterios objetivos como la representación parlamentaria, la implantación sindical, el ámbito territorial de actuación y otros similares, de acuerdo con lo que dispone el artículo 20 de la Constitución.</p>
+          <p class="parrafo">h) Estudiar las necesidades y las posibilidades de descentralización adecuadas de los servicios de radio y televisión en las islas Baleares, especialmente en lo que se refiere a la cadena estatal RCE.</p>
+          <p class="parrafo">i) Informar al Delegado territorial sobre el cumplimiento en la programación de los principios que inspiran la actividad de RTVE contemplados en el artículo 4.° de la Ley 4/1980, del Estatuto de la Radio y Televisión, y controlar la correcta ejecución de las resoluciones y de los acuerdos a que puede dar lugar la aplicación del apartado d) de este artículo.</p>
+          <p class="parrafo">j) Fomentar la formación de los profesionales de los medios de comunicación en las islas Baleares.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 3.a) y 3.g) por los arts. 1 y 2 de la Ley de 22 de mayo de 1985 . <a class="refPost">Ref. BOE-A-1985-19177</a></p>
+            <p class="nota_pie">Se suspende la vigencia y aplicación del inciso destacado en el apartado 3.a) y del apartado 3.g), desde el 16 de marzo de 1985, por providencia del TC 13 de marzo que admite a trámite el recurso de inconstitucionalidad número 184/1985. <a class="refPost">Ref. BOE-A-1985-5214</a></p>
+            <p class="nota_pie_2">Téngase en cuenta la declaración de desistimiento por auto del TC de 26 de septiembre de 1985. <a class="refPost">Ref. BOE-A-1985-21006</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">Independientemente de lo que establece el Estatuto de la Radio y la Televisión, el Consejo Asesor ha de informar al Delegado territorial y lo ha de asesorar sobre:</p>
+          <p class="parrafo_2">a) La composición, integración y modificación de las plantillas de RTVE en Baleares.</p>
+          <p class="parrafo">b) Los criterios de selección y contratación de personal de acuerdo con los principios de igualdad, capacidad y méritos.</p>
+          <p class="parrafo">c) Los criterios de adscripciones y la regulación de las condiciones de los traspasos de personal cuando éstas afecten a las plantillas de RTVE en Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">El Consejo Asesor tiene como función específica el estudio y seguimiento de RTVE en Baleares y ha de elaborar una Memoria que recoja todos los acuerdos adoptados, la situación de los medios, así como cualquiera otra cuestión que se considere oportuna.</p>
+          <p class="parrafo">Esta Memoria ha de remitirse al Parlamento de las Islas Baleares, al Gobierno autónomo y al Delegado territorial de RTVE en Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPITULO II">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="capitulo_num">CAPITULO II</p>
+          <p class="capitulo_tit">Composición y funcionamiento</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">1. El Consejo Asesor consta de 13 miembros designados por el Parlamento Balear en proporción al número de Diputados de cada grupo parlamentario por el sistema de mayoría restante sobre el total de miembros del Parlamento. Serán nombrados por el Presidente del Gobierno de la Comunidad Autónoma| quien ordenará la correspondiente publicación en el «Butlletí Oficial de la Comunitat Autònoma de les Illes Balears».</p>
+          <p class="parrafo">Una vez finalizada la legislatura, el Consejo Asesor cesante continuará ejerciendo sus funciones hasta que los nuevos miembros sean elegidos.</p>
+          <p class="parrafo">2. Si se producen vacantes, se cubrirán de acuerdo con el procedimiento establecido en el apartado 1 de este artículo y por el tiempo que reste de legislatura.</p>
+          <p class="parrafo">3. La condición de miembro del Consejo Asesor es incompatible con cualquier vinculación directa o indirecta con Empresas publicitarias, Empresas de producción de programas filmados, magnetofónicos o radiofónicos, con casas discográficas o con cualquier Entidad relacionada con el suministro y dotación de material y programas a TVE. También es incompatible con cualquier relación laboral profesional y actividad en las distintas secciones de RTVE.</p>
+          <p class="parrafo">4. La incompatibilidad de los miembros será estimada por mayoría absoluta del Consejo Asesor.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">1. El Consejo Asesor elegirá de entre sus miembros un Presidente y un Vicepresidente para un período de un año. Para la elección, cada miembro del Consejo Asesor escribirá un solo nombre en la papeleta y saldrán elegidos Presidente y Vicepresidente por el orden en el número de votos.</p>
+          <p class="parrafo">2. El Presidente ostenta la representación legal del Consejo Asesor. El Vicepresidente le sustituirá a todos los efectos en caso de vacante, ausencia o enfermedad.</p>
+          <p class="parrafo">3. El Consejo Asesor también elegirá un Secretario que cumplirá las funciones propias del cargo.</p>
+          <p class="parrafo">4. Los Consejeros asesores no percibirán sueldo alguno por razón de su cargo, únicamente las dietas que se determinen por el ejercicio de éste.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">1. El Presidente ha de convocar el Consejo Asesor, sea por iniciativa propia, sea a petición de una tercera parte de los miembros de éste, sea a petición del Delegado territorial de RTVE. El Consejo Asesor se ha de reunir una vez cada dos meses, como mínimo, y cada seis meses ha de elevar al Consejo de Administración de RTVE las recomendaciones sobre programación que considere oportunas.</p>
+          <p class="parrafo">2. Las reuniones del Consejo Asesor se celebrarán en la sede de la organización territorial de RTVE en Baleares, sin perjuicio de otros lugares del archipiélago balear designados en la correspondiente convocatoria.</p>
+          <p class="parrafo">3. La convocatoria debe hacerse con cuarenta y ocho horas de antelación, salvo casos excepcionales, señalando hora, día, lugar y orden del día.</p>
+          <p class="parrafo">4. El orden del día será fijado por el Presidente. Los distintos miembros del Consejo Asesor podrán solicitar la inclusión en el orden del día de los puntos que consideren pertinentes.</p>
+          <p class="parrafo">5. Para que sean válidos los acuerdos es necesario el voto favorable de la mayoría de los miembros.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo">El Consejo Asesor quedará constituido válidamente en primera convocatoria cuando estén presentes en el mismo la mitad más uno de sus miembros, incluido el Presidente o quien realice sus funciones.</p>
+          <p class="parrafo">En caso de falta de quorum en la primera convocatoria, se reunirá en una segunda veinticuatro horas después v quedará válidamente constituido sea cual sea el número de Consejeros asistentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo">1. A las sesiones del Consejo Asesor podrá asistir el Delegado territorial de RTVE, con voz pero sin voto.</p>
+          <p class="parrafo">2. El Consejo Asesor, a través de su Presidente, podrá solicitar ser informado, por los Organismos o personas competentes, en las cuestiones relacionadas con los asuntos sometidos a su consideración y estudio, así como también solicitar a estos efectos la presencia del Delegado territorial y de los Directores de las Sociedades estatales de TVE, RNE y RCE en las islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPITULO III">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="capitulo_num">CAPITULO III</p>
+          <p class="capitulo_tit">Financiamiento</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo">El presupuesto de la Comunidad Autónoma de las Islas Baleares debe incluir la partida necesaria para cubrir los gastos que no sean financiados por el presupuesto de RTVE.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo">La constitución del Consejo Asesor debe realizarse en el plazo máximo de un mes a partir de la entrada en vigor de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">En el plazo de tres meses a partir de la constitución del Consejo Asesor, el Gobierno autónomo, a propuesta del Consejo Asesor de RTVE en Baleares, debe aprobar de Reglamento de ejecución y desarrollo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Esta Ley entrará en vigor el mismo día de su publicación en el «Butlletí Oficial de la Comunitat Autònoma de les Illes Balears».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1985-3564" fecha_publicacion="19841210" fecha_vigencia="19841210">
+          <p class="parrafo_2">Por tanto, ordeno que lodos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a los que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">En Palma de Mallorca a 15 de noviembre de 1984.</p>
+          <p class="parrafo_2"> </p>
+          <p class="firma_ministro">GABRIEL CAÑELLAS FONS</p>
+          <p class="firma_ministro"><br/>
+Presidente de la Comunidad autónoma de las Islas Baleares</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

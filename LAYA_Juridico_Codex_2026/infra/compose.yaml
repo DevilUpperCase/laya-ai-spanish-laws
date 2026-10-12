@@ -1,0 +1,23 @@
+name: laya-juridico
+services:
+  db:
+    image: pgvector/pgvector:0.8.2-pg17@sha256:feb68f4f15446397d8cac7f4fe48fe4586de83160d1fc48b46283312d1a33966
+    environment:
+      POSTGRES_DB: laya_juridico
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run scripts/setup_docker.py first}
+    command: ["postgres", "-c", "log_statement=none", "-c", "log_min_error_statement=panic", "-c", "log_parameter_max_length=0", "-c", "log_parameter_max_length_on_error=0"]
+    ports: ["127.0.0.1:15432:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d laya_juridico"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+    networks: [private]
+networks:
+  private:
+    name: laya-juridico-development
+volumes:
+  postgres-data:

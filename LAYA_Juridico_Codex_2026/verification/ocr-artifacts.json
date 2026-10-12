@@ -1,0 +1,12 @@
+{
+  "repo": "tesseract-ocr/tessdata_fast",
+  "revision": "87416418657359cb625c412a48b6e1d6d41c29bd",
+  "files": {
+    "spa.traineddata": "6f2e04d02774a18f01bed44b1111f2cd7f3ba7ac9dc4373cd3f898a40ea6b464",
+    "cat.traineddata": "250db73cd5b380d2798581295dc12f20d0828cdb335a65d833d12dfdbf57117d",
+    "eus.traineddata": "40e7418296c355d9fd9ca843d115c51e740089e576e887443e61704823cd6624",
+    "glg.traineddata": "7947619c5544d86849f563bd737ad90dbea9f5319fbd838c4747a7a1cd40b260",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "license_review": "pending"
+}

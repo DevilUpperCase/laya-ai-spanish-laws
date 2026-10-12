@@ -1,0 +1,11 @@
+{
+  "scope": "all_publicly_accessible_official_bulletin_items",
+  "required_source_ids": [],
+  "required_source_selection": "all registered sources; inventory completeness remains independently unverified",
+  "jurisdiction_selection": "all authoritative inventory entities plus required island and foral institutions",
+  "supported_daily_catalogues": ["BOE_DAILY", "BORME_DAILY"],
+  "history": "current plus officially available history",
+  "national_audit_status": "pending",
+  "attachment_inventory_status": "pending",
+  "audits": {}
+}

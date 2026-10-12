@@ -1,0 +1,15 @@
+"use client";
+import {useEffect,useState} from "react";
+import {useSession} from "@/components/workspace";
+import {api,DocumentRecord} from "@/lib/api";
+import {Button} from "@/components/ui/button";
+export function AttachmentPicker({selected,onChange}:{selected:DocumentRecord[];onChange:(docs:DocumentRecord[])=>void}){
+ const session=useSession();const [library,setLibrary]=useState<DocumentRecord[]>([]),[error,setError]=useState(""),[open,setOpen]=useState(false),[busy,setBusy]=useState(false),[cursor,setCursor]=useState<string|null>(null);
+ async function load(next?:string){if(!session)return;const result=await api<{items:DocumentRecord[];next_cursor:string|null}>("/v1/documents"+(next?"?cursor="+next:""),session);setLibrary(old=>next?[...old,...result.items]:result.items);setCursor(result.next_cursor);}
+ useEffect(()=>{load().catch(e=>setError(e.message));},[session]);
+ useEffect(()=>{if(!session||!selected.some(d=>d.parse_status!=="ready"&&d.parse_status!=="failed"))return;let active=true;const timer=setInterval(()=>{Promise.all(selected.map(d=>api<DocumentRecord>("/v1/documents/"+d.id,session))).then(docs=>{if(active)onChange(docs);}).catch(e=>{if(active)setError(e.message);});},2500);return()=>{active=false;clearInterval(timer);};},[selected,session]);
+ async function upload(files:FileList|null){if(!session||!files)return;setError("");setBusy(true);const docs=[...selected];try{if(files.length+docs.length>10)throw new Error("Adjunta hasta 10 archivos.");for(const file of Array.from(files)){const data=new FormData();data.set("file",file);docs.push(await api<DocumentRecord>("/v1/documents",session,{method:"POST",headers:{"Idempotency-Key":crypto.randomUUID()},body:data}));onChange([...docs]);}await load();}catch(e){setError((e as Error).message);}finally{setBusy(false);}}
+ return <section className="panel attachment-picker"><div className="document-toolbar"><Button type="button" variant="outline" onClick={()=>{setOpen(!open);load().catch(e=>setError(e.message));}}>Adjuntar documentos del espacio</Button><label>Adjuntar nuevos PDF o DOCX<input type="file" accept=".pdf,.docx" multiple disabled={busy||session?.role==="reader"} onChange={e=>{upload(e.target.files);e.target.value="";}}/></label></div>
+ {error&&<p className="error" role="alert">{error}</p>}{open&&<div>{library.map(doc=><label className="checkbox" key={doc.id}><input type="checkbox" checked={selected.some(d=>d.id===doc.id)} disabled={!selected.some(d=>d.id===doc.id)&&selected.length>=10} onChange={e=>onChange(e.target.checked?[...selected,doc]:selected.filter(d=>d.id!==doc.id))}/>{doc.filename} · {doc.parse_status}</label>)}{cursor&&<Button type="button" variant="ghost" onClick={()=>load(cursor)}>Más archivos</Button>}</div>}
+ {selected.map(doc=><div className="attachment-chip" key={doc.id}>{doc.filename} · {doc.parse_status}<Button type="button" variant="ghost" aria-label={"Quitar "+doc.filename} onClick={()=>onChange(selected.filter(d=>d.id!==doc.id))}>×</Button></div>)}{selected.length>0&&<p className="muted">Se consultarán los archivos seleccionados. Espera a que estén listos; los de Papelera no se pueden adjuntar.</p>}</section>;
+}

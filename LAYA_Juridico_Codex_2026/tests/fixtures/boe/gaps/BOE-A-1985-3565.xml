@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251216T205907Z</fecha_actualizacion>
+      <identificador>BOE-A-1985-3565</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19841121</fecha_disposicion>
+      <numero_oficial>7/1984</numero_oficial>
+      <titulo>Ley 7/1984,de 21 de noviembre, del Escudo de la Comunidad Autónoma de las Islas Baleares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19850304</fecha_publicacion>
+      <diario_numero>54</diario_numero>
+      <fecha_vigencia>19841211</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1984/11/21/7</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1985-3565</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="3067">Distintivos</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 20, de 10 de diciembre de 1984.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto de 7 de agosto de 1978</texto>
+          </anterior>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Decreto de 16 de agosto de 1978</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3565</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-21</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3565</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1984,de 21 de noviembre, del Escudo de la Comunidad Autónoma de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-03-04</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-3565</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-21</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3067"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-12-10</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 7/1984,de 21 de noviembre, del Escudo de la Comunidad Autónoma de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1984/11/21/7/con/19841210/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">Los pueblos de las Islas Baleares, «como expresión de su identidad histórica», han accedido a la autonomía, iniciando así «el proceso hacia la institucionalización del autogobierno». Una de las tareas que el Estatuto encomienda a las Instituciones de autogobierno es que «inspirarán la función de poder público en el sentido de consolidar y desarrollar las comunes características de nacionalidad de los pueblos de Mallorca, Menorca, Ibiza y Formentera, así como las peculiaridades de cada una de ellas, como vínculo de solidaridad entre todas las islas».</p>
+          <p class="parrafo">El proceso hacia la institucionalización del autogobierno a las Islas Baleares implica también el establecimiento de los diversos símbolos que han de representar al mismo tiempo la personalidad común de las islas y la identidad histórica propia de cada una de ellas. Establecer unos símbolos adecuados y que obtengan un consenso unánime de los pueblos insulares es una tarea delicada, pero que realizada con acierto ayudará a afirmar el autogobierno de las Islas Baleares haciéndolo arraigar a nivel popular a través de sus símbolos.</p>
+          <p class="parrafo">El escudo de la Comunidad Autónoma de las islas Baleares establecido por la presente Ley está documentado en las islas desde el siglo XIV. Aparece en el testamento de Jaime III de Mallorca (1349), fue utilizado posteriormente por diversos miembros de la Casa Real de Mallorca, del Reino de Aragón y de la Monarquía Española. Fue además usado abundantemente por nuestra cartografía de los siglos XVII y XVIII. En el siglo XIX se documenta de forma marginal como uno de los símbolos administrativos de las Islas Baleares.</p>
+          <p class="parrafo">Y nuestra historiografía del XIX –así José M. Quadrado– lo utilizó a menudo como un elemento emblemático interinsular.</p>
+          <p class="parrafo">Finalmente se incorpora a la ornamentación heráldica de diversos edificios y monumentos como la Casa Consistorial de Ciutadella y el monumento de Jaime III, en Llucmajor. En Decreto de 7 y 16 de agosto de 1978, el Consejo General Interinsular lo adoptó provisionalmente como símbolo de las Islas Baleares.</p>
+          <p class="parrafo">La presente Ley establece como escudo de las Islas Baleares un símbolo de larga tradición histórica y que goza ya de una aceptación generalizada en su función representativa.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">1. Se adopta como escudo de la Comunidad Autónoma de las Islas Baleares el que se describe en el apartado siguiente, el cual se declara modelo oficial.</p>
+          <p class="parrafo">2. Este escudo tendrá los elementos y características siguientes:</p>
+          <p class="parrafo_2">a) Estará constituido por las cuatro barras rojas en sentido vertical sobre fondo amarillo, cruzadas diagonalmente por una banda azul colocada desde el ángulo superior derecho a la parte inferior opuesta.</p>
+          <p class="parrafo">La anchura de las barras rojas y la de los espacios amarillos serán iguales para unas y para los otros y equivaldrán a la novena parte de la anchura del escudo.</p>
+          <p class="parrafo">La anchura de la banda azul tendrá la proporción de 1,5 respecto de la de las barras rojas.</p>
+          <p class="parrafo">b) Alrededor del escudo se colocarán como adorno unos lambrequines de hojas de acanto de color dorado, de una anchura sensiblemente igual a la de las barras rojas.</p>
+          <p class="parrafo">c) Tendrá la forma del escudo que en heráldica se denomina «Escudo español».</p>
+          <p class="parrafo">d) Las medidas del escudo estarán en proporción 4/3 por lo que se refiere a la relación altura-anchura.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Artículo 2. </p>
+          <p class="parrafo">Como manifestación de su identidad histórica, cada isla podrá tener su propio emblema o escudo, por acuerdo del Consejo Insular respectivo.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">El escudo a que se refiere esta Ley tendrá que figurar obligatoriamente en documentos, impresos, sellos, encabezamiento de uso oficial, publicaciones oficiales, distintivos usados por las autoridades de la Comunidad Autónoma y, en general, en cualesquiera objetos de uso oficial de carácter representativo, y en los demás casos establecidos reglamentariamente por el Gobierno de la Comunidad Autónoma de las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">Queda prohibida la utilización del escudo en cualquier símbolo o sigla de partidos políticos, sindicatos, asociaciones empresariales o cualquier Entidad privada, así como el uso de éste como distintivo de producto o mercancía algunos.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">Los ultrajes y las ofensas al escudo de la Comunidad Autónoma de las Islas Baleares serán castigados de acuerdo con lo que disponen las leyes.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Disposición adicional única.</p>
+          <p class="parrafo_2">Se faculta al Gobierno de las Islas Baleares para dictar las disposiciones reglamentarias pertinentes para el cumplimiento de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">En el plazo máximo de un año, el escudo de las Islas Baleares tendrá que figurar en los lugares previstos en el artículo 3 de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">La presente Ley no implicará modificación o sustitución de los emblemas o escudos existentes en los edificios declarados monumentos histórico-artísticos en el territorio de las Islas Baleares. Igualmente serán mantenidos sin alteración alguna los emblemas o escudos existentes en los monumentos, edificios o construcciones que, sin haber sido declarados de carácter histórico-artístico, los tengan como parte sustancial de su ornamentación.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">Quedan derogados los Decretos del Consejo General Interinsular de los días 7 y 16 de agosto de 1978.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">La presente Ley entrará en vigor a partir del día siguiente al de su publicación en el «Butlletí Oficial de la Comunitat Autónoma de les Illes Balears».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos guarden esta Ley y que los Tribunales y las Autoridades a los que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">Palma de Mallorca, 21 de noviembre de 1984.</p>
+          <p class="firma_ministro"> </p>
+          <p class="firma_ministro">GABRIEL CAÑELLAS FONS</p>
+          <p class="firma_ministro">Presidente de la Comunidad Autónoma de las Islas Baleares</p>
+          <p class="publicado"> </p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1985-3565" fecha_publicacion="19841210" fecha_vigencia="19841211">
+          <p class="anexo">ANEXO A LA LEY</p>
+          <p class="parrafo_2">El diseño lineal del modelo oficial del escudo de la Comunidad Autónoma de las Islas Baleares, al que hace referencia el artículo 1 de la presente Ley, es el que figura a continuación.</p>
+          <p class="imagen">
+            <img alt="1" class="frame-1" src="/datos/imagenes/disp/1985/54/03565_4558.png"/>
+          </p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,43 @@
+[project]
+name = "laya-juridico"
+version = "0.1.0"
+description = "Private, evidence-based legal retrieval with mandatory local LAYA"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "httpx>=0.28,<1",
+  "pydantic-settings>=2.7,<3",
+  "python-multipart>=0.0.20,<1",
+  "psycopg[binary,pool]>=3.2,<4",
+  "pgvector>=0.4,<1",
+  "PyJWT[crypto]>=2.10,<3",
+  "langchain-core>=1,<2",
+  "langgraph>=1,<2",
+  "defusedxml>=0.7,<1",
+  "beautifulsoup4>=4.13,<5",
+  "openpyxl>=3.1,<4",
+  "xlrd>=2,<3",
+  "pymupdf>=1.25,<2",
+  "python-docx>=1.1,<2",
+  "psutil==7.2.2",
+]
+
+[project.optional-dependencies]
+models = ["laya[serve]==0.4.3", "sentence-transformers>=3.4,<6", "huggingface-hub>=0.34,<1", "transformers>=4.48,<5"]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10", "pytest-asyncio>=0.25,<2", "ruff>=0.11,<1"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["database: requires isolated migrated PostgreSQL", "models: requires real local model artifacts", "live: permitted live official source"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 110
+
+[tool.uv]
+package = false

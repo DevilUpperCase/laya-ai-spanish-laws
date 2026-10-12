@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="Description" content="Datos abiertos (OpenData)" />
+    <title>BOE.es - Datos abiertos (OpenData)</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <base target="_top" />
+    <link type="text/css" href="/estilos/boe.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/estilos/opendata.css" type="text/css">
+    <link rel="stylesheet" href="/estilos/forms.css" type="text/css">
+  
+    <link rel="canonical" href="https://www.boe.es/datosabiertos/api/api.php"/>
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="/estilos/boe_ie9.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="/estilos/boe_ie8.css" />
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="header">
+      <h1 class="fuera">Agencia Estatal Bolet&iacute;n Oficial del Estado</h1>
+      <ul class="fuera">
+        <li><a accesskey="c" href="#contenedor" tabindex="-1">Ir a contenido</a></li>
+        <li><a accesskey="5" href="/diario_boe/" tabindex="-1">Consultar el diario oficial BOE</a></li>
+      </ul>
+      <div id="logosInicio">
+        <span id="logoPresidenciaMovil"><a href="https://www.mpr.gob.es/" title="Ir al Ministerio de la Presidencia"><img src="/imagenes/logoMPRmovil.png" srcset="/imagenes/logoMPRmovil.svg" alt="Ministerio de la Presidencia"></a></span>
+        <span id="logoPresidencia"><a href="https://www.mpr.gob.es/" title="Ir al Ministerio de la Presidencia"><img src="/imagenes/logoMPR.png" srcset="/imagenes/logoMPR.svg" alt="Ministerio de la Presidencia"></a></span>
+
+        <span id="logoAgencia"><a accesskey="1" href="/" title="Ir a la p&aacute;gina de inicio"><img src="/imagenes/logoBOE.gif" srcset="/imagenes/logoBOE.svg" alt="Agencia Estatal Bolet&iacute;n Oficial del Estado"></a></span>
+        
+      </div> <!-- #logosInicio -->
+    </div> <!-- #header -->
+    <div id="top" class="banda-menu">
+    <div class="menu-wrapper">
+      <div id="logo-movil-boe-container">
+        <a href="/" title="Ir a la p&aacute;gina de inicio"><img alt="Agencia Estatal Bolet&iacute;n Oficial del Estado" src="/imagenes/logoBlanco128.png"></a>
+      </div>
+      <ul class="menu">
+        <li class="menu-item menu-idiomas">
+          <div id="selector-idioma">
+            <span class="fuera">Idioma actual:</span>
+            <input id="activar-idiomas" type="checkbox" class="fuera">
+            <label class="idioma-actual" for="activar-idiomas" title="Idiomas: Haga clic o utilice barra espaciadora para abrir o cerrar opciones"><span class="descripcion-idioma pc tablet">Castellano</span><span class="fuera"> / </span><span class="descripcion-idioma movil">es</span><span class="triangulo"><span></span></span></label>
+            <p class="fuera">Puede seleccionar otro idioma:</p>
+            <ul id="lista-idiomas">
+              <li><a href="api.php?lang=es" lang="es" hreflang="es"><span aria-hidden="true" class="idioma"><abbr title="espa&ntilde;ol/castellano">es</abbr><span class="fuera"> / </span><em>Castellano</em></span></a></li>
+              <li><a href="api.php?lang=ca" lang="ca" hreflang="ca"><span aria-hidden="true" class="idioma"><abbr title="catal&agrave;">ca</abbr><span class="fuera"> / </span><em>Catal&agrave;</em></span></a></li>
+              <li><a href="api.php?lang=gl" lang="gl" hreflang="gl"><span aria-hidden="true" class="idioma"><abbr title="galego">gl</abbr><span class="fuera"> / </span><em>Galego</em></span></a></li>
+              <li><a href="api.php?lang=eu" lang="eu" hreflang="eu"><span aria-hidden="true" class="idioma"><abbr title="euskara">eu</abbr><span class="fuera"> / </span><em>Euskara</em></span></a></li>
+              <li><a href="api.php?lang=va" lang="ca-valencia" hreflang="ca-valencia"><span aria-hidden="true" class="idioma"><abbr title="valenci&agrave;">va</abbr><span class="fuera"> / </span><em>Valenci&agrave;</em></span></a></li>
+              <li><a href="api.php?lang=en" lang="en" hreflang="en"><span aria-hidden="true" class="idioma"><abbr title="english">en</abbr><span class="fuera"> / </span><em>English</em></span></a></li>
+              <li><a href="api.php?lang=fr" lang="fr" hreflang="fr"><span aria-hidden="true" class="idioma"><abbr title="fran&ccedil;ais">fr</abbr><span class="fuera"> / </span><em>Fran&ccedil;ais</em></span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu-item resto">
+          <a accesskey="4" href="/buscar/"><span class="botonBuscar">Buscar</span></a>
+        </li>
+        <li class="menu-item resto">
+          <a href="/mi_boe/">
+            <span class="botonMiBOE">Mi BOE <span class="luz">Desconectado.<br/>Pulse para acceder al servicio 'Mi BOE'</span></span>
+          </a>
+        </li>
+        <li class="menu-item movil buscar">
+          <a href="/buscar/">
+            <img alt="Buscar" src="/imagenes/logoBuscar.png" srcset="/imagenes/logoBuscar.svg">
+          </a>
+        </li>
+        <li class="menu-item movil">
+          <a href="/mi_boe/">
+            <img alt="Mi BOE" src="/imagenes/logoMiBOE.png" srcset="/imagenes/logoMiBOE.svg">
+          </a>
+        </li>
+        <li class="menu-item menu-menu"><!--  -->
+          <input id="activar-menu" name="activar" type="checkbox" title="Desplegar men&uacute;" class="fuera">
+          <label class="click-desplegar resto" for="activar-menu" title="Men&uacute;: Haga clic o utilice barra espaciadora para abrir o cerrar opciones">Men&uacute;
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <input id="activar-menu-movil" name="activar" type="checkbox" title="Desplegar men&uacute;">
+          <label class="click-desplegar movil" for="activar-menu-movil"><em>Men&uacute;</em>
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div class="menu-container">
+            <ul class="menu-item-list">
+              <li class="menu-item first">
+                <p><a href="/index.php#diarios" class="inline">Diarios Oficiales</a></p>
+                <ul class="sub-menu">
+                  <li><a href="/diario_boe">BOE</a></li>
+                  <li><a href="/diario_borme">BORME</a></li>
+                  <li><a href="/legislacion/otros_diarios_oficiales.php">Otros diarios oficiales</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <p><a href="/index.php#juridico">Informaci&oacute;n Jur&iacute;dica</a></p>
+                <ul class="sub-menu">
+                  <li><a href="/legislacion/">Todo el Derecho</a></li>
+                  <li><a href="/biblioteca_juridica/">Biblioteca Jur&iacute;dica Digital</a></li>
+                </ul>
+              </li>
+              <li class="menu-item last">
+                <p><a href="/index.php#servicios-adicionales">Otros servicios</a></p>
+                <ul class="sub-menu">
+                  <li><a href="/notificaciones">Notificaciones</a></li>
+                  <li><a href="/edictos_judiciales">Edictos judiciales</a></li>
+                  <li><a href="https://subastas.boe.es">Portal de subastas</a></li>
+                  <li><a href="/anuncios">Anunciantes</a></li>
+                  <li><a href="/datosabiertos/api/api.php">Datos abiertos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div> <!-- .menu-container -->
+        </li><!--  -->
+      </ul>
+    </div> <!-- .menu-wrapper -->
+    </div> <!-- .banda-menu -->
+    <div id="franjaMigas">
+      <div class="contMigas">
+        <span class="fraseMigas">Est&aacute; <abbr title="usted">Vd.</abbr> en</span>
+        <ul class="migas">
+	<li><a href="/">Inicio</a></li>
+	<li class="destino">Datos abiertos</li>
+	        </ul>
+        <div id="solapa">
+        </div><!-- solapa -->
+      </div><!-- contMigas -->
+    </div> <!-- #franjaMigas -->
+    <div id="contenedor">
+      <div id="contenido" class="poolAgencia"><div id="odContainer"><div class="catalog-container"><div class="catalog-header"><div class="catalog-title"><h2>API de datos abiertos</h2></div><div class="catalog-description gris"><p>La Agencia Estatal Bolet&iacute;n Oficial del Estado pone a disposici&oacute;n de la ciudadan&iacute;a una API para facilitar el acceso, la descarga y la reutilizaci&oacute;n de la informaci&oacute;n jur&iacute;dica existente en su sede electr&oacute;nica.</p><p>Actualmente se ofrece:</p><ul class="bullet-boe"><li>La legislaci&oacute;n consolidada elaborada por los servicios documentales de la AEBOE.</li><li>El sumario del diario oficial BOE.</li><li>El sumario del diario oficial BORME.</li><li>Las tablas auxiliares complementarias.</li></ul><p>Cada conjunto de datos incluye unas preguntas frecuentes, as&iacute; como un documento t&eacute;cnico sobre el uso de la API.</p><p>Tenga en cuenta que la reutilizaci&oacute;n de la informaci&oacute;n supone la aceptaci&oacute;n de las <a href="https://www.boe.es/informacion/aviso_legal/index.php#reutilizacion">condiciones de reutilizaci&oacute;n</a>.</p><p class="derecha buzon"><a href="/contactar/formulario_simple.php?tipo=WEB" title="Contactar con webmaster">Ay&uacute;denos a mejorar</a></p></div><div class="catalog-body"><div id="tag-legislacion-consolidada" class="tag-section"><input id="tag-section-input-legislacion-consolidada" type="checkbox" class="tag-section-input-hidden fuera" ><div id="tag-legislacion-consolidada-head" class="tag-section-header"><h3><label for="tag-section-input-legislacion-consolidada" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">Legislación consolidada</label></h3></div><div class="tag-section-body" ><div class="derecha"><div class="externaldoc-link"><a href="https://www.boe.es/datosabiertos/documentos/APIconsolidada.pdf" target="_blank">Documentación API para el acceso a legislación consolidada</a></div><div class="faq"><a href="https://www.boe.es/datosabiertos/faq/consolidada.php">Preguntas frecuentes</a></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-completa" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-completa" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-completa" method="post" action="#form-legislacion-consolidada-completa"><input type="hidden" name="operation-id" value="legislacion-consolidada-completa"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Búsqueda de normas consolidadas.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-completa">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="query"><label for="legislacion-consolidada-completafrom77503222">from</label></td><td class="query"><input id="legislacion-consolidada-completafrom77503222" type="text" name="from" class="query"   placeholder=""></td><td class="query">Fecha de inicio de la última actualización de la norma (aaaammdd)</td><td>query</td><td>string</td></tr><tr><td class="query"><label for="legislacion-consolidada-completato82839389">to</label></td><td class="query"><input id="legislacion-consolidada-completato82839389" type="text" name="to" class="query"   placeholder=""></td><td class="query">Fecha de fin de la última actualización de la norma (aaaammdd)</td><td>query</td><td>string</td></tr><tr><td class="query"><label for="legislacion-consolidada-completaquery39916949">query</label></td><td class="query"><textarea id="legislacion-consolidada-completaquery39916949" rows="6" name="query" class="query" wrap="off" ></textarea></td><td class="query">Cadena de búsqueda</td><td>query</td><td>object</td></tr><tr><td class="query"><label for="legislacion-consolidada-completaoffset15494275">offset</label></td><td class="query"><input id="legislacion-consolidada-completaoffset15494275" type="text" name="offset" class="query"   placeholder=""></td><td class="query">Primer resultado a devolver</td><td>query</td><td>integer</td></tr><tr><td class="query"><label for="legislacion-consolidada-completalimit4296688">limit</label></td><td class="query"><input id="legislacion-consolidada-completalimit4296688" type="text" name="limit" class="query"   placeholder=""></td><td class="query">Número máximo de resultados. Por defecto 50 registros (-1 para obtener todos).</td><td>query</td><td>integer</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id" method="post" action="#form-legislacion-consolidada-by-id"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Búsqueda de normas consolidadas por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-idid76431340">id</label></td><td class="path"><input id="legislacion-consolidada-by-idid76431340" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-metadatos" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-metadatos" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/metadatos</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-metadatos" method="post" action="#form-legislacion-consolidada-by-id-metadatos"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-metadatos"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Metadatos de una norma por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-metadatos">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-metadatosid7480381">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-metadatosid7480381" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-metadata-eli" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-metadata-eli" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/metadata-eli</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-metadata-eli" method="post" action="#form-legislacion-consolidada-by-id-metadata-eli"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-metadata-eli"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Metadatos ELI de una norma por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-metadata-eli">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-metadata-eliid39188721">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-metadata-eliid39188721" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-analisis" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-analisis" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/analisis</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-analisis" method="post" action="#form-legislacion-consolidada-by-id-analisis"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-analisis"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Análisis de una norma por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-analisis">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-analisisid13195748">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-analisisid13195748" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-texto" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-texto" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/texto</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-texto" method="post" action="#form-legislacion-consolidada-by-id-texto"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-texto"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Texto consolidado de una norma por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-texto">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-textoid20186243">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-textoid20186243" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-texto-indice" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-texto-indice" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/texto/indice</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-texto-indice" method="post" action="#form-legislacion-consolidada-by-id-texto-indice"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-texto-indice"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Lista de bloques de una norma por identificador.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-texto-indice">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-texto-indiceid30531052">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-texto-indiceid30531052" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-legislacion-consolidada-by-id-texto-idbloque" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-legislacion-consolidada-by-id-texto-idbloque" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/legislacion-consolidada/id/{id}/texto/bloque/{id_bloque}</label></h4></div></div></div><div class="operation-details"><form id="form-legislacion-consolidada-by-id-texto-idbloque" method="post" action="#form-legislacion-consolidada-by-id-texto-idbloque"><input type="hidden" name="operation-id" value="legislacion-consolidada-by-id-texto-idbloque"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Texto de un bloque consolidado por identificador de norma y de bloque.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=legislacion-consolidada-by-id-texto-idbloque">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="legislacion-consolidada-by-id-texto-idbloqueid68671842">id</label></td><td class="path"><input id="legislacion-consolidada-by-id-texto-idbloqueid68671842" type="text" name="id" class="path" required  placeholder=""></td><td class="path">Identificador de la norma</td><td>path</td><td>string</td></tr><tr><td class="path"><label for="legislacion-consolidada-by-id-texto-idbloqueid_bloque4623042">id_bloque</label></td><td class="path"><input id="legislacion-consolidada-by-id-texto-idbloqueid_bloque4623042" type="text" name="id_bloque" class="path" required  placeholder=""></td><td class="path">Identificador del bloque</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div></div></div><div id="tag-BOE" class="tag-section"><input id="tag-section-input-BOE" type="checkbox" class="tag-section-input-hidden fuera" ><div id="tag-BOE-head" class="tag-section-header"><h3><label for="tag-section-input-BOE" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">BOE</label></h3></div><div class="tag-section-body" ><div class="derecha"><div class="externaldoc-link"><a href="https://www.boe.es/datosabiertos/documentos/APIsumarioBOE.pdf" target="_blank">Documentación API para el acceso a los sumarios del BOE</a></div><div class="faq"><a href="https://www.boe.es/datosabiertos/faq/boe.php">Preguntas frecuentes</a></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-diario-boe-sumario" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-diario-boe-sumario" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/boe/sumario/{fecha}</label></h4></div></div></div><div class="operation-details"><form id="form-diario-boe-sumario" method="post" action="#form-diario-boe-sumario"><input type="hidden" name="operation-id" value="diario-boe-sumario"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Sumario para un día determinado.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=diario-boe-sumario">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="diario-boe-sumariofecha97356597">fecha</label></td><td class="path"><input id="diario-boe-sumariofecha97356597" type="text" name="fecha" class="path" required  placeholder=""></td><td class="path">Fecha (aaaammdd)</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div></div></div><div id="tag-BORME" class="tag-section"><input id="tag-section-input-BORME" type="checkbox" class="tag-section-input-hidden fuera" ><div id="tag-BORME-head" class="tag-section-header"><h3><label for="tag-section-input-BORME" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">BORME</label></h3></div><div class="tag-section-body" ><div class="derecha"><div class="externaldoc-link"><a href="https://www.boe.es/datosabiertos/documentos/APIsumarioBORME.pdf" target="_blank">Documentación API para el acceso a los sumarios del BORME</a></div><div class="faq"><a href="https://www.boe.es/datosabiertos/faq/borme.php">Preguntas frecuentes</a></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-diario-borme-sumario" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-diario-borme-sumario" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/borme/sumario/{fecha}</label></h4></div></div></div><div class="operation-details"><form id="form-diario-borme-sumario" method="post" action="#form-diario-borme-sumario"><input type="hidden" name="operation-id" value="diario-borme-sumario"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Sumario para un día determinado.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=diario-borme-sumario">Descargar XSD</a></div></div></div><div class="parameters"><div class="subtitle"><h5>Par&aacute;metros</h5></div><div class="content"><table class="tabla method-specs parameters"><caption class="fuera">Par&aacute;metros</caption><thead class="header"><tr><th>Par&aacute;metro</th><th>Valor</th><th>Descripci&oacute;n</th><th>Tipo de par&aacute;metro</th><th>Tipo de dato</th></tr></thead><tbody class="body"><tr><td class="path"><label for="diario-borme-sumariofecha9828563">fecha</label></td><td class="path"><input id="diario-borme-sumariofecha9828563" type="text" name="fecha" class="path" required  placeholder=""></td><td class="path">Fecha (aaaammdd)</td><td>path</td><td>string</td></tr></tbody></table></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>404</td><td>La información solicitada no existe</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div></div></div><div id="tag-datos-auxiliares" class="tag-section"><input id="tag-section-input-datos-auxiliares" type="checkbox" class="tag-section-input-hidden fuera" ><div id="tag-datos-auxiliares-head" class="tag-section-header"><h3><label for="tag-section-input-datos-auxiliares" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">Datos auxiliares</label></h3></div><div class="tag-section-body" ><div class="derecha"><div class="faq"><a href="https://www.boe.es/datosabiertos/faq/datos-auxiliares.php">Preguntas frecuentes</a></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-materias" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-materias" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/materias</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-materias" method="post" action="#form-datos-auxiliares-materias"><input type="hidden" name="operation-id" value="datos-auxiliares-materias"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Lista de materias.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-materias">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-ambitos" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-ambitos" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/ambitos</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-ambitos" method="post" action="#form-datos-auxiliares-ambitos"><input type="hidden" name="operation-id" value="datos-auxiliares-ambitos"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Ámbitos.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-ambitos">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-estado-consolidacion" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-estado-consolidacion" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/estados-consolidacion</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-estado-consolidacion" method="post" action="#form-datos-auxiliares-estado-consolidacion"><input type="hidden" name="operation-id" value="datos-auxiliares-estado-consolidacion"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Estados de consolidación de la legislación.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-estado-consolidacion">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-departamentos" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-departamentos" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/departamentos</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-departamentos" method="post" action="#form-datos-auxiliares-departamentos"><input type="hidden" name="operation-id" value="datos-auxiliares-departamentos"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Departamentos</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-departamentos">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-rangos" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-rangos" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/rangos</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-rangos" method="post" action="#form-datos-auxiliares-rangos"><input type="hidden" name="operation-id" value="datos-auxiliares-rangos"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Rangos</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-rangos">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-relacion-anterior" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-relacion-anterior" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/relaciones-anteriores</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-relacion-anterior" method="post" action="#form-datos-auxiliares-relacion-anterior"><input type="hidden" name="operation-id" value="datos-auxiliares-relacion-anterior"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Tipos de relaciones anteriores entre normas.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-relacion-anterior">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div><div class="api-container"><div class="operation gris"><input class="operation-input-hidden fuera" id="operation-details-input-datos-auxiliares-relacion-posterior" type="checkbox" ><div class="main-row"><div class="operation-method">GET</div><div class="operation-mask"><div><h4><label for="operation-details-input-datos-auxiliares-relacion-posterior" title="Haga clic o utilice la barra espaciadora para abrir o cerrar opciones">/datosabiertos/api/datos-auxiliares/relaciones-posteriores</label></h4></div></div></div><div class="operation-details"><form id="form-datos-auxiliares-relacion-posterior" method="post" action="#form-datos-auxiliares-relacion-posterior"><input type="hidden" name="operation-id" value="datos-auxiliares-relacion-posterior"><div class="operation-description"><div class="subtitle"><h5>Descripci&oacute;n</h5></div><div class="content">Tipos de relaciones posteriores entre normas.</div></div><div class="response-formats"><div class="subtitle"><h5>Formato de la respuesta</h5></div><div class="content"><select name="fmt" title="Seleccione el formato de la respuesta"><option value="application/xml" selected>application/xml</option><option value="application/json">application/json</option></select><div class="xsd-icon-container"><a class="xsd-icon" href="/datosabiertos/definitions/download_schema.php?id=datos-auxiliares-relacion-posterior">Descargar XSD</a></div></div></div><div class="responses"><div class="subtitle"><h5>Mensajes de la respuesta</h5></div><div class="content"><table class="tabla method-specs responses"><caption class="fuera">Mensajes de la respuesta</caption><thead class="header"><tr><th>C&oacute;digo HTTP</th><th>Raz&oacute;n</th></tr></thead><tbody class="body"><tr><td>200</td><td>Operación realizada correctamente</td></tr><tr><td>400</td><td>Identificador no válido o parámetros incorrectos</td></tr><tr><td>500</td><td>Error del servidor</td></tr></tbody></table></div></div><div class="api-button-bar"><input class="boton" type="submit" name="acc" value="Pruébame"></div></form><div class="operation-output"><div class="curl-container"><div class="subtitle"><h5>cURL</h5></div><div class="curl-command"><code><pre name="curl" tabindex="0"></pre></code></div></div><div class="url-container"><div class="subtitle"><h5>URL</h5></div><div class="url"><code><pre name="url" tabindex="0"></pre></code></div></div><div class="body-container"><div class="subtitle"><h5>Cuerpo de la respuesta</h5></div><div class="body"><code><pre tabindex="0"></pre></code></div></div><div class="response-code-container"><div class="subtitle"><h5>C&oacute;digo HTTP de la respuesta</h5></div><div class="response-code"><code><pre name="response-code" tabindex="0"></pre></code></div></div><div class="headers-container"><div class="subtitle"><h5>Cabeceras de la respuesta</h5></div><div class="headers"><code><pre tabindex="0"></pre></code></div></div></div></div></div></div></div></div></div></div></div></div>
+<script src="/js/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/datosabiertos/api/js/open_data_handler.js"></script>
+
+<script type='text/javascript'>
+    var openApiSchemas = {"legislacion-consolidada-completa":true,"legislacion-consolidada-by-id":true,"legislacion-consolidada-by-id-metadatos":true,"legislacion-consolidada-by-id-metadata-eli":true,"legislacion-consolidada-by-id-analisis":true,"legislacion-consolidada-by-id-texto":true,"legislacion-consolidada-by-id-texto-indice":true,"legislacion-consolidada-by-id-texto-idbloque":true,"diario-boe-sumario":true,"diario-borme-sumario":true,"datos-auxiliares-materias":true,"datos-auxiliares-ambitos":true,"datos-auxiliares-estado-consolidacion":true,"datos-auxiliares-departamentos":true,"datos-auxiliares-rangos":true,"datos-auxiliares-relacion-anterior":true,"datos-auxiliares-relacion-posterior":true};
+    var openApiFile    = {
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API de datos abiertos",
+    "summary": "Datos abiertos a disposición del ciudadano.",
+    "description": "<p>La Agencia Estatal Bolet&iacute;n Oficial del Estado pone a disposici&oacute;n de la ciudadan&iacute;a una API para facilitar el acceso, la descarga y la reutilizaci&oacute;n de la informaci&oacute;n jur&iacute;dica existente en su sede electr&oacute;nica.</p><p>Actualmente se ofrece:</p><ul class=\"bullet-boe\"><li>La legislaci&oacute;n consolidada elaborada por los servicios documentales de la AEBOE.</li><li>El sumario del diario oficial BOE.</li><li>El sumario del diario oficial BORME.</li><li>Las tablas auxiliares complementarias.</li></ul><p>Cada conjunto de datos incluye unas preguntas frecuentes, as&iacute; como un documento t&eacute;cnico sobre el uso de la API.</p><p>Tenga en cuenta que la reutilizaci&oacute;n de la informaci&oacute;n supone la aceptaci&oacute;n de las <a href=\"https://www.boe.es/informacion/aviso_legal/index.php#reutilizacion\">condiciones de reutilizaci&oacute;n</a>.</p><p class=\"derecha buzon\"><a href=\"/contactar/formulario_simple.php?tipo=WEB\" title=\"Contactar con webmaster\">Ay&uacute;denos a mejorar</a></p>",
+    "version": "1.0"
+  },
+  "tags": [
+    {
+      "name": "legislacion-consolidada",
+      "description": "Legislación consolidada",
+      "externalDocs" : {
+        "description": "Documentación API para el acceso a legislación consolidada",
+        "url": "https://www.boe.es/datosabiertos/documentos/APIconsolidada.pdf"
+      },
+      "x-faq" : "https://www.boe.es/datosabiertos/faq/consolidada.php"
+    },
+    {
+      "name": "BOE",
+      "description": "BOE",
+      "externalDocs" : {
+        "description": "Documentación API para el acceso a los sumarios del BOE",
+        "url": "https://www.boe.es/datosabiertos/documentos/APIsumarioBOE.pdf"
+      },
+      "x-faq": "https://www.boe.es/datosabiertos/faq/boe.php"
+    },
+    {
+      "name": "BORME",
+      "description": "BORME",
+      "externalDocs" : {
+        "description": "Documentación API para el acceso a los sumarios del BORME",
+        "url": "https://www.boe.es/datosabiertos/documentos/APIsumarioBORME.pdf"
+      },
+      "x-faq" : "https://www.boe.es/datosabiertos/faq/borme.php"
+    },
+    {
+      "name": "datos-auxiliares",
+      "description": "Datos auxiliares",
+      "x-faq" : "https://www.boe.es/datosabiertos/faq/datos-auxiliares.php"
+    }
+  ],
+  "servers":[
+    {
+      "url": "https://boe.es"
+    },
+    {
+      "url": "https://www.boe.es"
+    }
+  ],
+  "paths": {
+    "/datosabiertos/api/legislacion-consolidada": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Búsqueda de normas consolidadas.",
+        "parameters": [
+          {
+            "description": "Fecha de inicio de la última actualización de la norma (aaaammdd)",
+            "name": "from",
+            "required": false,
+            "in": "query",
+            "schema":{
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "pattern": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[12]\\d|30|31)$",
+              "format": "date"
+            }
+          },
+          {
+            "description": "Fecha de fin de la última actualización de la norma (aaaammdd)",
+            "name": "to",
+            "required": false,
+            "in": "query",
+            "schema":{
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "pattern": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[12]\\d|30|31)$",
+              "format": "date"
+            }
+          },  
+          {
+            "$ref": "#/components/parameters/queryDisposicion"
+          },
+          {
+            "description": "Primer resultado a devolver",
+            "name": "offset",
+            "required": false,
+            "in": "query",
+            "schema":{
+              "type": "integer"
+            }
+          },  
+          {
+            "description": "Número máximo de resultados. Por defecto 50 registros (-1 para obtener todos).",
+            "name": "limit",
+            "required": false,
+            "in": "query",
+            "schema":{
+              "type": "integer"
+            }
+          }        
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-completa"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Búsqueda de normas consolidadas por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/metadatos":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Metadatos de una norma por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-metadatos"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/metadata-eli":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Metadatos ELI de una norma por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-metadata-eli"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/analisis":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Análisis de una norma por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-analisis"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/texto":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Texto consolidado de una norma por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-texto"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/texto/indice":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Lista de bloques de una norma por identificador.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-texto-indice"
+      }
+    },
+    "/datosabiertos/api/legislacion-consolidada/id/{id}/texto/bloque/{id_bloque}":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "legislacion-consolidada"
+        ],
+        "description": "Texto de un bloque consolidado por identificador de norma y de bloque.",
+        "parameters": [
+          {
+            "description": "Identificador de la norma",
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          },
+          {
+            "description": "Identificador del bloque",
+            "name": "id_bloque",
+            "required": true,
+            "in": "path",
+            "schema":{
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "legislacion-consolidada-by-id-texto-idbloque"
+      }
+    },
+    "/datosabiertos/api/boe/sumario/{fecha}":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "BOE"
+        ],
+        "description": "Sumario para un día determinado.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fecha"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "diario-boe-sumario"
+      }
+    },
+    "/datosabiertos/api/borme/sumario/{fecha}":{
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "BORME"
+        ],
+        "description": "Sumario para un día determinado.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fecha"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "404": {
+            "description": "La información solicitada no existe"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "diario-borme-sumario"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/materias": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Lista de materias.",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-materias"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/ambitos": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Ámbitos.",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-ambitos"
+      }      
+    },
+    "/datosabiertos/api/datos-auxiliares/estados-consolidacion": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Estados de consolidación de la legislación.",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-estado-consolidacion"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/departamentos": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Departamentos",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-departamentos"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/rangos": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Rangos",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-rangos"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/relaciones-anteriores": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Tipos de relaciones anteriores entre normas.",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-relacion-anterior"
+      }
+    },
+    "/datosabiertos/api/datos-auxiliares/relaciones-posteriores": {
+      "get": {
+        "summary": "Listado",
+        "tags": [
+          "datos-auxiliares"
+        ],
+        "description": "Tipos de relaciones posteriores entre normas.",
+        "responses": {
+          "200": {
+            "description": "Operación realizada correctamente",
+            "content":{
+              "application/xml": {},
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Identificador no válido o parámetros incorrectos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        },
+        "operationId": "datos-auxiliares-relacion-posterior"
+      }
+    }
+  },
+  "components":{
+    "parameters": {
+      "fecha": {
+        "description": "Fecha (aaaammdd)",
+        "name": "fecha",
+        "required": true,
+        "in": "path",
+        "schema":{
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "string",
+          "pattern": "(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[12]\\d|30|31)"
+        }
+      },
+      "queryDisposicion":{
+        "description": "Cadena de búsqueda",
+        "name": "query",        
+        "required": false,
+        "in": "query",
+        "schema":{
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "title": "Query",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "object",
+              "properties": {
+                "query_string": {
+                  "type": "object",
+                  "properties": {
+                    "query": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "range": {
+                  "type": "object",
+                  "properties": {
+                    "fecha_publicacion": {
+                      "$ref": "#/components/parameters/queryDisposicion/schema/$defs/limits"
+                    },
+                    "fecha_disposicion": {
+                      "$ref": "#/components/parameters/queryDisposicion/schema/$defs/limits"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "sort": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/parameters/queryDisposicion/schema/$defs/order"
+              }
+            }
+          },
+          "$defs": {
+            "limits": {
+              "type": "object",
+              "properties": {
+                "gte": {
+                  "type": "string",
+                  "pattern": "(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[12]\\d|30|31)"
+                },
+                "lte": {
+                  "type": "string",
+                  "format": "date"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "gte",
+                "lte"
+              ]
+            },
+            "order_type": {
+              "type": "string",
+              "oneOf": [
+                {
+                  "enum": [
+                    "asc",
+                    "desc",
+                    ""
+                  ]
+                }
+              ]
+            },
+            "order": {
+              "type": "object",
+              "properties": {
+                "fecha_publicacion": {
+                  "$ref": "#/components/parameters/queryDisposicion/schema/$defs/order_type"
+                },
+                "departamento": {
+                  "$ref": "#/components/parameters/queryDisposicion/schema/$defs/order_type"
+                },
+                "relevancia": {
+                  "$ref": "#/components/parameters/queryDisposicion/schema/$defs/order_type"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}
+;
+</script>
+
+
+      </div> <!-- .pool -->
+    </div> <!-- #contenedor -->
+    <div id="pie">
+      <div id="menuPie">
+        <div class="otros-enlaces">
+          <div class="grupo-otros-enlaces">
+          	<div class="lista-pie">
+          	<ul>
+            <li><div class="enlace"><a href="/contactar/" accesskey="3">Contactar</a></div></li>
+            <li><div class="enlace"><a href="/informacion/index.php">Sobre la sede electr&oacute;nica</a></div></li>
+            <li><div class="enlace"><a href="/informacion/mapa_web/" accesskey="2">Mapa</a></div></li>
+            <li><div class="enlace"><a href="/informacion/aviso_legal/index.php">Aviso legal</a></div></li>
+            <li><div class="enlace"><a href="/informacion/accesibilidad/" accesskey="0">Accesibilidad</a></div></li>
+            <li><div class="enlace"><a href="/informacion/index.php#proteccion-de-datos">Protecci&oacute;n de datos</a></div></li>
+            <li><div class="enlace"><a href="/informacion/sistema_interno_informacion.php">Sistema Interno de Informaci&oacute;n</a></div></li>
+            <li><div class="enlace"><a href="/informacion/tutoriales/">Tutoriales</a></div></li>
+            <li><div class="enlace"><a href="/transparencia/empleo/">Empleo en la AEBOE</a></div></li>
+            </ul>
+            </div>
+          </div>
+          <div class="espacio"></div>
+          <div class="grupo-otros-enlaces">
+          	<div class="lista-pie">
+          	<ul>
+            <li><div class="enlace icono"><a href="/rss/" lang="es" title="RSS"><img src="/imagenes/home/rss_32.png" srcset="/imagenes/home/rss_32.svg" alt="RSS"></a></div></li>
+            <li><div class="enlace icono"><a href="/redes_sociales?pag=tw" lang="es" title="boegob, el BOE en X"><img src="/imagenes/home/twitter_32.png" srcset="/imagenes/home/twitter_32.svg"  alt="X"></a></div></li>
+            <li><div class="enlace icono"><a href="/redes_sociales?pag=fb" lang="es" title="El BOE en Facebook"><img src="/imagenes/home/facebook_32.png" srcset="/imagenes/home/facebook_32.svg" alt="Facebook"></a></div></li>
+            <li><div class="enlace icono"><a href="/redes_sociales?pag=ln" lang="es" title="El BOE en LinkedIn"><img src="/imagenes/home/linkedin_32.png" srcset="/imagenes/home/linkedin_32.svg" alt="LinkedIn"></a></div></li>
+            <li><div class="enlace icono"><a href="/redes_sociales?pag=yt" lang="es" title="El BOE en YouTube"><img src="/imagenes/home/youtube_32.png" srcset="/imagenes/home/youtube_32.svg" alt="YouTube"></a></div></li>
+            </ul>
+            </div>
+          </div>
+        </div> <!-- .franjaMenu -->
+      </div> <!-- #menuPie -->
+      <div class="franja-pie">
+        <p class="nombre-organismo">Agencia Estatal Bolet&iacute;n Oficial del Estado</p>
+        <p class="direccion-organismo"><abbr title="Avenida">Avda.</abbr> de Manoteras, 54 - 28050 Madrid</p>
+      </div>
+    </div> <!-- #pie -->
+    <script src="/js/desplegable.js"></script>
+  </body>
+</html>

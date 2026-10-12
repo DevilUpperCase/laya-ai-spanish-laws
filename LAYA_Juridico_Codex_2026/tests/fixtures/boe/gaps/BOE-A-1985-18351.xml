@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251216T205959Z</fecha_actualizacion>
+      <identificador>BOE-A-1985-18351</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19850503</fecha_disposicion>
+      <numero_oficial>4/1985</numero_oficial>
+      <titulo>Ley 4/1985, de 3 de mayo, de Ordenación de la Artesanía.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19850824</fecha_publicacion>
+      <diario_numero>203</diario_numero>
+      <fecha_vigencia>19850609</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1985/05/03/4</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1985-18351</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="310">Artesanía</materia>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el  BOIB núm. 14, de 20 de mayo de 1985.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-18351</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-05-03</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-18351</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-05-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/1985, de 3 de mayo, de Ordenación de la Artesanía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-08-24</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1985-18351</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-05-03</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/310"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-05-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 4/1985, de 3 de mayo, de Ordenación de la Artesanía.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1985/05/03/4/con/19850520/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado, y yo, en nombre del Rey, y de acuerdo con lo que se establece en el artículo 27.2, del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley</p>
+          <p class="titulo">LEY</p>
+          <p class="centro_redonda">PREÁMBULO</p>
+          <p class="parrafo_2">El proceso de desarrollo económico experimentado en Baleares en décadas recientes, ha gravitado en torno al fenómeno turístico. Dicha circunstancia ha supuesto cambios sustanciales en el devenir de la actividad artesana, desencadenando, en muchas ocasiones, una aceleración creciente en la producción de algunos sectores con la lógica deformación de resultados. Tal contingencia amenaza con producir la desaparición de múltiples actividades, que constituyen una parte importante de nuestro patrimonio cultural.</p>
+          <p class="parrafo">La artesanía de las Islas Baleares es un sector en expansión, dado que la demanda de sus productos, por razones turísticas, no sólo se ha mantenido, sino que ha ido creciendo paralelamente a aquél, todo ello en menoscabo de su relevancia cultural y social; prueba de ello es que la pervivencia pura y primitiva es escasa en la mayoría de gremios.</p>
+          <p class="parrafo">En consecuencia, resulta conveniente arbitrar aquellas medidas que garanticen la protección y pervivencia del sector artesano, creando un marco normativo que lo regule, en sus diferentes facetas, tales como el establecimiento de los requisitos necesarios para adquirir la condición de Empresa artesana, la clasificación de actividades y el repertorio de oficios artesanos, los documentos acreditativos de la condición de maestro artesano, la calidad de los productos artesanos de Baleares y su identificación, la creación de una Comisión de Artesanía de las Islas Baleares, y la posibilidad de establecimiento de zonas de interés artesanal.</p>
+          <p class="parrafo">En este sentido, el articulado de la presente Ley sienta las bases de un marco de actuación, que permitirá adoptar los mecanismos precisos para fomentar, apoyar y promocionar a las Empresas enmarcadas en el sector artesano, al objeto de mejorar sus condiciones de rentabilidad, gestión y competitividad.</p>
+          <p class="parrafo">En tal sentido, y en virtud de la competencia exclusiva de la Comunidad Autónoma de las Islas Baleares, en materia de artesanía, recogida en el Estatuto de Autonomía para las Islas Baleares, en su artículo 10.13, a propuesta del Consell de Govern, y previa la preceptiva deliberación del Parlamento de las Islas Baleares, en nombre del Rey vengo en promulgar la siguiente</p>
+        </version>
+      </bloque>
+      <bloque id="ley" tipo="encabezado" titulo="LEY">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="titulo">LEY DE ORDENACIÓN DE LA ARTESANÍA</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Se considera artesanía, a los efectos de lo dispuesto en la presente Ley, la actividad de creación, producción, transformación o reparación de bienes, y la prestación de servicios, realizada mediante un proceso en el que la intervención personal constituye el factor predominante, obteniéndose un resultado final individualizado, que no se acomoda a la producción industrial totalmente mecanizada o en grandes series.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">1. Las actividades artesanales se clasifican en cuatro grupos:</p>
+          <p class="parrafo_2">– Grupo A. Artesanía artística o de creación.</p>
+          <p class="parrafo">– Grupo B. Artesanía de producción de bienes de consumo.</p>
+          <p class="parrafo">– Grupo C. Artesanía de servicios.</p>
+          <p class="parrafo">– Grupo D. Artesanía popular.</p>
+          <p class="parrafo_2">2. Cada uno de los grupos podrá ser objeto de tratamiento específico y diferenciado, pueden subdividirse en subgrupos, y éstos en actividades y oficios artesanos, que conformarán el repertorio de oficios artesanos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">Se considera Empresa artesana a toda unidad económica que, realizando una actividad comprendida en el repertorio de oficios artesanos, indicado en el artículo 2.º, cumpla los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Que la actividad desarrollada tenga un carácter preferentemente manual.</p>
+          <p class="parrafo">b) Que tenga un maestro artesano, como mínimo, responsable de la producción y que dirija o participe en la actividad de la Empresa.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">El reconocimiento oficial por la Administración de la condición de Empresa artesana se acreditará mediante la posesión del documento de calificación artesanal, que será expedido por la Consellería de Comercio e Industria.</p>
+          <p class="parrafo">La obtención de esta calificación tendrá carácter voluntario.</p>
+          <p class="parrafo">Esta Consellería habilitará un registro de Empresas artesanas.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">1. La condición de maestro artesano, a los efectos de la presente Ley, se acreditará mediante la posesión de la carta de maestro artesano, expedida por la Consellería de Comercio e Industria, previo informe de la Comisión, a que se hace referencia en el punto 2 del presente artículo.</p>
+          <p class="parrafo">2. Las condiciones necesarias para la obtención de la carta de maestro serán reguladas por una Comisión, que se creará al efecto con la denominación de Comisión de Artesanía de las Islas Baleares, cuya composición y funcionamiento se determinarán reglamentariamente. Formarán parte de la misma representantes cualificados, tanto individuales, como institucionales, del sector artesano de la Comunidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">1. La Consellería de Comercio e Industria dictará las normas para acreditar la calidad de los productos artesanos, que serán elaborados por la Comisión de Artesanía de las Islas Baleares.</p>
+          <p class="parrafo">2. A propuesta de la Comisión de Artesanía de las Islas Baleares, la Consellería de Comercio e Industria expedirá certificaciones de calidad artesanal de los productos de Baleares.</p>
+          <p class="parrafo">Los productos que reúnan las condiciones indicadas en las certificaciones de calidad podrán exhibir un distintivo para su identificación en el mercado.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">Aquellas comarcas o zonas que se distingan por un artesanado activo y homogéneo podrán ser declaradas zonas de interés artesanal, lo que permitirá utilizar, en sus productos artesanos, un distintivo de procedencia geográfica.</p>
+          <p class="parrafo">El citado distintivo y su regulación serán determinados reglamentariamente.</p>
+          <p class="parrafo">La declaración de zona de interés artesanal será efectuada por la Consellería de Comercio e Industria.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">1. Las Empresas artesanas que deseen acogerse a los beneficios que pueda establecer la Administración para la promoción de la artesanía, deberán acreditar estar en posesión del documento de calificación que se señala en el artículo 4. Dicho requisito también será indispensable para poder hacer uso de los distintivos a que se refieren los artículos 6.º y 7.º</p>
+          <p class="parrafo">2. También se podrán acoger a estos beneficios aquellas asociaciones dedicadas exclusivamente a la comercialización de productos artesanos, siempre y cuando estén integradas exclusivamente por Empresas artesanas.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Disposición transitoria.</p>
+          <p class="parrafo">Hasta tanto entre en vigor la normativa a que se refiere la Disposición Final tercera, los beneficios que la Administración establezca para la promoción de la artesanía serán otorgados por la Consellería de Comercio e Industria, previo informe de la Comisión de Artesanía de las Islas Baleares, sin necesidad de acreditar la posesión del documento de calificación previsto en el artículo 4.º de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">En el plazo de tres meses, a partir de la entrada en vigor de la presente Ley, el Govern, a propuesta de la Consellería de Comercio e Industria, determinará mediante Decreto, la composición y funciones de la Comisión de Artesanía de las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Una vez constituida la Comisión de Artesanía de las Islas Baleares, ésta deberá elaborar, en el plazo máximo de seis meses, el Repertorio de Oficios Artesanos a que se refiere el artículo 2.º de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dftercera" tipo="precepto" titulo="Disposición final tercera">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="articulo">Disposición final tercera.</p>
+          <p class="parrafo">Antes del 1 de enero de 1986 la Consellería de Comercio e Industria dictará la normativa reguladora para la obtención de la carta de maestro artesano, que elaborará la Comisión de Artesanía de las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1985-18351" fecha_publicacion="19850520" fecha_vigencia="19850609">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos guarden esta Ley, y que los Tribunales y las autoridades, a los que corresponda, la hagan guardar.</p>
+          <p class="parrafo_2">En Palma de Mallorca, a 3 de mayo de 1985.</p>
+          <table class="sinbordes" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">GABRIEL CANELLAS FONS,</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">GASPAR OLIVER MUT,</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">Presidente</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">Conseller de Comercio e Industria</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-10-12T17:13:52.498829+00:00",
+  "status": "running",
+  "stage": "current",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "include_history": true,
+  "threads": 4,
+  "batch_size": 8,
+  "initial_pinned_chunks": 11696,
+  "committed_this_run": 4808,
+  "total_snapshot_chunks": 1396587,
+  "chunks_per_second": 0.4099579886853987,
+  "estimated_all_history_seconds_remaining": 3366401.0413005375,
+  "limitation": "Throughput estimate changes with passage lengths and new ingestion. Completion is checked by SQL, not this estimate."
+}

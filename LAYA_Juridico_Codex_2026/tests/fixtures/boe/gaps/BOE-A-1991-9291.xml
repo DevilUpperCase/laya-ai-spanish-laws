@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T190210Z</fecha_actualizacion>
+      <identificador>BOE-A-1991-9291</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19910130</fecha_disposicion>
+      <numero_oficial>1/1991</numero_oficial>
+      <titulo>Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19910417</fecha_publicacion>
+      <diario_numero>92</diario_numero>
+      <fecha_vigencia>19910310</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1991/01/30/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1991-9291</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="3430">Espacios naturales protegidos</materia>
+        <materia codigo="4918">Medio ambiente</materia>
+        <materia codigo="6803">Suelo</materia>
+        <materia codigo="7094">Urbanismo</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 31, de 9 de marzo de 1991.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1989-6881</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 4/1989, de 27 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1987-11747</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 8/1987, de 1 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOIB-i-1984-90002</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 1/1984, de 14 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 10 y 27 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-17938</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 8/1990, de 25 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1988-29379</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 12/1988, de 17 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1976-11506</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley sobre régimen del Suelo y ordenación Urbana, texto refundido aprobado por Real Decreto 1346/1976, de 9 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1975-5292</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 8/1975, de 12 de marzo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2008-9686</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>art. 16 bis y SE MODIFICA los anexos I, II y la disposición adicional 5, por Ley 4/2008, de 14 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2005-11132</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>los arts. 26 y 27 , por Ley 5/2005, de 26 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2023-3623</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el anexo I, por Decreto-ley 10/2022, de 27 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2004-1474</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 12 y 14 y se añade un art. 14 bis, por Ley 8/2003, de 25 de noviembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2000-5834</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el anexo I y II, por Ley 1/2000, de 9 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1999-11707</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 18 y la disposición adicional 5, por Ley 6/1999, de 3 de abril</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1997-18197</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 12 y 16 bis, por Ley 6/1997, de 8 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1993-4521</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>por Ley 7/1992, de 23 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-04-17</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-12-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20221229/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-05-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20080517/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20050604/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-12-04</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20031204/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-03-11</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/20000311/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19990417/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19970715/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-01-19</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19930119/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-9291</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-30</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3430"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-03-09</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 1/1991, de 30 de enero, de espacios naturales y de régimen urbanístico de las áreas de especial protección de las Islas Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1991/01/30/1/con/19910309/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">La protección de espacios en base a sus excepcionales valores naturales o paisajísticos es uno de los objetivos permanentes de toda la legislación urbanística y de ordenación territorial.</p>
+          <p class="parrafo">En la Ley del Suelo (Ley sobre Régimen del Suelo y Ordenación Urbana, texto refundido de 9 de abril de 1976), se encuentran precisas referencias a la «conservación del suelo, de otros recursos naturales y la defensa y mejora, desarrollo o renovación del medio natural» (artículo 82.c), a la «protección del medio ambiente, conservación de la naturaleza y defensa del paisaje» (artículo 12.1.d), a la «conservación y protección de todos y cada uno de los elementos naturales, sea suelo, flora, fauna o paisaje» (artículo 12.2.4), al establecimiento sobre determinados espacios de una «especial protección en razón de su excepcional valor agrícola, forestal o ganadero, de las posibilidades de explotación de sus recursos naturales, de sus valores paisajísticos, históricos o culturales, o por la defensa de la fauna, flora o el equilibrio ecológico» (artículo 80).</p>
+          <p class="parrafo">Estos objetivos de protección de la naturaleza, inherentes a toda política urbanística se han visto confirmados por la Ley 8/1990, de 25 de julio, sobre Reforma del Régimen Urbanístico y Valoración del Suelo, que en su artículo 7 regula con carácter básico la posibilidad de delimitar áreas de especial protección en el suelo no urbanizable.</p>
+          <p class="parrafo">La necesidad y urgencia de dotar el patrimonio natural y paisajístico de interés para la Comunidad Autónoma, de un régimen urbanístico protector que facilite su conservación e impida su degradación, es sentida y reclamada por los ciudadanos de las Islas Baleares, tanto por los valores intrínsecos de este patrimonio como por motivos sociales y económicos, ya que la calidad de vida en las islas Baleares depende muy fundamentalmente del funcionamiento y de los resultados de una economía de servicios turísticos basada en gran parte en el disfrute de recursos naturales, ambientales y paisajísticos.</p>
+          <p class="parrafo">La marcada y creciente inquietud social, motivada por la rápida e irreversible desnaturalización de una parte del territorio isleño, exige la adopción de medidas legislativas que vinculen las políticas territoriales y urbanísticas de los órganos ejecutivos de la Comunidad y de los municipios, en orden a una protección estable de los valores naturales y paisajísticos de unos territorios insulares caracterizados por su limitada superficie y por la fragilidad de los citados valores.</p>
+          <p class="parrafo">La existencia de inventarios de espacios naturales, como «Inventario Abierto de Espacios Naturales de Protección Especial. Baleares. Revisión 1984», del Instituto Nacional para la Conservación de la Naturaleza (ICONA); «Arces a Protegir a Balears», elaborado por el Instituto de Estudios Ecológicos (INESE) para el Gobierno Balear el año 1985, así como la propuesta de actuación relativa a las Áreas Naturales, remitida por el Gobierno al Parlamento a finales del año 1987, han permitido que la definición de los espacios, que requieren una protección efectiva, se base en hechos objetivos extraídos de una documentación informativa extensa.</p>
+          <p class="parrafo">Los antecedentes de una normativa jurídica que garantice la conservación de los valores naturales del territorio son ya importantes. En el mes de mayo de 1973 entraba en vigor el Plan Provincial de Ordenación de Baleares, que incluye algunas medidas conservacionistas, hoy consideradas insuficientes. La normativa urbanística de ámbito municipal que ha desarrollado el Plan Provincial así lo demuestra, y ello ha hecho necesario que en distintas ocasiones el Gobierno en uso de su facultad de suspender el planeamiento y de sustituirlo por normas subsidiarias, los años 1983, 1988 y 1989, por iniciativa propia o a requerimiento del Parlamento, para la protección de determinados espacios naturales.</p>
+          <p class="parrafo">Puede considerarse que la Ley 1/1984, de 14 de marzo, de Ordenación v Protección de Áreas Naturales de Interés Especial, marca una inflexión en el proceso de conservación de los espacios naturales de las Islas Baleares, y es a partir de ahí cuando todo un conjunto de leyes vienen a proteger los espacios más amenazados de degradación por el desarrollo urbanístico, amenaza que en mayor o menor grado existe en buena parte del territorio de la Comunidad Autónoma, y que está en la raíz de la presente Ley, que con la experiencia de la Ley 1/1984, trata de dar una real protección urbanística a todas las áreas naturales de las Islas Baleares, que a nivel comunitario la requieren.</p>
+          <p class="parrafo">La Ley 8/1987, de 1 de abril, de Ordenación Territorial de las Islas Baleares, crea la figura de las Directrices de Ordenación Territorial como «instrumento para la ordenación conjunta de la totalidad del ámbito territorial de las Islas Baleares» y entre las determinaciones vinculantes para el planeamiento urbanístico y territorial exige una «delimitación de las áreas de protección que queden sustraídas en el desarrollo de las actividades urbanas para ser destinadas a la preservación o explotación de los recursos naturales» (artículo 11.f). Los Planes Territoriales Parciales, que la Ley 8/1987, crea, deben incluir también un «señalamiento de espacios de interés natural con indicación de las medidas protectoras a adoptar». Los Planes de Ordenación del Medio Natural previstos en la citada Ley, que clasifican el territorio como suelo no urbanizable, y sus determinaciones, deben contener entre otras «medidas para la defensa y conservación de la flora, fauna, paisaje, recursos hidráulicos, costas, aguas litorales y demás elementos naturales».</p>
+          <p class="parrafo">La presente Ley tiene por objeto establecer el régimen urbanístico de las áreas que por sus valores naturales y paisajísticos de interés para la Comunidad Autónoma deben ser objeto de protección especial.</p>
+          <p class="parrafo">El Parlamento de las Islas Baleares tiene competencia para legislar un régimen de especial protección para las áreas con valores naturales y paisajísticos de interés para la Comunidad Autónoma, ya que el artículo 27 del Estatuto de Autonomía de las Islas Baleares atribuye el ejercicio de la potestad legislativa en aquellas materias de su competencia, y en su artículo 10 atribuye a la Comunidad Autónoma la competencia exclusiva en materia de ordenación del territorio urbanismo (apartado 3) y en materia de patrimonio paisajístico de interés para la Comunidad (apartado 20).</p>
+          <p class="parrafo">La presente Ley consta de un título preliminar que establece los dos objetos de la Ley y dos títulos que lo desarrollan.</p>
+          <p class="parrafo">El título I desarrolla las áreas de Especial Protección de interés para la Comunidad Autónoma. Estas se clasifican en dos categorías: Áreas Naturales de Especial interés y Áreas Rurales de Interés Paisajístico. Se crea asimismo, la figura de Área de Asentamiento en Paisaje de Interés, que permite un tratamiento global de las áreas complejas de la Serra de Tramuntana de Mallorca y de Els Amunts de Eivissa. Se relacionan y se delimitan gráficamente en un anexo cartográfico las áreas de especial protección de cada una de las Islas. Se regula el contenido urbanístico de cada una de las categorías, así como el instrumento de ordenación territorial o urbanístico que debe aplicarse a cada espacio.</p>
+          <p class="parrafo">El título II se ocupa del desarrollo legislativo para las Islas Baleares de algunas determinaciones de la Ley de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre, como es atribuir la competencia para la declaración de Espacios Naturales Protegidos, cuando esta corresponda a la Comunidad Autónoma y establecer que la acción para exigir el cumplimiento de la citada Ley será pública y subvencionada.</p>
+          <p class="parrafo">Las disposiciones adicionales y transitorias establecen los espacios que deberán ser objeto de expediente de declaración de Espacio Natural Protegido, el régimen urbanístico transitorio hasta la aprobación del planeamiento territorial o urbanístico exigido, el carácter de ley de protecciones mínimas que no anula las disposiciones vigentes, que suponen mayor protección, así como la situación detallada de los suelos urbanizables no afectados por las delimitaciones.</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Art 1">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 1.</p>
+          <p class="parrafo_2">La presente Ley tiene por objeto:</p>
+          <p class="parrafo_2">1. Definir las Áreas de Especial Protección de Interés para la Comunidad Autónoma, en razón a sus excepcionales valores ecológicos, geológicos y paisajísticos, y establecer las medidas y condiciones de ordentación territorial y urbanística precisas para su conservación protección.</p>
+          <p class="parrafo">2. Establecer normas adicionales de protección de los espacios naturales protegidos que se declaren al amparo de la Ley 4/1989, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre,</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">De las Áreas de Protección de Interés para la Comunidad Autónoma</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Clasificación y delimitación</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Art 2">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 2.</p>
+          <p class="parrafo_2">1. Las Áreas de Especial Protección de Interés para la Comunidad Autónoma son aquellas que pertenecen a las siguientes categorías:</p>
+          <p class="parrafo_2">Área Natural de Especial Interés.</p>
+          <p class="parrafo">Área Rural de Interés Paisajístico.</p>
+          <p class="parrafo">Área de Asentamiento en Paisaje de Interés.</p>
+          <p class="parrafo_2">2. Son Áreas Naturales de Especial Interés aquellos espacios que por sus singulares valores naturales se declaran como tales en esta Ley.</p>
+          <p class="parrafo">3. Son Áreas Rurales de Interés Paisajístico aquellos espacios transformados mayoritariamente por actividades tradicionales y que, por sus especiales valores paisajísticos, se declaran como tales en esta Ley.</p>
+          <p class="parrafo">4. Son Áreas de Asentamiento en Paisaje de Interés aquellos espacios destinados a usos y actividades de naturaleza urbana que supongan una transformación intensa y que se declaren como tales en esta Ley por sus singulares valores paisajísticos o por su situación.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Art 3">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 3.º</p>
+          <p class="parrafo_2">1. Se declaran Áreas Naturales de Especial Interés los espacios definidos gráficamente en el anexo I y relacionados a continuación:</p>
+          <p class="centro_cursiva">Isla de Mallorca</p>
+          <p class="parrafo_2">1. Puig de Maria.</p>
+          <p class="parrafo">2. S’Albufereta.</p>
+          <p class="parrafo">3. Sa Punta Manresa.</p>
+          <p class="parrafo">4. La Victòria.</p>
+          <p class="parrafo">5. Puig de Sant Martí.</p>
+          <p class="parrafo">6. Serra de Son Fe.</p>
+          <p class="parrafo">7. S’Albufera.</p>
+          <p class="parrafo">8. Dunes de Son Real.</p>
+          <p class="parrafo">9. Sa Canova d’Artà.</p>
+          <p class="parrafo">10. Muntanyes d’Artà.</p>
+          <p class="parrafo">11. Cala Mesquida-Cala Agulla.</p>
+          <p class="parrafo">12. Sa Punta de Capdepera.</p>
+          <p class="parrafo">13. Puig Segué.</p>
+          <p class="parrafo">14. S’Heretat.</p>
+          <p class="parrafo">15. Cap Vermell.</p>
+          <p class="parrafo">16. Torrent de Canyamel.</p>
+          <p class="parrafo">17. Serra de Son Jordi.</p>
+          <p class="parrafo">18. Punta de n’Amer.</p>
+          <p class="parrafo">19. Cales de Manacor.</p>
+          <p class="parrafo">20. Sa Punta i s’Algar.</p>
+          <p class="parrafo">21. Punta Negra-Cala Mitjana.</p>
+          <p class="parrafo">22. Mondragó.</p>
+          <p class="parrafo">23. Cap de Ses Salines.</p>
+          <p class="parrafo">24. Es Trenc-Salobrar de Campos.</p>
+          <p class="parrafo">25. Marina de Llucmajor.</p>
+          <p class="parrafo">26. Cap Enderrocat.</p>
+          <p class="parrafo">27. Es Carnatge des Coll d’en Rabassa.</p>
+          <p class="parrafo">28. Cap de Cala Figuera-Refeubeig.</p>
+          <p class="parrafo">29. Cap Andritxol.</p>
+          <p class="parrafo">30. Cap de Llamp.</p>
+          <p class="parrafo">31. Es Saulet.</p>
+          <p class="parrafo">32. Massís de Randa.</p>
+          <p class="parrafo">33. Es Fangar.</p>
+          <p class="parrafo">34. Sant Salvador-Santueri.</p>
+          <p class="parrafo">35. Puig de Ses Donardes.</p>
+          <p class="parrafo">36. Consolació.</p>
+          <p class="parrafo">37. Puig de Sant Miquel.</p>
+          <p class="parrafo">38. Son Cos.</p>
+          <p class="parrafo">39. Garriga de Son Caulelles.</p>
+          <p class="parrafo">40. Puig de Son Seguí.</p>
+          <p class="parrafo">41. Puig de Son Nofre.</p>
+          <p class="parrafo">42. Puig de Bonany.</p>
+          <p class="parrafo">43. Puig de Santa Magdalena.</p>
+          <p class="parrafo">44. Na Borges.</p>
+          <p class="parrafo">45. Calicant.</p>
+          <p class="parrafo">46. Barrancs de Son Cual i Xorrigo.</p>
+          <p class="parrafo">47. Áreas Naturales de la Serra de Tramuntana.</p>
+          <p class="centro_cursiva">Isla de Menorca</p>
+          <p class="parrafo_2">1. Costa Norte de Ciutadella.</p>
+          <p class="parrafo">2. La Vall.</p>
+          <p class="parrafo">3. Dels Alocs a Fornells.</p>
+          <p class="parrafo">4. La Mola y s’Albufera de Fornells.</p>
+          <p class="parrafo">5. Bellavista.</p>
+          <p class="parrafo">6. D’Addaia a s’Albufera.</p>
+          <p class="parrafo">7. S’Albufera des Grau.</p>
+          <p class="parrafo">8. De s’Albufera a la Mola.</p>
+          <p class="parrafo">9. Cala Sant Esteve-Caló den Rafalet.</p>
+          <p class="parrafo">10. De Cala Alcaufar a Punta Prima.</p>
+          <p class="parrafo">11. De Biniparratx a Llucalari.</p>
+          <p class="parrafo">12. Son Bou i Barranc de sa Vall.</p>
+          <p class="parrafo">13. De Binigans a Cala Mitjana.</p>
+          <p class="parrafo">14. Costa Sur de Ciutadella.</p>
+          <p class="parrafo">15. Son Oliveret.</p>
+          <p class="parrafo">16. Camí de Baix (Degollador).</p>
+          <p class="parrafo">17. Santa Agueda-S’Enclusa.</p>
+          <p class="parrafo">18. El Toro.</p>
+          <p class="parrafo">19. Penyes d’Egipte.</p>
+          <p class="centro_cursiva">Isla de Eivissa</p>
+          <p class="parrafo_2">1. Puig de Mussona y Puig de s’Eixeró.</p>
+          <p class="parrafo">2. Cap Llibrell.</p>
+          <p class="parrafo">3. Ses Salines.</p>
+          <p class="parrafo">4. Cala Jondal.</p>
+          <p class="parrafo">5. Sorra de sa Cova Santa y Puig d’en Palleu.</p>
+          <p class="parrafo">6. Cap Llentrisca-Sa Talaiassa.</p>
+          <p class="parrafo">7. Cala Compta-Cala Bassa.</p>
+          <p class="parrafo">8. Serra de ses Fontanelles-Serra Grossa.</p>
+          <p class="parrafo">9. Del Puig d’en Basseta al Puig d’en Mussons.</p>
+          <p class="parrafo">10. Áreas naturales dels Amunts d’Eivissa.</p>
+          <p class="parrafo">11 . Massís de Sant Caries.</p>
+          <p class="centro_cursiva">Isla de Formentera</p>
+          <p class="parrafo_2">1. Ses Salines-S’Estany Pudent.</p>
+          <p class="parrafo">2. S’Estany des Peix.</p>
+          <p class="parrafo">3. Es Cap Alt.</p>
+          <p class="parrafo">4. Cap de Barbaria.</p>
+          <p class="parrafo">5. Es Pi d’en Catalá.</p>
+          <p class="parrafo">6. Playa de Migjorn y Costa de Tramuntana.</p>
+          <p class="parrafo">7. La Mola.</p>
+          <p class="parrafo">8. Punta Prima.</p>
+          <p class="parrafo_2">2. Se declaran igualmente Áreas Naturales de Especial Interés:</p>
+          <p class="parrafo_2">a) Todas las islas, islotes y farallones.</p>
+          <p class="parrafo">b) Los espacios forestales poblados de manera dominante o significativa por encina (Quercus ilex).</p>
+          <p class="parrafo_2">3. Quedan en cualquier caso, excluidos de las Áreas Naturales de Especial Interés, los suelos clasificados como urbanos a la entrada en vigor de esta Ley.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Art. 3.</p>
+          <p class="parrafo_2">1. Se declaran Áreas Naturales de Especial Interés los espacios definidos gráficamente en el anexo I y relacionados a continuación:</p>
+          <p class="centro_cursiva">Isla de Mallorca</p>
+          <p class="parrafo_2">1. Puig de Maria.</p>
+          <p class="parrafo">2. S’Albufereta.</p>
+          <p class="parrafo">3. Sa Punta Manresa.</p>
+          <p class="parrafo">4. La Victòria.</p>
+          <p class="parrafo">5. Puig de Sant Martí.</p>
+          <p class="parrafo">6. Serra de Son Fe.</p>
+          <p class="parrafo">7. S’Albufera.</p>
+          <p class="parrafo">8. Dunes de Son Real.</p>
+          <p class="parrafo">9. Sa Canova d’Artà.</p>
+          <p class="parrafo">10. Muntanyes d’Artà.</p>
+          <p class="parrafo">11. Cala Mesquida-Cala Agulla.</p>
+          <p class="parrafo">12. Sa Punta de Capdepera.</p>
+          <p class="parrafo">13. Puig Segué.</p>
+          <p class="parrafo">14. S’Heretat.</p>
+          <p class="parrafo">15. Cap Vermell.</p>
+          <p class="parrafo">16. Torrent de Canyamel.</p>
+          <p class="parrafo">17. Serra de Son Jordi.</p>
+          <p class="parrafo">18. Punta de n’Amer.</p>
+          <p class="parrafo">19. Cales de Manacor.</p>
+          <p class="parrafo">20. Sa Punta i s’Algar.</p>
+          <p class="parrafo">21. Punta Negra-Cala Mitjana.</p>
+          <p class="parrafo">22. Mondragó.</p>
+          <p class="parrafo">23. Cap de Ses Salines.</p>
+          <p class="parrafo">24. Es Trenc-Salobrar de Campos.</p>
+          <p class="parrafo">25. Marina de Llucmajor.</p>
+          <p class="parrafo">26. Cap Enderrocat.</p>
+          <p class="parrafo">27. Es Carnatge des Coll d’en Rabassa.</p>
+          <p class="parrafo">28. Cap de Cala Figuera-Refeubeig.</p>
+          <p class="parrafo">29. Cap Andritxol.</p>
+          <p class="parrafo">30. Cap de Llamp.</p>
+          <p class="parrafo">31. Es Saulet.</p>
+          <p class="parrafo">32. Massís de Randa.</p>
+          <p class="parrafo">33. Es Fangar.</p>
+          <p class="parrafo">34. Sant Salvador-Santueri.</p>
+          <p class="parrafo">35. Puig de Ses Donardes.</p>
+          <p class="parrafo">36. Consolació.</p>
+          <p class="parrafo">37. Puig de Sant Miquel.</p>
+          <p class="parrafo">38. Son Cos.</p>
+          <p class="parrafo">39. Garriga de Son Caulelles.</p>
+          <p class="parrafo">40. Puig de Son Seguí.</p>
+          <p class="parrafo">41. Puig de Son Nofre.</p>
+          <p class="parrafo">42. Puig de Bonany.</p>
+          <p class="parrafo">43. Puig de Santa Magdalena.</p>
+          <p class="parrafo">44. Na Borges.</p>
+          <p class="parrafo">45. Calicant.</p>
+          <p class="parrafo">46. Barrancs de Son Cual i Xorrigo.</p>
+          <p class="parrafo">47. Áreas Naturales de la Serra de Tramuntana.</p>
+          <p class="centro_cursiva">Isla de Menorca</p>
+          <p class="parrafo_2">1. Costa Nord de Ciutadella.</p>
+          <p class="parrafo">2. La Vall.</p>
+          <p class="parrafo">3. Dels Alocs a Fornells.</p>
+          <p class="parrafo">4. La Mola y s'Albufera de Fornells.</p>
+          <p class="parrafo">5. Bellavista.</p>
+          <p class="parrafo">6. D'Addaia a s'Albufera.</p>
+          <p class="parrafo">7. S'Albufera des Grau.</p>
+          <p class="parrafo">8. S'Albufera a la Mola.</p>
+          <p class="parrafo">8 bis. Sant Isidre-Binisermenya.</p>
+          <p class="parrafo">9. Cala Sant Esteve-Caló d'en Rafalet.</p>
+          <p class="parrafo">10. (Sin contenido).</p>
+          <p class="parrafo">11. De Biniparratx a Llucalari.</p>
+          <p class="parrafo">12. Son Bou y Barranc de sa Vall.</p>
+          <p class="parrafo">13. De Binigaus a Cala Mitjana.</p>
+          <p class="parrafo">14. Costa Sud de Ciutadella.</p>
+          <p class="parrafo">15. Son Oliveret.</p>
+          <p class="parrafo">16. Camí de Baix (Degollador).</p>
+          <p class="parrafo">17. Santa Agueda-s'Enclusa.</p>
+          <p class="parrafo">18. El Toro.</p>
+          <p class="parrafo">19. Penyes d'Egipte.</p>
+          <p class="centro_cursiva">Isla de Eivissa</p>
+          <p class="parrafo">1. Puig de Mussona y Puig de s'Eixeró.</p>
+          <p class="parrafo">2. Cap Llibrell.</p>
+          <p class="parrafo">3. Ses Salines.</p>
+          <p class="parrafo">4. Cala Jondal.</p>
+          <p class="parrafo">5. (Sin contenido).</p>
+          <p class="parrafo">6. Cap Llentrisca-Sa Talaiassa.</p>
+          <p class="parrafo">7. Cala Compta-Cala Bassa.</p>
+          <p class="parrafo">8. Serra de ses Fontanelles-Serra Grossa.</p>
+          <p class="parrafo">9. Del Puig d'en Basseta al Puig d'en Mussons.</p>
+          <p class="parrafo">10. Arees Naturals dels Amunts d'Eivissa.</p>
+          <p class="parrafo">11. Massís de Sant Carles.</p>
+          <p class="centro_cursiva">Isla de Formentera</p>
+          <p class="parrafo_2">1. Ses Salines-S’Estany Pudent.</p>
+          <p class="parrafo">2. S’Estany des Peix.</p>
+          <p class="parrafo">3. Es Cap Alt.</p>
+          <p class="parrafo">4. Cap de Barbaria.</p>
+          <p class="parrafo">5. Es Pi d’en Catalá.</p>
+          <p class="parrafo">6. Playa de Migjorn y Costa de Tramuntana.</p>
+          <p class="parrafo">7. La Mola.</p>
+          <p class="parrafo">8. Punta Prima.</p>
+          <p class="parrafo_2">2. Se declaran igualmente Áreas Naturales de Especial Interés:</p>
+          <p class="parrafo_2">a) Todas las islas, islotes y farallones.</p>
+          <p class="parrafo">b) Los espacios forestales poblados de manera dominante o significativa por encina (Quercus ilex).</p>
+          <p class="parrafo_2">3. Quedan en cualquier caso, excluidos de las Áreas Naturales de Especial Interés, los suelos clasificados como urbanos a la entrada en vigor de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único .1 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Art 4">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 4.</p>
+          <p class="parrafo_2">Se declaran Áreas Rurales de Interés Paisajístico los espacios que se definen gráficamente en el anexo I con exclusión de los que constituyan Áreas de Asentamiento en Paisaje de Interés.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Art 5">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 5.</p>
+          <p class="parrafo_2">Constituirán Áreas de Asentamiento en Paisaje de Interés los suelos incluidos en la delimitación de la Serra de Tramuntana de Mallorca o els Amunts de Eivissa que se hallen en alguna de las siguientes situaciones:</p>
+          <p class="parrafo_2">1. Los clasificados como urbanos a la entrada en vigor de la presente Ley y los clasificados como tales por la aprobación definitiva de instrumentos de planeamiento municipal.</p>
+          <p class="parrafo">2. Los urbanizables programados o aptos para la urbanización que se relacionan en el anexo II.</p>
+          <p class="parrafo">3. Los terrenos que en el futuro se clasifiquen como suelo urbanizable o suelo apto para la urbanización en el planeamiento de ámbito municipal. Esta clasificación deberá tener por objeto el desarrollo socio-económico de los núcleos urbanos tradicionales o la obtención de suelo para equipamientos comunitarios o infraestructuras públicas de estos núcleos. Su emplazamiento deberá ser sobre Áreas Rurales de Interés Paisajístico y colindante con el suelo urbano del núcleo, y su superficie no superará el 10 por 100 de la superficie de este suelo urbano. Esta extensión solamente podrá ser modificada cuando así lo prevea para cada caso el Plan Territorial Parcial previsto en el artículo 9.º de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Art 6">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 6.</p>
+          <p class="parrafo_2">1. A los efectos de aplicación de esta Ley, constituye la Serra de Tramuntana de Mallorca el territorio definido por la línea grafiada en el anexo I. Esta Área de Especial Protección está integrada por Áreas Naturales de Especial Interés, Áreas Rurales de Interés Paisajístico y Áreas de Asentamiento en Paisaje de Interés. Las Áreas Naturales de Especial Interés que incluye son las siguientes:</p>
+          <p class="parrafo_2">A 1. Montañas y cimas de la Serra.</p>
+          <p class="parrafo">A 2. Formentor y Cavall Bernat.</p>
+          <p class="parrafo">A 3. Serra de Gaieta.</p>
+          <p class="parrafo">A 4. Penya d’en Jeroni.</p>
+          <p class="parrafo">A 5. S’Estremera.</p>
+          <p class="parrafo">A 6. Punta de Sóller.</p>
+          <p class="parrafo">A 7. De la Punta de Deià al Port des Canonge.</p>
+          <p class="parrafo">A 8. De la Coma del Rei al Puig d´en Basset.</p>
+          <p class="parrafo_2">2. A los efectos de aplicación de esta Ley, constituye els Amunts de Eivissa el territorio definido por la línea grafiada en el anexo I. Esta Área de Especial Protección está integrada por Áreas Naturales de Especial Interés, Áreas Rurales de Interés Paisajístico y Áreas de Asentamiento en Paisaje de Interés. Las Áreas Naturales de Especial Interés que incluye son las siguientes:</p>
+          <p class="parrafo_2">B 1. De Cala Salada al Port de Sant Miquel.</p>
+          <p class="parrafo">B 2. Serra de Sant Mateu d’Aubarca.</p>
+          <p class="parrafo">B 3. Del Port de Sant Miquel de Balancat a Xarraca.</p>
+          <p class="parrafo">B 4. De Xarraca a Sant Vicenc de la Cala.</p>
+          <p class="parrafo">B 5. Punta Grossa.</p>
+          <p class="parrafo">B 6. Serra Grossa de Sant Joan.</p>
+          <p class="parrafo_2">3. A los efectos de aplicación de esta Ley, constituye el Massís de Sant Carles de Eivissa el territorio definido en el anexo I. Esta Área de Especial Protección está integrada por Áreas Naturales de Especial Interés y Áreas Rurales de Interés Paisajístico. Las Áreas Naturales de Especial Interés que incluye son las siguientes:</p>
+          <p class="parrafo_2">C 1. Serra des Llamp.</p>
+          <p class="parrafo">C 2. Cap Roig.</p>
+          <p class="parrafo">C 3. Talaia de Sant Carles.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Régimen urbanístico</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Art 7">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 7.</p>
+          <p class="parrafo_2">El régimen urbanístico de los terrenos incluidos en una Área Natural de Especial Interés o en una Área Rural de Interés Paisajístico será el siguiente:</p>
+          <p class="parrafo_2">1. El suelo queda clasificado como No Urbanizable de Especial Protección.</p>
+          <p class="parrafo">2. Las limitaciones que establece el artículo 86.1 de la Ley de Régimen del Suelo y Ordenación Urbana para la realización de construcciones e instalaciones en suelo no urbanizable quedarán sometidas a las restricciones específicas que fija la presente Ley.</p>
+          <p class="parrafo">3. No podrán ser dedicados a utilizaciones que impliquen transformación de su destino o naturaleza en los términos previstos en la presente Ley, ni a aquellas que lesionen sus valores ecológicos o paisajísticos.</p>
+          <p class="parrafo">4. Quedarán sin efecto los planes, normas, proyectos de urbanización y parcelación disconformes con la citada clasificación.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Art 8">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 8.</p>
+          <p class="parrafo_2">Todos los instrumentos de ordenación territorial y de planeamiento urbanístico que se redacten, revisen, modifiquen o adapten deberán respetar en el ámbito de las Áreas de Especial Protección las condiciones y las medidas mínimas de protección de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Art 9">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 9.</p>
+          <p class="parrafo_2">La ordenación de la Serra de Tramuntana de Mallorca y de els Amunts de Eivissa se realizará a través de la formación de Planes Territoriales Parciales. En el resto de espacios se realizará mediante Planes de Ordenación del Medio Natural o Plan Especial, en todo caso, de acuerdo con lo que prevé la Ley 8/1987, de 1 de abril, de Ordenación Territorial de las Islas Baleares o la Ley 2/1975, de 5 de mayo, sobre Régimen del Suelo y Ordenación Urbana.</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Art 10">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 10.</p>
+          <p class="parrafo_2">1. En las Áreas Naturales de Especial Interés no se permitirán otras nuevas edificaciones que las declaradas de utilidad pública, las destinadas a vivienda unifamiliar, a explotaciones agrarias que guarden relación con la naturaleza y destino de la finca y las construcciones e instalaciones vinculadas a la ejecución, mantenimiento y servicio de las obras públicas y de las telecomunicaciones.</p>
+          <p class="parrafo">2. Las edificaciones para ser declaradas de utilidad pública deberán acreditar la necesidad de ubicarse en un área protegida, y que las alternativas técnicamente viables afecten a zonas con valores naturales o paisajísticos similares o mayores.</p>
+          <p class="parrafo">3. La construcción de viviendas unifamiliares y de edificaciones destinadas a explotaciones agrarias será sometida a las limitaciones que establecen los siguientes artículos.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Art 11">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 11.</p>
+          <p class="parrafo_2">1 En las Áreas Naturales de Especial Interés serán objeto del más alto nivel de protección los terrenos colindantes a la orilla del mar con una profundidad mínima de 100 metros, los sistemas dunares, los islotes, las zonas húmedas, las cimas, los barrancos, los acantilados, los peñascos más significativos, los encinares, los sabinares, los acebuchales y en cualquier caso los calificados como Elemento Paisajístico Singular en el Plan Provincial de Ordenación de Baleares de 1973.</p>
+          <p class="parrafo">2. En los terrenos citados en el apartado anterior, solamente se permitirán las siguientes obras:</p>
+          <p class="parrafo_2">a) Conservación, restauración y consolidación de edificios e instalaciones existentes que no supongan aumento de volumen, siempre que no hayan sido edificados en contra del planeamiento urbanístico vigente en el momento de ser construidos.</p>
+          <p class="parrafo">b) Infraestructuras o instalaciones públicas que necesariamente deban ubicarse, previa declaración de utilidad pública.</p>
+          <p class="parrafo">c) Dotaciones subterráneas de servicios en viviendas o instalaciones existentes, siempre que den servicio a edificaciones que no hayan sido construidas en contra del planeamiento urbanístico vigente en el momento de su construcción.</p>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Art 12">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 12.</p>
+          <p class="parrafo_2">En los terrenos incluidos en una Área Natural de Especial Interés, a los cuales no sea de aplicación el artículo precedente, la finca mínima susceptible de edificación de una vivienda será de 20 hectáreas.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Art. 12.</p>
+          <p class="parrafo_2">En los terrenos incluidos en un área natural de especial interés, la superficie mínima susceptible de edificación será la siguiente:</p>
+          <p class="parrafo_2">1. Para las islas de Mallorca y Menorca, 20 hectáreas.</p>
+          <p class="parrafo">2. Para la isla de Eivissa, 3 hectáreas.</p>
+          <p class="parrafo">3. Para la isla de Formentera, 2,5 hectáreas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Art. 12.</p>
+          <p class="parrafo_2">En los terrenos incluidos en un área natural de especial interés, la superficie susceptible de edificación de una vivienda será:</p>
+          <p class="parrafo_2">1. Para las islas de Mallorca y de Menorca: 20 hectáreas.</p>
+          <p class="parrafo">2. Para la isla de Ibiza: 3 hectáreas.</p>
+          <p class="parrafo">3. Para la isla de Formentera: 2 hectáreas y media.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición adicional 3.1 de la Ley 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2004-1474" fecha_publicacion="20031204" fecha_vigencia="20040812">
+          <p class="articulo">Art. 12.</p>
+          <p class="parrafo_2">En los terrenos incluidos en un área natural de especial interés, la superficie susceptible de la edificación de una vivienda aislada es:</p>
+          <p class="parrafo_2">Para la isla de Eivissa, 5 hectáreas.</p>
+          <p class="parrafo">Para la isla de Formentera, 3 hectáreas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 2.1 de la Ley 8/2003, de 25 de noviembre. <a class="refPost">Ref. BOE-A-2004-1474</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta que la entrada en vigor de esta modificación coincide con la aprobación inicial del Plan Territorial Insular de Eivissa y Formentera, según se establece en la disposición adicional.</p>
+            <p class="nota_pie">Se modifica por la disposición adicional 3.1 de la Ley 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Art 13">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 13.</p>
+          <p class="parrafo_2">Las Áreas Naturales de Especial Interés estarán sometidas a las siguientes limitaciones:</p>
+          <p class="parrafo_2">1. No se podrán construir en ellas campos de golf.</p>
+          <p class="parrafo">2. No se podrán autorizar puertos deportivos en su dominio público litoral colindante.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Art 14">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 14.</p>
+          <p class="parrafo_2">En las Áreas Rurales de Interés Paisajístico la finca mínima susceptible de edificación de una vivienda o una edificación de interés social será de 3 hectáreas.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Art. 14.</p>
+          <p class="parrafo_2">En las áreas rurales de interés paisajístico, la superficie mínima susceptible de edificación de una vivienda o una edificación de interés social será la siguiente:</p>
+          <p class="parrafo_2">1. Para las islas de Mallorca y Menorca, 3 hectáreas.</p>
+          <p class="parrafo">2. Para las islas de Eivissa y Formentera, 1 hectárea.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2004-1474" fecha_publicacion="20031204" fecha_vigencia="20040812">
+          <p class="articulo">Art. 14.</p>
+          <p class="parrafo_2">En las áreas rurales de interés paisajístico, la superficie mínima susceptible de edificación de una vivienda o una edificación de interés social será la siguiente:</p>
+          <p class="parrafo_2">1. Para las islas de Mallorca y Menorca, 3 hectáreas.</p>
+          <p class="parrafo">2. Para la isla de Eivissa, 2,5 hectáreas.</p>
+          <p class="parrafo">3. Para la isla de Formentera, 1,5 hectáreas</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 2.2 de la Ley 8/2003, de 25 de noviembre. <a class="refPost">Ref. BOE-A-2004-1474</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta que la entrada en vigor de esta modificación coincide con la aprobación inicial del Plan Territorial Insular de Eivissa y Formentera, según se establece en la disposición adicional.</p>
+            <p class="nota_pie">Se modifica por el art. único.3 de la Ley autonómica 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a14bis" tipo="precepto" titulo="Art 14 bis">
+        <version id_norma="BOE-A-2004-1474" fecha_publicacion="20031204" fecha_vigencia="20040812">
+          <p class="articulo">Art. 14 bis.</p>
+          <p class="parrafo_2">El Plan Territorial Insular de Eivissa y Formentera podrá reducir hasta un 25 % las superficies previstas en los artículos 12 y 14 cuando se trate de fincas registrales resultantes de actos dispositivos de segregación derivados de testamentos o pactos sucesorios, o que sean precisos para llevar a cabo la partición de bienes por idéntica razón hereditaria o para proceder al pago de la legítima, o cuando se trate de donaciones entre padres e hijos. Las licencias de edificación en parcelas que se beneficien de la reducción prevista en el apartado anterior sólo se otorgarán previa aceptación, por parte del propietario, de la obligación de no transmitir inter vivos la citada finca en el plazo de quince años a contar desde el otorgamiento de la licencia.</p>
+          <p class="parrafo">La eficacia de ésta se demorará al momento en el que se acredite, ante el ayuntamiento competente, haber practicado la correspondiente inscripción en el Registro de la Propiedad de la mencionada obligación. En cualquier caso, la licencia se condicionará al mantenimiento de esta obligación.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade por el art. 2.3 de la Ley 8/2003, de 25 de noviembre. <a class="refPost">Ref. BOE-A-2004-1474</a>.</p>
+            <p class="nota_pie_2">Téngase en cuenta que la entrada en vigor de este artículo coincide con la aprobación inicial del Plan Territorial Insular de Eivissa y Formentera, según se establece en la disposición adicional.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Art 15">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 15.</p>
+          <p class="parrafo_2">No se podrá autorizar la ubicación de la oferta complementaria de los campos de golf prevista en la Ley 12/1988 en el interior de las Áreas Rurales de Interés Paisajístico.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Art 16">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 16.</p>
+          <p class="parrafo_2">En las Áreas Naturales de Especial Interés y en las Áreas Rurales de Interés Paisajístico las nuevas edificaciones deberán satisfacer los siguientes condicionantes:</p>
+          <p class="parrafo_2">1. No se podrán situar sobre acantilados, rocas o prominencias del terreno. Su emplazamiento minimizará, en cualquier caso, el impacto de la edificación y de su acceso.</p>
+          <p class="parrafo">2. Se realizarán de acuerdo con la tipología edificatoria y los materiales característicos del medio rural de la zona donde se ubiquen.</p>
+          <p class="parrafo">3. Las nuevas edificaciones no podrán tener más de dos plantas ni sobrepasar la altura máxima de 7 metros.</p>
+        </version>
+      </bloque>
+      <bloque id="a16bis" tipo="precepto" titulo="Art. 16 bis">
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Art. 16 bis.</p>
+          <p class="parrafo_2">1. En las fincas ubicadas en área natural de especial interés o en área rural de interés paisajístico, en las que en aplicación de la superficie mínima de parcela establecida para la zona de que se trate sea posible edificar dos o más viviendas, éstas podrán concentrarse siguiendo la normativa exigida en los planeamientos municipales respectivos para la no formación de núcleo de población.</p>
+          <p class="parrafo">2. Para hacer uso de la facultad prevista en el apartado anterior, deberá afectarse al conjunto de viviendas que se construyan la superficie mínima exigida en los artículos 12 y 14 de la presente Ley, cuya afección deberá inscribirse en el Registro de la Propiedad.</p>
+          <p class="parrafo">3. En el supuesto de que se quiera proceder a la enajenación o segregación de las viviendas construidas al amparo del presente artículo, deberá, cada una de ellas, quedar incorporada físicamente a una finca que disponga de la superficie mínima prevista en los citados artículos 12 y 14 de esta Ley, debiendo inscribirse la nueva finca en el Registro de la Propiedad como indivisible a todos los efectos.</p>
+          <p class="parrafo">Cuando no se den las circunstancias previstas en el epígrafe anterior, no será posible la enajenación o segregación de las viviendas construidas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.4 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Art. 16 bis.</p>
+          <p class="parrafo_2">1. En las fincas ubicadas en área natural de especial interés o en área rural de interés paisajístico, en las que, en aplicación de la superficie mínima establecida para la zona de que se trate, sea posible edificar dos o más viviendas, las viviendas que de tal aplicación resulten podrán concentrarse edificando, cada una de ellas, en parcelas de superficie igual o superior a la determinada como mínima por el planeamiento municipal y afectando al conjunto la totalidad de la finca.</p>
+          <p class="parrafo">2. De lo anterior deberá derivarse una menor afección sobre el territorio, y será de obligado cumplimiento cuando venga impuesto por los instrumentos de ordenación.</p>
+          <p class="parrafo">3. En el supuesto de que se quiera proceder a la enajenación o segregación de las viviendas construidas al amparo del presente artículo, deberá, cada una de ellas, quedar incorporada físicamente a una finca que disponga de la superficie mínima prevista en los citados artículos 12 y 14 de esta Ley, debiendo inscribirse la nueva finca en el Registro de la Propiedad como indivisible a todos los efectos.</p>
+          <p class="parrafo">Cuando no se den las circunstancias previstas en el epígrafe anterior, no será posible la enajenación o segregación de las viviendas construidas.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 y 2 por la disposición adicional 3.2 de la Ley 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.4 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2008-9686" fecha_publicacion="20080517" fecha_vigencia="20080518">
+          <p class="articulo">Art. 16 bis.</p>
+          <p class="parrafo_2">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria de la Ley 4/2008, de 14 de mayo. <a class="refPost">Ref. BOE-A-2008-9686</a>.</p>
+            <p class="nota_pie">Se modifican los apartados 1 y 2 por la disposición adicional 3.2 de la Ley 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.4 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Art 17">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 17.</p>
+          <p class="parrafo_2">Los Planes establecidos en el artículo 9.° catalogarán las edificaciones de valor arquitectónico como «cases de possessió», «cases de pagès» construidas con técnicas tradicionales, molinos, puentes, «cases de neu» y demás elementos definitorios de las técnicas tradicionales.</p>
+          <p class="parrafo">En cualquier caso se permitirán y fomentarán las obras de conservación y restauración de estas edificaciones y quedará prohibida su demolición. Asimismo el Plan establecerá las obras de rehabilitación o reestructuración que se permitan en cada caso.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Art 18">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 18.</p>
+          <p class="parrafo_2">Las «cases de possessió», «de lloc» o «de pagès» podrán ser, de acuerdo con lo que se establece en el Plan, objeto de pequeñas obras de ampliación para hacerlas habitables según las necesidades de la vida moderna siempre y cuando la nueva edificación se integre en la existente y no dañe los valores arquitectónicos catalogados.</p>
+          <p class="parrafo">El Plan regulará las condiciones en que podrán autorizarse, mediante la declaración de interés social, nuevos usos a las edificaciones a que hace referencia el párrafo anterior, así como a otras edificaciones tradicionales del medio rural.</p>
+        </version>
+        <version id_norma="BOE-A-1999-11707" fecha_publicacion="19990417" fecha_vigencia="19990418">
+          <p class="articulo">Art. 18.</p>
+          <p class="parrafo_2">Las «cases de possessió», «de lloc» o «de pagès» podrán ser, de acuerdo con lo que se establece en el Plan, objeto de pequeñas obras de ampliación para hacerlas habitables según las necesidades de la vida moderna siempre y cuando la nueva edificación se integre en la existente y no dañe los valores arquitectónicos catalogados.</p>
+          <p class="parrafo">Por declaración de interés general podrán autorizarse nuevos usos a las edificaciones a que hace referencia el párrafo anterior, así como a otras edificaciones del medio rural.</p>
+          <p class="parrafo">En ausencia del planeamiento de ordenación del espacio, se aplicarán los usos legalmente previstos.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el segundo párrafo y se añade el tercero por la disposición adicional 14.1 y 2 de la Ley 6/1999, de 3 de abril. <a class="refPost">Ref. BOE-A-1999-11707</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Art 19">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 19.</p>
+          <p class="parrafo_2">En las Áreas Naturales de Especial Interés, sin perjuicio de lo que dispone el artículo 11, y en las Áreas Rurales de Interés Paisajístico, solamente se autorizará la obertura de nuevos caminos en casos de justificada necesidad. En cualquier caso, el proyecto correspondiente deberá incluir un estudio comparativo de las posibles alternativas, para garantizar el menor impacto ambiental y la preservación de los elementos que den especial carácter al paisaje.</p>
+          <p class="parrafo">La construcción de viales se realizará de manera que haga mínimos los desmontes y terraplenes. El Plan establecerá las condiciones que éstos deben cumplir para minimizar el impacto visual.</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Art 20">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 20.</p>
+          <p class="parrafo_2">1. La instalación de nuevos tendidos aéreos telefónicos o eléctricos se permitirá únicamente si se justifica la necesidad de su paso por el Área Natural de Especial Interés o por el Área Rural de Interés Paisajístico.</p>
+          <p class="parrafo">2. En las Áreas de Asentamiento en Paisaje de Interés los tendidos deberán ser subterráneos, a no ser, en casos excepcionales, que la Comisión Insular de Urbanismo informe favorablemente. El Plan Territorial Parcial contendrá un programa de transformación de los existentes en subterráneos.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Art 21">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 21.</p>
+          <p class="parrafo_2">En las Áreas Naturales de Especial Interés y Áreas Rurales de Interés Paisajístico queda prohibida la publicidad fija mediante vallas o carteles, así como la que se produce por medios acústicos.</p>
+          <p class="parrafo">No se consideran publicidad los indicadores y la rotulación de establecimientos, informativos de la actividad que en ellos se desarrolla y que deberá ser regulada en el plan correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Art 22">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 22.</p>
+          <p class="parrafo_2">1. En las Áreas de Especial Protección no se permitirá la obertura de nuevas canteras a no ser en casos excepcionales en que por motivos de interés público así lo prevea en un lugar determinado el Plan Director Sectorial de Canteras.</p>
+          <p class="parrafo">2. Sin perjuicio de lo establecido en el apartado anterior, las canteras existentes a la entrada en vigor de la presente Ley podrán mantener su explotación con las limitaciones que determine el citado Plan. La obligatoriedad de los planes de restauración afectará a todas las canteras abiertas en las Áreas en toda su extensión.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Art 23">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 23.</p>
+          <p class="parrafo_2">Las zonas declaradas de interés para la defensa nacional, situadas en Áreas de Especial Protección, estarán a lo que dispone la presente Ley, sin perjuicio de las determinaciones de la Ley 8/1975, de 12 de marzo, de Zonas e Instalaciones de Interés para la Defensa Nacional.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Art 24">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 24.</p>
+          <p class="parrafo_2">Los Planes exigidos en el artículo 9.º regularán en las Áreas Naturales de Especial interés y en las Áreas Rurales de Interés Paisajístico las condiciones de los cierres de fincas por lo que se refiere a material, técnica constructiva y altura. En cualquier caso, los cierres guardarán el carácter tradicional de la zona.</p>
+          <p class="parrafo">Entre las rejas, vallas o barreras de los cierres o, en su caso, las paredes de obra, debe dejarse una separación o las oberturas necesarias para permitir el paso de la fauna silvestre. Esta norma no será de aplicación en el caso de los huertos.</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Art 25">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 25.</p>
+          <p class="parrafo_2">La cobertura vegetal natural de las zonas boscosas de las Áreas de Especial Protección solamente podrá ser alterada en aplicación de los oportunos planes técnicos dictados o aprobados por la Consejería de Agricultura y Pesca.</p>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">De los Espacios Naturales Protegidos</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Art 26">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 26.</p>
+          <p class="parrafo_2">La declaración en las Islas Baleares de las categorías de Espacios Naturales Protegidos establecidos en la Ley 4/1989, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre, se realizará mediante Decreto del Govern de la Comunidad Autónoma.</p>
+        </version>
+        <version id_norma="BOE-A-2005-11132" fecha_publicacion="20050604" fecha_vigencia="20050605">
+          <p class="articulo">Art. 26.</p>
+          <p class="parrafo_2">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria.1 de la Ley 5/2005, de 26 de mayo. <a class="refPost">Ref. BOE-A-2005-11132</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Art 27">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 27.</p>
+          <p class="parrafo_2">La gestión de las figuras relacionadas en el artículo anterior corresponde al Govern de la Comunidad Autónoma de las Islas Baleares, sin perjuicio de la aplicación del artículo 39 del Estatuto de Autonomía. El Govern podrá acordar con los Consells Insulares y Ayuntamientos correspondientes fórmulas de gestión compartida o delegada.</p>
+        </version>
+        <version id_norma="BOE-A-2005-11132" fecha_publicacion="20050604" fecha_vigencia="20050605">
+          <p class="articulo">Art. 27.</p>
+          <p class="parrafo_2">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria.1 de la Ley 5/2005, de 26 de mayo. <a class="refPost">Ref. BOE-A-2005-11132</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Art 28">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Art. 28.</p>
+          <p class="parrafo_2">1. Será pública la acción para exigir ante los órganos administrativos y los Tribunales el cumplimiento de lo que se establece en la Ley 4/1989, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre, y de las normas y planes que la desarrollen.</p>
+          <p class="parrafo">2. La Administración, comprobada la existencia de la infracción y siempre que el hecho denunciado no sea materia de expediente sancionador ya finalizado o en trámite, abonará a los denunciantes particulares, una vez recaída resolución firme, los gastos justificados motivados por este hecho.</p>
+        </version>
+      </bloque>
+      <bloque id="daprimera" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo_2">El Govern, en el plazo máximo de un año, aprobará la delimitación de las áreas de encinar protegidas por el artículo 3.2, b), de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dasegunda" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo_2">El suelo no urbanizable de Son Font delimitado en el Plan General Municipal de Calviá y el suelo agrícola intensivo del Plan General Municipal de Sóller, así como los descalificados sectores 3 y 4 de suelo urbanizable programado del mismo, tendrán a los efectos de aplicación de la presente Ley la consideración de Área de Asentamiento en Paisaje de Interés.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo_2">El suelo no urbanizable de Son Font delimitado en el Plan General Municipal de Calvia, las parcelaciones de Son Oliver, s'Aranjassa y Son Gual, contempladas como suelo no urbanizable de regulación específica por el Plan General de Palma y el suelo agrícola intensivo del Plan General Municipal de Sóller, así como los descalificados sectores 3 y 4 de suelo urbanizable programado del mismo, tendrán a los efectos de aplicación de la presente Ley la consideración de área de asentamiento en paisaje de interés.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.5 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="datercera" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo_2">El Govern promoverá la declaración de Espacios Naturales Protegidos de acuerdo con lo que prevé la Ley 4/1989, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre, en el ámbito de las siguientes áreas:</p>
+          <p class="parrafo_2">Mallorca:</p>
+          <p class="parrafo_2">Mondragó.</p>
+          <p class="parrafo">Es Trenc-Salobrar de Campos.</p>
+          <p class="parrafo">S’Albufereta.</p>
+          <p class="parrafo">Sa Dragonera.</p>
+          <p class="parrafo">Áreas representativas de la Serra de Tramuntana.</p>
+          <p class="parrafo_2">Menorca:</p>
+          <p class="parrafo_2">S’Albufera des Grau-Illa d’en Colom.</p>
+          <p class="parrafo_2">Eivissa:</p>
+          <p class="parrafo_2">Islotes de Migjorn y Ponent de Eivissa.</p>
+          <p class="parrafo">Ses Salines de Eivissa y Formentera.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo_2">El Govern promoverá la declaración de Espacios Naturales Protegidos de acuerdo con lo que prevé la Ley 4/1989, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestre, en el ámbito de las siguientes áreas:</p>
+          <p class="parrafo_2">Mallorca:</p>
+          <p class="parrafo_2">Mondragó.</p>
+          <p class="parrafo">Es Trenc-Salobrar de Campos.</p>
+          <p class="parrafo">S’Albufereta.</p>
+          <p class="parrafo">Sa Dragonera.</p>
+          <p class="parrafo">Áreas representativas de la Serra de Tramuntana.</p>
+          <p class="parrafo_2">Menorca:</p>
+          <p class="parrafo_2">S’Albufera des Grau-Illa d’en Colom.</p>
+          <p class="parrafo_2">Eivissa:</p>
+          <p class="parrafo_2">Islotes de Migjorn y Ponent de Eivissa.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.6 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dacuaa" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional cuarta.</p>
+          <p class="parrafo_2">Los suelos urbanizables o aptos para la urbanización que no formen parte de la Serra de Tramuntana de Mallorca o de Els Amunts de Eivissa, afectados en el anexo I por una Área Natural de Especial Interés o una Área Rural de Interés Paisajístico, y con Plan Parcial en vigor, que se relacionan en el anexo III, quedan excluidos del Área de Especial Protección.</p>
+        </version>
+      </bloque>
+      <bloque id="daquinta" tipo="precepto" titulo="Disposición adicional quinta">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional quinta.</p>
+          <p class="parrafo_2">Las disposiciones de la presente Ley tienen el carácter de mínimas, y mantendrán, por tanto, su vigencia las determinaciones de los planes territoriales y urbanísticos en los casos en que comporten mayor restricción.</p>
+        </version>
+        <version id_norma="BOE-A-1999-11707" fecha_publicacion="19990417" fecha_vigencia="19990418">
+          <p class="articulo">Disposición adicional quinta.</p>
+          <p class="parrafo_2">Las disposiciones de la presente Ley tienen carácter de mínimas y, en consecuencia, prevaldrán las determinaciones de los planes de ordenación territorial y de los instrumentos de planeamiento general que supongan una mayor restricción; ello no obstante, los planes de ordenación territorial podrán fijar unos límites de restricción, en función de las características de cada territorio y del nivel de protección que se requiera, que vincularán el planeamiento urbanístico municipal.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición adicional 14.3 de la Ley 6/1999, de 3 de abril. <a class="refPost">Ref. BOE-A-1999-11707</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2008-9686" fecha_publicacion="20080517" fecha_vigencia="20080518">
+          <p class="articulo">Disposición adicional quinta.</p>
+          <p class="parrafo_2">Las disposiciones de esta ley tienen carácter de mínimas y, en consecuencia, prevalecerán las determinaciones de los planes de ordenación territorial y de los instrumentos de planeamiento general que supongan una mayor restricción.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 10 de la Ley 4/2008, de 14 de mayo. <a class="refPost">Ref. BOE-A-2008-9686</a>.</p>
+            <p class="nota_pie">Se modifica por la disposición adicional 14.3 de la Ley 6/1999, de 3 de abril. <a class="refPost">Ref. BOE-A-1999-11707</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="dasexta" tipo="precepto" titulo="Disposición adicional sexta">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición adicional sexta.</p>
+          <p class="parrafo_2">El Govern preverá en los correspondientes proyectos de Presupuestos de la Comunidad los recursos precisos para afrontar las responsabilidades económicas que de acuerdo con la Ley 8/1989, de 25 de julio, sobre reforma de régimen urbanístico y valoraciones del suelo, puedan suponer las determinaciones de la presente Ley relativas a descalificación urbanística de los terrenos.</p>
+        </version>
+      </bloque>
+      <bloque id="dtprimera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo_2">Sin perjuicio de lo que se dispone en el título I de la presente Ley, y en los aspectos no previstos en el mismo, el régimen urbanístico transitorio en las Áreas de Especial Protección de las Islas Baleares será el siguiente:</p>
+          <p class="parrafo_2">1. Lo que se establece en las leyes de declaración de Área Natural de Especial Interés aprobadas con anterioridad o, en su caso, las determinaciones de los respectivos Planes Especiales de Protección.</p>
+          <p class="parrafo">2. Las Normas Subsidiarias de Planeamiento aprobadas por el Govern en aplicación del artículo 51 de la Ley sobre Régimen del Suelo y Ordenación Urbana, de fechas 22 de febrero de 1989, 31 de mayo de 1990 y 26 de julio de 1990, o, en su caso, el planeamiento urbanístico de ámbito municipal formulado en sustitución de las normas citadas.</p>
+          <p class="parrafo">3. En caso de no ser de aplicación ninguno de los supuestos anteriores, las determinaciones del Plan Provincial de Ordenación de Baleares de 1973 para los Elementos Paisajísticos Singulares en los espacios situados entre el límite del Dominio Público Marítimo-Terrestre y 500 metros de distancia; los espacios forestales, y los espacios situados sobre la cota 500 en la Serra de Tramuntana de Mallorca y sobre la cota 200 en el resto de áreas de Mallorca, Menorca y Eivissa. En el resto, serán de aplicación las determinaciones de este instrumento para los Parajes Preservados en área forestal.</p>
+        </version>
+      </bloque>
+      <bloque id="dtsegunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo_2">Mientras no se hayan adaptado los planeamientos municipales a las disposiciones de la presente Ley y de los Planes que la desarrollen, éstas serán de aplicación directa para las Administraciones competentes.</p>
+        </version>
+      </bloque>
+      <bloque id="dttercera" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo_2">Mientras no se lleve a cabo la transformación de tendidos aéreos existentes en subterráneos, de acuerdo con el programa a que hace referencia el artículo 21.2 de esta Ley, se podrán autorizar, con carácter provisional tomas aéreas con el compromiso económico de que garantice la futura ejecución de las obras por parte del interesado ante el Ayuntamiento, de transformarlas en subterráneas por su cuenta en el momento de transformación del correspondiente tendido en subterráneo.</p>
+        </version>
+      </bloque>
+      <bloque id="dfprimera" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">Esta Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad Autónoma de las Islas Baleares».</p>
+        </version>
+      </bloque>
+      <bloque id="dfsegunda" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo_2">Se autoriza al Govern para que dicte las disposiciones oportunas para la aplicación de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="dd-2" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo_2">Quedan derogadas las normas contrarias a las disposiciones de esta Ley.</p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo_2">Quedan derogadas fuera del ámbito de los espacios naturales previstos, las normas subsidiarias que fueron aprobadas por el Gobierno balear al objeto de posibilitar el estudio, redacción, tramitación y aprobación de la presente Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.7 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ani" tipo="encabezado" titulo="ANEXO I">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Cartografía</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">En suplemento anexo del BOIB núm. 31 de 9 de marzo de 1991 se publican los planos correspondientes al anexo I, cartografía.</p>
+          </blockquote>
+          <p class="parrafo_2"> </p>
+        </version>
+        <version id_norma="BOE-A-1993-4521" fecha_publicacion="19930119" fecha_vigencia="19930208">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Cartografía</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">En suplemento anexo del BOIB núm. 31 de 9 de marzo de 1991 se publican los planos correspondientes al anexo I, cartografía.</p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.9 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2000-5834" fecha_publicacion="20000311" fecha_vigencia="20000312">
+          <p class="anexo_num">ANEXO I</p>
+          <p class="anexo_tit">Cartografía</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">En suplemento anexo del BOIB núm. 31 de 9 de marzo de 1991 se publican los planos correspondientes al anexo I, cartografía.</p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único.1 de la Ley 1/2000, de 9 de marzo. <a class="refPost">Ref. BOE-A-2000-5834</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.9 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2008-9686" fecha_publicacion="20080517" fecha_vigencia="20080518">
+          <p class="anexo">ANEXO I</p>
+          <p class="centro_negrita">Cartografía</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">En suplemento anexo del BOIB núm. 31 de 9 de marzo de 1991 se publican los planos correspondientes al anexo I, cartografía.</p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 9.1 de la Ley 4/2008, de 14 de mayo. <a class="refPost">Ref. BOE-A-2008-9686</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.1 de la Ley 1/2000, de 9 de marzo. <a class="refPost">Ref. BOE-A-2000-5834</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.9 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2023-3623" fpub="20230211" fecha_publicacion="20221229" fecha_vigencia="20221229">
+          <p class="anexo">ANEXO I</p>
+          <p class="centro_negrita">Cartografía</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">En suplemento anexo del BOIB núm. 31 de 9 de marzo de 1991 se publican los planos correspondientes al anexo I, cartografía.</p>
+          </blockquote>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición final 2 del Decreto-ley 10/2022, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2023-3623</a></p>
+            <p class="nota_pie">Se modifica por el art. 9.1 de la Ley 4/2008, de 14 de mayo. <a class="refPost">Ref. BOE-A-2008-9686</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.1 de la Ley 1/2000, de 9 de marzo. <a class="refPost">Ref. BOE-A-2000-5834</a>.</p>
+            <p class="nota_pie">Se modifica por el art. único.9 de la Ley 7/1992, de 23 de diciembre. <a class="refPost">Ref. BOE-A-1993-4521</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="anii" tipo="encabezado" titulo="ANEXO II">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="anexo">ANEXO II</p>
+          <p class="centro_cursiva">1. Relación de suelos urbanizables o aptos para la urbanización situados total o parcialmente en la delimitación de la Serra de Tramuntana de Mallorca que se mantienen</p>
+          <p class="parrafo_2">Andratx:</p>
+          <p class="parrafo_2">Plan Parcial de Cala Moragues (aprobación definitiva, 5 de mayo de 1975).</p>
+          <p class="parrafo">Plan Parcial de Ses Egos (aprobación definitiva, 17 de septiembre de, 1973).</p>
+          <p class="parrafo">Plan Parcial de Monport 1.ª fase (aprobación definitiva, 3 de junio, de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Monport 2.ª y 3.ª fase (aprobación definitiva, 3 de junio de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Can Borràs (aprobación definitiva, 8 de septiembre de 1981).</p>
+          <p class="parrafo">Plan Parcial de S’Almudaina (aprobación definitiva, 16 de septiembre de 1988).</p>
+          <p class="parrafo">Plan Parcial de Son Mas (aprobación definitiva, 13 de febrero de 1978).</p>
+          <p class="parrafo_2">Banyalbufar:</p>
+          <p class="parrafo_2">Plan Parcial primer sector 1.ª fase Polígono T-2, Port des Canonge (aprobación definitiva, 7 de abril de 1975).</p>
+          <p class="parrafo">Plan Parcial primer sector 2.ª fase Polígono T-2, Port des Canonge (aprobación definitiva, 17 de octubre de 1977).</p>
+          <p class="parrafo_2">Valldemossa:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Chopin» (aprobación definitiva, 24 de marzo de 1981).</p>
+          <p class="parrafo">Plan Parcial Sector «Shangri-là» (aprobación definitiva, 24 de marzo de 1981).</p>
+          <p class="parrafo">Plan Parcial Sector «Son Gual» (aprobación definitiva, 31 de octubre de 1967).</p>
+          <p class="parrafo">Plan Parcial Sector «George Sand», Polígono 4 (aprobación definitiva, 21 de abril de 1975).</p>
+          <p class="parrafo_2">Sóller:</p>
+          <p class="parrafo_2">Sector SUP número 1.</p>
+          <p class="parrafo">Sector SUP número 2.</p>
+          <p class="parrafo">Sector SUP número 5.</p>
+          <p class="parrafo">Plan Parcial Sector número 6 «Can Rullan» (aprobación definitiva, 8 de octubre de 1985).</p>
+          <p class="parrafo">Plan Parcial Sector número 9 «Bens d’Avall» (aprobación definitiva, 27 de mayo de 1987).</p>
+          <p class="parrafo_2">Escorca:</p>
+          <p class="parrafo_2">Plan Parcial Son Massip, Polígono 1 (aprobación definitiva, 29 de septiembre de 1966).</p>
+          <p class="parrafo">Plan Parcial Polígono 2, Cala Tuent (aprobación definitiva. 26 de julio de 1976).</p>
+          <p class="parrafo">Plan Parcial Polígono 6, Cala Tuent (aprobación definitiva, 6 de marzo de 1978).</p>
+          <p class="parrafo_2">Esporles:</p>
+          <p class="parrafo_2">Plan Parcial de Es Verger (aprobación definitiva, 8 de mayo de 1985).</p>
+          <p class="centro_cursiva">2. Relación de suelos urbanizables o aptos para la urbanización situadas total o parcialmente en la delimitación de Els Amunts de Eivissa</p>
+          <p class="parrafo_2">Sant Joan de Labritja:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Allá Dins» (aprobación definitiva, 30 de mayo de 1980).</p>
+          <p class="parrafo">Plan Parcial «Benirrás» (aprobación definitiva, 19 de junio de 1984).</p>
+          <p class="parrafo">Parte del Plan Parcial «Na Xamena», Polígono 3 (aprobación definitiva, 2 de septiembre de 1980).</p>
+        </version>
+        <version id_norma="BOE-A-2000-5834" fecha_publicacion="20000311" fecha_vigencia="20000312">
+          <p class="anexo">ANEXO II</p>
+          <p class="centro_cursiva">1. Relación de suelos urbanizables o aptos para la urbanización situados total o parcialmente en la delimitación de la Serra de Tramuntana de Mallorca que se mantienen</p>
+          <p class="parrafo_2">Andratx:</p>
+          <p class="parrafo_2">Plan Parcial de Cala Moragues (aprobación definitiva, 5 de mayo de 1975).</p>
+          <p class="parrafo">Plan Parcial de Ses Egos (aprobación definitiva, 17 de septiembre de, 1973).</p>
+          <p class="parrafo">Plan Parcial de Monport 1.ª fase (aprobación definitiva, 3 de junio, de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Monport 2.ª y 3.ª fase (aprobación definitiva, 3 de junio de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Can Borràs (aprobación definitiva, 8 de septiembre de 1981).</p>
+          <p class="parrafo">Plan Parcial de Son Mas (aprobación definitiva, 13 de febrero de 1978).</p>
+          <p class="parrafo_2">Banyalbufar:</p>
+          <p class="parrafo_2">Plan Parcial primer sector 1.ª fase Polígono T-2, Port des Canonge (aprobación definitiva, 7 de abril de 1975).</p>
+          <p class="parrafo">Plan Parcial primer sector 2.ª fase Polígono T-2, Port des Canonge (aprobación definitiva, 17 de octubre de 1977).</p>
+          <p class="parrafo_2">Valldemossa:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Chopin» (aprobación definitiva, 24 de marzo de 1981).</p>
+          <p class="parrafo">Plan Parcial Sector «Shangri-là» (aprobación definitiva, 24 de marzo de 1981).</p>
+          <p class="parrafo">Plan Parcial Sector «Son Gual» (aprobación definitiva, 31 de octubre de 1967).</p>
+          <p class="parrafo">Plan Parcial Sector «George Sand», Polígono 4 (aprobación definitiva, 21 de abril de 1975).</p>
+          <p class="parrafo_2">Sóller:</p>
+          <p class="parrafo_2">Sector SUP número 1.</p>
+          <p class="parrafo">Sector SUP número 2.</p>
+          <p class="parrafo">Sector SUP número 5.</p>
+          <p class="parrafo">Plan Parcial Sector número 6 «Can Rullan» (aprobación definitiva, 8 de octubre de 1985).</p>
+          <p class="parrafo">Plan Parcial Sector número 9 «Bens d’Avall» (aprobación definitiva, 27 de mayo de 1987).</p>
+          <p class="parrafo_2">Escorca:</p>
+          <p class="parrafo_2">Plan Parcial Son Massip, Polígono 1 (aprobación definitiva, 29 de septiembre de 1966).</p>
+          <p class="parrafo">Plan Parcial Polígono 2, Cala Tuent (aprobación definitiva. 26 de julio de 1976).</p>
+          <p class="parrafo">Plan Parcial Polígono 6, Cala Tuent (aprobación definitiva, 6 de marzo de 1978).</p>
+          <p class="parrafo_2">Esporles:</p>
+          <p class="parrafo_2">Plan Parcial de Es Verger (aprobación definitiva, 8 de mayo de 1985).</p>
+          <p class="centro_cursiva">2. Relación de suelos urbanizables o aptos para la urbanización situadas total o parcialmente en la delimitación de Els Amunts de Eivissa</p>
+          <p class="parrafo_2">Sant Joan de Labritja:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Allá Dins» (aprobación definitiva, 30 de mayo de 1980).</p>
+          <p class="parrafo">Plan Parcial «Benirrás» (aprobación definitiva, 19 de junio de 1984).</p>
+          <p class="parrafo">Parte del Plan Parcial «Na Xamena», Polígono 3 (aprobación definitiva, 2 de septiembre de 1980).</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.2 de la Ley 1/2000, de 9 de marzo. <a class="refPost">Ref. BOE-A-2000-5834</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2008-9686" fecha_publicacion="20080517" fecha_vigencia="20080518">
+          <p class="anexo">ANEXO II</p>
+          <p class="centro_cursiva">1. Relación de suelos urbanizables o aptos para la urbanización situados total o parcialmente en la delimitación de la Serra de Tramuntana de Mallorca que se mantienen</p>
+          <p class="parrafo_2">Andratx:</p>
+          <p class="parrafo_2">Plan Parcial de Cala Moragues (aprobación definitiva, 5 de mayo de 1975).</p>
+          <p class="parrafo">Plan Parcial de Ses Egos (aprobación definitiva, 17 de septiembre de, 1973).</p>
+          <p class="parrafo">Plan Parcial de Monport 1.ª fase (aprobación definitiva, 3 de junio, de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Monport 2.ª fase (aprobación definitiva, 3 de junio de 1974, 5 de abril de 1988).</p>
+          <p class="parrafo">Plan Parcial de Can Borràs (aprobación definitiva, 8 de septiembre de 1981).</p>
+          <p class="parrafo">Plan Parcial de Son Mas (aprobación definitiva, 13 de febrero de 1978).</p>
+          <p class="parrafo_2">Valldemossa:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Shangri-là» (aprobación definitiva, 24 de marzo de 1981).</p>
+          <p class="parrafo">Plan Parcial Sector «Son Gual» (aprobación definitiva, 31 de octubre de 1967).</p>
+          <p class="parrafo">Plan Parcial Sector «George Sand», Polígono 4 (aprobación definitiva, 21 de abril de 1975).</p>
+          <p class="parrafo_2">Sóller:</p>
+          <p class="parrafo_2">Sector SUP número 5.</p>
+          <p class="parrafo_2">Escorca:</p>
+          <p class="parrafo_2">Plan Parcial Son Massip, Polígono 1 (aprobación definitiva, 29 de septiembre de 1966).</p>
+          <p class="centro_cursiva">2. Relación de suelos urbanizables o aptos para la urbanización situadas total o parcialmente en la delimitación de Els Amunts de Eivissa</p>
+          <p class="parrafo_2">Sant Joan de Labritja:</p>
+          <p class="parrafo_2">Plan Parcial Sector «Allá Dins» (aprobación definitiva, 30 de mayo de 1980).</p>
+          <p class="parrafo">Parte del Plan Parcial «Na Xamena», Polígono 3 (aprobación definitiva, 2 de septiembre de 1980).</p>
+          <blockquote>
+            <p class="nota_pie">Se modifican los apartados 1 y 2 por el art. 9.2 y 3 de la Ley 4/2008, de 14 de mayo. <a class="refPost">Ref. BOE-A-2008-9686</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. único.2 de la Ley 1/2000, de 9 de marzo. <a class="refPost">Ref. BOE-A-2000-5834</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="aniii" tipo="encabezado" titulo="ANEXO III">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="anexo">ANEXO III</p>
+          <p class="centro_negrita">Relación de suelos urbanizables o aptos para la urbanización con plan parcial en vigor situados en áreas distintas de la Serra de Tramuntana de Mallorca y de Els Amunts de Eivissa que se mantienen</p>
+          <p class="parrafo_2">Palma:</p>
+          <p class="parrafo_2">Plan Parcial Son Gual I (aprobación definitiva, 14 de marzo de 1975).</p>
+          <p class="parrafo">Plan Parcial Son Gual II (aprobación definitiva, 14 de marzo de 1975, y modificación 23 de febrero de 1989).</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1991-9291" fecha_publicacion="19910309" fecha_vigencia="19910310">
+          <p class="parrafo_2">Por tanto, ordeno que todos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a las que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">En Palma de Mallorca a 30 de enero de 1991.</p>
+          <table class="sinbordes" border="0">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="firma_ministro">JERÓNIMO SAIZ GOMILA</p>
+                </td>
+                <td>
+                  <p class="firma_ministro">GABRIEL CAÑELLAS FONS</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="firma_ministro">El Consejero de Obras Públicas</p>
+                  <p class="firma_ministro">y Ordenación del Territorio</p>
+                </td>
+                <td>
+                  <p class="firma_ministro">Presidente</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

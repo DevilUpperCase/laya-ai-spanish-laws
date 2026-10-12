@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-10-12T13:15:58.404080+00:00",
+  "status": "measured_not_frozen",
+  "hardware": {
+    "os": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "logical_cores": 20,
+    "ram_bytes": 34091950080
+  },
+  "workload": {
+    "concurrency": 1,
+    "private_documents": false,
+    "languages": [
+      "es",
+      "ca",
+      "gl",
+      "eu"
+    ],
+    "requests": 8,
+    "background_indexing": true
+  },
+  "p95_ms": 74217.33,
+  "error_rate": 0.0,
+  "requests": [
+    {
+      "language": "es",
+      "query": "arrendamiento vivienda",
+      "repeat": 0,
+      "ms": 74217.33,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "es",
+      "query": "protección datos personales",
+      "repeat": 0,
+      "ms": 5580.48,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "ca",
+      "query": "arrendament habitatge",
+      "repeat": 0,
+      "ms": 2693.08,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "ca",
+      "query": "protecció dades personals",
+      "repeat": 0,
+      "ms": 2633.27,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "gl",
+      "query": "arrendamento vivenda",
+      "repeat": 0,
+      "ms": 2558.93,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "gl",
+      "query": "protección datos persoais",
+      "repeat": 0,
+      "ms": 2776.01,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "eu",
+      "query": "etxebizitza errentamendua",
+      "repeat": 0,
+      "ms": 2737.51,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    },
+    {
+      "language": "eu",
+      "query": "datu pertsonalen babesa",
+      "repeat": 0,
+      "ms": 2496.35,
+      "http_status": 200,
+      "results": 50,
+      "engines": {
+        "retrieval": "hybrid",
+        "laya_mode": "shadow",
+        "laya_status": "degraded"
+      },
+      "warnings": [
+        "LAYA_DEGRADED",
+        "NATIONAL_COVERAGE_INCOMPLETE",
+        "SEMANTIC_INDEX_PARTIAL"
+      ]
+    }
+  ],
+  "limitations": [
+    "Small development hardware pilot; no professionally reviewed relevance judgments, load acceptance, frozen performance policy or LAYA activation approval.",
+    "Background CPU indexing and partial vectors affect these measurements."
+  ]
+}

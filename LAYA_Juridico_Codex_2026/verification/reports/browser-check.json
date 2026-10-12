@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "generated_at": "2026-10-12T13:54:40.070Z",
+  "real_api": true,
+  "real_database": true,
+  "search_results": 50,
+  "checks": [
+    "password-login",
+    "refresh-keeps-session",
+    "logout-revokes-session",
+    "official-corpus-search",
+    "official-source-links",
+    "visible-coverage-blocker",
+    "mobile-overflow",
+    "coverage-page",
+    "PDF-upload",
+    "durable-extraction",
+    "stored-selection-search",
+    "deletion-revokes-access"
+  ],
+  "limitations": [
+    "Synthetic private PDF only. Not a WCAG audit or professional legal evaluation.",
+    "LAYA shadow may time out under the configured two-second budget."
+  ]
+}

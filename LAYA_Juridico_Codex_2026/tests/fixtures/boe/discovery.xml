@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <item>
+      <fecha_actualizacion>20261009T221003Z</fecha_actualizacion>
+      <identificador>BOE-A-2020-10995</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="5140">Ministerio de Hacienda</departamento>
+      <rango codigo="1370">Resolución</rango>
+      <fecha_disposicion>20200910</fecha_disposicion>
+      <titulo>Resolución de 10 de septiembre de 2020, de la Dirección General del Catastro, por la que se aprueba el documento normalizado de representación en los procedimientos tributarios.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20200921</fecha_publicacion>
+      <diario_numero>251</diario_numero>
+      <fecha_vigencia>20200922</fecha_vigencia>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/res/2020/09/10/(4)</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2020-10995</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T103907Z</fecha_actualizacion>
+      <identificador>BOE-A-2016-7689</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="6110">Ministerio de Defensa</departamento>
+      <rango codigo="1350">Orden</rango>
+      <fecha_disposicion>20160728</fecha_disposicion>
+      <numero_oficial>DEF/1363/2016</numero_oficial>
+      <titulo>Orden DEF/1363/2016, de 28 de julio, por la que se regulan la jornada y el régimen de horario habitual en el lugar de destino de los miembros de las Fuerzas Armadas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20160810</fecha_publicacion>
+      <diario_numero>192</diario_numero>
+      <fecha_vigencia>20160830</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/o/2016/07/28/def1363</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2016-7689</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T103710Z</fecha_actualizacion>
+      <identificador>BOE-A-1999-15848</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19990709</fecha_disposicion>
+      <numero_oficial>1203/1999</numero_oficial>
+      <titulo>Real Decreto 1203/1999, de 9 de julio, por el que se integran en el Cuerpo de Maestros a los funcionarios pertenecientes al Cuerpo de Profesores de Educación General Básica de Instituciones Penitenciarias y se disponen normas de funcionamiento de las unidades educativas de los establecimientos penitenciarios.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19990721</fecha_publicacion>
+      <diario_numero>173</diario_numero>
+      <fecha_vigencia>19990721</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1999/07/09/1203</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1999-15848</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T103601Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-28994</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19981215</fecha_disposicion>
+      <numero_oficial>44/1998</numero_oficial>
+      <titulo>Ley 44/1998, de 15 de diciembre, de Planta y Organización Territorial de la Jurisdicción Militar.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19981216</fecha_publicacion>
+      <diario_numero>300</diario_numero>
+      <fecha_vigencia>19990316</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1998/12/15/44</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-28994</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T103338Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-15810</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7723">Jefatura del Estado</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19970715</fecha_disposicion>
+      <numero_oficial>24/1997</numero_oficial>
+      <titulo>Ley 24/1997, de 15 de julio, de Consolidación y Racionalización del Sistema de Seguridad Social.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970716</fecha_publicacion>
+      <diario_numero>169</diario_numero>
+      <fecha_vigencia>19970805</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/l/1997/07/15/24</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-15810</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T102946Z</fecha_actualizacion>
+      <identificador>BOE-A-1997-11411</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19970516</fecha_disposicion>
+      <numero_oficial>706/1997</numero_oficial>
+      <titulo>Real Decreto 706/1997, de 16 de mayo, por el que se desarrolla el régimen de control interno ejercido por la Intervención General de la Seguridad Social.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19970528</fecha_publicacion>
+      <diario_numero>127</diario_numero>
+      <fecha_vigencia>19970617</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1997/05/16/706</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1997-11411</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T100556Z</fecha_actualizacion>
+      <identificador>BOE-A-1998-7942</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8131">Comunidad de Madrid</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19970604</fecha_disposicion>
+      <numero_oficial>12/1997</numero_oficial>
+      <titulo>Ley 12/1997, de 4 de junio, reguladora de las Actuaciones Inspectoras y de la Potestad Sancionadora en Materia de Depósito de Fianzas de Arrendamiento de la Comunidad de Madrid.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19980403</fecha_publicacion>
+      <diario_numero>80</diario_numero>
+      <fecha_vigencia>19970611</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="4">Desactualizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-md/l/1997/06/04/12</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1998-7942</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T100457Z</fecha_actualizacion>
+      <identificador>BOE-A-1995-26896</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="7710">Ministerio de la Presidencia</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>19951124</fecha_disposicion>
+      <numero_oficial>1907/1995</numero_oficial>
+      <titulo>Real Decreto 1907/1995, de 24 de noviembre, por el que se regula la tramitación de las subvenciones estatales anuales y por gastos electorales a las formaciones políticas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19951214</fecha_publicacion>
+      <diario_numero>298</diario_numero>
+      <fecha_vigencia>19951215</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/1995/11/24/1907</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1995-26896</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T094722Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-11430</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9218">Ministerio de Empleo y Seguridad Social</departamento>
+      <rango codigo="1310">Real Decreto Legislativo</rango>
+      <fecha_disposicion>20151023</fecha_disposicion>
+      <numero_oficial>2/2015</numero_oficial>
+      <titulo>Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20151024</fecha_publicacion>
+      <diario_numero>255</diario_numero>
+      <fecha_vigencia>20151113</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rdlg/2015/10/23/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430</url_html_consolidada>
+    </item>
+    <item>
+      <fecha_actualizacion>20261009T092105Z</fecha_actualizacion>
+      <identificador>BOE-A-2021-15781</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="9580">Ministerio de Universidades</departamento>
+      <rango codigo="1340">Real Decreto</rango>
+      <fecha_disposicion>20210928</fecha_disposicion>
+      <numero_oficial>822/2021</numero_oficial>
+      <titulo>Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20210929</fecha_publicacion>
+      <diario_numero>233</diario_numero>
+      <fecha_vigencia>20211019</fecha_vigencia>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/rd/2021/09/28/822</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781</url_html_consolidada>
+    </item>
+  </data>
+</response>

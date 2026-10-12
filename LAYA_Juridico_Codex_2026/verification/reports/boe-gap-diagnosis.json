@@ -1,0 +1,266 @@
+[
+  {
+    "id": "BOE-A-1990-18519",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 112
+  },
+  {
+    "id": "BOE-A-1997-18197",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 138
+  },
+  {
+    "id": "BOE-A-1992-14038",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 79
+  },
+  {
+    "id": "BOE-A-1964-7544",
+    "scope": "Estatal",
+    "issuer": "Jefatura del Estado",
+    "error": "ValueError:month must be in 1..12"
+  },
+  {
+    "id": "BOE-A-1990-29990",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 135
+  },
+  {
+    "id": "BOE-A-2004-18911",
+    "error": "ValueError"
+  },
+  {
+    "id": "BOE-A-2023-26631",
+    "error": "ValueError"
+  },
+  {
+    "id": "BOE-A-2019-18749",
+    "error": "ValueError"
+  },
+  {
+    "id": "BOE-A-2010-8228",
+    "scope": "Estatal",
+    "issuer": "Jefatura del Estado",
+    "error": "ValueError:day is out of range for month"
+  },
+  {
+    "id": "BOE-A-1998-28819",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 175
+  },
+  {
+    "id": "BOE-A-1998-26353",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 13
+  },
+  {
+    "id": "BOE-A-1998-10998",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 93
+  },
+  {
+    "id": "BOE-A-1998-1685",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 32
+  },
+  {
+    "id": "BOE-A-1997-28066",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 29
+  },
+  {
+    "id": "BOE-A-1997-18196",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 43
+  },
+  {
+    "id": "BOE-A-1997-16031",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 40
+  },
+  {
+    "id": "BOE-A-1997-3983",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 62
+  },
+  {
+    "id": "BOE-A-1997-3984",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 30
+  },
+  {
+    "id": "BOE-A-1995-11842",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 95
+  },
+  {
+    "id": "BOE-A-1995-9734",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 35
+  },
+  {
+    "id": "BOE-A-1994-28045",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 9
+  },
+  {
+    "id": "BOE-A-1994-5710",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 16
+  },
+  {
+    "id": "BOE-A-1994-5714",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 21
+  },
+  {
+    "id": "BOE-A-1994-5709",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 18
+  },
+  {
+    "id": "BOE-A-1994-5713",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 22
+  },
+  {
+    "id": "BOE-A-1993-21447",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 66
+  },
+  {
+    "id": "BOE-A-1993-12235",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 41
+  },
+  {
+    "id": "BOE-A-1993-4684",
+    "scope": "Estatal",
+    "issuer": "Ministerio de Relaciones con las Cortes y de la Secretaría del Gobierno",
+    "error": "ValueError:month must be in 1..12"
+  },
+  {
+    "id": "BOE-A-1992-21159",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 27
+  },
+  {
+    "id": "BOE-A-1992-1470",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 54
+  },
+  {
+    "id": "BOE-A-1991-10602",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 32
+  },
+  {
+    "id": "BOE-A-1991-10654",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 12
+  },
+  {
+    "id": "BOE-A-1991-9291",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 73
+  },
+  {
+    "id": "BOE-A-1991-352",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 43
+  },
+  {
+    "id": "BOE-A-1990-19872",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 23
+  },
+  {
+    "id": "BOE-A-1990-11173",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 8
+  },
+  {
+    "id": "BOE-A-1988-18674",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 18
+  },
+  {
+    "id": "BOE-A-1987-2903",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 72
+  },
+  {
+    "id": "BOE-A-1986-19091",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 95
+  },
+  {
+    "id": "BOE-A-1985-18351",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 15
+  },
+  {
+    "id": "BOE-A-1985-3563",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 6
+  },
+  {
+    "id": "BOE-A-1985-3564",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 20
+  },
+  {
+    "id": "BOE-A-1985-3565",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 13
+  },
+  {
+    "id": "BOIB-i-1990-90001",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 196
+  },
+  {
+    "id": "BOIB-i-1984-90002",
+    "scope": "Autonómico",
+    "issuer": "Comunidad Autónoma de las Islas Baleares",
+    "parsed_versions": 12
+  }
+]

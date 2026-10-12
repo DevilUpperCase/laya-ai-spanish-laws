@@ -1,0 +1,1343 @@
+{
+  "generated_at": "2026-10-12T12:21:10.610686+00:00",
+  "status": "audit_pending",
+  "sources": [
+    {
+      "id": "BOE_CONSOLIDATED",
+      "name": "BOE · Legislación consolidada",
+      "official_url": "https://www.boe.es/datosabiertos/api/api.php",
+      "terms_url": "https://www.boe.es/informacion/aviso_legal/",
+      "adapter": "boe",
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:33.392630+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\BOE_CONSOLIDATED\\entry.html",
+      "sha256": "9e9bf5abe61f6ac199fddc6bbd7fcb03b764f0e222eb922d8fb3592e978debc7",
+      "feed_candidates": [
+        "https://www.boe.es/rss/"
+      ],
+      "terms_candidates": [
+        "https://www.boe.es/informacion/aviso_legal/index.php",
+        "https://www.boe.es/informacion/aviso_legal/index.php#reutilizacion"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_a07db92e08ecf6d0",
+      "name": "Boletín Oficial de la Junta de Andalucía (BOJA) y base de datos de legislación",
+      "official_url": "https://www.juntadeandalucia.es/eboja",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:33.388134+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_a07db92e08ecf6d0\\entry.html",
+      "sha256": "7c015b2261df4bc4733dadec74f1a189d7f892c502111223bc70e55473c07312",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.juntadeandalucia.es/informacion/legal.html"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_151dae35ffe09b7c",
+      "name": "Boletín Oficial de Aragón (BOA) y base de datos de legislación",
+      "official_url": "https://www.boa.aragon.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:34.538292+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_151dae35ffe09b7c\\entry.html",
+      "sha256": "3613909099105c901780c5402a20c50d1116f6ecb350eec96b401635ba691a75",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_aacb8192f86a23cf",
+      "name": "Boletín Oficial del Principado de Asturias (BOPA) y base de datos de legislación",
+      "official_url": "https://sede.asturias.es/servicios-del-bopa",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:34.726541+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_5dca4cc93926aefb",
+      "name": "Boletín Oficial de las Illes Balears (BOIB)",
+      "official_url": "http://www.caib.es/eboibfront/?lang=es",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:35.811314+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_5dca4cc93926aefb\\entry.html",
+      "sha256": "c846bb417a00f44d5c72842f301114eb937224d9d045038983c6855463015bed",
+      "feed_candidates": [
+        "https://www.caib.es/eboibfront/indexrss.do?lang=es",
+        "https://www.caib.es/govern/rss.do?lang=es",
+        "https://www.caib.es/root/rss.do?path=/eboibfront/indexrss.do?lang=es"
+      ],
+      "terms_candidates": [
+        "https://www.caib.es/govern/external/infoLegal.do?lang=es"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_988e526aa8cc8da4",
+      "name": "Base de datos de legislación",
+      "official_url": "https://www.caib.es/sites/institutestudisautonomics/es/repositorio_normativo_autonomico_de_1983-2016-60823/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:35.911288+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_988e526aa8cc8da4\\entry.html",
+      "sha256": "bc3c0ce48a7168d17a96141efadf1b0a646e4125dcc983cf5f66ab6c56256985",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "http://www.caib.es/govern/external/infoLegal.do?lang=es"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_6d885344adf7f544",
+      "name": "Boletín Oficial de Canarias (BOC)",
+      "official_url": "http://www.gobiernodecanarias.org/boc/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:37.118571+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_6d885344adf7f544\\entry.html",
+      "sha256": "ee4fed36dba11151203656f4aa5872f868e5d8eb17dc508ace75d008ddf14e3b",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.gobiernodecanarias.org/avisolegal.html"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_f1260b826423e8cf",
+      "name": "Base de datos de legislación",
+      "official_url": "https://www3.gobiernodecanarias.org/libroazul/index.jsp",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:37.688200+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_f1260b826423e8cf\\entry.html",
+      "sha256": "3827212f73f641a9b515a3f91121c78f4f636f55dd8355936050633f70330b91",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_1acb2b11b626b1d6",
+      "name": "Boletín Oficial de Cantabria (BOC) y base de datos de legislación",
+      "official_url": "https://boc.cantabria.es/boces/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:38.688774+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_1acb2b11b626b1d6\\entry.html",
+      "sha256": "c6f254701b1bac75644ac7b6847456614af46c375d49123ac2810fbddcb9e71d",
+      "feed_candidates": [
+        "https://www.cantabria.es/web/gobierno/enlaces_rss"
+      ],
+      "terms_candidates": [
+        "http://boc.cantabria.es/boces/mostrarHipervinculo.do?idLink=148"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_3214384060605237",
+      "name": "Diario Oficial de Castilla-La Mancha (DOCM) y base de datos de legislación",
+      "official_url": "http://docm.castillalamancha.es/portaldocm/sumario.do",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:38.795727+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_40f50f115789e064",
+      "name": "Boletín Oficial de Castilla y León (BOCYL)",
+      "official_url": "https://bocyl.jcyl.es/portada.do",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:39.595008+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_40f50f115789e064\\entry.html",
+      "sha256": "14000d8bf2bae87600b2ec4d682b61556c7e8b0f565bb8c1497b5904df21edad",
+      "feed_candidates": [
+        "https://bocyl.jcyl.es/indiceRss.do"
+      ],
+      "terms_candidates": [
+        "https://bocyl.jcyl.es/verAvisoLegal.do"
+      ],
+      "eli_candidates": [
+        "https://bocyl.jcyl.es/eli/"
+      ],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_cbe20f289ecd0e7a",
+      "name": "Base de datos de legislación",
+      "official_url": "http://www.jcyl.es/web/jcyl/AdministracionPublica/es/Plantilla66y33/1246993004605/_/_/_",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:40.930405+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_cbe20f289ecd0e7a\\entry.html",
+      "sha256": "d1d182d149d60a859f6b7241c455a27486d9dca3638fc6b63fbdecbdd425a8e6",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.jcyl.es/web/jcyl/AdministracionPublica/es/Plantilla100Detalle/1248367026092/Texto%20Generico/1246989714819/Texto"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_efe27ee529061e06",
+      "name": "Diari Oficial de la Generalitat de Catalunya (DOGC)",
+      "official_url": "https://dogc.gencat.cat/es/index.html?newLang=es_ES&language=es_ES",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:41.803474+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_efe27ee529061e06\\entry.html",
+      "sha256": "b247a251099f01a31e90eb1bfffb069df0b556590948d2af9afb1cae8861b3eb",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://tramits.gencat.cat/es/ajuda/avis_legal/"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7af6f6b9698caf29",
+      "name": "Base de datos de legislación",
+      "official_url": "http://portaljuridic.gencat.cat/ca/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:42.371109+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_7af6f6b9698caf29\\entry.html",
+      "sha256": "f1c21f83045f09668835d5f23824f277ca3320af2bb17c459dd839f946eb2232",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [
+        "https://portaljuridic.gencat.cat/eli/es-ct/l/2022/12/21/9",
+        "https://portaljuridic.gencat.cat/eli/es-ct/l/2023/02/15/1",
+        "https://portaljuridic.gencat.cat/eli/es-ct/l/2023/08/07/10"
+      ],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_be84628af2cdace7",
+      "name": "Diario Oficial de Extremadura (DOE) y base de datos de legislación",
+      "official_url": "http://doe.juntaex.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:43.006229+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_8f283e8b1d223067",
+      "name": "Diario Oficial de Galicia (DOG)",
+      "official_url": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?lang=es",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:44.459710+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_e0f4d1e2c6fbecdd",
+      "name": "Base de datos de legislación",
+      "official_url": "http://www.lex.gal/portada",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:44.672979+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_e0f4d1e2c6fbecdd\\entry.html",
+      "sha256": "55c491b9910da0569dcc476f568f91f50d7403651803af698289a8da8d136852",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.lex.gal/aviso-legal"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_c22a92a855874dff",
+      "name": "Boletín Oficial de la Rioja (BOR)",
+      "official_url": "http://www.larioja.org/bor/es",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:46.991211+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_333b88d2b8582a0a",
+      "name": "Base de datos de legislación",
+      "official_url": "http://www.larioja.org/normativa-autonomica/es",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:48.144286+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_ac866939833e1fd2",
+      "name": "Boletín Oficial de la Comunidad de Madrid (BOCM)",
+      "official_url": "http://www.bocm.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:49.431222+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_ac866939833e1fd2\\entry.html",
+      "sha256": "06c0a37737df59939da52d2636cc7621ee33342b1f3459466cce8aeec292a566",
+      "feed_candidates": [
+        "https://www.bocm.es/rss"
+      ],
+      "terms_candidates": [
+        "https://www.bocm.es/aviso-legal"
+      ],
+      "eli_candidates": [
+        "https://www.bocm.es/eli?language=es"
+      ],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_8088dc4f146fce5f",
+      "name": "Base de datos de legislación",
+      "official_url": "https://gestiona.comunidad.madrid/wleg_pub/secure/busquedaAvanzada/buscador.jsf",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:49.555622+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_8088dc4f146fce5f\\entry.html",
+      "sha256": "ef87cd328d989c0235a117da02e2f5cdee4f4cc8ce4277e54ce13b7df939ef1f",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [
+        "https://gestiona.comunidad.madrid/wleg_pub/secure/quienesSomos/eli.jsf?id=104"
+      ],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7aec100b2acd0675",
+      "name": "Boletín Oficial de la Región de Murcia (BORM)",
+      "official_url": "https://www.borm.es/#/home/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:51.248654+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_d0e10ea37b79134c",
+      "name": "Base de datos de legislación",
+      "official_url": "https://transparencia--carm--es.insuit.net/web/transparencia/legislacion-regional",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:51.277445+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_cd24ce6294409020",
+      "name": "Boletín Oficial de Navarra (BON)",
+      "official_url": "http://www.navarra.es/home_es/Actualidad/BON/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:52.063952+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_322a79c5b6ab0546",
+      "name": "Base de datos de legislación",
+      "official_url": "http://www.lexnavarra.navarra.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:52.686323+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_165a12b8164f5f61",
+      "name": "Boletín Oficial del País Vasco (BOPV)",
+      "official_url": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/Ultimo.shtml",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:53.243908+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_165a12b8164f5f61\\entry.html",
+      "sha256": "b5329c312e4dddcfafcec32969fad5fbc3495a57368d126e9d547f789091ef2f",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_8d509b8d2f7b36ea",
+      "name": "Base de datos de legislación",
+      "official_url": "http://www.legegunea.euskadi.eus/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:53.626430+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_8d509b8d2f7b36ea\\entry.html",
+      "sha256": "027bd0a12e3930f3507da5b1c09000428e08d9014bb2a84cb676bb874b041abb",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_dfa23524002d2868",
+      "name": "Diari Oficial de la Generalitat Valenciana (DOGV) y base de datos de legislación",
+      "official_url": "https://dogv.gva.es/es/inici",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:54.349048+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_554d1789dec8e99e",
+      "name": "Boletín Oficial de la Ciudad Autónoma de Ceuta (BOCCE)",
+      "official_url": "http://www.ceuta.es/ceuta/documentos/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:54.937469+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7c5bce5dd5f51e02",
+      "name": "Boletín Oficial de la Ciudad Autónoma de Melilla (BOME)",
+      "official_url": "https://bomemelilla.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:55.278936+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_92168a185f829b97",
+      "name": "A Coruña",
+      "official_url": "https://bop.dacoruna.gal/bopportal/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:56.370562+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_735a4f9fbef1801f",
+      "name": "Albacete",
+      "official_url": "https://bop.dipualba.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:56.391461+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_735a4f9fbef1801f\\entry.html",
+      "sha256": "738c40bd3cd73ba09e1bd955b7847e334fd78cd35781db47b56626245e16132f",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://sede.dipualba.es/aviso-legal.aspx?entidad=02000"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_283e56fe47622361",
+      "name": "Alicante",
+      "official_url": "http://sede.diputacionalicante.es/consultas-bop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:57.290778+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_b09bb9195a773ce1",
+      "name": "Almería",
+      "official_url": "http://www.dipalme.org/Servicios/cmsdipro/index.nsf/bop_view.xsp?p=dipalme",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:57.578088+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_b543b17103728ebd",
+      "name": "Araba/Álava",
+      "official_url": "http://www.araba.eus/botha/Inicio/SGBO5001.aspx",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:58.393427+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_b543b17103728ebd\\entry.html",
+      "sha256": "814385e9f46b73a92806371e3a9a39c9522aa18cd63eb1e8b4f18720c6f00a3e",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "http://www.araba.eus/botha/DFA/SGBO5004.aspx"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_45e91ebb37bb073d",
+      "name": "Ávila",
+      "official_url": "https://www.diputacionavila.es/boletin-oficial/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:58.654821+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7580281b24efbf79",
+      "name": "Badajoz",
+      "official_url": "http://www.dip-badajoz.es/bop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:19:59.811274+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_1f48f912609e14eb",
+      "name": "Barcelona",
+      "official_url": "http://bop.diba.cat",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:00.339695+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_24cd0f4732d16342",
+      "name": "Bizkaia",
+      "official_url": "https://www.bizkaia.eus/es/bob",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:01.254835+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7ed5b128e8985f38",
+      "name": "Burgos",
+      "official_url": "http://bopbur.diputaciondeburgos.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:01.608638+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_c714b21d4a96ccf2",
+      "name": "Cáceres",
+      "official_url": "https://bop.dip-caceres.es/bop/index.html",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:02.575980+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_c714b21d4a96ccf2\\entry.html",
+      "sha256": "c7b3b985e0ad1ec991cf52c84946ce3d3e149ca64068ac61c56fafdebb12b564",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_4d9364bbf1e102a5",
+      "name": "Cádiz",
+      "official_url": "http://www.bopcadiz.org",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:03.926770+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ConnectTimeout",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_5b981a790f1935f2",
+      "name": "Castellón",
+      "official_url": "http://bop.dipcas.es/PortalBOP/boletin.do",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:04.901198+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_5b981a790f1935f2\\entry.html",
+      "sha256": "9454d5a744d94421298657e72c9d5731e49eb9683f2ee1968b0cfdeceeefa189",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "http://www.dipcas.es/es/aviso-legal.html"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_9474ffa06c5ba807",
+      "name": "Ciudad Real",
+      "official_url": "https://bop.dipucr.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:06.526993+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_9474ffa06c5ba807\\entry.html",
+      "sha256": "991077d28eb3796757f30c1de6132396063cb239a48981e4bdf533bf062d3596",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_627a7f8a1103411b",
+      "name": "Córdoba",
+      "official_url": "https://bop.dipucordoba.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:08.997504+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_46d098e0075bc6fe",
+      "name": "Cuenca",
+      "official_url": "https://www.dipucuenca.es/boletin-oficial-de-la-provincia",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:10.142307+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "HTTPStatusError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_714b4cb95536875c",
+      "name": "Gipuzkoa",
+      "official_url": "https://egoitza.gipuzkoa.eus/es/bog",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:11.696824+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_714b4cb95536875c\\entry.html",
+      "sha256": "7452d8a8cfa377c2a0de11b10f7e13ee66dacf9129c80bdebd07481a3e35120b",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://egoitza.gipuzkoa.eus/aviso-legal"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_da8b109fc0e685cb",
+      "name": "Girona",
+      "official_url": "http://www.ddgi.cat/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:13.907738+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_5f4d1777470fd182",
+      "name": "Granada",
+      "official_url": "https://www.dipgra.es/bop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:15.130024+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_3770271f53626db8",
+      "name": "Guadalajara",
+      "official_url": "http://boletin.dguadalajara.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:16.109211+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_1517615603272b75",
+      "name": "Huelva",
+      "official_url": "https://sede.diphuelva.es/servicios/bop",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:17.771203+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_1517615603272b75\\entry.html",
+      "sha256": "7daea782128ad8c7d9c70abe02393ec67af11b34c881478f4ef50244c99b158e",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_6bed9e4ed60cc608",
+      "name": "Huesca",
+      "official_url": "http://bop.dphuesca.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:19.381357+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_c9996f123366f6ec",
+      "name": "Jaén",
+      "official_url": "http://bop.dipujaen.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:20.715749+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_c9996f123366f6ec\\entry.html",
+      "sha256": "127eaa1378f53318014133cfed795acbcf22d1ca6604446efe9b63d1d4ade4d3",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "http://www.dipujaen.es/diputacion/dipujaen/aviso-legal.html"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_7ceadd884b824fa2",
+      "name": "Las Palmas",
+      "official_url": "http://www.boplaspalmas.com",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:21.973870+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_7ceadd884b824fa2\\entry.html",
+      "sha256": "b6d81e7cc85477217dc1f86b6dd57cb3f20ac563c75cb7accf14991e41a87d55",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_10f099ea15c23049",
+      "name": "León",
+      "official_url": "https://bop.dipuleon.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:23.380346+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_10f099ea15c23049\\entry.html",
+      "sha256": "a4ed790a5d49162ecd61b91e106faca398488a16904d1f6012d5efc32a33b888",
+      "feed_candidates": [
+        "https://www.dipuleon.es/Contenidos_RSS/"
+      ],
+      "terms_candidates": [
+        "https://bop.dipuleon.es/publica/info-legal/aviso-legal/"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_0481c6fb5922ef6d",
+      "name": "Lleida",
+      "official_url": "https://ebop.diputaciolleida.cat/bop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:25.615561+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_0481c6fb5922ef6d\\entry.html",
+      "sha256": "215f8d3e4b47472d7f6c238d372950093ed99dcbfec9629871434bb701766bec",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_c8532c24c1b2948f",
+      "name": "Lugo",
+      "official_url": "http://www.deputacionlugo.gal/boletin-oficial-da-provincia-de-lugo",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:26.060485+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_0a1fe1c02444db2c",
+      "name": "Málaga",
+      "official_url": "http://www.bopmalaga.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:26.968003+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_0a1fe1c02444db2c\\entry.html",
+      "sha256": "0bfefb3bbd2dd67a29b1533556dfff5f39f97f53aed74a678456afe7408f3c24",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.bopmalaga.es/bopma.php?pag=aviso_legal"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_81dca214cabdb95c",
+      "name": "Ourense",
+      "official_url": "https://bop.depourense.es/portal/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:28.310131+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_81dca214cabdb95c\\entry.html",
+      "sha256": "74730c7910e1847f4b4c0721b6ded5d93eae54723ec963f82e7f545155a27719",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_ef1b125550bee54e",
+      "name": "Palencia",
+      "official_url": "https://www.diputaciondepalencia.es/servicios/boletin-oficial-provincia",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:29.302373+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_18f1cbe3fecb9cdb",
+      "name": "Pontevedra",
+      "official_url": "https://boppo.depo.gal/es",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:30.380670+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_bef2b03e41bdcaed",
+      "name": "Salamanca",
+      "official_url": "https://sede.diputaciondesalamanca.gob.es/BOP/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:31.126255+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_bef2b03e41bdcaed\\entry.html",
+      "sha256": "996bc7ccc104c5232375b6131748ca081a9947c7f6aa1637b1f1903014217e53",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://sede.diputaciondesalamanca.gob.es/opencms/system/modules/gsede/elements/contenedores/normativa.html"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_b967707769da4a40",
+      "name": "Santa Cruz de Tenerife",
+      "official_url": "http://www.bopsantacruzdetenerife.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:38.924592+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_b967707769da4a40\\entry.html",
+      "sha256": "65ab57c41a5acbfb33b9cdf90181878722d6261c744c2f7ed3011e218bde7713",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_6fa198f4829becdb",
+      "name": "Segovia",
+      "official_url": "http://www.dipsegovia.es/bop",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:40.188057+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_0f78a65bd20badc8",
+      "name": "Sevilla",
+      "official_url": "http://www.dipusevilla.es/bop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:41.838322+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_0f78a65bd20badc8\\entry.html",
+      "sha256": "069b2b66476f8b9d7c6bd4a76e6b77c9343b7a27508df3d00c0b6184e92dfb3f",
+      "feed_candidates": [],
+      "terms_candidates": [
+        "https://www.dipusevilla.es/otra-informacion/politica-de-privacidad-y-aviso-legal/"
+      ],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_2c1255c18cb567c9",
+      "name": "Soria",
+      "official_url": "http://bop.dipsoria.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:42.223235+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_3d869bb174398f44",
+      "name": "Tarragona",
+      "official_url": "http://www.diputaciodetarragona.cat/ebop/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:43.632733+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ValueError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_507ab94c440920d6",
+      "name": "Teruel",
+      "official_url": "http://www.dpteruel.es/boletines.htm",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:44.162203+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_9916beb683ef0e7f",
+      "name": "Toledo",
+      "official_url": "http://bop.diputoledo.es/webEbop/inicio.jsp",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:46.098963+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_d0cdf4c5725f2dd3",
+      "name": "Valencia",
+      "official_url": "https://bop.dival.es/bop/drvisapi.dll",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:45.683661+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_d0cdf4c5725f2dd3\\entry.html",
+      "sha256": "4f90f7d6c2d7cfffedcf4a6c633a88decae40310258ac9f8ccc889c47fb65d60",
+      "feed_candidates": [],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_1425956905c358e5",
+      "name": "Valladolid",
+      "official_url": "https://bop.sede.diputaciondevalladolid.es/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:48.546180+00:00",
+      "coverage_verified": false,
+      "fetch_status": "captured",
+      "http_status": 200,
+      "artifact": "sources\\publisher-audits\\DIRECTORY_1425956905c358e5\\entry.html",
+      "sha256": "f78b7ab7f04424e5f5e4bf171d33b47f16853cacd7e12fab08e794e42ac69aec",
+      "feed_candidates": [
+        "https://bop.sede.diputaciondevalladolid.es/buscarenbop/-/resultado-busqueda/rss/last-bop"
+      ],
+      "terms_candidates": [],
+      "eli_candidates": [],
+      "limits": [
+        "Entry-point capture only. Historical inventory, normative selection, geographic coverage and reuse review remain required."
+      ]
+    },
+    {
+      "id": "DIRECTORY_f9817956af74f366",
+      "name": "Zamora",
+      "official_url": "https://www.diputaciondezamora.es/opencms/servicios/BOP/bop/index.html",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:48.285982+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "DecodingError",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    },
+    {
+      "id": "DIRECTORY_83c9df7706715b29",
+      "name": "Zaragoza",
+      "official_url": "http://bop.dpz.es/BOPZ/",
+      "terms_url": "",
+      "adapter": null,
+      "audit_status": "pending",
+      "captured_at": "2026-10-12T12:20:49.420426+00:00",
+      "coverage_verified": false,
+      "fetch_status": "blocked",
+      "failure_code": "ConnectTimeout",
+      "limits": [
+        "Resolve transport/redirect/source capability before enabling ingestion."
+      ]
+    }
+  ]
+}

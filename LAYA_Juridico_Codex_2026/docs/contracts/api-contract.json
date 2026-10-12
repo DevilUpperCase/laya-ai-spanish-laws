@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "status": "planned_not_implemented",
+  "format": "endpoint_inventory_not_openapi",
+  "version": "v1",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "auth": "public",
+      "result": "liveness"
+    },
+    {
+      "method": "GET",
+      "path": "/ready",
+      "auth": "internal",
+      "result": "readiness"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/search",
+      "auth": "tenant",
+      "result": "SearchResponse"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/documents",
+      "auth": "tenant",
+      "result": "DocumentRecord"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/documents/{document_id}",
+      "auth": "tenant",
+      "result": "DocumentRecord"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/documents/{document_id}/download",
+      "auth": "tenant",
+      "result": "revocable_download"
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/documents/{document_id}",
+      "auth": "tenant",
+      "result": "tombstone"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/documents/{document_id}/search-related",
+      "auth": "tenant",
+      "result": "SearchResponse"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/instruments/{instrument_id}/versions",
+      "auth": "tenant",
+      "result": "versions"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coverage",
+      "auth": "tenant",
+      "result": "CoverageReport"
+    }
+  ],
+  "languages": [
+    "es",
+    "ca",
+    "gl",
+    "eu"
+  ],
+  "search_graph": [
+    "validate",
+    "resolve_selection",
+    "retrieve",
+    "fuse",
+    "laya_shadow",
+    "explain",
+    "serialize"
+  ],
+  "laya_modes": [
+    "shadow",
+    "rerank"
+  ],
+  "default_laya_mode": "shadow",
+  "private_search_checkpointing": false,
+  "generative_llms": false,
+  "embedding_dimensions": 1024
+}
+

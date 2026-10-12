@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-12T13:16:16.098802+00:00",
+  "status": "passed",
+  "scope": "real_encrypted_snapshot_and_private_schema_restore",
+  "snapshot": "20261012T125303Z-50731c56a8554492",
+  "live_purge_seconds": null,
+  "restored_live_canary_before_barrier": true,
+  "restored_read_and_download_denied": true,
+  "restored_object_purged": true,
+  "browser_sessions_invalidated": true,
+  "limitations": [
+    "Synthetic canary/private schemas only. This resumed run did not retain live purge timing. Full legal/Auth restore, independent journal replication, key custody and elapsed expiry evidence remain pending."
+  ]
+}

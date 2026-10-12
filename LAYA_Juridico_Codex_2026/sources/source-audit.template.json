@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "not_run",
+  "source_id": null,
+  "publisher": null,
+  "official_homepage": null,
+  "levels": [],
+  "territory_ids": [],
+  "adapter_path": null,
+  "adapter_version": null,
+  "capabilities": {
+    "discovery": null,
+    "formats": [],
+    "pagination_verified": false,
+    "current_norms": false,
+    "available_history": false,
+    "versions": false
+  },
+  "reuse": {
+    "terms_url": null,
+    "approved": false,
+    "reviewed_by": null,
+    "attribution": null
+  },
+  "rate_limit": null,
+  "current_range": {
+    "start": null,
+    "end": null,
+    "complete": false
+  },
+  "available_history": {
+    "start": null,
+    "end": null,
+    "complete": false,
+    "unavailable_ranges": []
+  },
+  "reconciliation": {
+    "expected_publications": null,
+    "integrated_publications": null,
+    "missing_required_periods": [],
+    "complete": false,
+    "evidence": []
+  },
+  "fixtures": [],
+  "reviewed_by": null,
+  "reviewed_at": null
+}
+

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BORME</publicacion>
+        <fecha_publicacion>20251010</fecha_publicacion>
+      </metadatos>
+      <diario numero="194">
+        <sumario_diario>
+          <identificador>BORME-S-2025-194</identificador>
+          <url_pdf szBytes="225482" szKBytes="220">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-S-2025-194.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="A" nombre="SECCIÓN PRIMERA. Empresarios. Actos inscritos">
+          <item>
+            <identificador>BORME-A-2025-194-02</identificador>
+            <titulo>ALBACETE</titulo>
+            <url_pdf szBytes="158080" szKBytes="154" pagina_inicial="46357" pagina_final="46357">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-02.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-02</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-02</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-03</identificador>
+            <titulo>ALICANTE/ALACANT</titulo>
+            <url_pdf szBytes="279092" szKBytes="273" pagina_inicial="46358" pagina_final="46365">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-03.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-03</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-03</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-04</identificador>
+            <titulo>ALMERÍA</titulo>
+            <url_pdf szBytes="189425" szKBytes="185" pagina_inicial="46366" pagina_final="46368">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-04.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-04</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-04</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-06</identificador>
+            <titulo>BADAJOZ</titulo>
+            <url_pdf szBytes="166012" szKBytes="162" pagina_inicial="46369" pagina_final="46369">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-06.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-06</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-06</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-07</identificador>
+            <titulo>ILLES BALEARS</titulo>
+            <url_pdf szBytes="241959" szKBytes="236" pagina_inicial="46370" pagina_final="46374">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-07.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-07</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-07</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-08</identificador>
+            <titulo>BARCELONA</titulo>
+            <url_pdf szBytes="540967" szKBytes="528" pagina_inicial="46375" pagina_final="46397">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-08.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-08</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-08</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-11</identificador>
+            <titulo>CÁDIZ</titulo>
+            <url_pdf szBytes="217687" szKBytes="213" pagina_inicial="46398" pagina_final="46401">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-11.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-11</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-11</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-12</identificador>
+            <titulo>CASTELLÓN/CASTELLÓ</titulo>
+            <url_pdf szBytes="296895" szKBytes="290" pagina_inicial="46402" pagina_final="46409">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-12.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-12</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-12</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-13</identificador>
+            <titulo>CIUDAD REAL</titulo>
+            <url_pdf szBytes="164492" szKBytes="161" pagina_inicial="46410" pagina_final="46410">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-13.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-13</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-13</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-14</identificador>
+            <titulo>CÓRDOBA</titulo>
+            <url_pdf szBytes="239981" szKBytes="234" pagina_inicial="46411" pagina_final="46416">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-14.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-14</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-14</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-15</identificador>
+            <titulo>A CORUÑA</titulo>
+            <url_pdf szBytes="186092" szKBytes="182" pagina_inicial="46417" pagina_final="46418">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-15.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-15</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-15</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-16</identificador>
+            <titulo>CUENCA</titulo>
+            <url_pdf szBytes="171710" szKBytes="168" pagina_inicial="46419" pagina_final="46420">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-16.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-16</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-16</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-18</identificador>
+            <titulo>GRANADA</titulo>
+            <url_pdf szBytes="230761" szKBytes="225" pagina_inicial="46421" pagina_final="46425">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-18.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-18</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-18</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-19</identificador>
+            <titulo>GUADALAJARA</titulo>
+            <url_pdf szBytes="199200" szKBytes="195" pagina_inicial="46426" pagina_final="46428">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-19.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-19</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-19</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-23</identificador>
+            <titulo>JAÉN</titulo>
+            <url_pdf szBytes="155429" szKBytes="152" pagina_inicial="46429" pagina_final="46429">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-23.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-23</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-23</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-25</identificador>
+            <titulo>LLEIDA</titulo>
+            <url_pdf szBytes="183207" szKBytes="179" pagina_inicial="46430" pagina_final="46431">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-25.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-25</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-25</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-26</identificador>
+            <titulo>LA RIOJA</titulo>
+            <url_pdf szBytes="202250" szKBytes="198" pagina_inicial="46432" pagina_final="46434">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-26.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-26</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-26</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-28</identificador>
+            <titulo>MADRID</titulo>
+            <url_pdf szBytes="1064657" szKBytes="1040" pagina_inicial="46435" pagina_final="46484">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-28.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-28</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-28</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-29</identificador>
+            <titulo>MÁLAGA</titulo>
+            <url_pdf szBytes="355741" szKBytes="347" pagina_inicial="46485" pagina_final="46496">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-29.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-29</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-29</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-30</identificador>
+            <titulo>MURCIA</titulo>
+            <url_pdf szBytes="209957" szKBytes="205" pagina_inicial="46497" pagina_final="46500">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-30.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-30</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-30</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-31</identificador>
+            <titulo>NAVARRA</titulo>
+            <url_pdf szBytes="218992" szKBytes="214" pagina_inicial="46501" pagina_final="46504">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-31.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-31</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-31</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-35</identificador>
+            <titulo>LAS PALMAS</titulo>
+            <url_pdf szBytes="178500" szKBytes="174" pagina_inicial="46505" pagina_final="46506">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-35.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-35</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-35</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-43</identificador>
+            <titulo>TARRAGONA</titulo>
+            <url_pdf szBytes="200444" szKBytes="196" pagina_inicial="46507" pagina_final="46509">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-43.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-43</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-43</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-46</identificador>
+            <titulo>VALENCIA/VALÈNCIA</titulo>
+            <url_pdf szBytes="289565" szKBytes="283" pagina_inicial="46510" pagina_final="46517">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-46.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-46</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-46</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-47</identificador>
+            <titulo>VALLADOLID</titulo>
+            <url_pdf szBytes="172121" szKBytes="168" pagina_inicial="46518" pagina_final="46519">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-47.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-47</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-47</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-A-2025-194-99</identificador>
+            <titulo>ÍNDICE ALFABÉTICO DE SOCIEDADES</titulo>
+            <url_pdf szBytes="1380008" szKBytes="1348" pagina_inicial="46520" pagina_final="46553">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-A-2025-194-99.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-A-2025-194-99</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-A-2025-194-99</url_xml>
+          </item>
+        </seccion>
+        <seccion codigo="B" nombre="SECCIÓN PRIMERA. Empresarios. Otros actos publicados en el Registro Mercantil">
+          <item>
+            <identificador>BORME-B-2025-194-07</identificador>
+            <titulo>ILLES BALEARS</titulo>
+            <url_pdf szBytes="191900" szKBytes="187" pagina_inicial="46554" pagina_final="46554">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-B-2025-194-07.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-B-2025-194-07</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-B-2025-194-07</url_xml>
+          </item>
+          <item>
+            <identificador>BORME-B-2025-194-17</identificador>
+            <titulo>GIRONA</titulo>
+            <url_pdf szBytes="191756" szKBytes="187" pagina_inicial="46555" pagina_final="46555">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-B-2025-194-17.pdf</url_pdf>
+            <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-B-2025-194-17</url_html>
+            <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-B-2025-194-17</url_xml>
+          </item>
+        </seccion>
+        <seccion codigo="C" nombre="SECCIÓN SEGUNDA. Anuncios y avisos legales">
+          <apartado codigo="002" nombre="CONVOCATORIAS DE JUNTAS">
+            <item>
+              <identificador>BORME-C-2025-5455</identificador>
+              <titulo>ASFALTOS GARRUCHO, S.A.</titulo>
+              <url_pdf szBytes="186709" szKBytes="182" pagina_inicial="6700" pagina_final="6700">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5455.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5455</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5455</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5456</identificador>
+              <titulo>CONSTRUCCIONES GARRUCHO, S.A.</titulo>
+              <url_pdf szBytes="186768" szKBytes="182" pagina_inicial="6701" pagina_final="6701">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5456.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5456</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5456</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5457</identificador>
+              <titulo>ESPAÑOLA DEL MUEBLE S. COOP. LTDA. (EN LIQUIDACIÓN)</titulo>
+              <url_pdf szBytes="187116" szKBytes="183" pagina_inicial="6702" pagina_final="6702">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5457.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5457</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5457</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5458</identificador>
+              <titulo>SERVICIOS EL GRECO, S.L.</titulo>
+              <url_pdf szBytes="185298" szKBytes="181" pagina_inicial="6703" pagina_final="6703">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5458.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5458</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5458</url_xml>
+            </item>
+          </apartado>
+          <apartado codigo="003" nombre="FUSIONES Y ABSORCIONES DE EMPRESAS">
+            <item>
+              <identificador>BORME-C-2025-5459</identificador>
+              <titulo>ABERDARES, SOCIEDAD LIMITADA UNIPERSONAL &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+ &#13;
+DAPHNE NIDIUM, SOCIEDAD LIMITADA UNIPERSONAL. &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="187236" szKBytes="183" pagina_inicial="6704" pagina_final="6704">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5459.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5459</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5459</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5460</identificador>
+              <titulo>AON IBERIA CORREDURÍA DE SEGUROS Y REASEGUROS, S.A.U. &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+NOVABROK CORREDURÍA DE SEGUROS, S.L.U. &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="188056" szKBytes="184" pagina_inicial="6705" pagina_final="6705">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5460.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5460</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5460</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5461</identificador>
+              <titulo>AUTOS RAMON OUTEIRAL, S.L. (SOCIEDAD ABSORBENTE) &#13;
+AUTOCARES F. SENIN, S.L.U. (SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="188095" szKBytes="184" pagina_inicial="6706" pagina_final="6706">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5461.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5461</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5461</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5462</identificador>
+              <titulo>DAPALA 2014, S.L. &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+LEMON TREE FAMILY OFFICE, S.L.U. &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="187125" szKBytes="183" pagina_inicial="6707" pagina_final="6707">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5462.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5462</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5462</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5463</identificador>
+              <titulo>DOLE IBERIA, S.L. &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+DOLE EXOTICS IBERIA, S.L.U. &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="186248" szKBytes="182" pagina_inicial="6708" pagina_final="6708">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5463.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5463</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5463</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5464</identificador>
+              <titulo>DOMUS CARTERA, S.L. (SOCIEDAD ABSORBENTE) &#13;
+DOMUS MÁRMOLES, S.L., MERIDIO LEVANTE, S.A., GABELLA INMUEBLES, S.L., GRAMAREX, S.L. (SOCIEDADES ABSORBIDAS)</titulo>
+              <url_pdf szBytes="187347" szKBytes="183" pagina_inicial="6709" pagina_final="6709">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5464.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5464</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5464</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5465</identificador>
+              <titulo>ENI PLENITUDE RENEWABLES SPAIN, S.L.U. (SOCIEDAD ABSORBENTE) &#13;
+FOTOVOLTAICA ESCUDERO, S.L.U. (SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="187960" szKBytes="184" pagina_inicial="6710" pagina_final="6710">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5465.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5465</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5465</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5466</identificador>
+              <titulo>MALET RUSTICAS, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+ENVASES GRAU HUELVA, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="186881" szKBytes="183" pagina_inicial="6711" pagina_final="6711">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5466.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5466</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5466</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5467</identificador>
+              <titulo>MALET RUSTICAS, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+ENVASES GRAU HUELVA, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="186796" szKBytes="182" pagina_inicial="6712" pagina_final="6712">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5467.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5467</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5467</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5468</identificador>
+              <titulo>PILATES AZCA, S.L.(SOCIEDAD ABSORBENTE) &#13;
+PILATES GUINDALERA, S.L. , PILATES PACÍFICO, S.L. , PILATES CHAMBERÍ, S.L. , PILATES NUEVO MADRID, S.L. , PILATES BARCELONA CUATRO, S.L. (SOCIEDADES ABSORBIDAS).</titulo>
+              <url_pdf szBytes="187232" szKBytes="183" pagina_inicial="6713" pagina_final="6713">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5468.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5468</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5468</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5469</identificador>
+              <titulo>PILATES EIXAMPLE, S.L.(SOCIEDAD ABSORBENTE) &#13;
+PILATES BONANOVA, S.L., PILATES SANT GERVASI, S.L., PILATES ENTENÇA, S.L., PILATES SAGRADA FAMILIA, S.L. (SOCIEDADES ABSORBIDAS)</titulo>
+              <url_pdf szBytes="187035" szKBytes="183" pagina_inicial="6714" pagina_final="6714">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5469.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5469</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5469</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5470</identificador>
+              <titulo>VALDETELVA, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBENTE) &#13;
+SPOOKY INVESTMENT, SOCIEDAD LIMITADA &#13;
+(SOCIEDAD ABSORBIDA)</titulo>
+              <url_pdf szBytes="187651" szKBytes="183" pagina_inicial="6715" pagina_final="6715">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5470.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5470</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5470</url_xml>
+            </item>
+          </apartado>
+          <apartado codigo="004" nombre="ESCISIÓN DE EMPRESAS">
+            <item>
+              <identificador>BORME-C-2025-5471</identificador>
+              <titulo>LAB NAP, S.L. (SOCIEDAD ESCINDIDA) &#13;
+ERALAB RED, S.L (SOCIEDAD BENEFICIARIA)</titulo>
+              <url_pdf szBytes="187448" szKBytes="183" pagina_inicial="6716" pagina_final="6716">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5471.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5471</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5471</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5472</identificador>
+              <titulo>PROMOCIONES J. ASOREY CARRIL, S.L. &#13;
+(SOCIEDAD ESCINDIDA) &#13;
+PROMOCIONES ASOREY E HIJOS, S.L. &#13;
+(SOCIEDAD BENEFICIARIA) &#13;
+ASOGAL XESTIÓN, S.L. &#13;
+(SOCIEDAD BENEFICIARIA)</titulo>
+              <url_pdf szBytes="188169" szKBytes="184" pagina_inicial="6717" pagina_final="6717">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5472.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5472</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5472</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5473</identificador>
+              <titulo>TARRAGONA SOL, S.L. (SOCIEDAD ESCINDIDA) KLAUS JL DOS, S.L. OMEL &amp; VEL INVERS, S.L. (SOCIEDADES BENEFICIARIAS)</titulo>
+              <url_pdf szBytes="187665" szKBytes="183" pagina_inicial="6718" pagina_final="6718">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5473.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5473</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5473</url_xml>
+            </item>
+          </apartado>
+          <apartado codigo="009" nombre="TRANSFORMACIÓN DE EMPRESAS">
+            <item>
+              <identificador>BORME-C-2025-5474</identificador>
+              <titulo>OPERGESTION S.A.</titulo>
+              <url_pdf szBytes="186453" szKBytes="182" pagina_inicial="6719" pagina_final="6719">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5474.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5474</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5474</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5475</identificador>
+              <titulo>SAT MONTEPERICO NÚMERO 4907</titulo>
+              <url_pdf szBytes="187510" szKBytes="183" pagina_inicial="6720" pagina_final="6720">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5475.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5475</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5475</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5476</identificador>
+              <titulo>TANATO MASCOTA SERVICIOS, SOCIEDAD COOPERATIVA</titulo>
+              <url_pdf szBytes="184705" szKBytes="180" pagina_inicial="6721" pagina_final="6721">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5476.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5476</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5476</url_xml>
+            </item>
+          </apartado>
+          <apartado codigo="011" nombre="REDUCCIÓN DE CAPITAL">
+            <item>
+              <identificador>BORME-C-2025-5477</identificador>
+              <titulo>INVEREADY GROWTH OPPORTUNITIES III, F.C.R.E., S.A.</titulo>
+              <url_pdf szBytes="186819" szKBytes="182" pagina_inicial="6722" pagina_final="6722">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5477.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5477</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5477</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5478</identificador>
+              <titulo>INVERSA PRIME SOCIMI, S.A.</titulo>
+              <url_pdf szBytes="186704" szKBytes="182" pagina_inicial="6723" pagina_final="6723">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5478.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5478</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5478</url_xml>
+            </item>
+            <item>
+              <identificador>BORME-C-2025-5479</identificador>
+              <titulo>MIDEKIN, S.A.</titulo>
+              <url_pdf szBytes="185522" szKBytes="181" pagina_inicial="6724" pagina_final="6724">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5479.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5479</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5479</url_xml>
+            </item>
+          </apartado>
+          <apartado codigo="099" nombre="OTROS ANUNCIOS Y AVISOS LEGALES">
+            <item>
+              <identificador>BORME-C-2025-5480</identificador>
+              <titulo>EUROTÉCNICA DE GALVANIZACIÓN, S.A.</titulo>
+              <url_pdf szBytes="188703" szKBytes="184" pagina_inicial="6725" pagina_final="6725">https://www.boe.es/borme/dias/2025/10/10/pdfs/BORME-C-2025-5480.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_borme/txt.php?id=BORME-C-2025-5480</url_html>
+              <url_xml>https://www.boe.es/diario_borme/xml.php?id=BORME-C-2025-5480</url_xml>
+            </item>
+          </apartado>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

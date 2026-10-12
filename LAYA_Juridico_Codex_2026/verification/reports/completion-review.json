@@ -1,0 +1,32 @@
+{
+  "status": "material_findings_fixed",
+  "reviewer": "Fresh independent gpt-6-astra implementation reviewer",
+  "critical_findings": 0,
+  "important_findings": [
+    {
+      "finding": "Incomplete backups blocked authenticated expiry; expiry depended on new snapshot success",
+      "fix": "Lock before key/directory creation, report incomplete/untrusted snapshots while expiring valid snapshots, run retention independently",
+      "regression": "tests/ops/test_backup_retention.py"
+    },
+    {
+      "finding": "Identical original bytes collapsed distinct reviewed manifest versions/languages",
+      "fix": "Separate metadata-aware logical publication identity from original artifact SHA through migration012; preserve legacy replay semantics",
+      "regression": "tests/ingest/test_manifest_replay.py"
+    },
+    {
+      "finding": "Data arguments could establish false supervisor ownership",
+      "fix": "Check actual exact interpreter script/module and Next executable/start position",
+      "regression": "tests/ops/test_supervisor_identity.py"
+    }
+  ],
+  "additional_fix": {
+    "finding": "Discarded subprocess handle lost successful exit status",
+    "fix": "Retain Popen handle and poll its stable exit code",
+    "regression": "tests/ops/test_supervisor_identity.py"
+  },
+  "verification": "All six material regressions were observed failing and passed after fixes. Final full pytest suite passed 95 tests; Next typecheck/build and real normal-login browser workflow passed. DOGC missing-language and pagination regressions also passed.",
+  "limitations": [
+    "Implementation review only; no legal/source/license professional approval.",
+    "No second independent review was performed after the single fix pass."
+  ]
+}

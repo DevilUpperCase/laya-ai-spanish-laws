@@ -1,0 +1,18 @@
+{
+  "status": "blocked_pending_reviewed_candidate_labels",
+  "generative_model": false,
+  "trained_checkpoint_created": false,
+  "required_evidence": [
+    "Professionally reviewed public query/candidate none/partial/direct labels",
+    "Recall audit distinguishing missing corpus/index from classifier errors",
+    "Pinned upstream training interface and model/source licensing review",
+    "Measured resource pilot and separate calibration/holdout data",
+    "Held-out comparison showing improvement and an immutable rollback checkpoint"
+  ],
+  "limitations": [
+    "Existing 200 draft cases are unreviewed and cannot establish a training need.",
+    "Training cannot retrieve absent or unindexed legal passages.",
+    "Private documents are not exported for training.",
+    "LAYA remains mandatory in shadow mode; ranking activation requires separate reviewed evidence."
+  ]
+}

@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "LAYA Jurídico" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - navigation "Principal" [ref=e11]:
+      - link "Consultas" [ref=e12] [cursor=pointer]:
+        - /url: /
+      - link "Documentos" [ref=e13] [cursor=pointer]:
+        - /url: /documents
+      - link "Cobertura" [ref=e14] [cursor=pointer]:
+        - /url: /coverage
+    - generic [ref=e15]: Espacio privado
+  - generic [ref=e20]: Entorno interno · La cobertura nacional aún no está verificada
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Tu espacio de trabajo
+      - heading "Consulta el derecho. Conserva la evidencia." [level=1] [ref=e25]: Consulta el derecho.Conserva la evidencia.
+      - paragraph [ref=e26]: Normativa oficial, versiones históricas y búsqueda a partir de tus documentos.
+      - generic [ref=e27]:
+        - heading "Conectar al espacio local" [level=2] [ref=e28]
+        - generic [ref=e29]:
+          - text: Identificador del espacio
+          - textbox "Identificador del espacio" [ref=e30]
+        - generic [ref=e31]:
+          - text: Token de sesión
+          - textbox "Token de sesión" [ref=e32]
+        - paragraph [ref=e33]: Usa tu sesión de desarrollo. La sesión se mantiene únicamente en memoria.
+        - button "Entrar al espacio" [ref=e34] [cursor=pointer]
+  - contentinfo [ref=e35]:
+    - generic [ref=e36]: LAYA Jurídico
+    - paragraph [ref=e37]:
+      - text: Basado en datos de la
+      - link "Agencia Estatal Boletín Oficial del Estado" [ref=e38] [cursor=pointer]:
+        - /url: https://www.boe.es
+      - text: . Los textos consolidados son informativos.
+  - alert [ref=e39]

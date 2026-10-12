@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T190142Z</fecha_actualizacion>
+      <identificador>BOE-A-1991-352</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19901129</fecha_disposicion>
+      <numero_oficial>13/1990</numero_oficial>
+      <titulo>Ley 13/1990, de 29 de noviembre, sobre tributación de los juegos de suerte, envite o azar de las Baleares.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19910108</fecha_publicacion>
+      <diario_numero>7</diario_numero>
+      <fecha_vigencia>19910101</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1990/11/29/13</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1991-352</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="4558">Juego</materia>
+        <materia codigo="4865">Máquinas automáticas</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 152, de 13 de diciembre de 1990.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 10.10, 27.2, 56 y disposición adicional tercera del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1980-21166</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>arts. 6, 9 y 11 de la Ley Orgánica 8/1980, de 22 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1963-22706</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 230/1963, de 28 de diciembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2000-1014</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>el título II y se modifica la denominación del título I y los arts. 1 y 7, por Ley 12/1999, de 23 de diciembre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2001-2481</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 7, por Ley 16/2000, de 27 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-352</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-29</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4558"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4865"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-352</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4558"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4865"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/1990, de 29 de noviembre, sobre tributación de los juegos de suerte, envite o azar de las Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-08</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-352</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4558"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4865"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/1990, de 29 de noviembre, sobre tributación de los juegos de suerte, envite o azar de las Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/20001230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-352</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4558"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4865"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-12-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/1990, de 29 de noviembre, sobre tributación de los juegos de suerte, envite o azar de las Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19991230/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1991-352</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-29</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4558"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4865"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-13</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 13/1990, de 29 de noviembre, sobre tributación de los juegos de suerte, envite o azar de las Baleares.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/11/29/13/con/19901213/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTONOMA DE LAS ISLAS BALEARS</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICION DE MOTIVOS</p>
+          <p class="parrafo_2">La Constitución Española, en su artículo 156, establece el principio de autonomía financiera de las Comunidades Autónomas, con el fin de que puedan desarrollar y ejecutar las competencias que la Constitución y sus propios Estatutos les reconocen.</p>
+          <p class="parrafo">El artículo 157 de la Constitución prevé como recursos de las Comunidades Autónomas, entre otros, los impuestos cedidos total o parcialmente por el Estado, los impuestos propios, tasas y contribuciones especiales y los recargos sobre los impuestos del Estado.</p>
+          <p class="parrafo">Bajo estos principios, se promulga la Ley Orgánica 8/1980, de 22 de septiembre, sobre Financiación de las Comunidades Autónomas, en cuyo artículo 11 se determinan los tributos que la Administración Central puede ceder a las Comunidades Autónomas, estableciendo unos límites a la potestad impositiva, de las Comunidades contemplados en los artículos 6.º y 9.º en la medida que su implantación no suponga una minoración de ingresos de los del Estado ni un obstáculo para la libre circulación de mercancías o servicios, evitando la duplicidad de figuras tributarias cuyos hechos imponibles están ya gravados por el Estado. La Ley Orgánica 2/1983, de 25 de febrero, del Estatuto de Autonomía de las Islas Baleares en su artículo 56 enumera los recursos que integrarán la Hacienda de nuestra Comunidad, y la disposición adicional tercera del mismo reconoce el derecho que le sean cedidos los rendimientos de los impuestos sobre varios juegos y apuestas, a la vez que el articulo 10.10 declara su competencia exclusiva en esta materia.</p>
+          <p class="parrafo">Por tanto, hasta que la totalidad de la cesión de tributos no sea efectiva, se están causando graves perjuicios a la Comunidad Autónoma de las Islas Baleares al no dotarla de los recursos financieros suficientes para desarrollar sectores económicos básicos de nuestra Comunidad.</p>
+          <p class="parrafo">Esta situación nos obliga a crear nuevas fuentes de ingresos, que nos permitan mejorar el nivel de inversiones.</p>
+          <p class="parrafo">Con la implantación de las figuras tributarias contempladas en la presente Ley.</p>
+          <p class="parrafo_2">a) Impuesto sobre el juego del bingo.</p>
+          <p class="parrafo">b) Recargo sobre la tasa estatal que grava los juegos de suerte, envite o azar, se persigue ampliar nuestros recursos financieros, de conciliar el principio de recaudación con el menor coste de gestión.</p>
+        </version>
+      </bloque>
+      <bloque id="tp" tipo="encabezado" titulo="TÍTULO PRELIMINAR">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="titulo_num">TÍTULO PRELIMINAR</p>
+          <p class="titulo_tit">Disposiciones generales</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Por la presente Ley se establece el impuesto sobre los premios del juego del bingo y un recargo sobre la tasa estatal que grava los juegos de suerte, envite o azar.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">Por esta Ley establece el impuesto sobre los premios del juego del bingo.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 5.1 de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 2. Ámbito de aplicación.</p>
+          <p class="parrafo">La Presente Ley será aplicable a todos los hechos imponibles realizados en el territorio de la Comunidad Autónoma de las Islas Baleares.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Impuesto sobre el juego del bingo</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Impuesto sobre los premios del juego del bingo</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la denominación por el art. 5.2 de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 3. Hecho imponible.</p>
+          <p class="parrafo">Constituye el hecho imponible del impuesto el pago de los premios en el juego del bingo.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 4. Sujeto pasivo.</p>
+          <p class="parrafo">Son sujetos pasivos del impuesto, en calidad de contribuyentes, las personas o jurídicas y las Entidades a las que se refiere el artículo 33 de la Ley General Tributaria, titulares de autorizaciones administrativas para explotar el juego o, en su caso, las Sociedades de servicios que tengan a su cargo la gestión del mismo.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 5. Repercusión del impuesto.</p>
+          <p class="parrafo">Los sujetos pasivos repercutirán el importe íntegro del impuesto sobre los jugadores premiados en cada partida en el momento de hacerse efectivos los premios, quedando éstos obligados a soportarlo.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 6. Base imponible.</p>
+          <p class="parrafo">Constituye la base imponible del impuesto la cantidad entregada concepto de premio al portador del cartón.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 7. Tipo de gravamen.</p>
+          <p class="parrafo">El tipo de gravamen será del 10 por 100.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 7. Tipo de gravamen.</p>
+          <p class="parrafo">El tipo de gravamen será del 20 por 100.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 5.3 de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2001-2481" fpub="20010205" fecha_publicacion="20001230" fecha_vigencia="20010101">
+          <p class="articulo">Artículo 7. Tipo de gravamen.</p>
+          <p class="parrafo">El tipo de gravamen será del cero por 100.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 3 de la Ley 16/2000, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2001-2481#a3</a></p>
+            <p class="nota_pie">Se modifica por el art. 5.3 de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 8. Devengo.</p>
+          <p class="parrafo">El impuesto devengará al tiempo de hace efectivos los premios correspondientes a los cartones que combinaciones ganadoras.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 9. Liquidación y pago del impuesto.</p>
+          <p class="parrafo">1. El sujeto pasivo, autoliquidará el impuesto sobre el juego mediante una declaración-liquidación, en los plazos y formas que se determinen.</p>
+          <p class="parrafo">2. La Consejería de Economía y Hacienda aprobará el modelo de declaración y determinará los plazos y la forma del pago del impuesto.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 10. Gestión e inspección del impuesto.</p>
+          <p class="parrafo">La gestión e inspección del impuesto corresponde a la Consejería de Economía y Hacienda.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 11. Infracciones y sanciones.</p>
+          <p class="parrafo">Las infracciones tributarias serán calificadas y sancionadas con arreglo a lo dispuesto en la Ley General Tributaria y las demás disposiciones complementarias o concordantes que regulen la potestad sancionadora de la Administración Pública sobre la materia.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 12. Jurisdicción competente.</p>
+          <p class="parrafo">Contra los actos de gestión del impuesto podrá interponerse reclamación ante los órganos económicos administrativos de la Comunidad Autónoma de las Islas Baleares, de acuerdo con lo que establece el artículo 20.1, a), de la Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Recargo sobre la tasa que grava los juegos de suerte, envite o azar</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Recargo sobre la tasa que grava los juegos de suerte, envite o azar</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 13. Concepto y hecho imponible.</p>
+          <p class="parrafo">Por la presente Ley se establece un recargo sobre la tasa estatal que grava los juegos de suerte, a envite o azar. Se excluye de este recargo el juego del bingo.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 13. Concepto y hecho imponible.</p>
+          <p class="parrafo">
+            <strong>(Derogada)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 14. Sujetos pasivos.</p>
+          <p class="parrafo">Serán sujetos pasivos del recargo las personas físicas o jurídicas v las Entidades a las que se refiere el artículo 33 de la Ley General Tributaria, a quienes se les haya otorgado la correspondiente autorización administrativa o permiso de explotación.</p>
+          <p class="parrafo">En defecto de autorización administrativa o permiso de explotación, tendrán la consideración de sujetos pasivos del recargo las personas o Entidades cuyas actividades incluyan la celebración u organización de juegos de azar.</p>
+          <p class="parrafo">Serán responsables solidarios del recargo los dueños y empresarios de los locales donde se celebren los juegos.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 14. Sujetos pasivos.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 15. Base imponible.</p>
+          <p class="parrafo">Constituye la base imponible sobre la que girará el recargo el importe de la tasa estatal correspondiente.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 15. Base imponible.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 16. Cuota tributaria y tipo de gravamen.</p>
+          <p class="parrafo">La cuantía del recargo se determinará mediante la aplicación de los siguientes tipos de gravamen sobre la base imponible:</p>
+          <p class="parrafo_2">a) Tipo general: 10 por 100.</p>
+          <p class="parrafo">b) Tipos especiales:</p>
+          <p class="parrafo_2">1. Juegos en los casinos: 3 por 100.</p>
+          <p class="parrafo">2. Máquinas tipo B o recreativas con premio: 7 por 100.</p>
+          <p class="parrafo">3. Máquinas tipo C o de azar: 7 por 100.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 16. Cuota tributaria y tipo de gravamen.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 17. Devengo y liquidación.</p>
+          <p class="parrafo">El recargo se devengará con carácter general en el momento de la autorización, celebración u organización del juego.</p>
+          <p class="parrafo">La liquidación se realizará en los plazos y forma que reglamentariamente se determinen.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 17. Devengo y liquidación.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 18. Gestión e inspección.</p>
+          <p class="parrafo">La gestión e inspección del recargo corresponderán a la Consejería de Economía y Hacienda.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 18. Gestión e inspección.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 19. Infracciones y sanciones.</p>
+          <p class="parrafo">Las infracciones tributarias serán calificadas y sancionadas en concepto de lo que se dispone en la Ley General Tributaria y demás disposiciones complementarias o concordantes que regulan la potestad sancionadora de la Administración Pública sobre la materia.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 19. Infracciones y sanciones.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Artículo 20. Jurisdicción competente.</p>
+          <p class="parrafo">Contra los actos de gestión del impuesto podrá interponerse reclamación económico-administrativa, de acuerdo con lo que dispone el artículo 20 de la Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas.</p>
+        </version>
+        <version id_norma="BOE-A-2000-1014" fpub="20000118" fecha_publicacion="19991230" fecha_vigencia="20000101">
+          <p class="articulo">Artículo 20. Jurisdicción competente.</p>
+          <p class="parrafo">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.b) de la Ley 12/1999, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2000-1014</a></p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">Se autoriza al Gobierno para que, a propuesta del Consejero de Economía y Hacienda, dicte las disposiciones necesarias para el desarrollo y aplicación de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">En todo lo no regulado por esta Ley se aplicará subsidiariamente la Ley General Tributaria y demás disposiciones complementarias.</p>
+          <p class="parrafo">En el recargo establecido sobre la tasa estatal, que grava los juegos de suerte, envite o azar, será de aplicación subsidiaria la normativa estatal reguladora de los citados juegos.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">La cuantía de los tipos de gravamen establecidos por esta Ley podrá ser modificada por las Leyes de Presupuestos de la Comunidad Autónoma.</p>
+        </version>
+      </bloque>
+      <bloque id="da-4" tipo="precepto" titulo="Disposición adicional cuarta">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Disposición adicional cuarta.</p>
+          <p class="parrafo">Se aprueba la relación de puestos de trabajo que se detalla en el anexo, para la gestión y comprobación del Tributo, dependientes de la Dirección General de Hacienda de la Consejería de Economía y Hacienda.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="articulo">Disposición final.</p>
+          <p class="parrafo">La presente Ley entrará en vigor el día 1 de enero de 1991.</p>
+        </version>
+      </bloque>
+      <bloque id="an" tipo="encabezado" titulo="ANEXO">
+        <version id_norma="BOE-A-1991-352" fecha_publicacion="19901213" fecha_vigencia="19910101">
+          <p class="anexo_num">ANEXO</p>
+          <p class="anexo_tit">Relación de puestos de trabajo</p>
+          <p class="centro_cursiva">Servicios Centrales</p>
+          <p class="parrafo_2">Un Jefe de Sección Técnico Superior.</p>
+          <p class="parrafo">Dos Jefes de Negociado, Técnicos de Grado Medio o Administrativos.</p>
+          <p class="parrafo">Un Subinspector.</p>
+          <p class="parrafo">Un Agente Tributario.</p>
+          <p class="parrafo">Tres Auxiliares.</p>
+          <p class="centro_cursiva">Servicio Territorial de Menorca</p>
+          <p class="parrafo_2">Un Agente Tributario.</p>
+          <p class="centro_cursiva">Servicio Territorial de Eivissa y Formentera</p>
+          <p class="parrafo_2">Un Agente Tributario.</p>
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a las que correspondan la hagan guardar.</p>
+          <p class="parrafo_2">En Palma de Mallorca a 29 de noviembre de 1990.‒Alexandre Forcades Juan, Consejero de Economía y Hacienda.‒Gabriel Cañellas Fons, Presidente.</p>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

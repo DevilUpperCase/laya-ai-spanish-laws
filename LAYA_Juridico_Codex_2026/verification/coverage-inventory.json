@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "not_run",
+  "inventory_revision": null,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "authoritative_inventory": {
+    "path": null,
+    "sha256": null
+  },
+  "entities": [],
+  "limitations": "Official INE snapshots imported: 8213 observed entities. Inventory/island/foral review and every current/history normative source audit remain incomplete. Generated pending audit queue is sources/nationwide-review-queue.csv."
+}

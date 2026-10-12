@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "not_run",
+  "python_version": null,
+  "packages": {
+    "fastapi": null,
+    "langchain-core": null,
+    "langgraph": null,
+    "laya": null,
+    "httpx": null,
+    "uvicorn": null,
+    "psycopg": null,
+    "torch": null,
+    "transformers": null
+  },
+  "lock_artifacts": [],
+  "image_digests": [],
+  "models": {
+    "laya": {
+      "checkpoint": null,
+      "revision": null,
+      "files": [],
+      "license_review": null
+    },
+    "embeddings": {
+      "checkpoint": "BAAI/bge-m3",
+      "dimensions": 1024,
+      "revision": null,
+      "files": [],
+      "license_review": null
+    }
+  },
+  "compatibility_report": null
+}
+

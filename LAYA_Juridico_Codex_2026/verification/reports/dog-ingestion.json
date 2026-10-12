@@ -1,0 +1,12 @@
+{
+  "run_id": "5874fd6f-8700-472b-b1ee-9a69398d03d6",
+  "status": "partial",
+  "discovered": 1,
+  "integrated": 1,
+  "gaps": [
+    "RSS_WINDOW_IS_NOT_AVAILABLE_HISTORY",
+    "CONSERVATIVE_NORMATIVE_RULE_REQUIRES_REVIEW",
+    "FEED_FRESHNESS_NOT_CERTIFIED"
+  ],
+  "limited_internal_import": false
+}

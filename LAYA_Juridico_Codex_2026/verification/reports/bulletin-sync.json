@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-12T16:29:05.582616+00:00",
+  "windows": [
+    {
+      "source": "boe",
+      "date": "2025-10-10",
+      "expected": 160,
+      "integrated": 2,
+      "status": "partial",
+      "failures": 0
+    },
+    {
+      "source": "borme",
+      "date": "2025-10-10",
+      "expected": 54,
+      "integrated": 2,
+      "status": "partial",
+      "failures": 0
+    }
+  ],
+  "national_complete": false,
+  "limitations": [
+    "BOE/BORME adapters only; other required publishers/history/terms remain unverified.",
+    "Attached annex and subitem completeness requires source review. 404 alone is not proof of a legitimate no-issue day."
+  ]
+}

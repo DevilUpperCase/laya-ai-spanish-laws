@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20260225T091003Z</fecha_actualizacion>
+      <identificador>BOE-A-1990-29990</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19901023</fecha_disposicion>
+      <numero_oficial>10/1990</numero_oficial>
+      <titulo>Ley 10/1990, de 23 de octubre, de disciplina urbanística.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19901212</fecha_publicacion>
+      <diario_numero>297</diario_numero>
+      <fecha_vigencia>19901118</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20140529</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1990/10/23/10</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1990-29990</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="1320">Comunidades Autónomas</materia>
+        <materia codigo="3111">Edificaciones</materia>
+        <materia codigo="4918">Medio ambiente</materia>
+        <materia codigo="6803">Suelo</materia>
+        <materia codigo="7094">Urbanismo</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 141, de 17 de noviembre de 1990.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 10 y 27.2 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-17938</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 8/1990, de 25 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1985-5392</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 7/1985, de 2 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1978-23852</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento aprobado por Real Decreto 2187/1978, de 23 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1976-11506</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley sobre Régimen del Suelo y ordenación Urbana, texto refundido aprobado por Real Decreto 1346/1976, de 9 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1958-11341</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley sobre procedimiento administrativo, de 17 de julio de 1958 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1956-17970</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley de la Jurisdicción Contencioso-Administrativa, de 27 de diciembre de 1956 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1955-10057</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento de servicios de las Corporaciones locales, de 17 de junio de 1955 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1954-15431</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley de Expropiación Forzosa, de 16 de diciembre de 1954 (Gazeta)</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1889-4763</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Código Civil de 24 de julio de 1889 (Gazeta)</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-6438</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 2/2014, de 25 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOIB-i-2012-90025</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>los arts. 37, 38.1, 45.e), lo indicado del art. 47 y se modifica los arts. 39.1, 46.1, 65.1 y 72 , por Decreto-ley 2/2012, de 17 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2012-9374</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>los arts. 37, 38.1, 45.e), lo indicado del art. 47 y SE MODIFICA los arts. 27, 35, 39, 45, 46, 65 y 72, por Ley 7/2012, de 13 de junio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1999-11707</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 11, por Ley 6/1999, de 3 de abril</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1997-18197</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los arts. 19, 21, 27, 35 y 39, por Ley 6/1997, de 8 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1992-14420</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la disposición final primera, por Ley 2/1992, de 6 de mayo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1999-22305</id_norma>
+            <relacion codigo="470">SE DECLARA</relacion>
+            <texto>, en el Recurso 358/1991, su extinción, por desistimiento del recurrente, en relación con detrminados preceptos , por Auto  de 10 de noviembre de 1999</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-1991-17907</id_norma>
+            <relacion codigo="470">SE DECLARA</relacion>
+            <texto>,  en el Recurso 358/1991, el levantamiento de la suspensión de vigencia del art. 8.4 y el mantenimiento de la del art. 15.1.B) y frase segunda del 15.5, por Auto  de 2 de julio de 1991</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-12</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-29</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20140329/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-23</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120623/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-02-18</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/20120218/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19990417/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-07-15</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19970715/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-05-30</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19920530/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-29990</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-10-23</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4918"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6803"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-17</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 10/1990, de 23 de octubre, de disciplina urbanística.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1990/10/23/10/con/19901117/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2014-6438" fecha_publicacion="20140329" fecha_vigencia="20140529">
+          <p class="siempreSeVe">Norma derogada, con efectos de 29 de mayo de 2014, por la disposición derogatoria única.1.a) de la Ley 2/2014, de 25 de marzo. <a class="refPost">Ref. BOE-A-2014-6438#ddunica</a>.</p>
+        </version>
+      </bloque>
+      <bloque id="preambulo" tipo="preambulo">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="centro_redonda">EL PRESIDENTE DE LA COMUNIDAD AUTONOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que establece el artículo 27.2 del Estatuto de Autonomía, tengo a bien dictar la siguiente</p>
+          <p class="titulo">LEY</p>
+          <p class="capitulo">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="parrafo_2">1. La Comunidad Autónoma de las Islas Baleares, de acuerdo con lo que dispone el artículo 10 de su Estatuto de Autonomía, tiene competencias exclusivas en materia de ordenación del territorio y de urbanismo.</p>
+          <p class="parrafo">El ejercicio efectivo de las competencias en estas materias ha supuesto una consideración crítica de la normativa legal vigente que, no obstante, no conduce a plantearse la conveniencia de sustituirla, sino a una opción de desarrollo y aplicación de la normativa puntual. Se ha de tener en cuenta que el ordenamiento urbanístico está en vías de desarrollarse completamente y que sustituirlo plantearía multitud de problemas que retrasarían enormemente la consecución de los objetivos que esta modificación profunda enunciaría como básicos y los haría, sin duda, peligrar.</p>
+          <p class="parrafo">Habiendo elegido la opción anterior, se han de analizar los problemas urbanísticos peculiares de nuestro territorio, que necesitan abordarse con soluciones instrumentadas precisas por medio de una norma legal que las habilite como únicas medidas de eficacia suficiente para conseguir los objetivos de mantener la disciplina urbanística y cerrar el paso a todos los que pretenden con el abuso, desdibujar el concepto de la función pública del suelo. En resumen, el marco que esta Ley propone es establecer unos mecanismos que completen y perfeccionen la legalidad urbanística vigente, que llenen los vacíos legales existentes y enmienden determinadas deficiencias de la normativa que se han advertido en la misma.</p>
+          <p class="parrafo">2. Esta Ley pretende conseguir los objetivos de protección en la legalidad urbanística vigente y el establecimiento de una eficaz disciplina en el ejercicio de los derechos y deberes que corresponden a las Administraciones Públicas y a los particulares.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">De las licencias y otras autorizaciones</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">De las licencias</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 1.ª Actos sujetos</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo_2">La licencia es el acto administrativo mediante el cual adquieren efectividad las posibilidades de parcelación, edificación, demolición, ocupación, aprovechamiento o uso relativo a un suelo o inmueble determinado, previa concreción de lo establecido al respecto en las Leyes, los Planes de Ordenación y el resto de normativa urbanística.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo_2">Serán sujetos a licencia previa, sin perjuicio de las autorizaciones que sean procedentes de acuerdo con la legislación aplicable, los actos que a continuación se relacionan, sea cual sea la naturaleza del dominio del suelo donde se pretendan realizar.</p>
+          <p class="parrafo_2">1. Las obras de construcción de edificaciones e instalaciones de todas las clases de nueva planta, incluyendo en ello los cerramientos de obra fija.</p>
+          <p class="parrafo">2. Las obras de ampliación, modificación o reforma que afecten a la estructura, el aspecto exterior o la disposición interior de edificios e instalaciones de todas las clases existentes.</p>
+          <p class="parrafo">3. Las obras y los usos que se hayan de realizar con carácter provisional, a los que se refiere el apartado 2 del artículo 58 del texto refundido de la Ley del Suelo.</p>
+          <p class="parrafo">4. Los movimientos de tierra, tales como desmontes, explanaciones, excavaciones y terraplenes, las obras de instalación de servicios públicos, las de ejecución de vialidad y, en general, las relacionadas con la urbanización, exceptuando que estos actos hayan sido detallados y programados como obras a ejecutar en un proyecto de urbanización definitivamente aprobado o de edificaciones que dispongan de licencia otorgada.</p>
+          <p class="parrafo">5. Las actividades extractivas de minerales, líquidos, de cualquier otra índole, así como las de vertidos en el subsuelo.</p>
+          <p class="parrafo">6. a) Las obras de construcción de infraestructura civil, tales como presas, viario público y privado, defensa y corrección de cauces públicos, puertos, diques, etc., excepto que estos actos hayan sido detallados y programados como obras a ejecutar en un Plan especial o Plan territorial o Plan director sectorial debidamente aprobado o autorizado.</p>
+          <p class="parrafo">b) Quedan excluidos de la preceptividad de la licencia las obras de mejora y mantenimiento de las obras públicas.</p>
+          <p class="parrafo_2">7. Los actos de edificación en las zonas de servicios de los puertos y aeropuertos, así como en las zonas de dominio público.</p>
+          <p class="parrafo">8. La primera utilización u ocupación de los edificios y las instalaciones en general.</p>
+          <p class="parrafo">9. El uso del vuelo sobre las edificaciones e instalaciones de todas las clases existentes.</p>
+          <p class="parrafo">10. La modificación del uso de los edificios o las instalaciones en general.</p>
+          <p class="parrafo">11. La demolición de las construcciones, excepto en los casos declarados de ruina inminente.</p>
+          <p class="parrafo">12. Las instalaciones subterráneas dedicadas a aparcamiento, actividades industriales, mercantiles o profesionales, servicios públicos o de cualquier otro uso al que se destine el subsuelo.</p>
+          <p class="parrafo">13. La instalación o ubicación de casas prefabricadas e instalaciones similares, provisionales o permanentes, excepto que se efectúen en campings o zonas de acampada legalmente autorizados.</p>
+          <p class="parrafo">14. Las talas y los abatimientos de árboles que constituyan masa arbórea, espacio boscoso, arboleda o parque, haya o no planeamiento aprobado, a excepción de las autorizadas por órganos competentes en materia agraria.</p>
+          <p class="parrafo">15. La colocación de carteles y vallas de propaganda aunque no sean vistales desde la vía pública y siempre que no estén en locales cerrados.</p>
+          <p class="parrafo">16. Las parcelaciones urbanísticas.</p>
+          <p class="parrafo">17. Las obras de apertura de caminos y accesos a parcelas en suelo no urbanizable y en suelo urbanizable no programado sin Programa de Actuación Urbanística aprobado.</p>
+          <p class="parrafo">18. Instalaciones y construcciones de carácter temporal destinadas a espectáculos y actividades recreativas.</p>
+          <p class="parrafo">19. Cualquier intervención en edificios declarados como bienes de interés cultural y catalogados y protegidos.</p>
+          <p class="parrafo">20. Y, en general, el resto de actos que señalen los planos, las normas o las ordenanzas.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 2.ª Competencias, normativa de aplicación, procedimiento y caducidad de licencias</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo_2">1. La competencia para otorgar las licencias corresponde al Ayuntamiento, excepto en los casos previstos en la legislación urbanística.</p>
+          <p class="parrafo">2. Cuando, por tratarse de actos de edificación y uso del suelo y otros previstos en la presente Ley realizados por particulares en terrenos de dominio público sea necesario otorgar concesión o autorización por parte del ente titular de este dominio, el particular no podrá obtener licencia ni el órgano competente concederla hasta que no se otorgue dicha concesión o autorización. En estos casos, los plazos a los que hace referencia el artículo 4.º de esta Ley comenzarán a computar desde el momento del otorgamiento.</p>
+          <p class="parrafo">3. Cuando, por naturaleza del acto sujeto a licencia, sean necesarios los informes o las autorizaciones de Organismos distintos al ente ante el que se solicita, no podrá otorgarse licencia, si estos informes no se han incorporado al expediente de solicitud o no se entienda que han sido emitidos en sentido favorable, de acuerdo con lo que se dispone en el artículo 9.1 del Reglamento de Servicios de Corporaciones Locales.</p>
+          <p class="parrafo">Cuando los informes que falten en el expediente hayan de ser emitidos por otros órganos u Organismos de la misma Administración, el órgano que haya de resolver la licencia los solicitará y tramitará de oficio. En estos casos, será también de aplicación lo que corresponda sobre silencio administrativo.</p>
+          <p class="parrafo">4. En el supuesto de otorgamiento de licencia por el procedimiento de denuncia de mora, los trámites subsiguientes al otorgamiento de éste se continuarán ante el Ayuntamiento correspondiente, que quedará vinculado a todos los efectos por el órgano urbanístico insular.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">1. Las licencias se otorgarán de acuerdo con las previsiones y las determinaciones de esta Ley y subsidiariamente de la Ley de Suelo; en las contenidas en los Planes de Ordenación Urbana y Programas de Actuación Urbanística y, en su caso, de las normas complementarias y subsidiarias de planeamiento o de las normas u ordenanzas reguladoras sobre uso del suelo y de la edificación.</p>
+          <p class="parrafo">2. En los casos no previstos en el apartado anterior:</p>
+          <p class="parrafo_2">a) Las licencias se otorgarán al amparo de la normativa vigente en el momento de la concesión, siempre que ésta se efectúe en el plazo de dos meses en las obras mayores y un mes en las obras menores, que para resolver, otorga el Reglamento de Servicios de las Corporaciones Locales.</p>
+          <p class="parrafo">b) Cuando el Ayuntamiento o el órgano administrativo actuante resuelva con posterioridad en el plazo previsto en el párrafo anterior, será de aplicación la normativa vigente en el día de vencimiento de este período.</p>
+          <p class="parrafo">c) Lo dicho anteriormente se entiende sin perjuicio de la interrupción del plazo de dos meses a efectos de subsanar sus deficiencias, que deberán de hacerse constar todas en notificación única.</p>
+          <p class="parrafo_2">3. Toda resolución que deniegue licencia deberá de ser motivada con explícita referencia a la norma o planeamiento que esté en contradicción con la licencia solicitada.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo_2">1. Cuando, una vez concedida una licencia, si en el transcurso de la ejecución de las obras se modifica la estructura o la disposición interior o el aspecto exterior, las obras no serán paralizadas durante la tramitación administrativa de la solicitud de modificación del proyecto.</p>
+          <p class="parrafo">2. La normativa de aplicación a las modificaciones en el transcurso de las obras mencionadas en el apartado anterior, será la vigente en el momento de concesión de la licencia, siempre que no se haya sobrepasado el plazo fijado para la ejecución de las obras.</p>
+          <p class="parrafo">3. No se aplicará lo que se prevé en el apartado primero si la modificación tiene por objeto variar el número de viviendas autorizado o si comporta alteración de las condiciones de uso del suelo, altura, volumen, situación de las edificaciones y ocupación máxima autorizadas.</p>
+          <p class="parrafo">4. En ningún caso se podrán acoger a los beneficios del apartado 1 del artículo presente aquellas obras que se realicen en edificios catalogados o incluidos en conjuntos histórico-artísticos, sujetos a la legislación del Patrimonio Histórico o protegidos por el planeamiento urbanístico.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo_2">1. El proyecto técnico en base al que se solicite la licencia deberá disponer del correspondiente visado colegial, excepto los proyectos redactados por la Administración; deberá tener un grado suficiente de definición de las obras que permita que un facultativo distinto del autor pueda dirigir las obras o trabajos correspondientes; irá necesariamente cumplimentado con una Memoria urbanística como documento específico e independiente en el que se indicará la finalidad y el uso de la construcción o actuación proyectada, razonándose su adecuación a la ordenación vigente. La Memoria desarrollará los argumentos necesarios para justificar el cumplimiento de lo que preceptúa el artículo 73 de la Ley del Suelo, y se acompañará de los correspondientes planos de situación a escala 1:10.000 ó 1:2.000, según se trate de terrenos rústicos o urbanos y de cualquier otra información gráfica que resulte precisa en orden a apoyar su contenido, con expresa indicación de la clasificación del suelo objeto de la actuación y de la normativa y ordenanzas aplicables.</p>
+          <p class="parrafo">2. El proyecto al que hace referencia el apartado anterior está integrado por el proyecto básico y por el proyecto de ejecución.</p>
+          <p class="parrafo">A los efectos de la presente Ley se entiende por:</p>
+          <p class="parrafo_2">a) Proyecto básico es aquel en el que se definen de forma precisa las características generales de la obra mediante la adopción y la justificación de soluciones concretas.</p>
+          <p class="parrafo">b) Proyecto de ejecución es aquel que desarrolla el proyecto básico de la determinación completa de detalles y especificaciones de todos los materiales, elementos, sistemas constructivos y equipos.</p>
+          <p class="parrafo_2">3. El proyecto básico deberá tener los siguientes documentos:</p>
+          <p class="parrafo_2">Memoria descriptiva de las características generales de la obra y justificativas de las soluciones adoptadas.</p>
+          <p class="parrafo">Planos generales a escala y acotados de plantas, alturas y secciones.</p>
+          <p class="parrafo">Presupuesto con estimación global de cada capítulo, oficio o tecnología.</p>
+          <p class="parrafo_2">4. El proyecto de ejecución deberá tener los siguientes documentos:</p>
+          <p class="parrafo_2">Memoria de cimentación, estructura y oficios.</p>
+          <p class="parrafo">Planos de cimentación y estructura; planos de detalle; esquemas y dimensionamiento de instalaciones.</p>
+          <p class="parrafo">Pliego de condiciones técnicas generales y particulares.</p>
+          <p class="parrafo">Estado de mediciones.</p>
+          <p class="parrafo">Presupuesto obtenido por aplicación de precios unitarios de obra.</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo_2">1. El procedimiento del otorgamiento de las licencias se ajustará a lo establecido en la legislación de Régimen Local, en esta Ley y en el resto de disposiciones de aplicación.</p>
+          <p class="parrafo">Las licencias se entenderán obtenidas por silencio positivo una vez transcurridos los plazos y cumplidas las condiciones establecidas por la legislación del Régimen Local. En ningún caso se podrán adquirir por silencio facultades en contra de las prescripciones de las leyes, planos y demás normativa urbanística.</p>
+          <p class="parrafo">2. Solamente se conceptuarán como obras menores aquellas de técnica sencilla y de escasa entidad constructiva y económica, que no supongan alteración del volumen, de las instalaciones y servicios de uso común o del número de viviendas y locales, ni afecten el diseño exterior, los fundamentos, la estructura o las condiciones de habitabilidad o de seguridad de todas las clases de edificios e instalaciones. En ningún caso se entenderán como tales las parcelaciones urbanísticas, los cerramientos de muro de fábrica de cualquier clase y las intervenciones en ámbitos y elementos declarados como bienes de interés cultural, catalogados o protegidos, grandes movimientos de tierras y la tala masiva de árboles.</p>
+          <p class="parrafo">3. Cuando la licencia de obras se haya solicitado y obtenido mediante la presentación de un proyecto básico, será preceptiva, en el plazo máximo de seis meses desde la concesión de aquélla, la presentación al Ayuntamiento del proyecto de ejecución ajustado a las determinaciones de aquél. El Ayuntamiento dispondrá de un mes para comprobar la adecuación del proyecto de ejecución con el proyecto básico. Transcurrido este plazo sin que el Ayuntamiento notifique al interesado resolución en contra, se podrán iniciar las obras. Esta fecha será la que fijará el inicio del plazo de ejecución fijada en la licencia.</p>
+          <p class="parrafo">4. Si el Ayuntamiento detectara, transcurrido el plazo de un mes, alteraciones de las determinaciones del proyecto básico de acuerdo con las cuales se otorgó la licencia, se ordenará la paralización inmediata de las obras y la iniciación del expediente de modificación del proyecto, sin perjuicio de lo que dispone el artículo 5 de esta Ley.</p>
+          <p class="parrafo">5. Una vez presentado ante el Ayuntamiento el proyecto técnico, adquiere el carácter de documento oficial, y de la exactitud y veracidad de los datos técnicos en él consignados responde el autor a todos los efectos.</p>
+          <p class="parrafo">6. En todo procedimiento de concesión de licencia, es preceptiva la emisión de informes técnicos y jurídicos o de legalidad por los servicios municipales correspondientes. Cuando el Ayuntamiento esté falto de servicios técnicos y/o jurídicos adecuados, dichos informes deberán ser solicitados al Consejo Insular correspondiente.</p>
+          <p class="parrafo">7. Serán nulas de pleno derecho las licencias concedidas sin los preceptivos trámites de información o sin el acuerdo de la Comisión Insular de Urbanismo cuando así lo establezca la normativa vigente. Tales licencias no producirán ningún efecto y respecto a las actuaciones que se pudiesen realizar a su amparo se aplicarán las medidas de protección y defensa de la legalidad urbanística que se prevén en la presente Ley para los actos sin licencia.</p>
+          <p class="parrafo">8. Juntamente con la notificación de concesión de licencia se entregará al solicitante un ejemplar del proyecto sellado y diligenciado. En los casos en que la licencia se haya obtenido mediante el procedimiento de denuncia de mora ante la Comisión Insular de Urbanismo, ésta procederá al sellado y diligenciado del expediente y lo remitirá al Ayuntamiento para que lo entregue al interesado.</p>
+          <p class="parrafo">9. El acta por la que se concede la licencia deberá de consignar expresamente, además de cualesquiera otras especificaciones requeridas por las disposiciones vigentes o que el órgano otorgante considere oportuno incluir, los siguientes extremos:</p>
+          <p class="parrafo_2">a) La naturaleza urbanística del suelo objeto de la actuación.</p>
+          <p class="parrafo">b) Finalidad de la actuación y uso al que se destinará.</p>
+          <p class="parrafo">c) Altura, volúmenes y ocupación de parcela permitidos.</p>
+          <p class="parrafo">d) Cantidad en la que se presupuestan las obras.</p>
+          <p class="parrafo">e) En suelo no urbanizable, fecha del acuerdo de la Comisión Insular de Urbanismo o indicación de las normas en virtud de las cuales no resulte preceptivo este trámite.</p>
+          <p class="parrafo_2">10. Será requisito indispensable en todas las obras mayores disponer, a pie de obra, de copia autorizada de la licencia municipal, así como la colocación del cartel indicador en el que se haga constar el nombre y los apellidos de los técnicos directores y del contratista, ordenanza que se aplica, la fecha de expedición de la licencia, el plazo de ejecución de las obras, el número de plantas autorizadas y el número de expediente.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo_2">1. Toda licencia, de acuerdo con la normativa urbanística municipal, deberá prever un plazo para comenzar las obras proyectadas y otro para acabarlas. Este último no será superior a veinticuatro meses.</p>
+          <p class="parrafo">2. Transcurrido cualquiera de los dos plazos, el Ayuntamiento iniciará el expediente de caducidad de la licencia otorgada.</p>
+          <p class="parrafo">La licencia advertirá explícitamente de estas circunstancias.</p>
+          <p class="parrafo">3. La caducidad de la licencia será declarada por el Organismo competente para conceder las licencias, previa audiencia al interesado y determinará el archivo de las actuaciones.</p>
+          <p class="parrafo">4. Una vez declarada la caducidad de la licencia, las obras no se podrán iniciar ni proseguir, si no se solicita y no se obtiene una nueva licencia, ajustada a la ordenación urbanística aplicable a la nueva solicitud.</p>
+          <p class="parrafo">5. El interesado, previa la solicitud oportuna, tendrá derecho a la obtención automática de una prórroga de cualquiera de los plazos indicados en el apartado 1 de este artículo, por un período no superior a la mitad del plazo inicial. A estos efectos la normativa aplicable será en todos los casos la vigente en el momento de la concesión de la licencia que se prorroga, sin que le afecte la posible suspensión del otorgamiento de licencias.</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 9.</p>
+          <p class="parrafo_2">Se requerirá la licencia urbanística como trámite previo al suministro de energía eléctrica de obra.</p>
+          <p class="parrafo">El suministro de energía eléctrica de obra finalizará a los tres meses de la fecha de caducidad de la licencia.</p>
+          <p class="parrafo">El incumplimiento de esta exigencia por parte de las empresas suministradoras, dará lugar a que, por la Administración, se les imponga una sanción del doble al quíntuplo del importe de la conexión de servicio.</p>
+        </version>
+      </bloque>
+      <bloque id="cii" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">De las órdenes de ejecución</p>
+        </version>
+      </bloque>
+      <bloque id="a10" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 10.</p>
+          <p class="parrafo_2">Los propietarios de terrenos, urbanizaciones, edificaciones e instalaciones deberán mantenerlos en condiciones de seguridad y salubridad.</p>
+          <p class="parrafo">Los Ayuntamientos y en su caso los organismos competentes en materia de disciplina urbanística, de oficio o a instancia de cualquier persona, ordenarán la adopción de medidas necesarias para conservar dichas condiciones.</p>
+          <p class="parrafo">Antes de dictar una orden de ejecución, se deberá de dar audiencia al interesado. La orden de ejecución deberá de fijar detalladamente las obras a realizar.</p>
+        </version>
+      </bloque>
+      <bloque id="a11" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo_2">A los efectos de lo que se dispone en el artículo anterior, el organismo que haya cursado la orden de ejecución concederá al propietario un plazo acomodado a la envergadura de las medidas a adoptar para que proceda al cumplimiento de lo ordenado. Transcurrido éste, si no se había ejecutado, se procederá a la incoación de expediente sancionador, en cuya resolución, además de la imposición de la multa que sea procedente, en su caso, se concederá un último e improrrogable plazo para la ejecución ordenada que, si no se cumplía, se llevaría a cabo por el organismo requirente, a costa de lo obligado a través del procedimiento de ejecución subsidiaria regulado por la Ley de Procedimiento Administrativo.</p>
+        </version>
+        <version id_norma="BOE-A-1999-11707" fecha_publicacion="19990417" fecha_vigencia="19990418">
+          <p class="articulo">Artículo 11.</p>
+          <p class="parrafo_2">A los efectos de lo que se dispone en el artículo anterior, el organismo que haya cursado la orden de ejecución concederá al propietario un plazo acomodado a la envergadura de las medidas a adoptar para que proceda al cumplimiento de lo ordenado.Transcurrido el cual, si no lo hubiera ejecutado, podrá concederse un último e improrrogable plazo para la ejecución ordenada, que, si no se cumple, se llevará a efecto por el organismo requirente, a costa de lo obligado a través del procedimiento de ejecución subsidiaria previsto en el artículo 98 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por la disposición adicional 20 de la Ley autonómica 6/1999, de 3 de abril. <a class="refPost">Ref. BOE-A-1999-11707</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a12" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 12.</p>
+          <p class="parrafo_2">1. El Govern de la Comunidad Autónoma, los Consells Insulares o los Ayuntamientos y en su caso los organismos competentes podrán también ordenar, por motivos de interés estético, de conservación del patrimonio histórico, artístico y arquitectónico, la ejecución de las obras de conservación y reforma de fachadas o espacios visibles desde la vía pública.</p>
+          <p class="parrafo">2. Las obras serán ejecutadas a cargo de los propietarios, si suponían un aumento de valor para el inmueble hasta donde éste alcance, y con cargo a los fondos de la entidad que lo ordene cuando se sobrepasen estos límites por razones de interés general.</p>
+          <p class="parrafo">En caso de incumplimiento por parte de los propietarios, se estará a lo que se dispone en el artículo anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">De las urbanizaciones de iniciativa particular</p>
+        </version>
+      </bloque>
+      <bloque id="a13" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 13.</p>
+          <p class="parrafo_2">1. La tramitación y la aprobación de los proyectos de urbanización se han de ajustar a lo que dispone la legislación vigente.</p>
+          <p class="parrafo">2. En el caso de las urbanizaciones de iniciativa particular, los promotores de éstas estarán obligados, previamente al inicio de las obras, a comunicar al organismo actuante la identidad de la empresa constructora y de la dirección facultativa de las obras. Además de las garantías exigidas por la aprobación definitiva del Plan correspondiente, los promotores vendrán obligados a constituir, previamente al inicio de las obras, ante dicho organismo, una garantía del 6 por 100 del importe total de las obras.</p>
+          <p class="parrafo">3. El incumplimiento por quien corresponda de las obligaciones contraídas en general y de la realización de la urbanización en particular, con sujeción al plan de etapas del Plan correspondiente, facultará a la Administración actuante, previa la tramitación del expediente ordinario, para adoptar alguna o algunas de las medidas siguientes:</p>
+          <p class="parrafo_2">a) Subrogación de la Administración en su ejecución.</p>
+          <p class="parrafo">b) Expropiación de los terrenos comprendidos en el ámbito del Plan incumplido.</p>
+          <p class="parrafo_2">4. La adopción de las medidas previstas en el apartado anterior corresponderá a la Administración actuante, que, consecuentemente, acordará el cambio de sistema de compensación por el de cooperación o de expropiación.</p>
+          <p class="parrafo">En el expediente tramitado a estos efectos se incluirán una valoración del suelo, según la calificación urbanística inmediata anterior a la aprobación del Plan General, y una valoración de la obra útil ya realizada según la legislación vigente.</p>
+          <p class="parrafo">La Administración actuante, por medio de los propios actos, o bien a través de una gerencia, procederá a la ejecución del Plan correspondiente, con la finalidad de introducir en el mercado inmobiliario los terrenos debidamente urbanizados y a supervisar las transmisiones para que las cantidades que hayan de recibir los promotores del Plan correspondiente, responsables de la ejecución de las obras hasta este momento, se correspondan exactamente con la valoración antes mencionada.</p>
+          <p class="parrafo">En estos supuestos, la Administración actuante exigirá el pago anticipado de las cantidades a cuenta de los gastos de urbanización con cargo al promotor.</p>
+        </version>
+      </bloque>
+      <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 14.</p>
+          <p class="parrafo_2">1. En los Planes Parciales que tienen por objeto urbanizaciones de iniciativa particular, los compromisos que contraigan los promotores han de expresar, además de las determinaciones legalmente establecidas, las siguientes:</p>
+          <p class="parrafo_2">a) No se procederá a la parcelación urbanística, ni mediante un documento privado ni mediante un documento público, traslativo del dominio en el ámbito del Plan Parcial, hasta que no se haya obtenido la licencia de parcelación.</p>
+          <p class="parrafo">b) Una vez obtenida la licencia de parcelación, tanto en los documentos públicos como en los privados, traslativos del dominio de las parcelas resultantes, se hará constar la exigencia de la junta de compensación, o conservación, en su caso, a la adhesión del adquiridor a sus estatutos.</p>
+          <p class="parrafo">c) El promotor deberá consignar en la documentación del Plan, además de las determinaciones previstas en la legislación vigente, justificación de su potencial suficiencia en relación con la evaluación económica de la ejecución de las obras de urbanización y de la implantación de servicios.</p>
+          <p class="parrafo_2">2. Los propietarios de suelo objeto de un Plan Parcial de promoción privada están obligados, al menos, a las cesiones y las cargas de urbanización establecidas para el suelo urbanizable programado en la legislación urbanística vigente.</p>
+          <p class="parrafo">3. Previamente a la aprobación de estos planes de promoción privada se formalizará el compromiso del promotor de ejecutar y, en su caso, de conservar la urbanización según el Plan, así como las garantías reales y obligaciones que aseguren el cumplimiento de éste, de acuerdo a lo dispuesto en la legislación urbanística.</p>
+        </version>
+      </bloque>
+      <bloque id="a15" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 15.</p>
+          <p class="parrafo_2">1. Las garantías para asegurar la obligación de urbanizar pueden constituirse:</p>
+          <p class="parrafo_2">a) En metálico.</p>
+          <p class="parrafo">b) Mediante hipoteca de los terrenos susceptibles de edificación privada y comprendidos en el sector objeto de urbanización, a excepción del suelo objeto de cesión del 10 por 100 del aprovechamiento medio. Esta hipoteca se ha de posponer automáticamente a cualquier otra que se constituya con la finalidad de garantizar créditos destinados a financiar las obras de urbanización.</p>
+          <p class="parrafo">c) En títulos de Deuda Pública del Estado o de la Comunidad Autónoma de las Islas Baleares, o de cualquier otro ente local en cuyo territorio se lleve a cabo la actuación urbanística particular.</p>
+          <p class="parrafo">d) Mediante aval, que ha de ser otorgado por un banco oficial o privado, inscrito en el Registro General de Bancos y Banqueros, o por una Caja de Ahorros que pertenezca a las Cajas Confederadas, o por una entidad de seguro.</p>
+          <p class="parrafo">e) Mediante hipoteca de terrenos dentro del propio término municipal, susceptibles de edificación privada, situados fuera del sector objeto de urbanización, de un valor suficiente para cubrir el importe de la garantía.</p>
+          <p class="parrafo_2">2. La constitución de la garantía se ha de realizar en el plazo de un mes, a contar desde el día siguiente de la notificación del requerimiento que con esta finalidad formule la Administración actuante, una vez adoptado el acuerdo de aprobación definitiva del Plan, y siempre será requisito previo a la ejecución de cualquier obra de urbanización y a la publicación del acuerdo de la aprobación definitiva.</p>
+          <p class="parrafo">3. En caso de subrogación de una entidad pública en lugar de la que inició el procedimiento, la subrogación tendrá, respecto a la garantía constituida, la facultad de disposición que correspondería a la primera.</p>
+          <p class="parrafo">4. La garantía se ha de constituir en la depositaria de fondos de la entidad pública correspondiente a disposición del Alcalde o del órgano competente.</p>
+          <p class="parrafo">5. Las fianzas prestadas por personas o entidades diferentes del promotor de la urbanización están sujetas en todos los casos a las mismas responsabilidades que las constituidas por el mismo promotor. En este supuesto, incluso cuando la fianza se haga mediante aval, no se podrá utilizar el beneficio de excusión al que se refiere el artículo 1.830 y concordantes del Código Civil.</p>
+        </version>
+      </bloque>
+      <bloque id="a16" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 16.</p>
+          <p class="parrafo_2">Se deberán establecer por reglamento:</p>
+          <p class="parrafo_2">a) La forma de depositar los títulos de Deuda Pública o los avales.</p>
+          <p class="parrafo">b) La formalización de las variaciones que experimenten las fianzas.</p>
+          <p class="parrafo">c) El modelo de aval y los requisitos de su autorización.</p>
+          <p class="parrafo">d) El procedimiento para actuar contra una garantía dejada mediante aval.</p>
+          <p class="parrafo">e) Cualquier otra norma complementaria de lo establecido en los artículos precedentes.</p>
+        </version>
+      </bloque>
+      <bloque id="a17" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 17.</p>
+          <p class="parrafo_2">1. Las sanciones que se impongan en materia de ejecución de obras de urbanización y las indemnizaciones que corresponda satisfacer se efectuarán a costa de la fianza. El promotor estará obligado a reponer dicha fianza.</p>
+          <p class="parrafo">2. Cuando la fianza no sea suficiente para satisfacer las responsabilidades a las que se refiere el apartado anterior, la Administración procederá a cobrar la diferencia mediante la ejecución sobre el patrimonio del promotor.</p>
+        </version>
+      </bloque>
+      <bloque id="a18" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 18.</p>
+          <p class="parrafo_2">1. El promotor de un plan o proyecto de urbanización de iniciativa privada quedará liberado de la obligación de ejecución en el acta de entrega, de lo que corresponda a la entidad local otorgante.</p>
+          <p class="parrafo">2. El promotor se liberará de la obligación de conservación por la cesión al Ayuntamiento de las obras de urbanización, instalación y dotaciones en el plazo establecido por el Plan o por disposición de carácter general o por constitución de la correspondiente entidad urbanística de conservación si así lo prevé el Plan o los compromisos entre el promotor y los futuros propietarios.</p>
+          <p class="parrafo">3. Las garantías constituidas por el promotor se cancelarán o se retornarán cuando se acredite en el expediente la entrega de todos los terrenos que sean de cesión obligatoria o gratuita, según el Plan, así como la cesión de las obras de urbanización e instalaciones y dotaciones, el proyecto de urbanización si es sustituido en sus obligaciones por una entidad urbanística, colaboradora de compensación o de conservación, no se cancelarán ni se devolverán las garantías hasta que dicha entidad las haya constituido de manera conveniente.</p>
+        </version>
+      </bloque>
+      <bloque id="a19" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 19.</p>
+          <p class="parrafo_2">1. Las licencias de parcelación no se pueden otorgar si antes no ha sido aprobado un Plan General o, en su defecto, el Plan Especial que lo desarrolle, cuando afecte a suelo urbano, o sin la previa aprobación del Plan Parcial del sector correspondiente en el caso de suelo urbanizable.</p>
+          <p class="parrafo">2. Cualquier licencia de parcelación se otorgará previa presentación del proyecto correspondiente, que ha de constar de los siguientes documentos:</p>
+          <p class="parrafo_2">a) La Memoria justificativa de la procedencia sobre la base del Plan General previsto o Plan Parcial de las dimensiones de las parcelas o por lotes en cada zona.</p>
+          <p class="parrafo">b) El Plan parcelario a escala adecuada que detalle tanto las parcelas divisibles como las indivisibles e indique la ubicación de zonas verdes, de espacios libres, de dotaciones de equipamientos, de servicios y de suelo correspondiente a la cesión de aprovechamiento medio del sector o en su caso, de los polígonos de actuación del Plan.</p>
+          <p class="parrafo_2">3. Cuando alguno de los puntos exigidos en los documentos a los que se refiere el número anterior conste en los instrumentos del planeamiento aprobados con carácter definitivo, la inclusión de estos puntos podrá ser sustituida por la certificación del órgano competente de la que resulten las indicaciones necesarias que con esta finalidad acompañarán al proyecto de parcelación.</p>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Artículo 19.</p>
+          <p class="parrafo_2">1. Las licencias de parcelación no se pueden otorgar si antes no ha sido aprobado un Plan General o, en su defecto, el Plan Especial que lo desarrolle, cuando afecte a suelo urbano, o sin la previa aprobación del Plan Parcial del sector correspondiente en el caso de suelo urbanizable.</p>
+          <p class="parrafo">2. Cualquier licencia de parcelación se otorgará previa presentación del proyecto correspondiente, que ha de constar de los siguientes documentos:</p>
+          <p class="parrafo_2">a) La Memoria justificativa de la procedencia sobre la base del Plan General previsto o Plan Parcial de las dimensiones de las parcelas o por lotes en cada zona.</p>
+          <p class="parrafo">b) El Plan parcelario a escala adecuada que detalle tanto las parcelas divisibles como las indivisibles e indique la ubicación de zonas verdes, de espacios libres, de dotaciones de equipamientos, de servicios y de suelo correspondiente a la cesión de aprovechamiento medio del sector o en su caso, de los polígonos de actuación del Plan.</p>
+          <p class="parrafo_2">3. Cuando alguno de los puntos exigidos en los documentos a los que se refiere el número anterior conste en los instrumentos del planeamiento aprobados con carácter definitivo, la inclusión de estos puntos podrá ser sustituida por la certificación del órgano competente de la que resulten las indicaciones necesarias que con esta finalidad acompañarán al proyecto de parcelación.</p>
+          <p class="parrafo_2">4. En el suelo rústico de las islas Baleares será de aplicación lo que dispone el artículo 259.3 del Real Decreto Legislativo 1/1992, de 26 de junio, por el que se aprueba el texto refundido de la Ley sobre régimen del suelo y ordenación urbana, y por ello los Notarios y los Registradores de la Propiedad exigirán, para autorizar e inscribir respectivamente, escrituras de división de terrenos que se acredite el otorgamiento de la licencia o la declaración municipal de la no necesidad, que los Notarios deberán testimoniar en el documento público.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 1.1 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="tii" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Inspección urbanística</p>
+        </version>
+      </bloque>
+      <bloque id="cunico" tipo="encabezado" titulo="CAPITULO ÚNICO">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPITULO ÚNICO</p>
+          <p class="capitulo_tit">Órganos de inspección urbanística y de servicios</p>
+        </version>
+      </bloque>
+      <bloque id="a20" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 20.</p>
+          <p class="parrafo_2">La inspección urbanística es la actividad que los órganos administrativos competentes en materia de edificación y uso del suelo han de realizar con la finalidad de comprobar que una y otra se ajusten a las especificaciones del ordenamiento urbanístico.</p>
+          <p class="parrafo">A estos efectos, corresponde a la inspección urbanística:</p>
+          <p class="parrafo_2">a) Vigilar y controlar la actuación de todos los implicados en el proceso constructivo y de utilización del suelo e informarlos y asesorarlos sobre los aspectos legales relativos a la actividad inspeccionada.</p>
+          <p class="parrafo">b) Constatar y denunciar todas las anomalías que se observen.</p>
+          <p class="parrafo">c) Informar sobre la adopción de medidas cautelares, correctivas y sancionadoras que se juzguen convenientes para el mantenimiento de la disciplina urbanística.</p>
+          <p class="parrafo">d) Cualesquiera otras funciones asesoras, inspectoras y de control urbanístico que le sean encomendadas por la autoridad de la que dependa.</p>
+        </version>
+      </bloque>
+      <bloque id="a21" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 21.</p>
+          <p class="parrafo_2">El control de la legalidad urbanística y la función inspectora será desarrollada por los siguientes organismos en el ámbito de sus respectivas competencias:</p>
+          <p class="parrafo_2">Los Ayuntamientos.</p>
+          <p class="parrafo">Los Consells Insulares.</p>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Artículo 21.</p>
+          <p class="parrafo_2">1. El control de la legalidad urbanística y la función inspectora será desarrollada por los siguientes organismos en el ámbito de sus respectivas competencias:</p>
+          <p class="parrafo_2">Los Ayuntamientos.</p>
+          <p class="parrafo">Los Consells Insulares.</p>
+          <p class="parrafo_2">2. Asimismo, el control de la legalidad urbanística y coadyuvar a la función inspectora podrá desarrollarse por entidades creadas por acuerdo entre las administraciones de ámbito local, insular o autonómico.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.2 de la Ley autonómica 6/19997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a22" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 22.</p>
+          <p class="parrafo_2">1. Los funcionarios en ejercicio de funciones inspectoras tendrán la consideración de agentes de la autoridad y en el ejercicio de éstos estarán facultados para requerir y examinar toda clase de documentos relativos al planeamiento, comprobar y adecuar los actos de edificación y uso del suelo a la normativa urbanística aplicable y obtener la información necesaria para el desarrollo de estas funciones.</p>
+          <p class="parrafo">A estos efectos, deberán de ir provistos de documento oficial que acredite su condición, con el que tendrán libre acceso a los edificios o locales donde se realicen las obras o los usos que pretendan inspeccionar, de acuerdo con las disposiciones legales que sean de aplicación.</p>
+          <p class="parrafo">2. Las actas levantadas por los funcionarios relacionados en el apartado anterior, en el ejercicio de las competencias propias en materia de disciplina urbanística, darán fe en vía administrativa de los hechos que se reflejen en el mismo, excepto prueba en contrario. Estas actas deberán ser firmadas por el propietario, por el contratista, por los técnicos directores de obras, por su representante legal, o si se encontrasen ausentes, por quien se encuentre al frente de las obras, o, en último extremo, por cualquier dependiente. La negativa a firmar el acta no supondrá en ningún caso paralización o archivo de las posibles actuaciones siguientes motivadas por el contenido de dicha acta. La firma del acta no implica aceptar su contenido.</p>
+        </version>
+      </bloque>
+      <bloque id="a23" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 23.</p>
+          <p class="parrafo_2">Los hechos que figuran en las actas de inspección darán lugar a la actuación de oficio del diferente órgano urbanístico competente.</p>
+        </version>
+      </bloque>
+      <bloque id="a24" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 24.</p>
+          <p class="parrafo_2">1. Cada Ayuntamiento deberá establecer su propio servicio de Inspección Urbanística, a no ser que mediante convenio con el Consell Insular acuerde que el servicio de inspección constituido a tal fin, con carácter exclusivo, se encargue del ejercicio de las funciones inspectoras en un determinado municipio.</p>
+          <p class="parrafo">2. Emitida el acta por el Servicio Insular de Inspección, se dará traslado de la misma al Ayuntamiento respectivo. Este, en el plazo de quince días desde que ha recibido la notificación, comunicará si ha incoado expediente sancionador por el mismo acto. Transcurrido dicho plazo, sin que el Ayuntamiento correspondiente comunique la apertura del expediente sancionador, se incoará y tramitará hasta su resolución dicho expediente por el órgano competente del Consell Insular.</p>
+          <p class="parrafo">Dicho plazo será de diez días en las presuntas infracciones tipificadas como muy graves por esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="tiii" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Infracciones urbanísticas y sanción de las mismas</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Infracciones urbanísticas</p>
+        </version>
+      </bloque>
+      <bloque id="a25" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 25.</p>
+          <p class="parrafo_2">Son infracciones urbanísticas las acciones u omisiones que vulneren las prescripciones contenidas en esta Ley, en la Ley del Suelo y en los Reglamentos de ésta, en los Planes, en los Programas, en las Normas y en las ordenanzas. Toda actuación que contradiga las normas o el planeamiento urbanístico en vigor dará lugar a:</p>
+          <p class="parrafo_2">1. La adopción por parte de la Administración competente de las medidas necesarias para que se proceda a la restauración del orden jurídico infringido y de la realidad física alterada o transformada como consecuencia de la actuación de ésta. La obligación de resarcimiento de daños y perjuicios correrá a cargo de los que sean declarados responsables.</p>
+          <p class="parrafo">2. La iniciación de los procedimientos de suspensión y anulación de actos administrativos en los que presuntamente se pudiera amparar la actuación ilegal.</p>
+          <p class="parrafo">3. La adopción de las medidas complementarias previstas en esta Ley.</p>
+          <p class="parrafo">4. La imposición de sanciones a los responsables, previa tramitación del correspondiente procedimiento sancionador, sin perjuicio de las posibles responsabilidades de orden penal en las que hubieran incurrido.</p>
+        </version>
+      </bloque>
+      <bloque id="a26" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 26.</p>
+          <p class="parrafo_2">La Administración actuante estará obligada a exigir de los propietarios la legalización de las obras o actuaciones efectuadas sin licencia u orden de ejecución, o sin ajustarse a éstas y a incoar el correspondiente expediente sancionador y, si procede, a ordenar y hacer ejecutar la orden de demolición cuando aquéllas no pudieran ser legalizadas.</p>
+        </version>
+      </bloque>
+      <bloque id="a27" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 27.</p>
+          <p class="parrafo_2">Se consideran infracciones urbanísticas:</p>
+          <p class="parrafo_2">1. En materia de edificación y uso del suelo.</p>
+          <p class="parrafo_2">a) La vulneración del ordenamiento urbanístico en el otorgamiento de una licencia u orden de ejecución.</p>
+          <p class="parrafo">b) Las actuaciones que, sujetas a licencias o a otra autorización administrativa de carácter urbanístico, se realicen sin ésta, sean o no legalizables en atención a la conformidad o disconformidad con la normativa urbanística aplicable.</p>
+          <p class="parrafo">c) Las actuaciones que se realicen en contra de las determinaciones de la licencia, orden de ejecución o autorización administrativa de carácter urbanístico.</p>
+          <p class="parrafo">d) La falta de disponibilidad de copia autorizada de la licencia a pie de obra, así como del cartel indicador en la manera prevista en el apartado 7 del artículo 6.º de esta Ley.</p>
+          <p class="parrafo_2">2. En materia de gestión urbanística y parcelación:</p>
+          <p class="parrafo_2">a) El fraccionamiento simultáneo o sucesivo de terrenos, clasificados como no urbanizables, en régimen general, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleo de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo">b) Los cierres de cualquier tipo de parcelas en suelo no urbanizable o urbanizable no programado sin Programa de Actuación Urbanística aprobado cuando la división o segregación se hubiera efectuado en contra de lo que disponga la legislación agraria en materia de unidades mínimas de cultivo o del planeamiento urbanístico, así como en cualquier tipo de construcción en aquellas parcelas.</p>
+          <p class="parrafo">c) El incumplimiento de los compromisos derivados del planeamiento y de la gestión urbanística en general y de los planes parciales en particular.</p>
+          <p class="parrafo">d) El fraccionamiento simultáneo o sucesivo de terrenos clasificados como no urbanizables de especial protección, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleos de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo_2">3. En materia de medio ambiente:</p>
+          <p class="parrafo_2">a) Las talas, las quemas y los abatimientos de árboles que infrinjan las disposiciones de aplicación en los terrenos que constituyan masa arbórea o que el Plan de Ordenación haya clasificado como espacio boscoso, bosque, forestal, arboleda, áreas de especial protección o parque que se ha de conservar y proteger o cerrar, estén o no sometidos al régimen forestal especial.</p>
+          <p class="parrafo">b) La extracción de áridos sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">c) La perforación y la extracción de agua sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">d) Los vertidos no autorizados de aguas residuales sin depurar o residuos sólidos con excepción de los residuos orgánicos de la explotación agrícola y ganadera.</p>
+          <p class="parrafo">e) Actuaciones que afecten negativamente a los espacios protegidos por la legislación o planeamientos vigentes.</p>
+          <p class="parrafo">f) La destrucción o deterioro de edificios o monumentos histórico-artísticos o catalogados.</p>
+          <p class="parrafo">g) La implantación de servicios urbanos en suelo no urbanizable, sin la autorización previa.</p>
+          <p class="parrafo">h) Apertura de caminos que no respondan a las necesidades de la explotación agraria, forestal o ganadera que supongan un cambio en el destino o en la naturaleza de la fincas afectadas, excepto en el caso de declaración de utilidad pública o interés social.</p>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Artículo 27.</p>
+          <p class="parrafo_2">Se consideran infracciones urbanísticas:</p>
+          <p class="parrafo_2">1. En materia de edificación y uso del suelo.</p>
+          <p class="parrafo_2">a) La vulneración del ordenamiento urbanístico en el otorgamiento de una licencia u orden de ejecución.</p>
+          <p class="parrafo">b) Las actuaciones que, sujetas a licencias o a otra autorización administrativa de carácter urbanístico, se realicen sin ésta, sean o no legalizables en atención a la conformidad o disconformidad con la normativa urbanística aplicable.</p>
+          <p class="parrafo">c) Las actuaciones que se realicen en contra de las determinaciones de la licencia, orden de ejecución o autorización administrativa de carácter urbanístico.</p>
+          <p class="parrafo">d) La falta de disponibilidad de copia autorizada de la licencia a pie de obra, así como del cartel indicador en la manera prevista en el apartado 7 del artículo 6.º de esta Ley.</p>
+          <p class="parrafo_2">2. En materia de gestión urbanística y parcelación:</p>
+          <p class="parrafo_2">a) El fraccionamiento simultáneo o sucesivo de terrenos, clasificados como no urbanizables, en régimen general, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleo de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo">b) Los cierres de cualquier tipo de parcelas en suelo no urbanizable o urbanizable no programado sin Programa de Actuación Urbanística aprobado cuando la división o segregación se hubiera efectuado en contra de lo que disponga la legislación agraria en materia de unidades mínimas de cultivo o del planeamiento urbanístico, así como en cualquier tipo de construcción en aquellas parcelas.</p>
+          <p class="parrafo">c) El incumplimiento de los compromisos derivados del planeamiento y de la gestión urbanística en general y de los planes parciales en particular.</p>
+          <p class="parrafo">d) El fraccionamiento simultáneo o sucesivo de terrenos clasificados como no urbanizables de especial protección, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleos de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo_2">3. En materia de medio ambiente:</p>
+          <p class="parrafo_2">a) Las talas, las quemas y los abatimientos de árboles que infrinjan las disposiciones de aplicación en los terrenos que constituyan masa arbórea o que el Plan de Ordenación haya clasificado como espacio boscoso, bosque, forestal, arboleda, áreas de especial protección o parque que se ha de conservar y proteger o cerrar, estén o no sometidos al régimen forestal especial.</p>
+          <p class="parrafo">b) La extracción de áridos sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">c) La perforación y la extracción de agua sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">d) Los vertidos no autorizados de aguas residuales sin depurar o residuos sólidos con excepción de los residuos orgánicos de la explotación agrícola y ganadera.</p>
+          <p class="parrafo">e) Actuaciones que afecten negativamente a los espacios protegidos por la legislación o planeamientos vigentes.</p>
+          <p class="parrafo">f) La destrucción o deterioro de edificios o monumentos histórico-artísticos o catalogados.</p>
+          <p class="parrafo">g) La implantación de servicios urbanos en suelo no urbanizable, sin la autorización previa.</p>
+          <p class="parrafo">h) Apertura de caminos que no respondan a las necesidades de la explotación agraria, forestal o ganadera que supongan un cambio en el destino o en la naturaleza de la fincas afectadas, excepto en el caso de declaración de utilidad pública o interés social.</p>
+          <p class="parrafo">i) La utilización de vehículos a motor, campo a través o fuera de pistas o caminos delimitados al efecto en las áreas de especial protección y en los espacios naturales protegidos incluidos en el ámbito de la Ley 1/1991, de 30 de enero, de Espacios Naturales y de Régimen Urbanístico de las Áreas de Especial Protección de las Islas Baleares, en los términos que reglamentariamente se establezcan.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 3.i) por la disposición adicional 1.3 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 27.</p>
+          <p class="parrafo_2">Se consideran infracciones urbanísticas:</p>
+          <p class="parrafo_2">1. En materia de edificación y uso del suelo.</p>
+          <p class="parrafo_2">a) La vulneración del ordenamiento urbanístico en el otorgamiento de una licencia u orden de ejecución.</p>
+          <p class="parrafo">b) Las actuaciones que, sujetas a licencias o a otra autorización administrativa de carácter urbanístico, se realicen sin ésta, sean o no legalizables en atención a la conformidad o disconformidad con la normativa urbanística aplicable.</p>
+          <p class="parrafo">c) Las actuaciones que se realicen en contra de las determinaciones de la licencia, orden de ejecución o autorización administrativa de carácter urbanístico.</p>
+          <p class="parrafo">d) La falta de disponibilidad de copia autorizada de la licencia a pie de obra, así como del cartel indicador en la manera prevista en el apartado 7 del artículo 6.º de esta Ley.</p>
+          <p class="parrafo">e) No someter el edificio a la inspección técnica cuando esté obligado por la normativa vigente.</p>
+          <p class="parrafo_2">2. En materia de gestión urbanística y parcelación:</p>
+          <p class="parrafo_2">a) El fraccionamiento simultáneo o sucesivo de terrenos, clasificados como no urbanizables, en régimen general, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleo de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo">b) Los cierres de cualquier tipo de parcelas en suelo no urbanizable o urbanizable no programado sin Programa de Actuación Urbanística aprobado cuando la división o segregación se hubiera efectuado en contra de lo que disponga la legislación agraria en materia de unidades mínimas de cultivo o del planeamiento urbanístico, así como en cualquier tipo de construcción en aquellas parcelas.</p>
+          <p class="parrafo">c) El incumplimiento de los compromisos derivados del planeamiento y de la gestión urbanística en general y de los planes parciales en particular.</p>
+          <p class="parrafo">d) El fraccionamiento simultáneo o sucesivo de terrenos clasificados como no urbanizables de especial protección, cuando vaya destinado a la creación o implantación de usos edificatorios que contradigan las normas sobre posibilidad de formación de núcleos de población o vulneren las previsiones del planeamiento urbanístico en cuanto a parcela mínima o destinación del suelo.</p>
+          <p class="parrafo_2">3. En materia de medio ambiente:</p>
+          <p class="parrafo_2">a) Las talas, las quemas y los abatimientos de árboles que infrinjan las disposiciones de aplicación en los terrenos que constituyan masa arbórea o que el Plan de Ordenación haya clasificado como espacio boscoso, bosque, forestal, arboleda, áreas de especial protección o parque que se ha de conservar y proteger o cerrar, estén o no sometidos al régimen forestal especial.</p>
+          <p class="parrafo">b) La extracción de áridos sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">c) La perforación y la extracción de agua sin las correspondientes autorizaciones.</p>
+          <p class="parrafo">d) Los vertidos no autorizados de aguas residuales sin depurar o residuos sólidos con excepción de los residuos orgánicos de la explotación agrícola y ganadera.</p>
+          <p class="parrafo">e) Actuaciones que afecten negativamente a los espacios protegidos por la legislación o planeamientos vigentes.</p>
+          <p class="parrafo">f) La destrucción o deterioro de edificios o monumentos histórico-artísticos o catalogados.</p>
+          <p class="parrafo">g) La implantación de servicios urbanos en suelo no urbanizable, sin la autorización previa.</p>
+          <p class="parrafo">h) Apertura de caminos que no respondan a las necesidades de la explotación agraria, forestal o ganadera que supongan un cambio en el destino o en la naturaleza de la fincas afectadas, excepto en el caso de declaración de utilidad pública o interés social.</p>
+          <p class="parrafo">i) La utilización de vehículos a motor, campo a través o fuera de pistas o caminos delimitados al efecto en las áreas de especial protección y en los espacios naturales protegidos incluidos en el ámbito de la Ley 1/1991, de 30 de enero, de Espacios Naturales y de Régimen Urbanístico de las Áreas de Especial Protección de las Islas Baleares, en los términos que reglamentariamente se establezcan.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 1.e) por el art. 16 de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se añade el apartado 3.i) por la disposición adicional 1.3 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a28" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 28.</p>
+          <p class="parrafo_2">1. Las infracciones urbanísticas se clasifican en graves y leves.</p>
+          <p class="parrafo">2. Son infracciones graves las acciones u omisiones que, violando el ordenamiento urbanístico, afecten los bienes y los intereses protegidos por éste y les causen un daño directo y de importancia o creen un riesgo cierto e igualmente importante.</p>
+          <p class="parrafo">Tienen el carácter de graves las infracciones que constituyan incumplimiento de las normas sobre parcelaciones, uso del suelo, altura, volumen y situación de las edificaciones y ocupación permitida de la superficie de las parcelas, excepto que en el expediente sancionador se demuestre la escasa entidad del daño producido en los intereses generales, o del riesgo creado en relación con éstos.</p>
+        </version>
+      </bloque>
+      <bloque id="a29" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 29.</p>
+          <p class="parrafo_2">1. Cuando, con ocasión de los expedientes administrativos que se instruyan por infracción urbanística, se considere que de los documentos aportados o de la misma infracción se desprenden indicios del carácter de delito o falta de hecho, el órgano competente para imponer la sanción, por sí mismo o a propuesta del instructor del expediente, lo pondrá en conocimiento de los Tribunales de Justicia, a los efectos de exigencia de las responsabilidades de orden penal en que hayan podido incurrir los infractores.</p>
+          <p class="parrafo">2. Igualmente, cuando se presuma que pueden resultar afectados bienes o competencias de otras administraciones u organismos públicos, se pondrán los hechos en conocimiento de éstos, a los efectos previstos en el artículo 55 de la Ley de Bases de Régimen Local.</p>
+        </version>
+      </bloque>
+      <bloque id="cii-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Personas responsables</p>
+        </version>
+      </bloque>
+      <bloque id="a30" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 30.</p>
+          <p class="parrafo_2">1. En las actuaciones que se ejecuten sin licencia o con inobservancia de sus cláusulas serán sancionados:</p>
+          <p class="parrafo_2">El propietario.</p>
+          <p class="parrafo">El promotor.</p>
+          <p class="parrafo">El constructor.</p>
+          <p class="parrafo">Los técnicos directores de éstas.</p>
+          <p class="parrafo_2">2. En las obras amparadas en una licencia, cuyo contenido sea manifiestamente constitutivo de una infracción urbanística grave, serán igualmente sancionados: Los facultativos que hubieran informado favorablemente el proyecto y los miembros de la Corporación que hubieran votado a favor del otorgamiento de la licencia sin el informe técnico previo o cuando éste fuese desfavorable en razón de aquella infracción.</p>
+          <p class="parrafo">3. Las personas jurídicas serán sancionadas por las infracciones cometidas por sus órganos o agentes y asumirán el coste de las medidas de reparación del orden urbanístico vulnerado, sin perjuicio de las responsabilidades que aquéllas pudieran exigir a éstos.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii-2" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Reglas para imponer las sanciones</p>
+        </version>
+      </bloque>
+      <bloque id="a31" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 31.</p>
+          <p class="parrafo_2">Las sanciones que se impongan a los diferentes sujetos para una misma infracción tendrán entre sí carácter independiente.</p>
+        </version>
+      </bloque>
+      <bloque id="a32" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 32.</p>
+          <p class="parrafo_2">En caso de que, en aplicación de los preceptos de esta Ley, se instruyese expediente sancionador por dos o más infracciones tipificadas entre las cuales haya conexión de causa a efecto, se impondrá una sola sanción y será la correspondiente a la infracción más grave en la cuantía máxima, excepto en el supuesto de parcelaciones ilegales, en la que habrá tantas sanciones como infracciones cometidas.</p>
+        </version>
+      </bloque>
+      <bloque id="a33" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 33.</p>
+          <p class="parrafo_2">1. En ningún caso la infracción urbanística no puede suponer un beneficio económico para el infractor. Cuando la suma de la sanción impuesta y del coste de las actuaciones de reposición de los bienes y de las situaciones a su primitivo estado resultase una cifra inferior a este beneficio, se incrementará la cuantía de la multa hasta llegar al montante de ésta.</p>
+          <p class="parrafo">2. En los casos en que la restauración del orden urbanístico infringido no exigiese ninguna actuación material ni existieran terceros perjudicados, la sanción que se imponga al infractor no podrá ser inferior al beneficio obtenido con la actividad ilegal.</p>
+        </version>
+      </bloque>
+      <bloque id="a34" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 34.</p>
+          <p class="parrafo_2">1. Cuando en el hecho concurra alguna circunstancia agravante, la sanción se impondrá siempre en el grado máximo.</p>
+          <p class="parrafo">Se considerarán circunstancias agravantes:</p>
+          <p class="parrafo_2">a) Reincidencia.</p>
+          <p class="parrafo">b) Haberse prevalido para cometerla de la titularidad de un oficio o cargo público, excepto que el hecho constitutivo de la infracción haya sido realizado, precisamente, en el ejercicio del deber funcional del cargo u oficio.</p>
+          <p class="parrafo">c) La utilización de violencia, soborno o coacción sobre autoridad o cargo público.</p>
+          <p class="parrafo">d) Haberla cometido alterando los supuestos de hecho que presuntamente legitimaron la actuación o mediante falsificación de los documentos acreditativos del fundamento legal de la actuación.</p>
+          <p class="parrafo">e) No acatar las órdenes de suspensión de las obras e instalaciones emanadas de cualquiera de los órganos competentes en la materia.</p>
+          <p class="parrafo">f) El incumplimiento del artículo 73 de la Ley del Suelo y Ordenación Urbana, la contaminación de aguas o la destrucción de obras o conjuntos catalogados o histórico- artísticos. En estas circunstancias se aplicarán en el grado máximo las sanciones previstas en el capítulo V de esta Ley.</p>
+          <p class="parrafo">g) Realizarla aprovechándose o explotando en beneficio propio una grave necesidad pública o de los particulares que resultasen perjudicados.</p>
+          <p class="parrafo">Igualmente se podrá duplicar la sanción al incumplirse las órdenes dadas por la Administración y en caso de no ser los actos infringidos legalizables.</p>
+          <p class="parrafo_2">2. Si concurre alguna circunstancia atenuante, la sanción se impondrá en el grado mínimo, siempre que no existan circunstancias agravantes concurrentes. Será circunstancia atenuante haber procedido el culpable a subsanar o disminuir el daño causado, antes de la iniciación de las actuaciones sancionadoras.</p>
+          <p class="parrafo">3. Son circunstancias que, en cada caso, podrán agravar o atenuar la responsabilidad:</p>
+          <p class="parrafo_2">a) Mayor o menor conocimiento técnico del promotor de la actuación de acuerdo con la profesión o actividad habitual del culpable.</p>
+          <p class="parrafo">b) El mayor o menor beneficio obtenido de la infracción o, si es el caso, haberla realizado sin ninguna consideración del posible beneficio económico que se pudiera derivar de aquélla.</p>
+        </version>
+      </bloque>
+      <bloque id="civ" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">Competencia y procedimiento</p>
+        </version>
+      </bloque>
+      <bloque id="a35" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo_2">1. Las autoridades competentes para iniciar, tramitar e imponer las sanciones serán las siguientes:</p>
+          <p class="parrafo_2">a) Los Alcaldes.</p>
+          <p class="parrafo">b) Los Consells Insulares.</p>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo_2">1. Las autoridades competentes para iniciar, tramitar e imponer las sanciones serán las siguientes:</p>
+          <p class="parrafo_2">a) Los Alcaldes.</p>
+          <p class="parrafo">b) Los Consells Insulares.</p>
+          <p class="parrafo_2">2. Lo dispuesto en el punto anterior se entiende sin perjuicio de que la competencia se atribuya a entidades creadas de conformidad con lo dispuesto en el artículo 21.2 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.5 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo_2">Son competentes para iniciar, tramitar e imponer sanciones, así como para ordenar el restablecimiento de la legalidad urbanística conculcada, los órganos de gobierno o administración municipales e insulares en el ámbito de sus respectivas competencias.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 16.2 de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.5 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a36" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 36.</p>
+          <p class="parrafo_2">El pago de las multas impuestas por los diferentes Organismos se realizará en metálico en las instancias de las respectivas Administraciones, en el plazo máximo de treinta días, a contar desde el día siguiente al de la notificación. Acabado el plazo sin que se efectúe el pago voluntario de la sanción, la Administración procederá al cobro por la vía de apremio.</p>
+        </version>
+      </bloque>
+      <bloque id="a37" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 37.</p>
+          <p class="parrafo_2">El pago de la multa se suspenderá si durante el plazo legal para la interposición del recurso se garantiza el importe de la totalidad de la multa. La garantía a constituir por parte del reclamante para obtener la suspensión será depositada en las Depositarías Municipales o en los Consells Insulares, en efectivo, en valores públicos o mediante aval o fianza por el importe de la sanción.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 37.</p>
+          <p class="parrafo_2">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 37.</p>
+          <p class="parrafo_2">
+            <strong>(Derogado)</strong>
+          </p>
+          <blockquote>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.g) de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se deroga por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a38" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 38.</p>
+          <p class="parrafo_2">1. a) El importe de las multas impuestas por el Consell Insular correspondiente como consecuencia de expedientes sancionadores instruidos por Ayuntamientos y elevados al Consell Insular por razón de la cuantía de la sanción propuesta, se percibirá directamente por el Ayuntamiento que haya tramitado el expediente, que debe destinarla a la conservación y a la ampliación del Patrimonio Municipal del Suelo si lo tuviera constituido o a cualquier otra actividad urbanística o medioambiental.</p>
+          <p class="parrafo">b) No obstante, el Consell Insular no ingresará en el Ayuntamiento respectivo el importe de las multas mientras no sean firmes y ejecutorias las resoluciones en virtud de las cuales hayan sido impuestas.</p>
+          <p class="parrafo_2">2. El importe de las multas corresponderá al Consell Insular cuando éste haya instruido el expediente sancionador, por subrogación en la competencia municipal.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 38.</p>
+          <p class="parrafo_2">1. <strong>(Derogado)</strong></p>
+          <p class="parrafo">2. El importe de las multas corresponderá al Consell Insular cuando éste haya instruido el expediente sancionador, por subrogación en la competencia municipal.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el apartado 1 por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 38.</p>
+          <p class="parrafo_2">1. <strong>(Derogado)</strong></p>
+          <p class="parrafo">2. El importe de las multas corresponderá al Consell Insular cuando éste haya instruido el expediente sancionador, por subrogación en la competencia municipal.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el apartado 1 por la disposición derogatoria 1.g) de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se deroga el apartado 1 por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a39" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 39.</p>
+          <p class="parrafo_2">Las autoridades competentes para imponer las multas y las cuantías máximas de éstas serán las siguientes.</p>
+          <p class="parrafo_2">a) Los Alcaldes, en los municipios que no excedan de 50.000 habitantes, hasta 10.000.000 de pesetas; en los municipios de más de 50.000 habitantes, hasta 25.000.000 pesetas.</p>
+          <p class="parrafo">b) El Consell Insular, para las que superen a las establecidas en el punto anterior, con sujeción a lo establecido en el capítulo V de esta Ley.</p>
+        </version>
+        <version id_norma="BOE-A-1997-18197" fecha_publicacion="19970715" fecha_vigencia="19970716">
+          <p class="articulo">Artículo 39.</p>
+          <p class="parrafo_2">1. Las autoridades competentes para imponer las multas y las cuantías máximas de éstas serán las siguientes.</p>
+          <p class="parrafo_2">a) Los Alcaldes, en los municipios que no excedan de 50.000 habitantes, hasta 10.000.000 de pesetas; en los municipios de más de 50.000 habitantes, hasta 25.000.000 pesetas.</p>
+          <p class="parrafo">b) El Consell Insular, para las que superen a las establecidas en el punto anterior, con sujeción a lo establecido en el capítulo V de esta Ley.</p>
+          <p class="parrafo_2">2. Lo dispuesto en el punto anterior se entiende sin perjuicio de que la competencia para imponer las multas se atribuya, cualquiera que sea su cuantía, a las entidades creadas de conformidad con lo dispuesto en el artículo 21.2 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.5 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 39.</p>
+          <p class="parrafo">1. Las autoridades competentes para imponer las multas serán las siguientes:</p>
+          <p class="parrafo_2">a) Los alcaldes.</p>
+          <p class="parrafo">b) Los consejos insulares, cuando actúen por subrogación o delegación de competencias.</p>
+          <p class="parrafo_2">2. Lo dispuesto en el punto anterior se entiende sin perjuicio de que la competencia para imponer las multas se atribuya, cualquiera que sea su cuantía, a las entidades creadas de conformidad con lo dispuesto en el artículo 21.2 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.1 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.5 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 39.</p>
+          <p class="parrafo_2">1. Son competentes para imponer las multas:</p>
+          <p class="parrafo_2">a) La autoridad municipal que corresponda de acuerdo con la normativa de régimen local.</p>
+          <p class="parrafo">b) Los consejos insulares, cuando actúen por subrogación o delegación de competencias.</p>
+          <p class="parrafo_2">2. Lo dispuesto en el punto anterior se entiende sin perjuicio de que la competencia para imponer las multas se atribuya, cualquiera que sea su cuantía, a las entidades creadas de conformidad con lo dispuesto en el artículo 21.2 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 16.3 de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.1 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+            <p class="nota_pie">Se añade el apartado 2 por la disposición adicional 1.5 de la Ley autonómica 6/1997, de 8 de julio. <a class="refPost">Ref. BOE-A-1997-18197</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="cv" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Sanciones</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 1.ª En materia de parcelación</p>
+        </version>
+      </bloque>
+      <bloque id="a40" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 40.</p>
+          <p class="parrafo_2">En materia de parcelación de terrenos, la sanción impuesta al propietario, al promotor, al constructor y al técnico de las obras será equivalente a la diferencia entre los valores inicial y en venta de los terrenos enajenados, calculados, el primero de acuerdo con la Ley sobre Régimen Urbanístico y Valoración del Suelo, y el segundo en función de los valores de mercado que se fijarán por la Administración, previo informe técnico motivado y audiencia al interesado.</p>
+          <p class="parrafo">En todo caso, la sanción establecida en el párrafo anterior nunca podrá ser inferior a las cifras siguientes:</p>
+          <p class="parrafo_2">a) Multa del 20 al 25 por 100 del valor en venta de los terrenos afectados a los propietarios o promotores que realicen parcelaciones en suelo no urbanizable o urbanizable no programado sin Programa de Actuación Urbanística aprobado.</p>
+          <p class="parrafo">b) Multa del 10 al 15 por 100 del valor en venta de los terrenos afectados a los que realicen parcelaciones de suelo clasificado como urbanizable programado, apto para urbanizar o urbanizable programado con programa de actuación urbanística aprobado, siempre que no exista ningún plan territorial aprobado definitivamente o que infrinja las determinaciones de éste.</p>
+          <p class="parrafo">c) Multa del 10 al 15 por 100 del valor en venta de los terrenos afectados a los que realicen parcelaciones del suelo urbano que contradigan las previsiones establecidas en el Plan General, en las Normas Subsidiarias de Planeamiento o en los proyectos de delimitación de suelo urbano.</p>
+          <p class="parrafo">d) Multa del 10 al 15 por 100 del valor en venta de los terrenos afectados en las operaciones de parcelación o división de terrenos que den lugar a lotes inferiores a la parcela mínima. En la misma sanción incurrirán los que dividan o segreguen parcelas que tengan la condición de indivisibles.</p>
+          <p class="parrafo">e) Multa del 5 por 100 del valor en venta de los terrenos en las operaciones de parcelación que, sin contradecir el planeamiento en vigor, se realicen sin la licencia pertinente.</p>
+        </version>
+      </bloque>
+      <bloque id="a41" tipo="precepto" titulo="Artículo 41">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 41.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 10 al 20 por 100 del valor en venta de los terrenos aquellas personas que adquieran parcelas procedentes de parcelaciones ilegales, cualquiera que sea la clase de suelo donde estén situadas.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 2.ª En materia del uso del suelo y edificación</p>
+        </version>
+      </bloque>
+      <bloque id="a42" tipo="precepto" titulo="Artículo 42">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 42.</p>
+          <p class="parrafo_2">1. Serán sancionadas con multa equivalente al doble del importe de las obras de urbanización e implantación de servicios aquellos que realicen este tipo de obras sin autorización en suelo no urbanizable, urbanizable no programado y urbanizable programado siempre que en estos dos últimos casos no exista Plan aprobado o no se ajusten a las determinaciones de éste.</p>
+          <p class="parrafo">La cuantía mínima de esta sanción, en todo caso, será de 150.000 pesetas.</p>
+          <p class="parrafo">2. En suelo urbano o suelo urbanizable con Plan parcial definitivamente aprobado, la sanción será del 20 al 25 por 100 del valor de la obra ejecutada sin autorización o sin ajustarse a las condiciones de ésta.</p>
+          <p class="parrafo">3. En cualquier caso, si estas obras fueran susceptibles de legalización, la sanción será del 10 por 100 del valor total de las ejecutadas sin licencia.</p>
+          <p class="parrafo">4. Las multas previstas en este artículo serán impuestas con independencia de las que puedan recaer en aplicación de lo dispuesto en la sección anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a43" tipo="precepto" titulo="Artículo 43">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 43.</p>
+          <p class="parrafo_2">Para la imposición de multas a aquellos que realicen obras de edificación se tendrá en cuenta el valor de la obra ejecutada, que se ha de calcular según el valor en venta del bien inmueble objeto de infracción en relación con otros de similares características y emplazamiento, fijados por la Administración, previo informe técnico y audiencia al interesado.</p>
+        </version>
+      </bloque>
+      <bloque id="a44" tipo="precepto" titulo="Artículo 44">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 44.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 100 por 100 del valor de las obras aquellos que realicen o hayan ejecutado obras de edificación que no correspondan al uso del suelo en el que se ejecuten.</p>
+        </version>
+      </bloque>
+      <bloque id="a45" tipo="precepto" titulo="Artículo 45">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 45.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 50 al 100 por 100 del valor de la obra ejecutada o en contra de las determinaciones establecidas en el planeamiento aquellos que realicen o hayan ejecutado obras de edificación en las condiciones siguientes:</p>
+          <p class="parrafo_2">a) Que superen la altura, el volumen y la ocupación permitidos por el Plan.</p>
+          <p class="parrafo">b) Que superen las tres plantas donde no haya planeamiento aprobado que lo autorice.</p>
+          <p class="parrafo">c) Que consistan en obras de aumento de volumen en edificios fuera de ordenación.</p>
+          <p class="parrafo">d) Que suponen cambio o modificación del uso previsto en el proyecto autorizado.</p>
+          <p class="parrafo">e) Que no sean legalizables sin que se haya de demoler una parte de la edificación.</p>
+          <p class="parrafo">f) Que aunque sean legalizables, no se solicite la legalización en el plazo fijado por la Administración.</p>
+          <p class="parrafo">g) Que no se hayan parado las obras ilegales cuando así lo haya requerido la Administración actuante.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 45.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 50 al 100 por 100 del valor de la obra ejecutada o en contra de las determinaciones establecidas en el planeamiento aquellos que realicen o hayan ejecutado obras de edificación en las condiciones siguientes:</p>
+          <p class="parrafo_2">a) Que superen la altura, el volumen y la ocupación permitidos por el Plan.</p>
+          <p class="parrafo">b) Que superen las tres plantas donde no haya planeamiento aprobado que lo autorice.</p>
+          <p class="parrafo">c) Que consistan en obras de aumento de volumen en edificios fuera de ordenación.</p>
+          <p class="parrafo">d) Que suponen cambio o modificación del uso previsto en el proyecto autorizado.</p>
+          <p class="parrafo">e) <strong>(Derogado)</strong></p>
+          <p class="parrafo">f) Que aunque sean legalizables, no se solicite la legalización dentro de los plazos fijados en el artículo 46.1.</p>
+          <p class="parrafo">g) Que no se hayan parado las obras ilegales cuando así lo haya requerido la Administración actuante.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra f) y se deroga la e) por el art. 15.2 y disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 45.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 50 al 100 por 100 del valor de la obra ejecutada o en contra de las determinaciones establecidas en el planeamiento aquellos que realicen o hayan ejecutado obras de edificación en las condiciones siguientes:</p>
+          <p class="parrafo_2">a) Que superen la altura, el volumen y la ocupación permitidos por el Plan.</p>
+          <p class="parrafo">b) Que superen las tres plantas donde no haya planeamiento aprobado que lo autorice.</p>
+          <p class="parrafo">c) Que consistan en obras de aumento de volumen en edificios fuera de ordenación.</p>
+          <p class="parrafo">d) Que suponen cambio o modificación del uso previsto en el proyecto autorizado.</p>
+          <p class="parrafo">e) <strong>(Derogado)</strong></p>
+          <p class="parrafo">f) Que aunque sean legalizables, no se solicite su legalización dentro de los plazos fijados en el artículo 46.1.</p>
+          <p class="parrafo">g) Que no se hayan parado las obras ilegales cuando así lo haya requerido la Administración actuante.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica la letra f) y se deroga la e) por el art. 16.4 y disposición derogatoria 1.g) de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se modifica la letra f) y se deroga la e) por el art. 15.2 y disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a46" tipo="precepto" titulo="Artículo 46">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 46.</p>
+          <p class="parrafo_2">1. Se sancionarán con multa del 5 por 100 del valor de la obra ejecutada las obras de edificación realizadas sin licencia pero que pueden ser objeto de legalización y así lo solicite el propietario, excepción hecha de los casos previstos en los epígrafes f) y g) del artículo anterior.</p>
+          <p class="parrafo">2. Se sancionará con multa de 10.000 pesetas por cada inspección en la que no se disponga a pie de obra de copia autorizada de la licencia municipal o del cartel indicador así como prevé el artículo 7.º, apartado 10 de esta Ley.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 46.</p>
+          <p class="parrafo">1. Se sancionarán con multa del 5 % del valor de la obra ejecutada las infracciones que sean objeto de legalización y así lo haya solicitado el interesado en el plazo fijado por la Administración, a excepción de los casos previstos en el epígrafe g del artículo anterior. Si la legalización se hubiese instado una vez finalizado este plazo, pero antes de la imposición de la sanción, ésta será del 5 al 10 % del valor de la obra ejecutada.</p>
+          <p class="parrafo">Las infracciones que no puedan ser objeto de legalización o en que ésta comporte que se haya de demoler una parte de la edificación, se castigarán con una multa del 5 al 10% del valor de la obra ejecutada cuando se proceda por parte del infractor, antes de la imposición de la sanción, a la efectiva restitución de la realidad física alterada a su estado anterior.</p>
+          <p class="parrafo">2. Se sancionará con multa de 10.000 pesetas por cada inspección en la que no se disponga a pie de obra de copia autorizada de la licencia municipal o del cartel indicador así como prevé el artículo 7.º, apartado 10 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.3 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 46.</p>
+          <p class="parrafo_2">1. Se sancionarán con multa del 5% del valor de la obra ejecutada las infracciones que sean objeto de legalización y así lo haya solicitado la persona interesada en el plazo fijado por la Administración, a excepción de los casos previstos en el epígrafe g) del artículo anterior. Si la legalización se hubiese instado una vez finalizado este plazo, pero antes de la imposición de la sanción, ésta será del 5 al 10% del valor de la obra ejecutada.</p>
+          <p class="parrafo">Las infracciones que no puedan ser objeto de legalización o en que ésta comporte que se haya de demoler una parte de la edificación, se sancionarán con una multa del 5 al 10% del valor de la obra ejecutada cuando el infractor, antes de la imposición de la sanción, restituya la realidad física alterada a su estado anterior.</p>
+          <p class="parrafo">2. Se sancionará con multa de 10.000 pesetas por cada inspección en la que no se disponga a pie de obra de copia autorizada de la licencia municipal o del cartel indicador así como prevé el artículo 7.º, apartado 10 de esta Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 16.5 de la Ley autonómica 7/2012 de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.3 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a47" tipo="precepto" titulo="Artículo 47">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 47.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 100 al 200 por 100 del valor del suelo afectado o de las obras ejecutadas, aquellos que realicen en terrenos destinados por el planeamiento al uso público o a equipamientos públicos, en espacios protegidos, en edificios catalogados y de interés histórico-artístico, obras o instalaciones que impidan o perturben gravemente estos usos o condiciones.</p>
+          <p class="parrafo">Si estas obras o instalaciones pueden ser objeto de legalización, la sanción será del 5 por 100 del valor de las obras realizadas o del terreno, según corresponda, excepto en los casos previstos en los epígrafes f) y g) del artículo 45 de esta Ley. Cuando la infracción se realice sobre bienes no susceptibles de valoración porque estén excluidos de manera permanente y total de tráfico jurídico, la multa podrá oscilar entre 25.000 y 1.000.000 de pesetas y se graduará en función de la mayor o menor trascendencia que la perturbación ocasione al uso público.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 47.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 100 al 200 por 100 del valor del suelo afectado o de las obras ejecutadas, aquellos que realicen en terrenos destinados por el planeamiento al uso público o a equipamientos públicos, en espacios protegidos, en edificios catalogados y de interés histórico-artístico, obras o instalaciones que impidan o perturben gravemente estos usos o condiciones.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el párrafo segundo por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 47.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 100 al 200 por 100 del valor del suelo afectado o de las obras ejecutadas, aquellos que realicen en terrenos destinados por el planeamiento al uso público o a equipamientos públicos, en espacios protegidos, en edificios catalogados y de interés histórico-artístico, obras o instalaciones que impidan o perturben gravemente estos usos o condiciones.</p>
+          <blockquote>
+            <p class="nota_pie">Se deroga el párrafo segundo por la disposición derogatoria 1.g) de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se deroga el párrafo segundo por la disposición derogatoria 1.g) del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a48" tipo="precepto" titulo="Artículo 48">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 48.</p>
+          <p class="parrafo_2">Serán sancionados con multa del 25 al 50 por 100 del valor del edifico, planta local o dependencia, aquellos que alteren el uso al que están destinados por el Plan, Normas u Ordenanzas.</p>
+        </version>
+      </bloque>
+      <bloque id="a49" tipo="precepto" titulo="Artículo 49">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 49.</p>
+          <p class="parrafo_2">Aquellos que derrumben o desmonten total o parcialmente edificaciones, construcciones o instalaciones que sean objeto de una protección especial con carácter monumental, histórico, artístico, arqueológico, cultural, típico o tradicional, serán sancionados con multa del doble al triple del valor de lo destruido. En caso de que se trate de bienes de carácter monumental, artístico, histórico o arqueológico o catalogado, la determinación del valor de lo que se ha destruido se realizará por la Comisión a la que se refiere el artículo 78 de la Ley de Expropiación Forzosa .</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 3.ª En materia de medio ambiente</p>
+        </version>
+      </bloque>
+      <bloque id="a50" tipo="precepto" titulo="Artículo 50">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 50.</p>
+          <p class="parrafo_2">1. Se sancionará con multa del 50 al 100 por 100 del valor de la obra ejecutada la realización de construcciones en lugares inmediatos o que formen parte de un grupo de edificios de carácter histórico-artístico, arqueológico, típico o tradicional que, infringiendo las correspondientes normas o régimen jurídico de protección, quebranten la armonía del grupo, o produzcan el mismo efecto en relación con algún edificio de gran importancia o calidad del carácter indicado. La graduación de la multa se realizará en atención al carácter grave o leve de la discordancia producida.</p>
+          <p class="parrafo">2. Las talas y los abatimientos de árboles que infrinjan las disposiciones de aplicación en terrenos que constituyan masa arbórea o que la Ley haya declarado Área Natural de Especial Interés o que el Plan de Ordenación haya clasificado como espacio boscoso, bosque, forestal, arboleda, parque o área de especial protección que se haya de conservar, proteger o cerrar, estén o no sometidos al régimen forestal especial, serán sancionadas con una multa de 10.000 a 1.000.000 de pesetas. La multa se graduará en función de la mayor o menor trascendencia de la infracción en relación al uso previsto. Se podrá imponer una multa superior a 1.000.000 de pesetas en aquellos casos en que el beneficio obtenido haya sido superior, en cuyo caso podrá llegar a la cuantía de éste.</p>
+          <p class="parrafo">3. El propietario está obligado a restaurar la realidad física alterada.</p>
+        </version>
+      </bloque>
+      <bloque id="a51" tipo="precepto" titulo="Artículo 51">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 51.</p>
+          <p class="parrafo_2">1. Se sancionará con multa de 25.000 a 500.000 pesetas la colocación de vallas publicitarias sin licencia, que se graduará en función de la localización, tamaño o incidencia en el medio físico y en el entorno.</p>
+          <p class="parrafo">2. La sanción se aplicará en el grado máximo cuando se incumpla la resolución de la Administración y se requerirá la retirada de la valla instalada sin la autorización pertinente.</p>
+        </version>
+      </bloque>
+      <bloque id="s4" tipo="encabezado" titulo="Sección 4">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 4.ª En materia de gestión</p>
+        </version>
+      </bloque>
+      <bloque id="a52" tipo="precepto" titulo="Artículo 52">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 52.</p>
+          <p class="parrafo_2">Se sancionarán con multa de 500.000 a 10.000.000 de pesetas los promotores que, por causa imputable a ellos, incumplan los plazos de ejecución previstos en el Plan Parcial o Especial de que se trate, multa que se graduará en función del grado de inejecución de las obras.</p>
+        </version>
+      </bloque>
+      <bloque id="a53" tipo="precepto" titulo="Artículo 53">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 53.</p>
+          <p class="parrafo_2">Se sancionarán con multa de 100.000 a 10.000.000 de pesetas, las entidades de conservación legalmente constituidas que incumplan la obligación de conservar, mantener y entretener las obras de urbanización e instalaciones, y la cuantía de la multa será proporcional al grado de deterioro o abandono de las obligaciones asumidas.</p>
+        </version>
+      </bloque>
+      <bloque id="a54" tipo="precepto" titulo="Artículo 54">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 54.</p>
+          <p class="parrafo_2">Serán sancionados con multa de 100.000 a 10.000.000 de pesetas aquellos que incumplan los compromisos contraídos en relación con el planeamiento y la gestión y ejecución.</p>
+        </version>
+      </bloque>
+      <bloque id="a55" tipo="precepto" titulo="Artículo 55">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 55.</p>
+          <p class="parrafo_2">Será sancionada con multa de 25.000 a 500.000 pesetas toda infracción que contradiga el artículo 60.</p>
+        </version>
+      </bloque>
+      <bloque id="cvi" tipo="encabezado" titulo="CAPÍTULO VI">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO VI</p>
+          <p class="capitulo_tit">Acciones y recursos</p>
+        </version>
+      </bloque>
+      <bloque id="a56" tipo="precepto" titulo="Artículo 56">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 56.</p>
+          <p class="parrafo_2">Será pública la acción para exigir ante los órganos administrativos y los Tribunales Contencioso-Administrativos la observancia de las disposiciones de esta Ley en orden a la adopción de las medidas de defensa de la legalidad urbanística, restauración de la realidad física alterada y sanción de las infracciones urbanísticas.</p>
+        </version>
+      </bloque>
+      <bloque id="a57" tipo="precepto" titulo="Artículo 57">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 57.</p>
+          <p class="parrafo_2">Los acuerdos de los Ayuntamientos y de los Consells Insulares en las materias reguladas en la presente Ley agotan la vía administrativa, procediendo contra estos recursos contencioso-administrativos en la forma y los plazos previstos por la Ley reguladora de esta jurisdicción.</p>
+        </version>
+      </bloque>
+      <bloque id="tiv" tipo="encabezado" titulo="TÍTULO IV">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="titulo_num">TÍTULO IV</p>
+          <p class="titulo_tit">Medidas de protección de la legalidad urbanística</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Medidas preventivas y complementarias</p>
+        </version>
+      </bloque>
+      <bloque id="s1-3" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 1.ª De la Cédula de Habitabilidad</p>
+        </version>
+      </bloque>
+      <bloque id="a58" tipo="precepto" titulo="Artículo 58">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 58.</p>
+          <p class="parrafo">1. Para ocupar o alquilar una vivienda, edificio residencial o local de trabajo, será obligatorio que se disponga de la correspondiente Cédula de Habitabilidad en vigor.</p>
+          <p class="parrafo">2. Los promotores o propietarios de edificios, viviendas o locales nuevos o en los cuales se hayan realizado modificaciones, una vez finalizadas las obras, deberán de obtener la correspondiente Cédula de Habitabilidad.</p>
+          <p class="parrafo">3. No podrán ser contratados definitivamente los servicios de abastecimiento de agua, alcantarillado, electricidad, gas y teléfono, si el edificio, vivienda o local no dispone de Cédula de Habitabilidad en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-3" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="seccion">Sección 2.ª Otras disposiciones</p>
+        </version>
+      </bloque>
+      <bloque id="a59" tipo="precepto" titulo="Artículo 59">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 59.</p>
+          <p class="parrafo_2">En ningún caso se considerarán solares ni se permitirá edificar en ellos los lotes resultantes de la parcelación con infracción de los artículos 95 y 96 de la Ley sobre Régimen del Suelo y Ordenación Urbana.</p>
+        </version>
+      </bloque>
+      <bloque id="a60" tipo="precepto" titulo="Artículo 60">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 60.</p>
+          <p class="parrafo_2">Los anuncios, los carteles, las vallas y los folletos publicitarios de las urbanizaciones han de indicar las fechas de aprobación definitiva del Plan Parcial y del Proyecto de Urbanización y han de recordar que el proyecto autorizado puede ser consultado en el Ayuntamiento o en la correspondiente Comisión Insular de Urbanismo. En un lugar preeminente de la urbanización se ha de fijar un cartel con los datos fundamentales del Plan y la fecha de aprobación. La publicidad no puede contener ninguna indicación disconforme con las prescripciones del acuerdo de aprobación definitiva del Plan susceptible de inducir a error a los adquirentes de parcelas sobre las cargas de urbanización y condiciones a las que se ha sujetado la aprobación.</p>
+          <p class="parrafo">El contenido de los anuncios, los carteles y las vallas publicitarias se ha de incluir en la solicitud de licencia de instalación que deberá de ser presentada ante el Ayuntamiento correspondiente.</p>
+        </version>
+      </bloque>
+      <bloque id="cii-3" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Suspensión de actuaciones ilegales</p>
+        </version>
+      </bloque>
+      <bloque id="a61" tipo="precepto" titulo="Artículo 61">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 61.</p>
+          <p class="parrafo_2">1. Cuando los actos de edificación o uso del suelo se efectuasen sin licencia u orden de ejecución, se dispondrá la suspensión inmediata de estos actos por la autoridad urbanística actuante.</p>
+          <p class="parrafo">2. Cuando los actos a los que alude el artículo 2.º de esta Ley se desarrollen sin ajustarse a las condiciones de la licencia u orden de ejecución, el Alcalde se dirigirá al promotor, constructor y técnico director y les señalará las anomalías observadas y les concederá un plazo improrrogable de cinco días para que justifiquen la concordancia de las obras con el contenido de la licencia u orden de ejecución, entendiéndose que la falta de respuesta en dicho plazo implica la aceptación de las irregularidades señaladas, y el acuerdo de forma inmediata de la paralización de las obras o la prohibición de los usos.</p>
+          <p class="parrafo">3. Si por los responsables se aduce la conformidad de la licencia u orden de ejecución con la actuación urbanística, se les convocará para que en los siguientes quince días se personen en la obra, para examinar los detalles conjuntamente con el inspector municipal y extendiéndose el acta correspondiente suscrita por todos los presentes a la vista de la cual el Alcalde se pronunciará como corresponda, permitirá la continuación de la actividad o dará un plazo para su adecuación a las condiciones de la licencia, vencido el cual sin que ésta se haya producido, tendrá lugar la paralización.</p>
+          <p class="parrafo">4. También será causa de suspensión de las obras no disponer a pie de éstas de copia autorizada de la licencia municipal y del cartel indicador de la manera prevista en el apartado 10 del artículo 7.º de esta Ley.</p>
+          <p class="parrafo">5. El acuerdo de suspensión de la obra será inmediatamente ejecutivo y se notificará al promotor, al constructor y, si procede, al técnico director. Si el promotor no para la actividad en el plazo de cuarenta y ocho horas se procederá por vía de ejecución forzosa a la ejecución del acuerdo de suspensión. A tal fin la Inspección Municipal, asistida por la fuerza pública, se personará en las obras, previa citación de los responsables de las mismas, y después de la lectura del acuerdo, el cumplimiento del cual se va a ejecutar, precintará las instalaciones y elementos auxiliares de la construcción, y podrá retirar la totalidad o parte del resto de maquinaria y materiales y adoptar cualquier otra medida que sea conveniente en orden a la efectividad de la suspensión.</p>
+          <p class="parrafo">La colaboración de la fuerza pública, si procede, se conseguirá a través de la autoridad de la que dependa.</p>
+          <p class="parrafo">6. Del acuerdo de suspensión, en caso de no haber sido adoptado por el Alcalde respectivo, así como del expediente instruido al efecto, se dará traslado al Ayuntamiento en el territorio del cual se ha efectuado la infracción urbanística, para que por éste se continúe su tramitación.</p>
+          <p class="parrafo">7. Asimismo, se dará cuenta del acuerdo de suspensión a las empresas suministradoras de energía eléctrica para que procedan a cortar el suministro a los contadores de obra respectivos en el plazo máximo de cuarenta y ocho horas.</p>
+          <p class="parrafo">8. El incumplimiento por el infractor de la orden de suspensión dará lugar al hecho de que, por el órgano actuante, se pase el tanto de culpa al Juzgado de Instrucción para la determinación de las responsabilidades penales a las que hubiesen dado lugar.</p>
+          <p class="parrafo">9. La Alcaldía podrá recabar el asesoramiento y la cooperación del Consell Insular para la ejecución del acuerdo de suspensión cuando el Ayuntamiento no tenga servicios técnicos y jurídicos o los medios materiales precisos para llevarlo adelante.</p>
+        </version>
+      </bloque>
+      <bloque id="a62" tipo="precepto" titulo="Artículo 62">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 62.</p>
+          <p class="parrafo_2">Sin perjuicio de las medidas contenidas en el artículo anterior, en los supuestos de desobediencia de la orden de suspensión de los actos de edificación o uso del suelo dictada por la Autoridad u órgano competente, se impondrán al promotor, al constructor y a los técnicos directores de las obras si éstos no hubiesen ordenado la paralización, multas coercitivas en las siguientes cuantías y frecuencia:</p>
+          <p class="parrafo_2">a) Multa inicial de 25.000 pesetas cuando se trate del primer incumplimiento de la orden de suspensión.</p>
+          <p class="parrafo">b) En caso de reiterar aquel incumplimiento y hasta que no se produzca la total suspensión ordenada, quincenalmente se impondrán sanciones que dupliquen la cantidad de la multa impuesta en el período sancionador inmediato anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="a63" tipo="precepto" titulo="Artículo 63">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 63.</p>
+          <p class="parrafo_2">Para hacer efectiva la orden de suspensión de los actos de edificación o usos del suelo, la Autoridad que haya dictado la resolución podrá ejecutarla mediante la compulsión directa sobre las personas, en la forma determinada en el artículo 108 de la Ley de Procedimiento Administrativo.</p>
+        </version>
+      </bloque>
+      <bloque id="a64" tipo="precepto" titulo="Artículo 64">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 64.</p>
+          <p class="parrafo_2">1. Cuando los actos de edificación o uso del suelo estén amparados en licencia u orden de ejecución que de forma grave o muy grave infrinjan la normativa urbanística en vigor en el momento de la concesión o adopción, se dispondrá por el Alcalde, la suspensión inmediata de estos actos y, simultáneamente, se iniciará el procedimiento de revisión del acto administrativo, se dará traslado a la Sala de lo Contencioso- Administrativo competente, a los efectos del artículo 118 de la Ley de la Jurisdicción Contencioso- Administrativa.</p>
+          <p class="parrafo">2. Si los órganos urbanísticos competentes tienen conocimiento de una infracción u orden de ejecución que constituya una infracción urbanística grave, promoverán la acción impugnatoria prevista en el artículo 65 de la Ley Reguladora de las Bases de Régimen Local.</p>
+        </version>
+      </bloque>
+      <bloque id="ciii-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Del expediente de demolición o de reconstrucción</p>
+        </version>
+      </bloque>
+      <bloque id="a65" tipo="precepto" titulo="Artículo 65">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 65.</p>
+          <p class="parrafo_2">1. En el plazo de dos meses, contados a partir de la notificación del acuerdo de suspensión, se deberá pedir la oportuna licencia. Para tramitarla será necesario formalizar a favor de la Administración actuante una fianza o aval bancario equivalente al 20 por 100 del presupuesto del proyecto técnico para garantizar el pago de las cantidades que resulten como consecuencia de la sanción que fuese procedente imponer o de las medidas de restablecimiento de la realidad física alterada.</p>
+          <p class="parrafo">No se exigirá la fianza o aval al que se refiere el párrafo anterior cuando la causa de suspensión sea la declaración de nulidad de la licencia, a no ser que en el expediente se haya apreciado la existencia de engaño, culpa o negligencia graves imputables al perjudicado.</p>
+          <p class="parrafo">2. El mismo requerimiento se efectuará cuando no hayan transcurrido más de ocho años desde la total finalización de las obras, de acuerdo a lo que dispone el artículo 73.</p>
+          <p class="parrafo">3. Las infracciones urbanísticas que afecten zonas verdes y espacios libres públicos, sistemas generales, viales, equipamientos públicos, espacios naturales especialmente protegidos, áreas naturales de especial interés y suelos no urbanizables de especial protección, monumentos histórico-artísticos y edificios y conjuntos catalogados que no sean legalizables, no estarán sujetos al plazo de dos meses para que se formule su solicitud. El instructor ha de formular propuesta de demolición y la tramitación se ha de continuar de acuerdo con lo dispuesto en los artículos siguientes.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 65.</p>
+          <p class="parrafo_2">1. En el plazo de dos meses a contar a partir de la notificación del acuerdo de suspensión, se deberá solicitar la oportuna licencia.</p>
+          <p class="parrafo">2. El mismo requerimiento se efectuará cuando no hayan transcurrido más de ocho años desde la total finalización de las obras, de acuerdo a lo que dispone el artículo 73.</p>
+          <p class="parrafo">3. Las infracciones urbanísticas que afecten zonas verdes y espacios libres públicos, sistemas generales, viales, equipamientos públicos, espacios naturales especialmente protegidos, áreas naturales de especial interés y suelos no urbanizables de especial protección, monumentos histórico-artísticos y edificios y conjuntos catalogados que no sean legalizables, no estarán sujetos al plazo de dos meses para que se formule su solicitud. El instructor ha de formular propuesta de demolición y la tramitación se ha de continuar de acuerdo con lo dispuesto en los artículos siguientes.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.4 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 65.</p>
+          <p class="parrafo_2">1. En el plazo de dos meses a contar a partir de la notificación del acuerdo de suspensión, se deberá solicitar la oportuna licencia.</p>
+          <p class="parrafo">2. El mismo requerimiento se efectuará cuando no hayan transcurrido más de ocho años desde la total finalización de las obras, de acuerdo a lo que dispone el artículo 73.</p>
+          <p class="parrafo">3. Las infracciones urbanísticas que afecten zonas verdes y espacios libres públicos, sistemas generales, viales, equipamientos públicos, espacios naturales especialmente protegidos, áreas naturales de especial interés y suelos no urbanizables de especial protección, monumentos histórico-artísticos y edificios y conjuntos catalogados que no sean legalizables, no estarán sujetos al plazo de dos meses para que se formule su solicitud. El instructor ha de formular propuesta de demolición y la tramitación se ha de continuar de acuerdo con lo dispuesto en los artículos siguientes.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 16.6 de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se modifica el apartado 1 por el art. 15.4 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a66" tipo="precepto" titulo="Artículo 66">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 66.</p>
+          <p class="parrafo_2">1. El Ayuntamiento, al dictar el acuerdo de suspensión y el escrito de requerimiento o, si procede, al tener conocimiento de la suspensión de una obra, efectuará el nombramiento del Instructor y Secretario del expediente instruido por la infracción urbanística cometida.</p>
+          <p class="parrafo">2. Transcurrido el plazo de dos meses, si el interesado no hubiese instado dicha licencia o, en su caso, no hubiese ajustado las obras a las condiciones señaladas en ésta, o en la orden de ejecución, el Instructor formulará propuesta de demolición o de reconstrucción de las obras a costa del interesado y propondrá lo procedente para impedir definitivamente los usos a los que hubiese dado lugar. De igual manera procederá si la licencia fuese denegada por ser el otorgamiento contrario a las prescripciones de la normativa urbanística o de las ordenanzas.</p>
+          <p class="parrafo">3. La propuesta de resolución será notificada a los interesados para que en el improrrogable plazo de diez días formulen todas las alegaciones que estimen convenientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a67" tipo="precepto" titulo="Artículo 67">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 67.</p>
+          <p class="parrafo_2">1. Transcurrido el plazo expresado sin presentar alegaciones, o desestimadas éstas, el Ayuntamiento acordará la demolición o reconstrucción de las obras por el interesado y procederá a impedir definitivamente los usos a los que hubiese dado lugar, concediendo al interesado un plazo al efecto adecuado a las circunstancias del caso, con la advertencia de que el Ayuntamiento lo ejecutará subsidiariamente en caso de incumplimiento.</p>
+          <p class="parrafo">2. De la anterior resolución se dará cuenta al órgano urbanístico actuante, así como a las partes interesadas que denunciaron la realización de los actos de edificación o uso del suelo constitutivos de la infracción.</p>
+          <p class="parrafo">3. Si el Ayuntamiento no procediese a la ejecución del acuerdo adoptado en el plazo de un mes, contado desde la expiración del plazo al que se refiere el número 1 de este artículo, sin mediar causa bastante que justifique la dilación, el órgano urbanístico dispondrá directamente esta demolición a costa del interesado.</p>
+        </version>
+      </bloque>
+      <bloque id="a68" tipo="precepto" titulo="Artículo 68">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 68.</p>
+          <p class="parrafo_2">Finalizado el plazo determinado por la Administración para que el interesado lleve a cabo las actuaciones de reposición de las cosas a su estado anterior a la comisión de la infracción, si estas actuaciones no se habían llevado a cabo, la Administración actuante optará, en el plazo máximo de un mes, entre la ejecución subsidiaria o el otorgamiento de un nuevo plazo para la realización de las actuaciones necesarias por parte del inculpado. El incumplimiento de este nuevo plazo se sancionará con la multa que corresponda a la infracción originaria, impuesta en su grado máximo, y a la apertura del período de un mes para que la Administración opte para conceder nuevo plazo de ejecución para el interesado o para la ejecución subsidiaria. Las actuaciones sucesivas de incumplimiento se resolverán de acuerdo con esta misma norma.</p>
+        </version>
+      </bloque>
+      <bloque id="a69" tipo="precepto" titulo="Artículo 69">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 69.</p>
+          <p class="parrafo_2">El órgano actuante podrá proceder a la suspensión de la ejecución de la demolición o reconstrucción de lo indebidamente demolido mientras no sea firme la oportuna resolución administrativa o judicial.</p>
+        </version>
+      </bloque>
+      <bloque id="a70" tipo="precepto" titulo="Artículo 70">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 70.</p>
+          <p class="parrafo_2">Para proceder a la ejecución de la orden de demolición se deberá de haber obtenido previamente la autorización, con resolución motivada del Juzgado de Instrucción, para la entrada en el lugar donde se tenga que verificar.</p>
+        </version>
+      </bloque>
+      <bloque id="civ-2" tipo="encabezado" titulo="CAPÍTULO IV">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO IV</p>
+          <p class="capitulo_tit">De la subrogación de competencias</p>
+        </version>
+      </bloque>
+      <bloque id="a71" tipo="precepto" titulo="Artículo 71">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 71.</p>
+          <p class="parrafo_2">Cuando el Ayuntamiento competente por razón del territorio tuviera conocimiento de una infracción urbanística, de oficio, en virtud de denuncias de particulares, o a través de cualquier Organismo oficial y sin perjuicio de lo establecido en el artículo 24, y no hubiera iniciado el oportuno expediente sancionador y, si procede, el de demolición o reconstrucción de lo indebidamente demolido, en el plazo de un mes, a contar desde la denuncia o tuviera paralizado el expediente por plazo superior a los tres meses, el Consell Insular competente por razón del territorio se subrogará en la competencia para atender el asunto.</p>
+          <p class="parrafo">En este caso, las autoridades locales deberán remitir al órgano subrogante el expediente con el informe en el plazo máximo de diez días.</p>
+        </version>
+      </bloque>
+      <bloque id="cv-2" tipo="encabezado" titulo="CAPÍTULO V">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="capitulo_num">CAPÍTULO V</p>
+          <p class="capitulo_tit">Del expediente sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a72" tipo="precepto" titulo="Artículo 72">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 72.</p>
+          <p class="parrafo_2">Independientemente de la resolución de demolición o de reconstrucción, las infracciones urbanísticas cometidas contra lo dispuesto en esta Ley darán lugar a la imposición de sanciones pecunarias.</p>
+          <p class="parrafo">Las multas que puedan corresponder se adoptarán a propuesta del Instructor por el órgano actuante, previas las formalidades previstas en la Ley de Procedimiento Administrativo y como continuación al expediente de demolición o reconstrucción instruido.</p>
+        </version>
+        <version id_norma="BOE-A-2012-90025" fecha_publicacion="20120218" fecha_vigencia="20120219">
+          <p class="articulo">Artículo 72.</p>
+          <p class="parrafo_2">1. Independientemente de la resolución de demolición o de reconstrucción, las infracciones urbanísticas cometidas contra lo que dispone esta ley darán lugar a la imposición de sanciones pecuniarias.</p>
+          <p class="parrafo">El órgano actuante adoptará las multas que correspondan a propuesta del instructor, con las formalidades previas que prevé la Ley de procedimiento administrativo y como continuación al expediente de demolición o reconstrucción instruido.</p>
+          <p class="parrafo">2. Sin perjuicio de lo que establece el artículo 33, el hecho de que el infractor restituya la realidad física alterada a su estado anterior, dentro del plazo previsto en el apartado primero del artículo 67, dará lugar, a instancia de la persona interesada, a la condonación del 80% de la sanción impuesta.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 15.5 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+        <version id_norma="BOE-A-2012-9374" fecha_publicacion="20120623" fecha_vigencia="20120624">
+          <p class="articulo">Artículo 72.</p>
+          <p class="parrafo_2">1. Independientemente de la resolución de demolición o de reconstrucción, las infracciones urbanísticas cometidas contra lo que dispone esta ley darán lugar a la imposición de sanciones pecuniarias.</p>
+          <p class="parrafo">El órgano actuante adoptará las multas que correspondan a propuesta del instructor, con las formalidades previas que prevé la Ley de procedimiento administrativo y como continuación al expediente de demolición o reconstrucción instruido.</p>
+          <p class="parrafo">2. Sin perjuicio de lo que establece el artículo 33, el hecho de que el infractor restituya la realidad física alterada a su estado anterior, dentro del plazo previsto en el apartado primero del artículo 67, dará lugar, a instancia de la persona interesada, a la condonación del 80% de la sanción impuesta.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. 16.7 de la Ley autonómica 7/2012, de 13 de junio. <a class="refPost">Ref. BOE-A-2012-9374</a>.</p>
+            <p class="nota_pie">Se modifica por el art. 15.5 del Decreto-ley autonómico 2/2012, de 17 de febrero. <a class="refPost">Ref. BOIB-i-2012-90025</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="tv" tipo="encabezado" titulo="TÍTULO V">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="titulo_num">TÍTULO V</p>
+          <p class="titulo_tit">De la prescripción</p>
+        </version>
+      </bloque>
+      <bloque id="a73" tipo="precepto" titulo="Artículo 73">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 73.</p>
+          <p class="parrafo_2">1. Las infracciones urbanísticas consistentes en actos de edificación sin licencia u orden de ejecución o sin ajustarse a las condiciones señaladas en ésta prescribirán a los ocho años desde su finalización total.</p>
+          <p class="parrafo">Se entenderá totalmente acabada la obra cuando así se acredite fehacientemente, por cualquier medio de prueba, habiendo de correr, en todo caso, la carga de ésta para quien la alega.</p>
+          <p class="parrafo">2. Las parcelaciones urbanísticas ilegales tendrán carácter de actividad continuada. El plazo de prescripción de la infracción será de ocho años. La fecha inicial del cómputo de prescripción será la de finalización de la actividad o la del último acto en que se consume la infracción.</p>
+        </version>
+      </bloque>
+      <bloque id="a74" tipo="precepto" titulo="Artículo 74">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Artículo 74.</p>
+          <p class="parrafo_2">No prescribirán las infracciones urbanísticas realizadas sobre terrenos calificados por los respectivos planeamientos como zonas verdes, espacios libres públicos, sistemas generales, viales, equipamientos públicos, espacios naturales especialmente protegidos, monumentos histórico-artísticos y edificios y conjuntos catalogados.</p>
+          <p class="parrafo">Las actividades que se realicen en base a licencias u órdenes de ejecución que se hayan otorgado con infracción de la zonificación o usos urbanísticos relacionados en el apartado anterior, tampoco estarán sometidos a plazo de prescripción.</p>
+        </version>
+      </bloque>
+      <bloque id="primera" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo_2">Los expedientes que a la entrada en vigor de esta Ley se encontrasen en curso de tramitación ante la Administración competente, se continuarán tramitando de acuerdo con las normas hasta ahora en vigor.</p>
+        </version>
+      </bloque>
+      <bloque id="segunda" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo_2">Mientras los Ayuntamientos no adapten su normativa urbanística a lo que dispone el artículo 8.1 de esta Ley, el plazo máximo para comenzar las obras objeto de licencia será de seis meses y el plazo máximo para terminarlas, de veinticuatro meses.</p>
+        </version>
+      </bloque>
+      <bloque id="daunica" tipo="precepto" titulo="Disposición adicional única">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Disposición adicional única.</p>
+          <p class="parrafo_2">Se autoriza al Govern y a los Consells Insulares a la adopción, en el marco de sus competencias, de las disposiciones reglamentarias necesarias para el desarrollo y la eficacia de esta Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="primera-2" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">1. No será de aplicación en el ámbito territorial de esta Comunidad Autónoma el Reglamento de Disciplina Urbanística para el desarrollo y aplicación de la Ley sobre Régimen del Suelo y Ordenación Urbana, de 23 de junio de 1978, aprobado por Real Decreto 2187/1978.</p>
+          <p class="parrafo">2. Quedan derogadas o sin aplicación en el territorio de la Comunidad Autónoma de las Islas Baleares cuantas disposiciones se opongan a la presente Ley.</p>
+        </version>
+        <version id_norma="BOE-A-1992-14420" fecha_publicacion="19920530" fecha_vigencia="19920531">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo_2">1. No será aplicable en el ámbito territorial de esta Comunidad Autónoma el Reglamento de Disciplina Urbanística para desarrollar y aplicar la Ley sobre Régimen del Suelo y Ordenación Urbana, aprobado por Real Decreto 2187/1978, de 23 de junio, exceptuando los artículos del 18 al 28, en aquello que afecte a la tramitación de los expedientes de ruina de las construcciones.</p>
+          <p class="parrafo">2. Quedan derogadas o sin aplicación en el territorio de la Comunidad Autónoma todas las disposiciones que se opongan a la presente Ley.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica por el art. único de la Ley autonómica 2/1992, de 6 de mayo. <a class="refPost">Ref. BOE-A-1992-14420</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="segunda-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo_2">Esta Ley entrará en vigor al día siguiente al de su publicación en el «Boletín Oficial de la Comunidad Autónoma de las Islas Baleares».</p>
+        </version>
+      </bloque>
+      <bloque id="firma" tipo="firma">
+        <version id_norma="BOE-A-1990-29990" fecha_publicacion="19901117" fecha_vigencia="19901118">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a las que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">Palma de Mallorca, 23 de octubre de 1990.</p>
+          <table border="0" class="sinbordes">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">JERÓNIMO SAIZ GOMILA,</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">GABRIEL CAÑELLAS FONS,</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="cuerpo_tabla_centro">Conseller de Obras Públicas y Ordenación del Territorio</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">Presidente</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>

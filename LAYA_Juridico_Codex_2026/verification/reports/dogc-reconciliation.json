@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-10-12T13:54:03.670432+00:00",
+  "status": "partial",
+  "resolved": 14,
+  "remaining": 0,
+  "records": [
+    {
+      "external_id": "DOGC-00007003",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000-81",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000A-85",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000C",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000E",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000F-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000I",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000J-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000K-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000L-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000N-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000P-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000R-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    },
+    {
+      "external_id": "DOGC-0000T-86",
+      "status": "integrated",
+      "versions": 1,
+      "warnings": [
+        "AVAILABLE_HISTORY_NOT_RECONCILED",
+        "OFFICIAL_TRANSLATION_MISSING"
+      ]
+    }
+  ],
+  "limitations": [
+    "Targeted recovery only. Missing official XML language variants, annexes, available history and full catalogue/coverage remain unverified."
+  ]
+}

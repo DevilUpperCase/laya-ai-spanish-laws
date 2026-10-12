@@ -1,0 +1,28 @@
+[
+  {
+    "external_id": "DOGC-00007003",
+    "xml_urls": {
+      "url_format_xml": {
+        "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2000/01/10/13/dof/cat/xml"
+      },
+      "url_es_format_xml": {
+        "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2000/01/10/13/dof/spa/xml"
+      }
+    },
+    "failure_type": "ParseError",
+    "diagnostic": "no element found: line 1, column 0"
+  },
+  {
+    "external_id": "DOGC-0000-81",
+    "xml_urls": {
+      "url_format_xml": {
+        "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1981/11/06/414/dof/cat/xml"
+      },
+      "url_es_format_xml": {
+        "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1981/11/06/414/dof/spa/xml"
+      }
+    },
+    "failure_type": "ValueError",
+    "diagnostic": "No official body text"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source_id": "REPLACE_WITH_SOURCE_ID",
+  "scope": "all_publicly_accessible_official_bulletin_items",
+  "reviewer": null,
+  "reviewed_at": null,
+  "current_reconciled": false,
+  "available_history_reconciled": false,
+  "attachments_reconciled": false,
+  "subitems_reconciled": false,
+  "evidence": [],
+  "limitations": ["Template only. Attach actual catalogue, period and history reconciliation evidence before professional approval."]
+}

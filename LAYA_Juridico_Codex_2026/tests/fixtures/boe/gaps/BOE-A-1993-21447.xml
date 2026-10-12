@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251217T205145Z</fecha_actualizacion>
+      <identificador>BOE-A-1993-21447</identificador>
+      <ambito codigo="2">Autonómico</ambito>
+      <departamento codigo="8120">Comunidad Autónoma de las Islas Baleares</departamento>
+      <rango codigo="1300">Ley</rango>
+      <fecha_disposicion>19930504</fecha_disposicion>
+      <numero_oficial>3/1993</numero_oficial>
+      <titulo>Ley 3/1993, de 4 de mayo, para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>19930818</fecha_publicacion>
+      <diario_numero>197</diario_numero>
+      <fecha_vigencia>19930521</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20170806</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es-ib/l/1993/05/04/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-1993-21447</url_html_consolidada>
+    </metadatos>
+    <analisis>
+      <materias>
+        <materia codigo="433">Baleares</materia>
+        <materia codigo="470">Barreras arquitectónicas</materia>
+        <materia codigo="5023">Discapacidad</materia>
+        <materia codigo="3111">Edificaciones</materia>
+        <materia codigo="7094">Urbanismo</materia>
+      </materias>
+      <notas>
+        <nota>Publicada en el BOIB núm. 62, de 20 de mayo de 1993.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1983-6316</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 27.2 del Estatuto aprobado por Ley Orgánica 2/1983, de 25 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1992-26318</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 30/1992, de 26 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1990-29990</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 10/1990, de 23 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1982-9983</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 13/1982, de 7 de abril</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2017-10541</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Ley 8/2017, de 3 de agosto</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2014-7536</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el art. 35, por Ley 4/2014, de 20 de junio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+    <metadata-eli xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+        <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3">
+          <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+          <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+          <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1993-21447</eli:id_local>
+          <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-04</eli:date_document>
+          <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+          <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1993-21447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628"/>
+              <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1993, de 4 de mayo, para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-08-18</eli:date_publication>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa/pdf">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa/xml">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1993-21447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-05</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1993, de 4 de mayo, para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20170805/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1993-21447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-28</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1993, de 4 de mayo, para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/20140628/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+          <eli:has_member>
+            <eli:LegalResource rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520">
+              <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es-ib"/>
+              <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/l"/>
+              <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1993-21447</eli:id_local>
+              <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-04</eli:date_document>
+              <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/433"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/470"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3111"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5023"/>
+              <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7094"/>
+              <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+              <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-05-20</eli:version_date>
+              <eli:is_member_of rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3"/>
+              <eli:consolidates rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/dof"/>
+              <eli:is_realized_by>
+                <eli:LegalExpression rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520/spa">
+                  <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                  <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ley 3/1993, de 4 de mayo, para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</eli:title>
+                  <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                  <eli:realizes rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520"/>
+                  <eli:is_embodied_by>
+                    <eli:Format rdf:about="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520/spa/html">
+                      <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                      <eli:embodies rdf:resource="https://www.boe.es/eli/es-ib/l/1993/05/04/3/con/19930520/spa"/>
+                    </eli:Format>
+                  </eli:is_embodied_by>
+                </eli:LegalExpression>
+              </eli:is_realized_by>
+            </eli:LegalResource>
+          </eli:has_member>
+        </eli:LegalResource>
+      </rdf:RDF>
+    </metadata-eli>
+    <texto>
+      <bloque id="no" tipo="nota_inicial">
+        <version id_norma="BOE-A-2017-10541" fecha_publicacion="20170805" fecha_vigencia="20170806">
+          <p class="siempreSeVe">Norma derogada, con efectos de 6 de agosto de 2017, por la disposición derogatoria 1.1 de la Ley 8/2017, de 3 de agosto. <a class="refPost">Ref. BOE-A-2017-10541#dd</a></p>
+        </version>
+      </bloque>
+      <bloque id="pr" tipo="preambulo" titulo="[preambulo]">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="parrafo">EL PRESIDENTE DE LA COMUNIDAD AUTÓNOMA DE LAS ISLAS BALEARES</p>
+          <p class="parrafo_2">Sea notorio a todos los ciudadanos que el Parlamento de las Islas Baleares ha aprobado y yo, en nombre del Rey y de acuerdo con lo que se establece en el artículo 27.2 del Estatuto de Autonomía, tengo a bien promulgar la siguiente Ley:</p>
+          <p class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+          <p class="centro_redonda">I</p>
+          <p class="parrafo_2">El principio de igualdad consagrado en el artículo 14 de la Constitución española comporta asegurar a todos los ciudadanos la accesibilidad y la utilización de los espacios públicos, los edificios y locales de pública concurrencia y, a la vez, permitir la gradual eliminación de las barreras arquitectónicas ya existentes, y ello constituye uno de los objetivos fundamentales de la actuación pública, con la intención de favorecer esta igualdad de todos los ciudadanos. Dada la importancia que la supresión de barreras arquitectónicas tiene en el proceso de la total integración social no sólo de las personas afectadas de disminuciones, sino de todas aquellas que padecen una movilidad reducida, se considera imprescindible aprobar una ley que garantice la accesibilidad en el entorno urbano, en los edificios y medios de transporte público, fomentar este objetivo, controlar el cumplimiento de lo que se dispone en la norma y establecer asimismo un régimen sancionador en caso de incumplimiento.</p>
+          <p class="centro_redonda">II</p>
+          <p class="parrafo_2">El artículo 9 del Estatuto de Autonomía de las Islas Baleares, aprobado por Ley Orgánica 2/1983, de 25 de febrero, establece que las instituciones de autogobierno, en cumplimiento de las finalidades que les son propias, promoverán la igualdad entre los ciudadanos de las islas Baleares como principio de la Constitución.</p>
+          <p class="parrafo">Asimismo, el artículo 10 del Estatuto atribuye a la Comunidad Autónoma competencia exclusiva en materia de ordenación del territorio, urbanismo y vivienda. De acuerdo con lo que se ha expuesto, la finalidad de la presente Ley es hacer que las ciudades sean más accesibles y mejorar la calidad de vida de toda la población, para ampliar el proceso de integración de las personas con limitaciones, que ha tenido el punto de partida en la Ley estatal 13/1982, de 7 de abril, de integración social de los minusválidos.</p>
+          <p class="centro_redonda">III</p>
+          <p class="parrafo_2">A través de 40 artículos, agrupados en un título preliminar y tres títulos, se regulan el control previo de los proyectos de obra y las disposiciones sobre el diseño y la ejecución para la supresión de barreras arquitectónicas urbanísticas, en la edificación y los medios de transporte (título I).</p>
+          <p class="parrafo">Es de destacar el régimen sancionador que figura en el título II y que se remite a la Ley 10/1990, de 23 de octubre, de disciplina urbanística.</p>
+          <p class="parrafo">Se crea el Consejo Asesor para la mejora de la accesibilidad y de la supresión de la barreras arquitectónicas (título III) como órgano de colaboración entre las diferentes administraciones públicas y las Entidades que agrupan personas con movilidad reducida con la finalidad de conseguir una adecuada colaboración entre estas instituciones.</p>
+          <p class="parrafo">En las tres disposiciones adicionales se regula la elaboración en el plazo de un año de los catálogos de espacios y edificios de titularidad pública que deben adaptarse a la presente Ley, la habilitación al Gobierno para el desarrollo reglamentario, así como la actualización periódica de las sanciones económicas. En las cuatro disposiciones transitorias se fija un plazo suficiente para la adecuación gradual a la Ley de los espacios públicos de los edificios ya construidos y de los medios de transporte público para darle efectividad, cuyo seguimiento corresponderá al Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas. Asimismo, se regula la resolución de los expedientes y del plazo de prescripción de las infracciones y de las sanciones muy graves, hasta que no se adapte la normativa sancionadora autonómica a la legislación básica.</p>
+        </version>
+      </bloque>
+      <bloque id="tp" tipo="encabezado" titulo="TÍTULO PRELIMINAR">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="titulo">TÍTULO PRELIMINAR</p>
+        </version>
+      </bloque>
+      <bloque id="a1" tipo="precepto" titulo="Artículo 1">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 1.</p>
+          <p class="parrafo">La presente Ley tiene por objeto garantizar la accesibilidad al entorno urbano, a los edificios y a los medios de transporte, a las personas con movilidad reducida o que padezcan cualquier otra limitación; la eliminación de las barreras que la dificulten, el fomento en todos los ámbitos sociales de este objetivo y el control efectivo del cumplimiento de lo que en ella se dispone.</p>
+        </version>
+      </bloque>
+      <bloque id="a2" tipo="precepto" titulo="Artículo 2">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 2.</p>
+          <p class="parrafo">Lo que se establece en esta ley será aplicable a todas las actuaciones públicas o privadas en el transporte o en materia urbanística o de edificación que supongan una nueva construcción, una ampliación o una reforma suficientemente importante, para permitir simultáneamente la eliminación de los elementos que impiden su accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a3" tipo="precepto" titulo="Artículo 3">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 3.</p>
+          <p class="parrafo">A los efectos de la presente Ley, en relación con los conceptos que se citan, deberá entenderse:</p>
+          <p class="parrafo_2">a) Por accesibilidad: La calidad que tiene un medio en el que se han eliminado las barreras arquitectónicas o en el que se han establecido alternativas.</p>
+          <p class="parrafo">b) Por barrera arquitectónica: Obstáculo físico, impedimento o similar, que impide o limita el movimiento de las personas o la autonomía personal y que puede encontrarse en un marco urbanístico, en la edificación o en los medios de transporte.</p>
+          <p class="parrafo">c) Por itinerario practicable: El recorrido o el camino accesible.</p>
+          <p class="parrafo">d) Por ayuda técnica: Los instrumentos que utiliza la persona como apoyo en el desplazamiento y los medios mecánicos o estáticos que complementan o posibilitan la accesibilidad.</p>
+          <p class="parrafo">e) Por persona con movilidad reducida: Aquella que tenga una disminución que temporal o permanentemente le impida o dificulte el desplazamiento.</p>
+        </version>
+      </bloque>
+      <bloque id="a4" tipo="precepto" titulo="Artículo 4">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 4.</p>
+          <p class="parrafo">Estarán debidamente señalizados los lugares que puedan comportar peligro para las personas con movilidad reducida.</p>
+        </version>
+      </bloque>
+      <bloque id="a5" tipo="precepto" titulo="Artículo 5">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 5.</p>
+          <p class="parrafo">El sistema de alarma o de emergencia contará con señales luminosas o sonoras intermitentes. Con carácter general la información se dará de forma escrita, sonora o táctil, de acuerdo con lo que establece la presente Ley y las disposiciones que la desarrollan.</p>
+        </version>
+      </bloque>
+      <bloque id="a6" tipo="precepto" titulo="Artículo 6">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 6.</p>
+          <p class="parrafo">El símbolo internacional de accesibilidad será de obligada instalación en los lugares, espacios, edificios y medios de transporte públicos, donde no haya barreras arquitectónicas, donde se den alternativas o donde haya un itinerario practicable.</p>
+        </version>
+      </bloque>
+      <bloque id="ti" tipo="encabezado" titulo="TÍTULO I">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="titulo_num">TÍTULO I</p>
+          <p class="titulo_tit">Disposiciones sobre el diseño y la ejecución para la supresión de barreras arquitectónicas</p>
+        </version>
+      </bloque>
+      <bloque id="ci" tipo="encabezado" titulo="CAPÍTULO I">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="capitulo_num">CAPÍTULO I</p>
+          <p class="capitulo_tit">Barreras arquitectónicas urbanísticas</p>
+        </version>
+      </bloque>
+      <bloque id="s1" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="seccion">Sección 1. Disposiciones de carácter general</p>
+        </version>
+      </bloque>
+      <bloque id="a7" tipo="precepto" titulo="Artículo 7">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 7.</p>
+          <p class="parrafo">1. Las prescripciones que contengan los planes generales de ordenación urbana, las normas subsidiarias y los demás instrumentos de planeamiento y ejecución que las desarrollen, y también los proyectos de urbanización, de dotación de servicios, de obras y de instalaciones deberán garantizar la accesibilidad y la utilización con carácter general de los espacios de uso público y observarán las determinaciones y los criterios básicos establecidos en este capítulo.</p>
+          <p class="parrafo">2. Para el otorgamiento de todo tipo de licencias y autorizaciones será indispensable el cumplimiento de las prescripciones de la presente Ley y deberán denegarse en el caso contrario.</p>
+          <p class="parrafo">3. Los pliegos de condiciones de los contratos administrativos contendrán cláusulas de adecuación a lo que se dispone en esta ley.</p>
+        </version>
+      </bloque>
+      <bloque id="a8" tipo="precepto" titulo="Artículo 8">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 8.</p>
+          <p class="parrafo">1. Las barreras arquitectónicas urbanísticas pueden originarse en:</p>
+          <p class="parrafo_2">a) Los elementos de la urbanización.</p>
+          <p class="parrafo">b) El mobiliario urbano.</p>
+          <p class="parrafo_2">2. Se considera elemento de urbanización cualquier componente de las obras de urbanización, entendiendo por tales las referentes a: Pavimentación, abastecimiento y distribución de agua, saneamiento, drenaje, distribución de energía eléctrica, gas, telefonía y telemática, alumbrado público, jardinería y todas aquellas otras que materializan las indicaciones del planeamiento urbanístico.</p>
+          <p class="parrafo">3. Se entiende por mobiliario urbano el conjunto de objetos existentes en las vías y en los espacios libres públicos, superpuestos o adosados a los elementos de urbanización o edificación, de manera que modificarlos o trasladarlos no genera alteraciones substanciales de aquéllas, tales como: Semáforos, palos de señalización y similares, cabinas telefónicas, fuentes públicas, papeleras, parasoles, marquesinas, quioscos, juegos infantiles y cualesquiera otros de naturaleza análoga.</p>
+        </version>
+      </bloque>
+      <bloque id="s2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="seccion">Sección 2. Disposiciones sobre el diseño de los mentos de urbanización</p>
+        </version>
+      </bloque>
+      <bloque id="a9" tipo="precepto" titulo="Artículo 9">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 9. Itinerarios para viandantes.</p>
+          <p class="parrafo">El diseño y trazado de los itinerarios públicos destinados al tránsito de viandantes deben realizarse de manera que los desniveles no lleguen a grados de inclinación que dificulten su utilización a personas con movilidad reducida, y que dispongan de una anchura tal que dos personas puedan cruzarse, una de las dos, en silla de ruedas. En todo caso, deberán disponer en todo el recorrido de una anchura mínima, libre de cualquier obstáculo, que permita pasar una persona en silla de ruedas.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-2" tipo="precepto" titulo="Artículo 10">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 10. Pavimentos.</p>
+          <p class="parrafo">1. Los pavimentos de los itinerarios para viandantes serán duros, antideslizantes y sin resaltos.</p>
+          <p class="parrafo">2. Las rejas y los registros situados en estos itinerarios estarán enrasados con el pavimento circundante y el enrejado será perpendicular al sentido de la marcha.</p>
+          <p class="parrafo">3. Los árboles que se sitúen en estos itinerarios tendrán cubiertos los alcorques con rejas u otros elementos enrasados con el pavimento circundante.</p>
+          <p class="parrafo">4. En una altura máxima de 2,20 metros por encima del suelo no podrán sobresalir arbustos, ramas o similares, más allá de la vertical del límite de la zona ajardinada, que se considera que es la delimitada por el bordillo definido en el artículo 15.2.</p>
+          <p class="parrafo">5. Los árboles que tengan el tronco inclinado y supongan un obstáculo serán enrejados y, si no fuera posible, señalizados adecuadamente.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-3" tipo="precepto" titulo="Artículo 11">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 11. Vados.</p>
+          <p class="parrafo">1. A los efectos de la presente ley, se consideran dos tipos de vados:</p>
+          <p class="parrafo_2">a) Los destinados a la entrada y salida de vehículos a través de itinerarios para viandantes.</p>
+          <p class="parrafo">b) Los destinados específicamente a la supresión de barreras arquitectónicas en los itinerarios para viandantes.</p>
+          <p class="parrafo_2">2. Los primeros se diseñarán de manera que los itinerarios para viandantes que los crucen no queden afectados por pendientes longitudinales o transversales superiores a las toleradas para personas con movilidad reducida. En estos vados no se admitirá el tipo de baldosa especial para personas con visibilidad reducida.</p>
+          <p class="parrafo">3. Los segundos deberán diseñarse de manera que los dos niveles a comunicar se enlacen por un plano inclinado de pendiente longitudinal y transversal adecuado a personas con movilidad reducida. Cuando sea posible, la anchura no debe permitir el paso simultáneo de dos personas en silla de ruedas, y estarán pavimentados con losetas especiales para que las personas con visibilidad reducida los localicen fácilmente.</p>
+          <p class="parrafo">4. Reglamentariamente, se definirán las pendientes máximas permitidas así como las anchuras mínimas de los vados a que se refiere el presente artículo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-4" tipo="precepto" titulo="Artículo 12">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 12. Pasos de peatones.</p>
+          <p class="parrafo">1. En los pasos de peatones se salvará el desnivel entre la acera y la calzada con un vado de las características indicadas en el artículo 11.3. Estos se situarán siempre enfrentados.</p>
+          <p class="parrafo">2. Si en el recorrido del paso de peatones es necesario cruzar una isleta intermedia en las calzadas rodadas, ésta se recortará y rebajará hasta 2 centímetros de altura en una anchura igual a la del paso de viandantes.</p>
+          <p class="parrafo">3. Si el paso, por la longitud que tiene, debe hacerse en dos tiempos con una parada intermedia, la isleta tendrá una anchura mínima que permita que un transeúnte en silla de ruedas permanezca a resguardo de la circulación rodada.</p>
+          <p class="parrafo">4. Las isletas intermedias a que hacen referencia los dos apartados anteriores estarán pavimentadas con baldosas especiales para personas con visibilidad reducida.</p>
+          <p class="parrafo">5. En los cruces de calles de configuración atípica se instalará una franja de guía táctil de un borde al otro por la línea del paso de transeúntes. Esta franja consistirá en una leve sobreelevación de una anchura de 5 centímetros y una altura de 6 milímetros. Esta franja será detectable tanteando a derecha o a izquierda con el bastón.</p>
+          <p class="parrafo">6. En los espacios exteriores que no tengan fachadas, se dispondrá una franja de 30 centímetros de loseta especial paralela al bordillo para advertir a la persona con visibilidad reducida que debe variar su rumbo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-5" tipo="precepto" titulo="Artículo 13">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 13. Escaleras.</p>
+          <p class="parrafo">1. Las escaleras se harán de manera que tengan una dimensión confortable de tendido y frontal que facilite su utilización por personas con movilidad reducida.</p>
+          <p class="parrafo">2. La anchura libre debe permitir el paso simultáneo de dos personas.</p>
+          <p class="parrafo">3. Al principio y al final de las escaleras de la zona del rellano se instalarán elementos de color y textura que contrasten con el pavimento general, en una franja o longitud igual al frontal de la escalera y una anchura de 30 centímetros, cosa que permitirá su detección por las personas con reducción de visibilidad.</p>
+          <p class="parrafo">4. Las escaleras deben tener barandillas en los dos lados, que deberán ser continuas y prolongarse como mínimo 45 centímetros, más allá del principio y del final de las mismas y siempre deberán ser rematadas hacia dentro o hacia abajo para eliminar riesgos.</p>
+          <p class="parrafo">5. El tendido se construirá en material antideslizante sin resaltos sobre el frontal.</p>
+          <p class="parrafo">6. Las escaleras de largo recorrido deberán partirse y en ellas se introducirán rellanos intermedios.</p>
+          <p class="parrafo">7. Se prohíben en los itinerarios de transeúntes los desniveles constituidos por un escalón único, que deberá ser sustituido por una rampa.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-6" tipo="precepto" titulo="Artículo 14">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 14. Rampas.</p>
+          <p class="parrafo">1. Las rampas, como elementos que en un itinerario para viandantes permiten salvar desniveles pronunciados o pendientes superiores a los del itinerario mismo, se ajustarán a los criterios que se especifican a continuación.</p>
+          <p class="parrafo">2. La pendiente, tanto la longitudinal como la transversal, no llegará a grados de inclinación que dificulten su utilización por personas con movilidad reducida. La pendiente longitudinal quedará también limitada en función de la longitud del tramo.</p>
+          <p class="parrafo">3. Las rampas de los itinerarios para viandantes deberán tener barandillas y protecciones a los dos lados que sirvan de apoyo y eviten la salida accidental de sillas de ruedas y bastones.</p>
+          <p class="parrafo">4. La anchura libre permitirá el paso simultáneo de dos personas, una en silla de ruedas, excepto cuando haya un recorrido alternativo, en cuyo caso podrá reducirse la anchura al paso de una silla de ruedas.</p>
+          <p class="parrafo">5. Cualquier tramo de escalera en un itinerario para viandantes deberá complementarse con una rampa o con otros medios mecánicos.</p>
+          <p class="parrafo">6. No se consideran rampas las superficies con una pendiente inferior al 5 por 100.</p>
+          <p class="parrafo">7. Reglamentariamente se definirán la pendiente máxima, la anchura mínima y el resto de características de las rampas a que hace referencia este artículo.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-7" tipo="precepto" titulo="Artículo 15">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 15. Parques, jardines, plazas y espacios libres públicos.</p>
+          <p class="parrafo">1. Los itinerarios para viandantes en parques, jardines, plazas y espacios libres públicos en general, se ajustarán a los criterios señalados en los artículos precedentes.</p>
+          <p class="parrafo">2. Las zonas ajardinadas y los setos estarán siempre delimitados por un bordillo de 5 centímetros de altura mínima o por un cambio de textura del pavimento que permita a las personas con visibilidad reducida localizarlos. Se prohíben las delimitaciones con cables, cuerdas o similares.</p>
+          <p class="parrafo">3. Los lavabos públicos que se dispongan en estos espacios deberán ser accesibles a personas con movilidad reducida. Las dependencias de estos lavabos se ajustarán a lo que indica el artículo 25 referente a lavabos en edificios públicos.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-8" tipo="precepto" titulo="Artículo 16">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 16. Aparcamiento.</p>
+          <p class="parrafo">1. En todas las zonas de estacionamiento de vehículos ligeros los Ayuntamientos reservarán, permanentemente y tan cerca como sea posible de los accesos para viandantes, plazas debidamente señalizadas para vehículos que transporten personas con movilidad reducida.</p>
+          <p class="parrafo">2. Los accesos para viandantes a estas plazas cumplirán las condiciones establecidas en los artículos anteriores para itinerarios de viandantes.</p>
+          <p class="parrafo">3. Las dimensiones mínimas de las plazas serán las que permitan su correcta utilización por personas con movilidad reducida, incluidas aquellas que se desplazan en sillas de ruedas.</p>
+        </version>
+      </bloque>
+      <bloque id="s3" tipo="encabezado" titulo="Sección 3">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="seccion">Sección 3. Diseño y ubicación de mobiliario urbano</p>
+        </version>
+      </bloque>
+      <bloque id="a1-9" tipo="precepto" titulo="Artículo 17">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 17. Elementos de señalización y de alumbrado.</p>
+          <p class="parrafo">1. Las señales de tráfico, los semáforos, los palos de alumbrado público o cualquier elemento de señalización se situarán al lado del bordillo cuando la acera tenga una anchura superior a 1,5 metros. Si es inferior, irán adosados a la pared, con los discos señalizadores a una altura superior a 2,20 metros del nivel más bajo de la acera.</p>
+          <p class="parrafo">2. No podrá instalarse ningún obstáculo en el espacio de las aceras comprendido en el paso de viandantes.</p>
+          <p class="parrafo">3. En los pasos para viandantes con semáforos manuales, el pulsador para accionar el cambio de la luz deberá situarse a una altura accesible, no superior a 1,20 metros, para que una persona en silla de ruedas pueda manipularlo.</p>
+          <p class="parrafo">4. Los semáforos para viandante instalados en vías públicas, cuyo volumen de tráfico rodado o cuya peligrosidad objetiva así lo aconsejen, deberán estar equipados para emitir una señal sonora y suave, intermitente y sin estridencias o sistemas táctiles, que sirva de guía a las personas con visibilidad reducida cuando se abre el paso a los viandantes.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-10" tipo="precepto" titulo="Artículo 18">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 18. Elementos urbanos diversos.</p>
+          <p class="parrafo">Cualquier elemento instalado en la vía pública será ubicado de tal manera que permita un espacio libre de circulación para viandantes con una anchura mínima de 1,50 metros y una altura mínima de 2,20 metros.</p>
+        </version>
+      </bloque>
+      <bloque id="a1-11" tipo="precepto" titulo="Artículo 19">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 19. Protección y señalización de las obras en vía pública.</p>
+          <p class="parrafo">1. Los andamios, las acequias o cualquier otro tipo de obras en la vía pública se deberán señalizar, proteger y dotar de luces rojas que deben permanecer encendidas durante las noches. Estos elementos deben disponerse de manera que las personas con visibilidad reducida puedan detectar a tiempo la existencia de un obstáculo, y deben incluir todos los materiales y utensilios recogidos. Para cruzar las acequias, deben disponerse unas planchas convenientemente adosadas cuya anchura mínima se determinará reglamentariamente.</p>
+          <p class="parrafo">2. Cuando por motivo de obras haya andamios en las vías públicas, deberá garantizarse un tráfico correcto para viandantes libre de obstáculos, la anchura mínima del espacio libre se determinará reglamentariamente.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-2" tipo="encabezado" titulo="CAPÍTULO II">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="capitulo_num">CAPÍTULO II</p>
+          <p class="capitulo_tit">Barreras arquitectónicas en la edificación</p>
+        </version>
+      </bloque>
+      <bloque id="s1-2" tipo="encabezado" titulo="Sección 1">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="seccion">Sección 1. Disposiciones de carácter general</p>
+        </version>
+      </bloque>
+      <bloque id="a2-2" tipo="precepto" titulo="Artículo 20">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 20.</p>
+          <p class="parrafo">Los edificios y las instalaciones de uso y de interés público y de nueva planta, deberán permitir el acceso y el uso a las personas con disminuciones y se ajustarán a las prescripciones de carácter general que se indican en los artículos siguientes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-3" tipo="precepto" titulo="Artículo 21">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 21.</p>
+          <p class="parrafo">Los alojamientos turísticos de más de 30 unidades de alojamiento deberán disponer de una unidad de alojamiento para personas con movilidad reducida, por cada 50 unidades de alojamiento o fracción que tenga el establecimiento, sin perjuicio de la accesibilidad a todos los locales y zonas comunes.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-4" tipo="precepto" titulo="Artículo 22">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 22.</p>
+          <p class="parrafo">En las zonas exteriores o interiores, destinadas a garajes y a aparcamiento de uso público será necesario reservar permanentemente, tan cerca como sea posible de los accesos para viandantes, plazas debidamente señalizadas para vehículos que transporten personas con movilidad reducida.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-5" tipo="precepto" titulo="Artículo 23">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 23.</p>
+          <p class="parrafo">Uno de los accesos en el interior de la edificación como mínimo deberá estar desprovisto de barreras arquitectónicas que impidan o dificulten la accesibilidad de las personas con movilidad reducida.</p>
+          <p class="parrafo">En el caso de un conjunto de edificios e instalaciones, uno, como mínimo, de los itinerarios para viandantes que los unen entre sí y con la vía pública deberá cumplir las condiciones establecidas en la presente ley para estos itinerarios. Reglamentariamente se definirán la anchura mínima y el resto de características de los accesos sin barreras arquitectónicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-6" tipo="precepto" titulo="Artículo 24">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 24.</p>
+          <p class="parrafo">Los espacios de comunicación horizontal en las áreas de uso público tendrán unas características tales que permitan el desplazamiento y la maniobra de toda clase de personas disminuidas.</p>
+          <p class="parrafo">Los desniveles deberán ser salvados mediante rampas de las características indicadas en el artículo 14. Las dependencias y los espacios situados en áreas de uso público se diseñarán de manera que garanticen el acceso y la movilidad interior a las personas con alguna disminución.</p>
+          <p class="parrafo">La comunicación vertical entre áreas de uso público deberá realizarse, como mínimo, a través de un elemento constructivo o mecánico, accesible y utilizable por las personas con movilidad reducida.</p>
+          <p class="parrafo">Las escaleras, como elemento utilizable por determinadas personas disminuidas, se ajustarán a los criterios especificados en el artículo 13.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-7" tipo="precepto" titulo="Artículo 25">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 25.</p>
+          <p class="parrafo">Los servicios higiénicos de uso público dispondrán, como mínimo, de un lavabo que cumpla las condiciones que permitan su utilización a todo tipo de personas con movilidad reducida; las puertas irán señalizadas con el anagrama internacional en relieve y en un contraste intenso de color. A este efecto se tendrán en cuenta los requisitos específicos siguientes:</p>
+          <p class="parrafo_2">a) Los vacíos y los espacios de acceso y también los pasos o distribuidores interiores tendrán las dimensiones suficientes para permitir el desplazamiento y la maniobra de una persona en silla de ruedas.</p>
+          <p class="parrafo">b) Las puertas de vidrio deberán estar dotadas a una altura de 1,60 metros de alguna marca que las identifique como tales para que puedan ser detectadas por personas con visibilidad reducida.</p>
+          <p class="parrafo">c) Los aparatos sanitarios, que estarán dotados de elementos auxiliares de sujeción que permitan su utilización por las personas con movilidad reducida, tendrán a su alrededor el espacio necesario, libre de todo obstáculo, que, en todo caso, permita su aproximación y uso correcto.</p>
+          <p class="parrafo_2">Reglamentariamente se definirán las dimensiones mínimas y las demás características de los servicios higiénicos a que hace referencia este artículo.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-8" tipo="precepto" titulo="Artículo 26">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 26.</p>
+          <p class="parrafo">En todos aquellos elementos de la construcción y en los servicios y las instalaciones de uso general, se garantizará la fácil utilización por personas con alguna disminución.</p>
+        </version>
+      </bloque>
+      <bloque id="s2-2" tipo="encabezado" titulo="Sección 2">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="seccion">Sección 2. Disposiciones sobre edificaciones de viviendas</p>
+        </version>
+      </bloque>
+      <bloque id="a2-9" tipo="precepto" titulo="Artículo 27">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 27.</p>
+          <p class="parrafo">1. A los efectos de la presente Ley se considera en un edificio de viviendas, instalaciones o servicios utilizables por personas con movilidad reducida dos tipos de espacios: Los adaptados y los practicables.</p>
+          <p class="parrafo">Un espacio, una instalación o un servicio se considera adaptado cuando se ajusta a todos los parámetros que por vía reglamentaria se establecerán.</p>
+          <p class="parrafo">Un espacio, una instalación o un servicio se considera practicable cuando no se ajusta a los parámetros establecidos, pero no impide su utilización de manera autónoma por personas con movilidad reducida.</p>
+          <p class="parrafo">2. Los edificios de viviendas en que sea obligatoria la instalación de ascensor deben tener, como mínimo, un itinerario practicable que una las viviendas con el exterior y con las dependencias de uso comunitario que estén a su servicio.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-10" tipo="precepto" titulo="Artículo 28">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 28.</p>
+          <p class="parrafo">Los edificios en que haya viviendas para disminuidos deberán ser adaptados:</p>
+          <p class="parrafo_2">a) Los elementos comunes de acceso a estas viviendas.</p>
+          <p class="parrafo">b) Las dependencias de uso comunitario al servicio de estas viviendas.</p>
+          <p class="parrafo">c) Un itinerario para viandantes, como mínimo, que una la edificación con la vía pública, con servicios o edificaciones anexos o con edificios vecinos.</p>
+          <p class="parrafo">d) Los interiores de estas viviendas.</p>
+        </version>
+      </bloque>
+      <bloque id="a2-11" tipo="precepto" titulo="Artículo 29">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 29.</p>
+          <p class="parrafo">Con el objetivo de garantizar a las personas con movilidad reducida el acceso a una vivienda, en las programaciones anuales de las de promoción pública se reservará un porcentaje suficiente, del volumen total, de acuerdo con la demanda existente, de la manera que reglamentariamente se establezca.</p>
+          <p class="parrafo">Los promotores privados de viviendas de protección oficial deberán reservar en los proyectos que presenten para la aprobación la proporción mínima que se establezca reglamentariamente para personas con movilidad reducida. Los promotores privados de viviendas de protección oficial podrán sustituir las adaptaciones interiores de las viviendas reservadas para personas con movilidad reducida por el otorgamiento, al solicitarse la calificación definitiva, de un aval bancario suficiente que garantice la realización de las obras necesarias para las adaptaciones correspondientes.</p>
+        </version>
+      </bloque>
+      <bloque id="ci-3" tipo="encabezado" titulo="CAPÍTULO III">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="capitulo_num">CAPÍTULO III</p>
+          <p class="capitulo_tit">Barreras arquitectónicas en los medios de transporte</p>
+        </version>
+      </bloque>
+      <bloque id="a3-2" tipo="precepto" titulo="Artículo 30">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 30.</p>
+          <p class="parrafo">Los medios de transporte públicos de pasajeros, adaptados a personas con movilidad reducida, especificarán en cada parada el horario de servicio con números arábigos en relieve y se señalará el símbolo de accesibilidad.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-3" tipo="precepto" titulo="Artículo 31">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 31.</p>
+          <p class="parrafo">Las estaciones de ferrocarriles y de autobuses contarán con un equipo de megafonía y con un plafón visual mediante el cual se pueda informar a los viajeros de las llegadas o las salidas y también de cualesquiera otras incidencias o noticias.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-4" tipo="precepto" titulo="Artículo 32">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 32.</p>
+          <p class="parrafo">Los proyectos de nueva construcción o de reestructuración de las estaciones de ferrocarriles y las de autobuses y el material móvil deberán ajustarse a los siguientes requisitos:</p>
+          <p class="parrafo_2">a) Las escaleras y los elementos superpuestos o adosados a vestíbulos, pasillos y andenes observarán las prescripciones establecidas en los artículos del 9 al 14 de la presente ley.</p>
+          <p class="parrafo">b) Las zonas del lado de los andenes de las estaciones se señalizarán con una franja de 80 centímetros de textura distinta a la del pavimento existente, con la finalidad de que las personas con visión reducida puedan detectar a tiempo el cambio de nivel entre el andén y las vías.</p>
+          <p class="parrafo">c) En los espacios de recorrido interno en que deban sortearse torniquetes u otros mecanismos, debe haber un paso alternativo que permita el paso de una persona con movilidad reducida.</p>
+          <p class="parrafo">d) Como mínimo, una de las puertas de entrada y salida de acceso hasta los andenes tendrá una anchura que permita el paso de una persona en silla de ruedas. Esta puerta estará situada lo más cerca posible de los demás accesos.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-5" tipo="precepto" titulo="Artículo 33">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 33.</p>
+          <p class="parrafo">1. En los autobuses urbanos, interurbanos y ferrocarriles deberán reservarse para personas con movilidad reducida, como mínimo, tres asientos por coche, próximos a las puertas de entrada y adecuadamente señalizados. En este lugar se colocará, como mínimo, un timbre de aviso de parada fácilmente accesible.</p>
+          <p class="parrafo">2. El piso de todos y cada uno de los vehículos de transporte será antideslizante.</p>
+          <p class="parrafo">3. En autobuses urbanos e interurbanos, con la finalidad de evitar que las personas con movilidad reducida crucen todo el vehículo, éstas podrán desembarcar por la puerta de entrada, si se encuentra más próxima a la taquilla de control.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-6" tipo="precepto" titulo="Artículo 34">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 34.</p>
+          <p class="parrafo">En las poblaciones que reglamentariamente se determine deberán existir vehículos especiales o taxis acondicionados, que cubran las necesidades de desplazamiento de personas con movilidad reducida.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-7" tipo="precepto" titulo="Artículo 35">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo">1. Se facilitará el acceso de entrada en los medios de transporte públicos necesarios para personas disminuidas y su utilización, y también el espacio físico necesario para la ubicación de todos los utensilios o ayudas tales como: Bastones, muletas, sillas de ruedas, perros guías y cualesquiera otros aparatos o mecanismos de que vayan provistas las personas afectadas.</p>
+          <p class="parrafo">2. Los vehículos deben tener las barras o asideros continuos y a lo largo de todo el vehículo.</p>
+          <p class="parrafo">3. Las máquinas marcadoras de bonobús estarán normalizadas y situadas siempre en el mismo lugar del vehículo.</p>
+          <p class="parrafo">4. Los vehículos deberán incorporar un sistema acústico de anuncio de paradas.</p>
+        </version>
+        <version id_norma="BOE-A-2014-7536" fecha_publicacion="20140628" fecha_vigencia="20140629">
+          <p class="articulo">Artículo 35.</p>
+          <p class="parrafo">1. Se facilitarán a las personas con discapacidad el acceso necesario para la entrada en los medios de transporte públicos y su utilización, así como el espacio físico necesario para ubicar las sillas de ruedas y demás utensilios de ayuda. En los vehículos que prestan servicios públicos de transporte interurbano, este espacio físico podrá ubicarse en la bodega, si tienen, sin perjuicio de lo que establece el artículo 8 de la Ley 1/2014, de 21 de febrero, de perros de asistencia.</p>
+          <p class="parrafo">2. Los vehículos deben tener las barras o asideros continuos y a lo largo de todo el vehículo.</p>
+          <p class="parrafo">3. Las máquinas marcadoras de bonobús estarán normalizadas y situadas siempre en el mismo lugar del vehículo.</p>
+          <p class="parrafo">4. Los vehículos deberán incorporar un sistema acústico de anuncio de paradas.</p>
+          <p class="parrafo">5. Los autobuses interurbanos o suburbanos con escalones dispondrán de plataforma elevadora con una superficie de alojamiento para una silla de ruedas de unas dimensiones mínimas de 1.300 milímetros de longitud y 750 milímetros de anchura.</p>
+          <blockquote>
+            <p class="nota_pie">Se modifica el apartado 1 y se añade el 5 por la disposición final 7 de la Ley 4/2014, de 20 de junio. <a class="refPost">Ref. BOE-A-2014-7536</a>.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="a3-8" tipo="precepto" titulo="Artículo 36">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 36.</p>
+          <p class="parrafo">1. Con la finalidad de que los disminuidos puedan estacionar el vehículo sin verse obligados a efectuar desplazamientos largos, los Ayuntamientos deberán:</p>
+          <p class="parrafo_2">a) Permitir que las personas con dificultades de movilidad aparquen sus vehículos más tiempo del autorizado en los lugares de tiempo limitado.</p>
+          <p class="parrafo">b) Reservar en las proximidades de los edificios públicos y en todos aquellos lugares donde se compruebe que es necesario, plazas de aparcamiento por medio de señales de tráfico complementadas por un disco adicional que reproduzca el símbolo internacional de accesibilidad.</p>
+          <p class="parrafo">c) Proveer a las personas que puedan beneficiarse de las facilidades expuestas en los apartados anteriores, de una tarjeta que contenga, como mínimo, el símbolo de accesibilidad, la matrícula del vehículo y el nombre del titular.</p>
+          <p class="parrafo_2">2. Para conseguir la necesaria uniformidad en todas las islas Baleares, el Gobierno de la Comunidad Autónoma dictará las normas necesarias sobre modelos y características de la tarjeta de aparcamiento para personas con movilidad reducida.</p>
+        </version>
+      </bloque>
+      <bloque id="ti-2" tipo="encabezado" titulo="TÍTULO II">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="titulo_num">TÍTULO II</p>
+          <p class="titulo_tit">Régimen sancionador</p>
+        </version>
+      </bloque>
+      <bloque id="a3-9" tipo="precepto" titulo="Artículo 37">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 37.</p>
+          <p class="parrafo">Constituirán infracción administrativa y serán sancionables, de acuerdo con la Ley 10/1990, de 23 de octubre, de disciplina urbanística y con lo que se determina en el presente título, las acciones u omisiones que contravengan las normas sobre accesibilidad y supresión de barreras arquitectónicas.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-10" tipo="precepto" titulo="Artículo 38">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 38. Las infracciones se clasifican en leves, graves y muy graves:</p>
+          <p class="parrafo">1. Son infracciones leves las referidas al mantenimiento de los elementos de accesibilidad y el resto de infracciones no calificadas como graves o muy graves.</p>
+          <p class="parrafo">2. Son infracciones graves:</p>
+          <p class="parrafo_2">a) Las que incumplen las normas sobre supresión de barreras arquitectónicas urbanísticas en las obras de urbanización y en el mobiliario de nueva construcción, ampliación y reforma de espacios destinados a uso público, y en la construcción, ampliación y reforma de edificios de propiedad pública o privada, destinados a servicios públicos o que cuyo uso implique la concurrencia de público, y sobre los medios de transporte público de pasajeros.</p>
+          <p class="parrafo">b) Las que impidan el acceso a centros o espacios de titularidad de las Administraciones Públicas.</p>
+          <p class="parrafo">c) Las que supongan grave peligro o afecten gravemente a la seguridad de las personas.</p>
+          <p class="parrafo_2">3. Son infracciones muy graves la comisión de tres o más infracciones graves.</p>
+        </version>
+      </bloque>
+      <bloque id="a3-11" tipo="precepto" titulo="Artículo 39">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 39.</p>
+          <p class="parrafo">1. Las infracciones leves se sancionarán con multa de 25.000 a 500.000 pesetas; las infracciones graves se sancionarán con multa de 500.001 a 10.000.000 de pesetas, y las infracciones muy graves de 10.000.001 a 25.000.000 de pesetas.</p>
+          <p class="parrafo">2. Para la graduación del importe de la sanción a imponer se tendrán en cuenta los siguientes criterios:</p>
+          <p class="parrafo_2">a) La existencia de intencionalidad o reiteración.</p>
+          <p class="parrafo">b) La naturaleza de los perjuicios causados.</p>
+          <p class="parrafo">c) La reincidencia del infractor, por comisión en el plazo de un año de más de una infracción de la misma naturaleza, cuando así haya sido declarado por resolución firme.</p>
+          <p class="parrafo">d) El coste económico derivado de las obras de accesibilidad necesarias y el grado de culpa de cada uno de los infractores.</p>
+          <p class="parrafo_2">3. Con independencia de la imposición de sanciones económicas podrán tomarse medidas accesorias, para lo cual se instará a los Organismos competentes.</p>
+          <p class="parrafo">4. La enmienda de las deficiencias objeto de sanción, en el plazo señalado en la resolución, podrá dar lugar a la condonación parcial de la sanción impuesta, a instancia del interesado.</p>
+          <blockquote class="siempreSeVe">
+            <p class="parrafo">Téngase en cuenta que las cuantías de las sanciones económicas podrán ser modificadas por Decreto publicado únicamente en el "Boletín Oficial de las Illes Balears", según se establece en la disposición adicional 3.</p>
+          </blockquote>
+        </version>
+      </bloque>
+      <bloque id="ti-3" tipo="encabezado" titulo="TÍTULO III">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="titulo_num">TÍTULO III</p>
+          <p class="titulo_tit">Del Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas</p>
+        </version>
+      </bloque>
+      <bloque id="a4-2" tipo="precepto" titulo="Artículo 40">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Artículo 40.</p>
+          <p class="parrafo">1. Se crea el Consejo Asesor para la mejora de la accesibilidad y la supresión de las barreras arquitectónicas, adscrito a la Consejería de Obras Públicas y Ordenación del Territorio, como órgano de colaboración entre administraciones públicas y de participación de las asociaciones de personas con movilidad reducida.</p>
+          <p class="parrafo">2. Las funciones serán de colaboración, asesoramiento, información, propuesta de criterios y fomento de la accesibilidad.</p>
+          <p class="parrafo">3. El Consejo de Gobierno a propuesta del Consejero competente, determinará mediante decreto la organización, la composición y las funciones del Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</p>
+        </version>
+      </bloque>
+      <bloque id="da" tipo="precepto" titulo="Disposición adicional primera">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición adicional primera.</p>
+          <p class="parrafo">En el plazo de un año las Administraciones Públicas elaborarán un catálogo de espacios y edificios de su titularidad pendientes de adaptación, que será remitido al Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</p>
+        </version>
+      </bloque>
+      <bloque id="da-2" tipo="precepto" titulo="Disposición adicional segunda">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición adicional segunda.</p>
+          <p class="parrafo">Reglamentariamente se definirán los parámetros y las normas de diseño en desarrollo de lo que se dispone en la presente Ley, y las obras de reforma o ampliación susceptibles de aplicación de la misma, así como la prioridad de las actuaciones que de ella se deriven.</p>
+        </version>
+      </bloque>
+      <bloque id="da-3" tipo="precepto" titulo="Disposición adicional tercera">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición adicional tercera.</p>
+          <p class="parrafo">Se faculta al Consejo de Gobierno para que, por decreto, actualice periódicamente la cuantía de las sanciones económicas contenidas en la presente Ley.</p>
+          <p class="parrafo">El aumento o la disminución nunca podrá ser superior al tanto por ciento de variación que experimente el Índice de Precios al Consumo.</p>
+        </version>
+      </bloque>
+      <bloque id="dt" tipo="precepto" titulo="Disposición transitoria primera">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición transitoria primera.</p>
+          <p class="parrafo">1. En un plazo no superior a quince años se deberán adecuar a la presente Ley los siguientes espacios y edificios construidos o proyectados antes de que ésta entre en vigor:</p>
+          <p class="parrafo_2">a) Calles, parques, jardines, plazas y espacios públicos.</p>
+          <p class="parrafo">b) Edificios de acceso al público de titularidad pública.</p>
+          <p class="parrafo">c) Edificios de acceso al público de titularidad privada.</p>
+          <p class="parrafo">d) Igualmente, se deberán adecuar, en el mismo plazo, los medios de transporte público de pasajeros.</p>
+          <p class="parrafo_2">2. La Comunidad Autónoma reservará anualmente en sus presupuestos una partida de inversión para la supresión de barreras arquitectónicas en espacios, instalaciones, edificios o medios de transporte de los cuales tenga la titularidad de o de los cuales haga uso.</p>
+          <p class="parrafo">3. Los Ayuntamientos elaborarán planes especiales de actuación con el objeto de adaptar progresivamente las vías públicas, los parques, los jardines y el resto de espacios de uso público. Con esta finalidad, los presupuestos generales de las Entidades locales contendrán las asignaciones necesarias para financiar las adaptaciones citadas.</p>
+          <p class="parrafo">4. La exención del cumplimiento de lo que se determina en el apartado 1, por motivos de carácter histórico-artístico, imposibilidad material u otra razón, será resuelta por el Consejero competente en la materia, previo informe del Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-2" tipo="precepto" titulo="Disposición transitoria segunda">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición transitoria segunda.</p>
+          <p class="parrafo">El Consejo Asesor para la mejora de la accesibilidad y de la supresión de las barreras arquitectónicas realizará el seguimiento de lo que se determina en la disposición anterior.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-3" tipo="precepto" titulo="Disposición transitoria tercera">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición transitoria tercera.</p>
+          <p class="parrafo">Los planes generales de ordenación urbana, las normas subsidiarias y otros instrumentos de planeamiento se adaptarán a lo que se determina en la presente ley en un plazo no superior a cinco años.</p>
+        </version>
+      </bloque>
+      <bloque id="dt-4" tipo="precepto" titulo="Disposición transitoria cuarta">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición transitoria cuarta.</p>
+          <p class="parrafo">En tanto no se adapte la Ley 10/1990, de 23 de octubre, de disciplina urbanística, a la legislación básica regulada por la Ley 30/1992, de 26 de noviembre, de régimen jurídico de las Administraciones Públicas y del procedimiento administrativo común, la resolución de los expedientes correspondientes a infracciones muy graves corresponderá al órgano que tenga la competencia para resolver los expedientes referidos a infracciones graves. El plazo de prescripción de las infracciones y de las sanciones muy graves será el que se establece en el artículo 73 de la Ley de Disciplina Urbanística.</p>
+        </version>
+      </bloque>
+      <bloque id="dd" tipo="precepto" titulo="Disposición derogatoria">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición derogatoria.</p>
+          <p class="parrafo">Quedan derogadas todas las disposiciones de igual o inferior rango que contradigan lo que se dispone en la presente ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df" tipo="precepto" titulo="Disposición final primera">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición final primera.</p>
+          <p class="parrafo">En el plazo de un año, el Gobierno de la Comunidad Autónoma aprobará las disposiciones reglamentarias de desarrollo de la presente Ley.</p>
+        </version>
+      </bloque>
+      <bloque id="df-2" tipo="precepto" titulo="Disposición final segunda">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="articulo">Disposición final segunda.</p>
+          <p class="parrafo">Esta ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de la Comunidad Autónoma de las Islas Baleares».</p>
+        </version>
+      </bloque>
+      <bloque id="fi" tipo="firma" titulo="[firma]">
+        <version id_norma="BOE-A-1993-21447" fecha_publicacion="19930520" fecha_vigencia="19930521">
+          <p class="parrafo_2">Por tanto, ordeno a todos los ciudadanos guarden esta Ley y que los Tribunales y las autoridades a los que corresponda la hagan guardar.</p>
+          <p class="parrafo_2">Palma, 4 de mayo de 1993.</p>
+          <table class="sinbordes" border="0">
+            <colgroup>
+              <col class="row_column_1"/>
+              <col class="row_column_2"/>
+            </colgroup>
+            <tbody>
+              <tr class="row_column_3">
+                <td>
+                  <p class="cuerpo_tabla_centro">JERÓNIMO SAIZ GOMILA,</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">GABRIEL CAÑELLAS FONS,</p>
+                </td>
+              </tr>
+              <tr class="row_column_4">
+                <td>
+                  <p class="cuerpo_tabla_centro">Consejero de Obras Públicas y Ordenación del Territorio</p>
+                </td>
+                <td>
+                  <p class="cuerpo_tabla_centro">Presidente</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </version>
+      </bloque>
+    </texto>
+  </data>
+</response>
