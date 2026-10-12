@@ -6,3 +6,9 @@
 .workspace-account{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap}.workspace-account label{display:grid;gap:.4rem;max-width:100%}.workspace-account select{max-width:100%}
 
 .library{margin-top:32px}.library-file,.notebook-note{margin:16px 0;padding:20px}.notebook-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px}.attachment-picker,.refinement,.original-preview{margin:20px 0;padding:20px}.attachment-chip{display:inline-flex;align-items:center;gap:8px;padding:5px 12px;margin:6px;border:1px solid #b5b5a8;border-radius:16px}.document-toolbar{flex-wrap:wrap}.library-file select{max-width:240px}textarea{max-width:100%}.document-literal{overflow-wrap:anywhere}.result-bottom{flex-wrap:wrap;gap:16px}
+
+.scope-options{display:flex;flex-wrap:wrap;gap:12px 20px;margin:20px 0;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:white}
+.scope-options legend{padding:0 6px;font-size:12px;font-weight:700;color:var(--navy)}
+.scope-options label{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;cursor:pointer}
+.scope-options input[type=radio]{width:16px;height:16px;margin:0;accent-color:var(--accent)}
+.scope-options input[type=radio]:disabled{cursor:not-allowed}

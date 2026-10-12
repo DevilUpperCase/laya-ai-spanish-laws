@@ -19,3 +19,9 @@ The owner identifies the reviewer as the lawyer or designated lawyer employee us
 The hardware pilot has zero HTTP errors but includes a slow cold request and warned LAYA degradation; it does not establish an accepted latency/relevance guarantee. LAYA is always integrated and tested with actual weights, remains in shadow mode and must retain baseline fallback during outages. Production reranking needs its separate professionally reviewed baseline comparison.
 
 Evidence is under `verification/reports/`: `boe-reconciliation.json`, `dogc-ingestion.json`, `dog-ingestion.json`, `publisher-audits.json`, `nationwide-coverage.json`, `index-progress.json`, `hardware-pilot.json`, `restore-rehearsal.json`, `license-inventory.json`, `browser-check.json`, `runtime.json` and `pytest.xml`. Reports have specific scopes and dates; none silently closes another area's gate. `scripts/verify_package.py --release` is the release barrier.
+
+## Local acceptance follow-up: 2026-10-12
+
+The local acceptance issues listed in `docs/REMAINING_ISSUES_AND_FEATURE_STATUS.md` are resolved and recorded with their evidence. All six supervised services resumed, `/health` returned 200, 107 Python tests passed, web typecheck/build passed, and the current real-browser flow passed with all three search scopes and the trash/restore/permanent-delete lifecycle. The encrypted synthetic private-schema restore rehearsal also passed after applying the current private-only migrations in its isolated database. Offline package validation passed.
+
+`python scripts/verify_package.py --release` still exits 1 with 22 blocked gates. Nationwide source/history reconciliation, professional evaluation and frozen thresholds, licensing approval, full legal/Auth recovery, off-host journal/key custody, elapsed backup expiry and production deployment remain open. The latest local acceptance results do not change the release requirements above.

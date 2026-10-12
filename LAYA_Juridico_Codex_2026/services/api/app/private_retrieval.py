@@ -1,4 +1,6 @@
 """Isolated literal passage retrieval; selected document IDs are never authorization."""
+import hashlib
+from uuid import UUID
 from langchain_core.runnables import RunnableLambda
 from pgvector import Vector
 from pgvector.psycopg import register_vector_async
@@ -24,13 +26,28 @@ class PrivateRetriever:
              FROM private.passage_index p JOIN private.documents d ON d.id=p.document_id WHERE p.document_id=ANY(%s)
              AND d.deleted_at IS NULL AND d.trashed_at IS NULL ORDER BY lexical_score DESC,p.id LIMIT 100''',(text,ids))).fetchall()
             lists.append([r['id'] for r in rows if r['lexical_score']>0]);items.update({r['id']:r for r in rows})
-            indexed=await (await conn.execute('SELECT DISTINCT document_id FROM private.passage_index WHERE document_id=ANY(%s)',(ids,))).fetchall()
-            missing=set(ids)-{r['document_id'] for r in indexed}
+            pages=await (await conn.execute('''SELECT c.document_id,c.page_number,c.text FROM private.chunks c
+             JOIN private.documents d ON d.id=c.document_id WHERE c.document_id=ANY(%s)
+             AND d.deleted_at IS NULL AND d.trashed_at IS NULL''',(ids,))).fetchall()
+            expected={str(document_id):set() for document_id in ids}
+            for page in pages:
+                for start,_,passage in split_passages(page['text']):
+                    key=hashlib.sha256((str(page['document_id'])+':'+str(page['page_number'])+':'+str(start)+':'+passage).encode()).hexdigest()
+                    expected[str(page['document_id'])].add(key)
+            indexed=await (await conn.execute('''SELECT document_id,id FROM private.passage_index
+             WHERE document_id=ANY(%s) AND embedding_revision=%s''',(ids,self.embeddings.settings.embedding_model_revision))).fetchall()
+            indexed_by_document={str(document_id):set() for document_id in ids}
+            for row in indexed:indexed_by_document[str(row['document_id'])].add(row['id'])
+            jobs=await (await conn.execute('''SELECT DISTINCT document_id FROM private.jobs WHERE document_id=ANY(%s)
+             AND kind='index' AND status IN ('queued','processing','retry','failed')''',(ids,))).fetchall()
+            jobs_pending={str(row['document_id']) for row in jobs}
+            missing={document_id for document_id in expected
+                     if not expected[document_id].issubset(indexed_by_document[document_id]) or document_id in jobs_pending}
             if missing:
-                # Real extraction is already durable; lexical fallback until indexing completes.
+                # Compare against source passages and the pinned revision; a partial/stale index is not ready.
                 warnings.append('PRIVATE_INDEX_PENDING')
                 pages=await (await conn.execute('''SELECT c.*,d.filename FROM private.chunks c JOIN private.documents d ON d.id=c.document_id
-                 WHERE c.document_id=ANY(%s) AND d.deleted_at IS NULL AND d.trashed_at IS NULL ORDER BY c.document_id,c.page_number''',(list(missing),))).fetchall()
+                 WHERE c.document_id=ANY(%s) AND d.deleted_at IS NULL AND d.trashed_at IS NULL ORDER BY c.document_id,c.page_number''',([UUID(document_id) for document_id in missing],))).fetchall()
                 terms=set(text.casefold().split())
                 fallback=[]
                 for page in pages:

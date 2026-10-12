@@ -50,7 +50,7 @@ export function safeOfficialUrl(url:string){try{const u=new URL(url);return ["ht
 
 
 
-Object.assign(messages,{REVISION_CONFLICT:"La nota ha cambiado. Recarga y revisa antes de guardar.",ATTACHMENT_NOT_READY:"Un archivo adjunto a?n no est? procesado.",ATTACHMENT_NOT_AVAILABLE:"Un adjunto no est? disponible o est? en Papelera.",PRIVATE_INDEX_PENDING:"El ?ndice de documentos est? pendiente. Se usa la recuperaci?n textual disponible.",ATTACHMENT_CONTEXT_BOUNDED:"Se han usado los pasajes m?s relevantes de los adjuntos; no todo su contenido.",WRITE_FORBIDDEN:"Tu permiso es de lectura.",NAME_INVALID:"Introduce un nombre v?lido.",BULLETIN_INDEX_PARTIAL:"El ?ndice de publicaciones oficiales est? incompleto."});
+Object.assign(messages,{REVISION_CONFLICT:"La nota ha cambiado. Recarga y revisa antes de guardar.",ATTACHMENT_NOT_READY:"Un archivo adjunto aún no está procesado.",ATTACHMENT_NOT_AVAILABLE:"Un adjunto no está disponible o está en Papelera.",PRIVATE_INDEX_PENDING:"El índice de documentos está pendiente. Se usa la recuperación textual disponible.",ATTACHMENT_CONTEXT_BOUNDED:"Se han usado los pasajes más relevantes de los adjuntos; no todo su contenido.",WRITE_FORBIDDEN:"Tu permiso es de lectura.",NAME_INVALID:"Introduce un nombre válido.",BULLETIN_INDEX_PARTIAL:"El índice de publicaciones oficiales está incompleto."});
 
 
-Object.assign(messages,{INDIVIDUAL_PUBLICATION_NOT_GENERAL_RULE:"Publicaci?n individual; no es una norma general.",BULLETIN_RETRIEVAL_DEGRADED:"La b?squeda de boletines est? temporalmente incompleta."});
+Object.assign(messages,{INDIVIDUAL_PUBLICATION_NOT_GENERAL_RULE:"Publicación individual; no es una norma general.",BULLETIN_RETRIEVAL_DEGRADED:"La búsqueda de boletines está temporalmente incompleta."});

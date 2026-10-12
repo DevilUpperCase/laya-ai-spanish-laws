@@ -20,9 +20,14 @@ def reviewed_all_publication_sources(scope,root):
         except (OSError,ValueError,KeyError,TypeError):continue
     return valid
 
-def completion_dimensions(*,expected,integrated,assets_missing,index_pending,national_verified,last_success,now=None):
+def source_periods_complete(periods):
+    """Only positively reconciled periods count; an empty or unknown set is incomplete."""
+    periods=list(periods)
+    return bool(periods) and all(status=='complete' and reconciled_at is not None for status,reconciled_at in periods)
+
+def completion_dimensions(*,expected,integrated,assets_missing,index_pending,periods_complete,national_verified,last_success,now=None):
     now=now or datetime.now(timezone.utc)
-    snapshot=expected is not None and expected==integrated and not assets_missing and not index_pending
+    snapshot=bool(periods_complete) and expected is not None and expected==integrated and not assets_missing and not index_pending
     fresh=last_success is not None and now-timedelta(hours=36)<=last_success<=now+timedelta(minutes=5)
     return {'snapshot_processing':'complete' if snapshot else 'blocked','national_coverage':'verified' if national_verified else 'blocked',
             'freshness':'fresh' if fresh else 'stale','all_complete':bool(snapshot and fresh and national_verified)}
@@ -65,7 +70,8 @@ def collect_processing_status(conn,source_scope,*,now=None,verify_files=False,st
     current_entities={r[0] for r in covered if r[1] in reviewed and r[2]==source_scope.get('audits',{}).get(r[1],{}).get('sha256') and r[3] and r[4] and r[4]>=now.date() and r[5] and r[6]}
     entities=conn.execute('SELECT id,verified FROM legal.jurisdictions').fetchall()
     national_verified=bool(entities) and all(r[1] and r[0] in current_entities for r in entities) and set(required)<=reviewed and not issues
-    dimensions=completion_dimensions(expected=expected,integrated=integrated,assets_missing=missing_assets+len(errors),index_pending=index_pending+baseline_index_pending,national_verified=national_verified,last_success=last,now=now)
+    periods_complete=source_periods_complete((r[3],r[4]) for r in periods)
+    dimensions=completion_dimensions(expected=expected,integrated=integrated,assets_missing=missing_assets+len(errors),index_pending=index_pending+baseline_index_pending,periods_complete=periods_complete,national_verified=national_verified,last_success=last,now=now)
     if issues:dimensions['freshness']='stale';dimensions['all_complete']=False
     return {'generated_at':now.isoformat(),**dimensions,'scope':'all_publicly_accessible_official_bulletin_items',
       'required_jurisdictions':number('SELECT count(*) FROM legal.jurisdictions'),'required_sources':len(required),

@@ -1,14 +1,20 @@
 {
-  "generated_at": "2026-10-12T13:16:16.098802+00:00",
+  "generated_at": "2026-10-12T18:19:39.817859+00:00",
   "status": "passed",
   "scope": "real_encrypted_snapshot_and_private_schema_restore",
   "snapshot": "20261012T125303Z-50731c56a8554492",
+  "private_schema_migrations_applied": [
+    "013_document_library.sql",
+    "015_private_retrieval.sql",
+    "017_scoped_worker.sql",
+    "018_worker_index_queue.sql"
+  ],
   "live_purge_seconds": null,
   "restored_live_canary_before_barrier": true,
   "restored_read_and_download_denied": true,
   "restored_object_purged": true,
   "browser_sessions_invalidated": true,
   "limitations": [
-    "Synthetic canary/private schemas only. This resumed run did not retain live purge timing. Full legal/Auth restore, independent journal replication, key custody and elapsed expiry evidence remain pending."
+    "Synthetic canary only; private schemas restored and upgraded in an isolated database. The legal corpus and Auth database were not restored. Independent journal replication, key custody and 30-day elapsed expiry proof remain pending."
   ]
 }

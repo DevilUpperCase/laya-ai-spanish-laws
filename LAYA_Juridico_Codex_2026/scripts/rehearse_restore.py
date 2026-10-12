@@ -52,12 +52,15 @@ def restore_private(folder,database,objects):
         conn.execute('CREATE SCHEMA IF NOT EXISTS browser_auth')
         conn.execute('CREATE SCHEMA IF NOT EXISTS legal')
         conn.execute('CREATE TABLE IF NOT EXISTS legal.section_versions(id text PRIMARY KEY)')
+        conn.execute('CREATE TEMP TABLE rehearsal_section_ids(id text PRIMARY KEY) ON COMMIT DROP')
         # Public citation stubs only: scoped private recovery is not a legal-corpus restore.
         with psycopg.connect(Settings().admin_database_url) as source:
             with source.cursor(name='citation_ids') as cursor:
                 cursor.execute('SELECT id FROM legal.section_versions')
-                with conn.cursor().copy('COPY legal.section_versions(id) FROM STDIN') as copied:
+                with conn.cursor().copy('COPY rehearsal_section_ids(id) FROM STDIN') as copied:
                     for row in cursor:copied.write_row(row)
+        conn.execute('''INSERT INTO legal.section_versions(id) SELECT id FROM rehearsal_section_ids
+         ON CONFLICT(id) DO NOTHING''')
     command=['docker','exec','-i','laya-juridico-db-1','pg_restore','-U','postgres','-d',database,'--single-transaction','--exit-on-error','--schema=private','--schema=browser_auth']
     child=subprocess.Popen(command,stdin=subprocess.PIPE,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
     try:
@@ -76,6 +79,31 @@ def restore_private(folder,database,objects):
             destination.parent.mkdir(parents=True,exist_ok=True)
             with archive.extractfile(member) as src,destination.open('wb') as out:
                 for data in iter(lambda:src.read(512*1024),b''):out.write(data)
+
+
+def apply_private_rehearsal_migrations(database):
+    """Upgrade the restored private schema without restoring the legal corpus."""
+    target=make_conninfo(Settings().admin_database_url,dbname=database)
+    applied=[]
+    # These are the private-document/library/retrieval/worker migrations.
+    # Other migrations alter the legal corpus and are outside this rehearsal.
+    with psycopg.connect(target) as conn:
+        has_trash=conn.execute("SELECT 1 FROM information_schema.columns WHERE table_schema='private' AND table_name='documents' AND column_name='trashed_at'").fetchone()
+        if not has_trash:
+            conn.execute((ROOT/'db/migrations/013_document_library.sql').read_text(encoding='utf-8'))
+            applied.append('013_document_library.sql')
+        has_passages=conn.execute("SELECT to_regclass('private.passage_index')").fetchone()[0]
+        if has_passages is None:
+            conn.execute((ROOT/'db/migrations/015_private_retrieval.sql').read_text(encoding='utf-8'))
+            applied.append('015_private_retrieval.sql')
+        has_scoped_worker=conn.execute("SELECT to_regprocedure('private.lease_document_job(uuid)')").fetchone()[0]
+        if has_scoped_worker is None:
+            conn.execute((ROOT/'db/migrations/017_scoped_worker.sql').read_text(encoding='utf-8'))
+            applied.append('017_scoped_worker.sql')
+        # GRANT is idempotent and completes the current index-worker contract.
+        conn.execute((ROOT/'db/migrations/018_worker_index_queue.sql').read_text(encoding='utf-8'))
+        applied.append('018_worker_index_queue.sql')
+    return applied
 
 
 async def purge_and_verify(settings,document,tenant,token):
@@ -153,16 +181,33 @@ def main():
     target=make_conninfo(settings.admin_database_url,dbname=database)
     with psycopg.connect(settings.admin_database_url,autocommit=True) as conn:
         if not conn.execute('SELECT 1 FROM pg_database WHERE datname=%s',(database,)).fetchone():conn.execute(sql.SQL('CREATE DATABASE {}').format(sql.Identifier(database)))
-    print('Restoring private schemas into isolated rehearsal database.',flush=True)
-    restore_private(folder,database,objects)
-    with psycopg.connect(target) as conn:
-        before=conn.execute('SELECT deleted_at FROM private.documents WHERE id=%s',(document,)).fetchone()
-        assert before and before[0] is None and (objects/key).is_file()
-        records=read_journal(settings.deletion_journal_path);reapply(conn,records);conn.execute('DELETE FROM browser_auth.sessions');conn.commit()
+    state_path=ROOT/'private-data/runtime/restore-state.json'
+    if not state.get('private_restored'):
+        print('Restoring private schemas into isolated rehearsal database.',flush=True)
+        restore_private(folder,database,objects)
+        state['private_restored']=True
+        state_path.write_text(json.dumps(state))
+    if not state.get('private_schema_upgraded'):
+        print('Applying current private-schema recovery migrations.',flush=True)
+        state['private_migrations_applied']=apply_private_rehearsal_migrations(database)
+        state['private_schema_upgraded']=True
+        state_path.write_text(json.dumps(state))
+    if state.get('barrier_applied'):
+        with psycopg.connect(target) as conn:
+            after=conn.execute('SELECT deleted_at FROM private.documents WHERE id=%s',(document,)).fetchone()
+            assert after and after[0] is not None
+    else:
+        with psycopg.connect(target) as conn:
+            before=conn.execute('SELECT deleted_at FROM private.documents WHERE id=%s',(document,)).fetchone()
+            assert before and before[0] is None and (objects/key).is_file()
+            records=read_journal(settings.deletion_journal_path);reapply(conn,records);conn.execute('DELETE FROM browser_auth.sessions');conn.commit()
+        state['canary_existed_before_barrier']=True
+        state['barrier_applied']=True
+        state_path.write_text(json.dumps(state))
     restored=settings.model_copy(update={'database_url':make_conninfo(settings.database_url,dbname=database),'worker_database_url':make_conninfo(settings.worker_database_url,dbname=database),'private_storage_path':objects})
     asyncio.run(purge_and_verify(restored,UUID(document),UUID(session['tenant_id']),session['token']),loop_factory=asyncio.SelectorEventLoop if os.name=='nt' else asyncio.new_event_loop)
     assert not (objects/key).exists()
-    report={'generated_at':datetime.now(timezone.utc).isoformat(),'status':'passed','scope':'real_encrypted_snapshot_and_private_schema_restore','snapshot':folder.name,'live_purge_seconds':purge_seconds,'restored_live_canary_before_barrier':True,'restored_read_and_download_denied':True,'restored_object_purged':True,'browser_sessions_invalidated':True,'limitations':['Synthetic canary only; private schemas restored into an isolated database. Full legal/auth server restore, independent journal replication, key custody and 30-day elapsed expiry proof remain pending.']}
+    report={'generated_at':datetime.now(timezone.utc).isoformat(),'status':'passed','scope':'real_encrypted_snapshot_and_private_schema_restore','snapshot':folder.name,'private_schema_migrations_applied':state.get('private_migrations_applied',[]),'live_purge_seconds':purge_seconds,'restored_live_canary_before_barrier':bool(state.get('canary_existed_before_barrier')),'restored_read_and_download_denied':True,'restored_object_purged':True,'browser_sessions_invalidated':True,'limitations':['Synthetic canary only; private schemas restored and upgraded in an isolated database. The legal corpus and Auth database were not restored. Independent journal replication, key custody and 30-day elapsed expiry proof remain pending.']}
     (ROOT/'verification/reports/restore-rehearsal.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report),flush=True)
 

@@ -17,7 +17,7 @@ The local stack starts after you sign in to Windows. Docker Desktop must be inst
 
 ## Search official texts
 
-Enter a concrete query in **Consulta jurídica**, such as `arrendamiento vivienda`, or an exact reference such as `BOE-A-1994-26003`. Choose territory, document type and date options when relevant, then click **Buscar**. Geographic filters use official identifiers, avoiding ambiguity between municipalities with the same name. A broader territory includes its descendants.
+Enter a concrete query in **Consulta jurídica**, such as `arrendamiento vivienda`, or an exact reference such as `BOE-A-1994-26003`. Choose **Normativa** for generally applicable legal material, **Todas las publicaciones** to include official bulletin notices and other individual publications, or **Documentos adjuntos** to search the selected private files. The default is **Normativa**. Add at least one processed file before selecting the attachments mode. Individual publications are labelled and are not presented as general rules. Choose territory and date options when relevant, then click **Buscar**. Geographic filters use official identifiers, avoiding ambiguity between municipalities with the same name. A broader territory includes its descendants.
 
 Results are passages, so several results can belong to one instrument. Each card shows the source reference, territory, language, literal text, publication date, version date and evidence-based explanation. Open **Fuente oficial** to verify the full text, surrounding provisions and publisher notices. No generated legal opinion is produced.
 
@@ -46,9 +46,11 @@ Uploads are limited to 20 MiB, 300 PDF pages and two million extracted character
 
 Private documents, text and selections remain on this self-hosted system. Search workflows do not persist private graph state or send document text to external inference/tracing services. Documents are kept until the tenant deletes them.
 
-## Delete a document
+## Papelera and permanent deletion
 
-Click **Eliminar documento**, then **Confirmar eliminación**. Access is revoked immediately, including previously known document/download URLs. A background worker removes live originals and extracted content; the required deadline is 24 hours. Encrypted backups have a maximum 30-day retention contract. A restore must replay the latest deletion records before permitting access, so an old snapshot cannot make a deleted document accessible again.
+Choose **Mover a Papelera** to remove a document from ordinary library and attachment searches. The document and its linked notes remain recoverable indefinitely; you can preview it in Papelera and restore it. General notebook notes remain separate from notes linked to the document.
+
+Choose **Eliminar permanentemente** for one item, or explicitly confirm **Vaciar Papelera**, to delete it irreversibly. Only then is access revoked immediately, live originals and extracted content are purged within 24 hours, and encrypted backup copies expire within 30 days. A restore must replay the latest deletion records before permitting access, so an old snapshot cannot make a permanently deleted document accessible again.
 
 The local synthetic restore rehearsal passed. Off-host deletion-journal replication, independent key custody and proof of elapsed backup expiry are still production requirements. Do not interpret a local rehearsal as completion of those obligations.
 

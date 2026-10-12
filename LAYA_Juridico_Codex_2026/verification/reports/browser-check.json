@@ -1,25 +1,40 @@
 {
   "status": "passed",
-  "generated_at": "2026-10-12T13:54:40.070Z",
+  "generated_at": "2026-10-12T17:48:46.225Z",
   "real_api": true,
   "real_database": true,
-  "search_results": 50,
+  "search_scopes": [
+    "normative",
+    "all_publications",
+    "attachments"
+  ],
   "checks": [
     "password-login",
-    "refresh-keeps-session",
-    "logout-revokes-session",
-    "official-corpus-search",
-    "official-source-links",
-    "visible-coverage-blocker",
+    "workspace-selection",
+    "session-refresh",
+    "official-search",
+    "publication-scope",
+    "coverage-warning",
     "mobile-overflow",
-    "coverage-page",
-    "PDF-upload",
-    "durable-extraction",
-    "stored-selection-search",
-    "deletion-revokes-access"
+    "folder-organization",
+    "notebook-create",
+    "linked-note-save",
+    "general-note-create-edit-reload",
+    "reference-save",
+    "pdf-preview",
+    "docx-utf8-extraction",
+    "unicode-codepoint-selection",
+    "attachment-search",
+    "cited-page-navigation",
+    "trash-hides-attachment",
+    "trash-preview",
+    "restore",
+    "permanent-delete",
+    "empty-trash",
+    "logout-revokes-session"
   ],
   "limitations": [
-    "Synthetic private PDF only. Not a WCAG audit or professional legal evaluation.",
+    "Synthetic private files only. Reader write-denial is covered by the database integration test. Not a WCAG audit or professional legal evaluation.",
     "LAYA shadow may time out under the configured two-second budget."
   ]
 }

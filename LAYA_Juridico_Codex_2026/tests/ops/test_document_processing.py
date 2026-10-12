@@ -1,12 +1,12 @@
 from datetime import datetime,timezone
-from services.ingest.ingest.processing_status import completion_dimensions
+from services.ingest.ingest.processing_status import completion_dimensions, source_periods_complete
 
 def test_complete_finite_snapshot_cannot_pass_unknown_national_coverage():
-    dimensions=completion_dimensions(expected=3,integrated=3,assets_missing=0,index_pending=0,national_verified=False,last_success=datetime.now(timezone.utc))
+    dimensions=completion_dimensions(expected=3,integrated=3,assets_missing=0,index_pending=0,periods_complete=True,national_verified=False,last_success=datetime.now(timezone.utc))
     assert dimensions['snapshot_processing']=='complete'
     assert dimensions['national_coverage']=='blocked'
     assert not dimensions['all_complete']
-    unknown=completion_dimensions(expected=None,integrated=3,assets_missing=0,index_pending=0,national_verified=False,last_success=None)
+    unknown=completion_dimensions(expected=None,integrated=3,assets_missing=0,index_pending=0,periods_complete=False,national_verified=False,last_success=None)
     assert unknown['snapshot_processing']=='blocked' and unknown['freshness']=='stale'
 
 def test_expanded_audit_requires_matching_scope_hash_and_review(tmp_path):
@@ -24,3 +24,11 @@ def test_expanded_audit_requires_matching_scope_hash_and_review(tmp_path):
 def test_failed_or_unknown_period_blocks_matching_counts():
     dimensions=completion_dimensions(expected=3,integrated=3,assets_missing=0,index_pending=0,national_verified=True,last_success=datetime.now(timezone.utc),periods_complete=False)
     assert dimensions['snapshot_processing']=='blocked' and not dimensions['all_complete']
+
+def test_period_completeness_requires_positive_reconciled_status():
+    reconciled=datetime.now(timezone.utc)
+    assert source_periods_complete([('complete',reconciled)])
+    assert not source_periods_complete([('partial',reconciled)])
+    assert not source_periods_complete([('unavailable',reconciled)])
+    assert not source_periods_complete([('complete',None)])
+    assert not source_periods_complete([])
