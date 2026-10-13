@@ -13,6 +13,18 @@
 
 </div>
 
+<div align="center">
+
+### 🎬 Demostración Oficial de la Aplicación (Product Tour)
+
+https://github.com/DevilUpperCase/laya-ai-spanish-laws/releases/download/v1.0.0/LAYA_Juridico_Product_Tour_16x9.mp4
+
+*Recorrido fidedigno del sistema en 1080p: Acceso con aislamiento multi-tenant, 5 motores de recuperación en paralelo, extractos literales verificados del BOE, visor documental privado con ClamAV/OCR y ciclo de privacidad forense.*
+
+👉 **[Descargar Vídeo Directo (1080p MP4 · 4.85 MB)](https://github.com/DevilUpperCase/laya-ai-spanish-laws/releases/download/v1.0.0/LAYA_Juridico_Product_Tour_16x9.mp4)**
+
+</div>
+
 ---
 
 ## 🏛️ Prólogo: Principios Fundacionales del Sistema
