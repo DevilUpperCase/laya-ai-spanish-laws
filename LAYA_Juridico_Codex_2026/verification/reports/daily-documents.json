@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-12T20:35:46.482099+00:00",
+  "checks": [
+    {
+      "script": "sync_boe.py",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_bulletins.py",
+      "exit_code": 1
+    },
+    {
+      "script": "check_document_processing.py",
+      "exit_code": 1
+    }
+  ],
+  "national_complete": false,
+  "status": "blocked"
+}

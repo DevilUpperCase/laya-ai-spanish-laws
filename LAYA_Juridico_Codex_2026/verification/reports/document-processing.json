@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:36:14.276944+00:00",
+  "generated_at": "2026-10-12T20:35:44.053046+00:00",
   "snapshot_processing": "blocked",
   "national_coverage": "blocked",
   "freshness": "stale",
@@ -7,15 +7,15 @@
   "scope": "all_publicly_accessible_official_bulletin_items",
   "required_jurisdictions": 8213,
   "required_sources": 77,
-  "captured_catalogue_expected_items": 214,
-  "integrated_items": 4,
-  "bulletin_items": 214,
-  "bulletin_index_pending": 97,
-  "consolidated_index_pending": 1426793,
+  "captured_catalogue_expected_items": null,
+  "integrated_items": 1910,
+  "bulletin_items": 2120,
+  "bulletin_index_pending": 30370,
+  "consolidated_index_pending": 1457653,
   "missing_original_assets": 0,
-  "files_verified": 14359,
+  "files_verified": 0,
   "file_errors": [],
-  "file_integrity_status": "checked",
+  "file_integrity_status": "not_run",
   "periods": [
     {
       "source_id": "BOE_DAILY",
@@ -25,11 +25,123 @@
       "integrated": 2
     },
     {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-05",
+      "expected": 320,
+      "status": "complete",
+      "integrated": 320
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-06",
+      "expected": 252,
+      "status": "complete",
+      "integrated": 252
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-07",
+      "expected": 196,
+      "status": "complete",
+      "integrated": 196
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-08",
+      "expected": 208,
+      "status": "complete",
+      "integrated": 208
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-09",
+      "expected": 237,
+      "status": "complete",
+      "integrated": 237
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-10",
+      "expected": 365,
+      "status": "complete",
+      "integrated": 365
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-11",
+      "expected": null,
+      "status": "unavailable",
+      "integrated": 0
+    },
+    {
+      "source_id": "BOE_DAILY",
+      "date": "2026-10-12",
+      "expected": 86,
+      "status": "complete",
+      "integrated": 86
+    },
+    {
       "source_id": "BORME_DAILY",
       "date": "2025-10-10",
       "expected": 54,
       "status": "partial",
       "integrated": 2
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-05",
+      "expected": 38,
+      "status": "complete",
+      "integrated": 38
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-06",
+      "expected": 52,
+      "status": "complete",
+      "integrated": 52
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-07",
+      "expected": 46,
+      "status": "complete",
+      "integrated": 46
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-08",
+      "expected": 60,
+      "status": "complete",
+      "integrated": 60
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-09",
+      "expected": 46,
+      "status": "complete",
+      "integrated": 46
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-10",
+      "expected": null,
+      "status": "unavailable",
+      "integrated": 0
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-11",
+      "expected": null,
+      "status": "unavailable",
+      "integrated": 0
+    },
+    {
+      "source_id": "BORME_DAILY",
+      "date": "2026-10-12",
+      "expected": null,
+      "status": "unavailable",
+      "integrated": 0
     }
   ],
   "blockers": [
@@ -46,16 +158,8 @@
       "code": "SOURCE_TERMS_AND_COMPLETENESS_UNVERIFIED"
     },
     {
-      "source_id": "BOE_DAILY",
-      "code": "SYNC_STALE_OR_MISSING"
-    },
-    {
       "source_id": "BORME_DAILY",
       "code": "SOURCE_TERMS_AND_COMPLETENESS_UNVERIFIED"
-    },
-    {
-      "source_id": "BORME_DAILY",
-      "code": "SYNC_STALE_OR_MISSING"
     },
     {
       "source_id": "DIRECTORY_0481c6fb5922ef6d",
@@ -950,6 +1054,9 @@
     },
     {
       "code": "ANNEX_AND_SUBITEM_INVENTORY_UNVERIFIED"
+    },
+    {
+      "code": "ORIGINAL_INTEGRITY_CHECK_NOT_RUN"
     }
   ],
   "limitations": [

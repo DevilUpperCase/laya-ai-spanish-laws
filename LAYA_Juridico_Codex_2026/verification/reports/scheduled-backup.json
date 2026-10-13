@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-10-13T02:00:03.090001+00:00",
+  "scope": "local_encrypted_snapshots",
+  "status": "requires_operator_review",
+  "failure_code": "RuntimeError",
+  "expired_snapshots": 0
+}

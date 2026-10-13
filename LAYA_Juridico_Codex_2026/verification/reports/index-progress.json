@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:13:25.012477+00:00",
+  "generated_at": "2026-10-12T21:15:47.203103+00:00",
   "status": "running",
   "stage": "current",
   "revision": "5617a9f61b028005a4858fdac845db406aefb181",
@@ -7,9 +7,9 @@
   "threads": 4,
   "batch_size": 8,
   "initial_pinned_chunks": 19248,
-  "committed_this_run": 72,
+  "committed_this_run": 808,
   "total_snapshot_chunks": 1477120,
-  "chunks_per_second": 0.12883392769911553,
-  "estimated_all_history_seconds_remaining": 11315342.363888888,
+  "chunks_per_second": 0.18786123471796518,
+  "estimated_all_history_seconds_remaining": 7756065.279712872,
   "limitation": "Throughput estimate changes with passage lengths and new ingestion. Completion is checked by SQL, not this estimate."
 }

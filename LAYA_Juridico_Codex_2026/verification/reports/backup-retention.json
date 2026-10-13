@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-10-12T13:47:51.204251+00:00",
-  "status": "passed",
+  "generated_at": "2026-10-13T02:00:37.196905+00:00",
+  "status": "requires_operator_review",
   "expired_snapshots": 0,
-  "requires_operator_review": [],
+  "requires_operator_review": [
+    {
+      "snapshot": "20261013T020014Z-a20ddad4d8fb49d3",
+      "failure_code": "ValueError"
+    }
+  ],
   "limitations": [
     "Incomplete/untrusted snapshots are preserved for safe operator cleanup; their presence never blocks authenticated expiry of other snapshots.",
     "This check enforces configured expiry; it does not prove elapsed 30-day retention or independent replication."

@@ -85,17 +85,27 @@ Pooling can otherwise produce harmful generic prepared plans on this large corpu
 ## Ingestion and data model
 
 ```mermaid
-flowchart LR
-  Discover[Publisher discovery and pagination] --> Ref[Publication reference]
-  Ref --> Fetch[Bounded exact-host fetch]
-  Fetch --> Original[Original bytes and SHA256]
-  Original --> Parse[Publisher parser]
-  Parse --> Geo[Exact geographic resolution]
-  Geo --> Commit[Atomic publication/version/chunk commit]
-  Commit --> Cache[Update current-version cache]
-  Cache --> Index[Pinned local embedding backfill]
-  Commit --> Reconcile[Official totals, periods, history and reuse audit]
-  Reconcile --> Gate[Independent release gate]
+flowchart TD
+  subgraph Descubrimiento["1. Descubrimiento y Descarga"]
+    direction LR
+    Discover[Publisher discovery and pagination] --> Ref[Publication reference] --> Fetch[Bounded exact-host fetch] --> Original[Original bytes and SHA256]
+  end
+
+  subgraph Procesamiento["2. Parseo y Normalización"]
+    direction LR
+    Original --> Parse[Publisher parser] --> Geo[Exact geographic resolution]
+  end
+
+  subgraph Persistencia["3. Commit Atómico y Caché"]
+    direction LR
+    Geo --> Commit[Atomic publication/version/chunk commit] --> Cache[Update current-version cache]
+  end
+
+  subgraph Auditoria["4. Vectorización y Control de Release"]
+    direction LR
+    Commit --> Index[Pinned local embedding backfill]
+    Commit --> Reconcile[Official totals, periods, history and reuse audit] --> Gate[Independent release gate]
+  end
 ```
 
 `legal.jurisdictions` forms the official geographic hierarchy. Sources carry capabilities/freshness/limits. Instruments have source-scoped external IDs; publications preserve original hashes/URLs and format. Sections contain immutable text versions and language-specific official links. Chunks preserve literal offsets and text-search vectors; embeddings record the immutable model revision. Relationships are separate, evidenced and unverified until reviewed.
