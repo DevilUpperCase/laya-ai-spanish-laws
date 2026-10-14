@@ -13,17 +13,17 @@
 
 </div>
 
-<div align="center">
+---
 
-### 🎬 Demostración Oficial de la Aplicación (Product Tour con Audio)
+## 🎬 Demostración Oficial de la Aplicación (Product Tour en Vídeo)
 
-<video src="https://github.com/DevilUpperCase/laya-ai-spanish-laws/releases/download/v1.0.0/LAYA_Juridico_Product_Tour_16x9.mp4" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/8addd961-34ed-4248-9243-8e96643c2dad
 
 *Recorrido fidedigno del sistema con locución y audio estéreo: Acceso multi-tenant, 5 motores de recuperación en paralelo, extractos literales verificados del BOE, visor documental privado con ClamAV/OCR y ciclo de privacidad forense.*
 
-🔊 **[Descargar Vídeo Maestro con Locución (1080p MP4 · 4.85 MB)](https://github.com/DevilUpperCase/laya-ai-spanish-laws/releases/download/v1.0.0/LAYA_Juridico_Product_Tour_16x9.mp4)**
+🔊 **[Descargar Vídeo Maestro con Locución (1080p MP4 · 4.85 MB)](https://github.com/user-attachments/assets/8addd961-34ed-4248-9243-8e96643c2dad)**
 
-</div>
+---
 
 ---
 
